@@ -12,7 +12,7 @@
   <update_contact>foldex|at|pm|dot|me</update_contact>
 
   <description>
-    <p>A simple GTK wrapper that installs the Adwaita for Steam skin</p>
+    <p>A simple GTK wrapper that installs and updates the Adwaita for Steam skin.</p>
   </description>
 
   <categories>
@@ -27,7 +27,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Main Window</caption>
-      <image>https://raw.githubusercontent.com/Foldex/AdwSteamGtk/master/img/screen.png</image>
+      <image>https://raw.githubusercontent.com/Foldex/AdwSteamGtk/main/img/screen.png</image>
     </screenshot>
   </screenshots>
 
