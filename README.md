@@ -6,11 +6,7 @@ A simple GTK wrapper that installs and updates the [Adwaita for Steam](https://g
 
 ## Installation
 
-(Not Yet) Available on Flathub
-
-<a href="https://flathub.org/apps/details/io.github.Foldex.AdwSteamGtk">
-    <img width="200" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
-</a>
+Soon™
 
 ## Skin Install
 
@@ -20,7 +16,21 @@ A simple GTK wrapper that installs and updates the [Adwaita for Steam](https://g
 4. Select `Adwaita` from the dropdown
 5. Restart Steam 
 
-## Building Requirements
+## Skin Updates
+
+On Startup new releases will automatically be downloaded and display a notification:
+
+<p align="center"><img src="img/update.png?raw=true" /></p>
+
+Simply reinstall the skin afterwards to update.
+
+## Building
+
+It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) to build the project.
+
+See the below requirements otherwise.
+
+### Requirements
 
 - Blueprint
 - GTK4
@@ -29,3 +39,5 @@ A simple GTK wrapper that installs and updates the [Adwaita for Steam](https://g
 - Ninja 
 - PyGObject
 - Python 3
+- Python python-packaging
+
