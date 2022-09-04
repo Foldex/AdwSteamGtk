@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>io.github.Foldex.AdwSteamGtk.desktop</id>
+
+  <name>AdwSteamGtk</name>
+  <summary>Adwaita for Steam Skin Installer</summary>
+  <developer_name>Foldex</developer_name>
+  <url type="homepage">https://github.com/Foldex/AdwSteamGtk</url>
+  <url type="bugtracker">https://github.com/Foldex/AdwSteamGtk/issues</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <update_contact>foldex|at|pm|dot|me</update_contact>
+
+  <description>
+    <p>A simple GTK wrapper that installs the Adwaita for Steam skin</p>
+  </description>
+
+  <categories>
+    <category>Game</category>
+    <category>Utility</category>
+  </categories>
+
+  <releases>
+    <release version="0.1.0" type="stable" date="2022-09-03" />
+  </releases>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main Window</caption>
+      <image>https://raw.githubusercontent.com/Foldex/AdwSteamGtk/master/img/screen.png</image>
+    </screenshot>
+  </screenshots>
+
+</component>

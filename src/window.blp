@@ -1,0 +1,74 @@
+using Gtk 4.0;
+using Adw 1;
+
+template AdwaitaSteamGtkWindow : ApplicationWindow {
+  default-width: 500;
+  default-height: 400;
+  title: _("Adwaita Steam Installer");
+  resizable: false;
+
+  [titlebar]
+  HeaderBar header_bar {
+    [end]
+    MenuButton {
+      icon-name: "open-menu-symbolic";
+      menu-model: primary_menu;
+    }
+  }
+
+  Adw.ToastOverlay toast_overlay {
+    child: Gtk.Box {
+      orientation: vertical;
+      valign: center;
+      // halign: center;
+      vexpand: true;
+      margin-start: 40;
+      margin-end: 40;
+      margin-top: 40;
+      margin-bottom: 80;
+      spacing: 20;
+      styles ["main-box"]
+
+      Adw.PreferencesGroup {
+        title: _("Steam Theme Options");
+        Adw.ComboRow window_controls_options {
+          title: _("Window Controls");
+          model: StringList { strings [_("Default"), _("Left"), _("Left-All"), _("Right-All")] };
+        }
+      }
+
+      Adw.PreferencesGroup {
+        title: _("Web Theme Options");
+        Adw.ComboRow web_theme_options {
+          title: _("Theme");
+          model: StringList { strings [_("Base"), _("Full"), _("None")] };
+        }
+
+        Adw.ActionRow {
+          title: _("Disable Library What's New Shelf");
+          activatable-widget: whats_new_switch;
+
+          Switch whats_new_switch {
+            valign: center;
+          }
+        }
+      }
+
+      Button install_button {
+        label: _("Install");
+        action-name: "win.install";
+        styles ["large", "suggested-action"]
+      }
+
+   };
+  }
+}
+
+menu primary_menu {
+  section {
+    item {
+      label: _("_About AdwSteamGtk");
+      action: "app.about";
+    }
+  }
+}

@@ -1,0 +1,7 @@
+data/io.github.Foldex.AdwSteamGtk.desktop.in
+data/io.github.Foldex.AdwSteamGtk.appdata.xml.in
+data/io.github.Foldex.AdwSteamGtk.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+

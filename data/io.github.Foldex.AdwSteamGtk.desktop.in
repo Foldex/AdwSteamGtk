@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=AdwSteamGtk
+Comment=A simple wrapper that installs Adwaita for Steam
+Exec=adwaita-steam-gtk
+Icon=io.github.Foldex.AdwSteamGtk
+Terminal=false
+Type=Application
+Categories=GTK;Utility
+Keywords=Steam;Adwaita;Skin;
+StartupNotify=true
