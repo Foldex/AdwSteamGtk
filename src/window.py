@@ -88,9 +88,10 @@ class AboutDialog(Gtk.AboutDialog):
 
     def __init__(self, parent):
         Gtk.AboutDialog.__init__(self)
-        self.props.authors = ['Foldex']
+        self.props.authors = ['Foldex', 'tkashkin (upstream)']
         self.props.comments = "A simple Gtk wrapper for Adwaita-for-Steam";
         self.props.copyright = '2022 Foldex'
+        self.props.license_type = Gtk.License.GPL_3_0;
         self.props.logo_icon_name = 'io.github.Foldex.AdwSteamGtk'
         self.props.modal = True
         self.props.program_name = 'AdwSteamGtk'
