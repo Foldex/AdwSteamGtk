@@ -1,0 +1,24 @@
+name: Tagged Release
+on:
+  push:
+    tags:
+      - "v*"
+jobs:
+  tagged-release:
+    runs-on: ubuntu-latest
+    container:
+      image: bilelmoussaoui/flatpak-github-actions:gnome-42
+      options: --privileged
+    steps:
+    - uses: actions/checkout@v2
+    - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v4
+      with:
+        bundle: io.github.Foldex.AdwSteamGtk.flatpak
+        manifest-path: io.github.Foldex.AdwSteamGtk.json
+        cache-key: flatpak-builder-${{ github.sha }}
+    - uses: "marvinpinto/action-automatic-releases@latest"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        prerelease: false
+        files: |
+          *.flatpak
