@@ -6,7 +6,11 @@ A simple GTK wrapper that installs and updates the [Adwaita for Steam](https://g
 
 ## Installation
 
-Soon™
+Flatpak Bundles are included on the [Releases Page](https://github.com/Foldex/AdwSteamGtk/releases).
+
+Download the latest flatpak file and run:
+
+`flatpak install --user io.github.Foldex.AdwSteamGtk.flatpak`
 
 ## Skin Install
 
