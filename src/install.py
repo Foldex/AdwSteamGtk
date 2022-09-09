@@ -46,6 +46,9 @@ def move_extract_dir(path, rename):
         shutil.move(dir, rename)
 
 def gen_cmd_line(options):
+
+    installer = "python install.py "
+
     if options["win_controls"] == "Left":
         patch = "-p windowcontrols/left "
     elif options["win_controls"] == "Left-All":
@@ -68,7 +71,7 @@ def gen_cmd_line(options):
         whats_new = ""
 
     cmd = (
-        f"install_theme "
+        f"{installer}"
         f"{patch}"
         f"{web_theme}"
         f"{whats_new}"
