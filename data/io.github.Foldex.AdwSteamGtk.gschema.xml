@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="adwaita-steam-gtk">
-	<schema id="io.github.Foldex.AdwSteamGtk" path="/io/github/Foldex/AdwSteamGtk/">
-	</schema>
+  <schema id="io.github.Foldex.AdwSteamGtk" path="/io/github/Foldex/AdwSteamGtk/">
+  </schema>
 </schemalist>

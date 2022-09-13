@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>io.github.Foldex.AdwSteamGtk.desktop</id>
-
-  <name>AdwSteamGtk</name>
-  <summary>Adwaita for Steam Skin Installer</summary>
-  <developer_name>Foldex</developer_name>
-  <url type="homepage">https://github.com/Foldex/AdwSteamGtk</url>
-  <url type="bugtracker">https://github.com/Foldex/AdwSteamGtk/issues</url>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <update_contact>foldex|at|pm|dot|me</update_contact>
 
+  <content_rating type="oars-1.1" />
+
+  <id>io.github.Foldex.AdwSteamGtk</id>
+  <launchable type="desktop-id">io.github.foldex.AdwSteamGtk.desktop</launchable>
+
+  <name>AdwSteamGtk</name>
+  <summary>Adwaita for Steam Skin Installer</summary>
+  <developer_name>Foldex</developer_name>
+
+  <url type="homepage">https://github.com/Foldex/AdwSteamGtk</url>
+  <url type="bugtracker">https://github.com/Foldex/AdwSteamGtk/issues</url>
+
   <description>
-    <p>A simple GTK wrapper that installs and updates the Adwaita for Steam skin.</p>
+  <p>A simple application that installs and updates the Adwaita-for-Steam skin.</p>
+  <p>Install Directions:</p>
+  <ol>
+    <li>Install skin via app</li>
+    <li>Restart Steam if running</li>
+    <li>Go to Steam's Settings -> Interface</li>
+    <li>Select Adwaita from the dropdown</li>
+    <li>Restart Steam</li>
+  </ol>
+  <p>
+    On startup new releases will automatically be downloaded and display a notification.
+    Simply reinstall the skin and restart Steam to update.
+  </p>
+  <p>Note: In order to get rounded corners on Steam, you will need to use the "Rounded Window Corners" gnome extension.</p>
   </description>
 
   <categories>
     <category>Game</category>
+    <category>GTK</category>
     <category>Utility</category>
   </categories>
 
   <releases>
+    <release version="0.1.1" type="stable" date="2022-09-17" />
     <release version="0.1.0" type="stable" date="2022-09-09" />
   </releases>
 
@@ -28,6 +48,10 @@
     <screenshot type="default">
       <caption>Main Window</caption>
       <image>https://raw.githubusercontent.com/Foldex/AdwSteamGtk/main/img/screen.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Theme Preview</caption>
+      <image>https://raw.githubusercontent.com/tkashkin/Adwaita-for-Steam/master/screenshot.png</image>
     </screenshot>
   </screenshots>
 
