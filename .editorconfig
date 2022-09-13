@@ -1,0 +1,9 @@
+# 4 space
+[*.{json,py}]
+indent_style = space
+indent_size = 4
+
+# 2 space
+[*.{blp,build,xml,xml.in}]
+indent_style = space
+indent_size = 2
