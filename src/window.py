@@ -95,7 +95,7 @@ class AboutDialog(Gtk.AboutDialog):
         self.props.logo_icon_name = 'io.github.Foldex.AdwSteamGtk'
         self.props.modal = True
         self.props.program_name = 'AdwSteamGtk'
-        self.props.version = "0.1.0"
+        self.props.version = "0.1.1"
         self.props.website = "https://github.com/foldex/AdwSteamGtk";
         self.props.website_label = "Homepage";
         self.set_transient_for(parent)
