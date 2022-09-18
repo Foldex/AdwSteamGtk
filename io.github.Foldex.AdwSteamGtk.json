@@ -31,26 +31,30 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.2.0/blueprint-compiler-v0.2.0.tar.bz2",
-                    "sha256": "74bb99161ba30abfc7302d2b3cbc400f05bcbda21ccb01c4b2e6f8f3f9874ca2"
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.4.0/blueprint-compiler-v0.4.0.tar.bz2",
+                    "sha256": "316309c1527fbc7670aa3c41a7227452d129eedcad944c468ccce76bce70da3f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 279929,
+                        "url-template": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v$version/blueprint-compiler-v$version.tar.bz2"
+                    }
                 }
             ],
             "cleanup": ["*"]
         },
         {
             "name": "gnu-patch",
-            "buildsystem": "simple",
-            "build-commands": [
-                "./bootstrap",
-                "./configure",
-                "make",
-                "install -D -m 0755 src/patch ${FLATPAK_DEST}/bin/patch"
-            ],
+            "buildsystem": "autotools",
             "sources": [
                 {
                     "type": "git",
                     "url": "https://git.savannah.gnu.org/git/patch.git",
-                    "tag": "v2.7.6"
+                    "tag": "v2.7.6",
+                    "commit": "40b387de08653a1e46872b8ac1a6a14b9b94feb3",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 }
             ]
         },
@@ -64,12 +68,22 @@
                 {
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl",
-                    "sha256": "5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"
+                    "sha256": "5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "pyparsing",
+                        "packagetype": "bdist_wheel"
+                    }
                 },
                 {
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl",
-                    "sha256": "ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"
+                    "sha256": "ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "packaging",
+                        "packagetype": "bdist_wheel"
+                    }
                 }
             ]
         },
