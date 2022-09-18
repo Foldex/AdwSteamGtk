@@ -7,7 +7,7 @@
   <content_rating type="oars-1.1" />
 
   <id>io.github.Foldex.AdwSteamGtk</id>
-  <launchable type="desktop-id">io.github.foldex.AdwSteamGtk.desktop</launchable>
+  <launchable type="desktop-id">io.github.Foldex.AdwSteamGtk.desktop</launchable>
 
   <name>AdwSteamGtk</name>
   <summary>Adwaita for Steam Skin Installer</summary>
