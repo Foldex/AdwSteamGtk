@@ -6,11 +6,11 @@ A simple GTK wrapper that installs and updates the [Adwaita for Steam](https://g
 
 ## Installation
 
-Flatpak Bundles are included on the [Releases Page](https://github.com/Foldex/AdwSteamGtk/releases).
+Available on Flathub
 
-Download the latest flatpak file and run:
-
-`flatpak install --user io.github.Foldex.AdwSteamGtk.flatpak`
+<a href="https://flathub.org/apps/details/io.github.Foldex.AdwSteamGtk">
+    <img width="200" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
+</a>
 
 ## Skin Install
 
@@ -18,7 +18,7 @@ Download the latest flatpak file and run:
 2. Restart Steam if running
 3. Go to Settings -> Interface
 4. Select `Adwaita` from the dropdown
-5. Restart Steam 
+5. Restart Steam
 
 ## Skin Updates
 
@@ -30,17 +30,23 @@ Simply reinstall the skin afterwards to update.
 
 ## Building
 
-It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) to build the project.
+It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) or `flatpak-builder` to build the project.
+
+```
+flatpak install org.gnome.Platform//42 org.gnome.Sdk//42
+flatpak-builder --install --force-clean --user build-dir io.github.Foldex.AdwSteamGtk.json
+```
 
 See the below requirements otherwise.
 
 ### Requirements
 
-- Blueprint
+- Blueprint Compiler
+- GNU Patch
 - GTK4
 - Libadwaita
-- Meson 
-- Ninja 
+- Meson
+- Ninja
 - PyGObject
 - Python 3
 - Python python-packaging
