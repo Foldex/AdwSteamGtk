@@ -67,7 +67,7 @@ def check():
     if not os.path.exists(paths.CACHE_DIR):
         os.makedirs(paths.CACHE_DIR)
 
-    if not need_update() and not os.path.exists(paths.LAST_RELEASE_FILE):
+    if not need_update() and os.path.exists(paths.LAST_RELEASE_FILE):
         return (ExitCode.CURRENT, None)
 
     (dict, api_msg) = dl.get_release_info()
