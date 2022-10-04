@@ -33,7 +33,7 @@ Simply reinstall the skin afterwards to update.
 It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) or `flatpak-builder` to build the project.
 
 ```
-flatpak install org.gnome.Platform//42 org.gnome.Sdk//42
+flatpak install org.gnome.Platform//43 org.gnome.Sdk//43
 flatpak-builder --install --force-clean --user build-dir io.github.Foldex.AdwSteamGtk.json
 ```
 
@@ -42,7 +42,7 @@ See the below requirements otherwise.
 ### Requirements
 
 - Blueprint Compiler
-- GNU Patch
+- GNU Patch (Runtime Dependency)
 - GTK4
 - Libadwaita
 - Meson
