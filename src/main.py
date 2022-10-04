@@ -54,10 +54,13 @@ class Adwaita_steam_gtkApplication(Adw.Application):
                                 website='https://github.com/Foldex/AdwSteamGtk',
                                 issue_url='https://github.com/Foldex/AdwSteamGtk/issues/new/choose',
                                 version='0.1.1',
-                                developers=['Foldex https://github.com/Foldex'],
+                                developers=[
+                                    'Foldex https://github.com/Foldex',
+                                    'Christoph Kohnen https://github.com/ChaosMelone9'
+                                ],
                                 license_type='GTK_LICENSE_GPL_3_0',
                                 copyright='© 2022 Foldex')
-        about.add_credit_section('Upstream', ['tkashkin https://github.com/tkashkin'])
+        about.add_credit_section('Upstream', ['Anatoliy Kashkin  https://github.com/tkashkin'])
         about.present()
 
     def on_preferences_action(self, widget, _):
