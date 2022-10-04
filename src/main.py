@@ -22,7 +22,7 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Gio, Adw
-from .window import AdwaitaSteamGtkWindow, AboutDialog
+from .window import AdwaitaSteamGtkWindow
 
 
 class Adwaita_steam_gtkApplication(Adw.Application):
@@ -48,7 +48,16 @@ class Adwaita_steam_gtkApplication(Adw.Application):
 
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""
-        about = AboutDialog(self.props.active_window)
+        about = Adw.AboutWindow(transient_for=self.props.active_window,
+                                application_name='AdwSteamGtk',
+                                application_icon='io.github.Foldex.AdwSteamGtk',
+                                website='https://github.com/Foldex/AdwSteamGtk',
+                                issue_url='https://github.com/Foldex/AdwSteamGtk/issues/new/choose',
+                                version='0.1.1',
+                                developers=['Foldex https://github.com/Foldex'],
+                                license_type='GTK_LICENSE_GPL_3_0',
+                                copyright='© 2022 Foldex')
+        about.add_credit_section('Upstream', ['tkashkin https://github.com/tkashkin'])
         about.present()
 
     def on_preferences_action(self, widget, _):
