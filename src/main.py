@@ -31,7 +31,7 @@ class Adwaita_steam_gtkApplication(Adw.Application):
     def __init__(self):
         super().__init__(application_id='io.github.Foldex.AdwSteamGtk',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
-        self.create_action('quit', self.quit, ['<primary>q'])
+        self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
         self.create_action('preferences', self.on_preferences_action)
 
@@ -66,6 +66,9 @@ class Adwaita_steam_gtkApplication(Adw.Application):
     def on_preferences_action(self, widget, _):
         """Callback for the app.preferences action."""
         print('app.preferences action activated')
+
+    def on_quit_action(self, widget, _):
+        self.quit()
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.
