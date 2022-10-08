@@ -52,7 +52,7 @@ class Adwaita_steam_gtkApplication(Adw.Application):
                                 application_icon='io.github.Foldex.AdwSteamGtk',
                                 website='https://github.com/Foldex/AdwSteamGtk',
                                 issue_url='https://github.com/Foldex/AdwSteamGtk/issues/new/choose',
-                                version='0.1.1',
+                                version='0.1.2',
                                 developers=[
                                     'Foldex https://github.com/Foldex',
                                     'Christoph Kohnen https://github.com/ChaosMelone9'
