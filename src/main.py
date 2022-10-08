@@ -33,7 +33,6 @@ class Adwaita_steam_gtkApplication(Adw.Application):
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
-        self.create_action('preferences', self.on_preferences_action)
 
     def do_activate(self):
         """Called when the application is activated.
@@ -62,10 +61,6 @@ class Adwaita_steam_gtkApplication(Adw.Application):
                                 copyright='© 2022 Foldex')
         about.add_credit_section('Upstream', ['Anatoliy Kashkin  https://github.com/tkashkin'])
         about.present()
-
-    def on_preferences_action(self, widget, _):
-        """Callback for the app.preferences action."""
-        print('app.preferences action activated')
 
     def on_quit_action(self, widget, _):
         self.quit()
