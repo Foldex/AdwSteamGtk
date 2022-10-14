@@ -28,6 +28,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     window_controls_options = Gtk.Template.Child()
     web_theme_options = Gtk.Template.Child()
+    qr_login_options = Gtk.Template.Child()
 
     whats_new_switch = Gtk.Template.Child()
 
@@ -72,6 +73,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         options = {
             "win_controls": self.get_selected_pref(self.window_controls_options),
             "web_theme": self.get_selected_pref(self.web_theme_options),
+            "qr_login": self.get_selected_pref(self.qr_login_options),
             "whats_new":  self.whats_new_switch.get_active()
         }
 

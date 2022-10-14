@@ -65,6 +65,13 @@ def gen_cmd_line(options):
     else:
         web_theme = "-w base "
 
+    if options["qr_login"] == "Hover Only":
+        qr_login = "-we login/hover_qr "
+    elif options["qr_login"] == "Hide":
+        qr_login = "-we login/hide_qr "
+    else:
+        qr_login = ""
+
     if options["whats_new"]:
         whats_new = "-we library/hide_whats_new "
     else:
@@ -74,6 +81,7 @@ def gen_cmd_line(options):
         f"{installer}"
         f"{patch}"
         f"{web_theme}"
+        f"{qr_login}"
         f"{whats_new}"
     )
 

@@ -44,8 +44,13 @@ template AdwaitaSteamGtkWindow : ApplicationWindow {
           model: StringList { strings [_("Base"), _("Full"), _("None")] };
         }
 
+        Adw.ComboRow qr_login_options {
+          title: _("QR Code Login");
+          model: StringList { strings [_("Show"), _("Hover Only"), _("Hide")] };
+        }
+
         Adw.ActionRow {
-          title: _("Disable Library What's New Shelf");
+          title: _("Hide Library What's New Shelf");
           activatable-widget: whats_new_switch;
 
           Switch whats_new_switch {
