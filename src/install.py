@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import glob
-import os.path
+import os
 import shlex
 import shutil
 import subprocess
@@ -82,13 +82,22 @@ def gen_cmd_line(options):
 
 def install(cmd):
     try:
-        subprocess.run(shlex.split(cmd), cwd=paths.EXTRACTED_DIR, check=True)
+        ret = subprocess.run(shlex.split(cmd), cwd=paths.EXTRACTED_DIR, check=True, capture_output=True)
+        if not ret.stdout.decode().find("Installing skin"):
+            return (False, _("Install: Found no Valid Install Targets"))
     except subprocess.CalledProcessError:
         return (False, _("Install: Installer Process Failed"))
 
     return (True, None)
 
+def steam_dir_missing():
+    return not os.path.exists(paths.STEAM_DIR) and not os.path.exists(paths.STEAM_FLATPAK_DIR)
+
 def run(options):
+
+    if steam_dir_missing():
+        return(False, "Install: Failed to Find Valid '~/.steam/steam' Symlink")
+
     clean_dir(paths.TMP_DIR)
     clean_dir(paths.EXTRACTED_DIR)
 
