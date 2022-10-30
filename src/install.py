@@ -55,6 +55,8 @@ def gen_cmd_line(options):
         patch = "-p windowcontrols/left-all "
     elif options["win_controls"] == "Right-All":
         patch = "-p windowcontrols/right-all "
+    elif options["win_controls"] == "None":
+        patch = "-p windowcontrols/hide-close "
     else:
         patch = ""
 
