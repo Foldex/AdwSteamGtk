@@ -40,6 +40,14 @@
   </categories>
 
   <releases>
+    <release version="0.1.5" type="stable" date="2022-11-03">
+      <description>
+        <ul>
+          <li>Last chosen settings are now loaded at startup</li>
+          <li>Changed display of install button if the theme is already installed</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.4" type="stable" date="2022-10-31">
       <description>
         <ul>
