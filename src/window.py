@@ -32,13 +32,42 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     whats_new_switch = Gtk.Template.Child()
 
+    settings = Gio.Settings.new("io.github.Foldex.AdwSteamGtk")
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
         self.make_action("install", self.install_theme)
         self.make_action("retry_dl", self.retry_check)
 
+        self.load_config()
         self.check_latest_release()
+
+    def load_config(self):
+        options = {
+            "win_controls": self.config_to_pos('window-controls-options', self.window_controls_options),
+            "web_theme": self.config_to_pos('web-theme-options', self.web_theme_options),
+            "qr_login": self.config_to_pos('qr-login-options', self.qr_login_options),
+            "whats_new": self.settings.get_boolean('whats-new-switch')
+        }
+
+        self.window_controls_options.set_selected(options["win_controls"])
+        self.web_theme_options.set_selected(options["web_theme"])
+        self.qr_login_options.set_selected(options["qr_login"])
+        self.whats_new_switch.set_active(options["whats_new"])
+
+    def save_config(self, options):
+        self.settings.set_string("window-controls-options", options['win_controls'])
+        self.settings.set_string("web-theme-options", options['web_theme'])
+        self.settings.set_string("qr-login-options", options['qr_login'])
+        self.settings.set_boolean("whats-new-switch", options['whats_new'])
+
+    def config_to_pos(self, config, comborow):
+        string = self.settings.get_string(config)
+        for pos,s in enumerate(comborow.get_model()):
+            if string == s.get_string():
+                return pos
+        return 0
 
     def make_action(self, action, func):
         install_action = Gio.SimpleAction(name=action)
@@ -81,6 +110,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         if ret:
             t = Adw.Toast(title="Theme Installed", priority="high", timeout=2)
+            self.save_config(options)
         else:
             t = Adw.Toast(title=msg, priority="high")
 
