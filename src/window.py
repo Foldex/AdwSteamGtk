@@ -31,6 +31,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     qr_login_options = Gtk.Template.Child()
 
     whats_new_switch = Gtk.Template.Child()
+    install_button = Gtk.Template.Child()
 
     settings = Gio.Settings.new("io.github.Foldex.AdwSteamGtk")
 
@@ -39,6 +40,9 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.make_action("install", self.install_theme)
         self.make_action("retry_dl", self.retry_check)
+
+        if install.skin_installed():
+            self.install_button.set_label("Update")
 
         self.load_config()
         self.check_latest_release()
@@ -110,6 +114,10 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         if ret:
             t = Adw.Toast(title="Theme Installed", priority="high", timeout=2)
+
+            if install.skin_installed():
+                self.install_button.set_label("Update")
+
             self.save_config(options)
         else:
             t = Adw.Toast(title=msg, priority="high")

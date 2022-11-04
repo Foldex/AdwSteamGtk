@@ -20,6 +20,9 @@ import os.path
 STEAM_DIR=os.path.expanduser("~/.steam/steam")
 STEAM_FLATPAK_DIR=os.path.expanduser("~/.var/app/com.valvesoftware.Steam/.steam/steam")
 
+STEAM_SKIN_DIR=os.path.expanduser("~/.steam/steam/skins/Adwaita")
+STEAM_FLATPAK_SKIN_DIR=os.path.expanduser("~/.var/app/com.valvesoftware.Steam/.steam/steam/skins/Adwaita")
+
 XDG_CACHE_DIR=os.path.expanduser(os.environ.get("XDG_CACHE_HOME", "~/.cache"))
 CACHE_DIR=os.path.join(XDG_CACHE_DIR, "AdwSteamInstaller")
 TMP_DIR=os.path.join(CACHE_DIR, "tmp")

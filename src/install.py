@@ -46,7 +46,6 @@ def move_extract_dir(path, rename):
         shutil.move(dir, rename)
 
 def gen_cmd_line(options):
-
     installer = "python install.py "
 
     if options["win_controls"] == "Left":
@@ -99,6 +98,9 @@ def install(cmd):
         return (False, _("Install: Installer Process Failed"))
 
     return (True, None)
+
+def skin_installed():
+    return os.path.exists(paths.STEAM_SKIN_DIR) or os.path.exists(paths.STEAM_FLATPAK_SKIN_DIR)
 
 def steam_dir_missing():
     return not os.path.exists(paths.STEAM_DIR) and not os.path.exists(paths.STEAM_FLATPAK_DIR)
