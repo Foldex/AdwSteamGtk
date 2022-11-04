@@ -40,9 +40,32 @@
   </categories>
 
   <releases>
-    <release version="0.1.4" type="stable" date="2022-10-31" />
-    <release version="0.1.3" type="stable" date="2022-10-15" />
-    <release version="0.1.2" type="stable" date="2022-10-07" />
+    <release version="0.1.4" type="stable" date="2022-10-31">
+      <description>
+        <ul>
+          <li>Added None to Window Control Options</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.3" type="stable" date="2022-10-15">
+      <description>
+        <ul>
+          <li>Added QR Login Options</li>
+          <li>Improved Missing Dir Messages</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.2" type="stable" date="2022-10-07">
+      <description>
+        <ul>
+          <li>Updated to Gnome 43 SDK</li>
+          <li>Implemented AdwAboutWindow</li>
+          <li>Updated Filesystem Permissions</li>
+          <li>Fixed Quit Shortcut</li>
+          <li>Fixed Current Check</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.1" type="stable" date="2022-09-17" />
     <release version="0.1.0" type="stable" date="2022-09-09" />
   </releases>
