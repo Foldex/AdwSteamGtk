@@ -22,7 +22,17 @@ python = import('python')
 
 conf = configuration_data()
 conf.set('PYTHON', python.find_installation('python3').full_path())
+
+conf.set('APP_ID', 'io.github.Foldex.AdwSteamGtk')
+conf.set('APP_NAME', 'AdwSteamGtk')
 conf.set('VERSION', meson.project_version())
+
+conf.set('BUG_TRACKER_URL', 'https://github.com/Foldex/AdwSteamGtk/issues')
+conf.set('PROJECT_URL', 'https://github.com/Foldex/AdwSteamGtk')
+
+conf.set('COPYRIGHT', '© 2022 Foldex')
+conf.set('LICENSE', 'GTK_LICENSE_GPL_3_0')
+
 conf.set('localedir', join_paths(get_option('prefix'), get_option('localedir')))
 conf.set('pkgdatadir', pkgdatadir)
 
@@ -32,6 +42,14 @@ configure_file(
   configuration: conf,
   install: true,
   install_dir: get_option('bindir')
+)
+
+configure_file(
+  input: 'info.py.in',
+  output: '@BASENAME@',
+  configuration: conf,
+  install: true,
+  install_dir: moduledir
 )
 
 adwaita_steam_gtk_sources = [

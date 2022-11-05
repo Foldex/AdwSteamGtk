@@ -17,6 +17,7 @@
 
 from gi.repository import Adw, Gio, Gtk
 
+from . import info
 from . import install
 from . import update
 
@@ -33,7 +34,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     whats_new_switch = Gtk.Template.Child()
     install_button = Gtk.Template.Child()
 
-    settings = Gio.Settings.new("io.github.Foldex.AdwSteamGtk")
+    settings = Gio.Settings.new(info.APP_ID)
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

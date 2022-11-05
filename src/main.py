@@ -15,13 +15,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import sys
 import gi
+import sys
 
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Gio, Adw
+from . import info
 from .window import AdwaitaSteamGtkWindow
 
 
@@ -29,7 +30,7 @@ class Adwaita_steam_gtkApplication(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='io.github.Foldex.AdwSteamGtk',
+        super().__init__(application_id=info.APP_ID,
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
@@ -48,18 +49,15 @@ class Adwaita_steam_gtkApplication(Adw.Application):
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
-                                application_name='AdwSteamGtk',
-                                application_icon='io.github.Foldex.AdwSteamGtk',
-                                website='https://github.com/Foldex/AdwSteamGtk',
-                                issue_url='https://github.com/Foldex/AdwSteamGtk/issues/new/choose',
-                                version='0.1.5',
-                                developers=[
-                                    'Foldex https://github.com/Foldex',
-                                    'Christoph Kohnen https://github.com/ChaosMelone9'
-                                ],
-                                license_type='GTK_LICENSE_GPL_3_0',
-                                copyright='© 2022 Foldex')
-        about.add_credit_section('Upstream', ['Anatoliy Kashkin  https://github.com/tkashkin'])
+                                application_name=info.APP_NAME,
+                                application_icon=info.APP_ID,
+                                website=info.PROJECT_URL,
+                                issue_url=info.BUG_TRACKER_URL,
+                                version=info.VERSION,
+                                developers=info.DEVELOPERS,
+                                license_type=info.LICENSE,
+                                copyright=info.COPYRIGHT)
+        about.add_credit_section('Upstream', info.UPSTREAM)
         about.present()
 
     def on_quit_action(self, widget, _):
