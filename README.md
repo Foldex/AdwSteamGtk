@@ -12,11 +12,19 @@ Available on Flathub
     <img width="200" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
 </a>
 
+<br/>
+
+Arch AUR Build (Unofficial)
+
+<a href="https://aur.archlinux.org/packages/adwsteamgtk">
+    <img width="200" alt="Unofficial AUR build" src="https://img.shields.io/aur/version/adwsteamgtk?style=for-the-badge">
+</a>
+
 ## Skin Install
 
 1. Install via app
 2. Restart Steam if running
-3. Go to Settings -> Interface
+3. Go to `Settings -> Interface`
 4. Select `Adwaita` from the dropdown
 5. Restart Steam
 
