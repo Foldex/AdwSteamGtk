@@ -40,6 +40,14 @@
   </categories>
 
   <releases>
+    <release version="0.2.0" type="stable" date="2023-01-05">
+      <description>
+        <ul>
+          <li>Added Color Theme Support</li>
+          <li>Added -c argument to notify about updates</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.5" type="stable" date="2022-11-03">
       <description>
         <ul>
