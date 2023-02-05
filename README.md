@@ -36,6 +36,10 @@ On Startup new releases will automatically be downloaded and display a notificat
 
 Simply reinstall the skin afterwards to update.
 
+You may also launch with the `-c` flag to force an update check and show a notification instead of showing the window.
+
+`flatpak run io.github.Foldex.AdwSteamGtk -c`
+
 ## Building
 
 It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) or `flatpak-builder` to build the project.
