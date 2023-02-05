@@ -46,16 +46,18 @@ def write_file(string, path):
     with open(path, 'w') as f:
         f.write(string)
 
-def need_update():
+def need_update(check_only):
     new_stamp = int(time.time())
     old_stamp = int(read_check_file(paths.LAST_CHECK_FILE))
 
     if old_stamp == 0:
-        write_file(str(new_stamp), paths.LAST_CHECK_FILE)
+        if not check_only:
+            write_file(str(new_stamp), paths.LAST_CHECK_FILE)
         return True
 
     if new_stamp - old_stamp > UPDATE_INTERVAL:
-        write_file(str(new_stamp), paths.LAST_CHECK_FILE)
+        if not check_only:
+            write_file(str(new_stamp), paths.LAST_CHECK_FILE)
         return True
     else:
         return False
@@ -63,20 +65,25 @@ def need_update():
 def release_is_newer(server_version, cached_version):
     return version.parse(server_version) > version.parse(cached_version)
 
-def check():
+def check(check_only=False):
     if not os.path.exists(paths.CACHE_DIR):
         os.makedirs(paths.CACHE_DIR)
 
-    if not need_update() and os.path.exists(paths.LAST_RELEASE_FILE):
+    if not need_update(check_only) and os.path.exists(paths.LAST_RELEASE_FILE):
         return (ExitCode.CURRENT, None)
 
     (dict, api_msg) = dl.get_release_info()
 
     if dict:
         last_ver=read_check_file(paths.LAST_VERSION_FILE)
+        is_newer = release_is_newer(dict["name"], str(last_ver))
 
-        if os.path.exists(paths.LAST_RELEASE_FILE) and not release_is_newer(dict["name"], str(last_ver)):
+        if os.path.exists(paths.LAST_RELEASE_FILE) and not is_newer:
             return (ExitCode.CURRENT, None)
+
+        if check_only == True and is_newer:
+            return (ExitCode.SUCCESS, dict["name"])
+
         (ret, dl_msg) = dl.download_release(dict["zipball_url"], paths.LAST_RELEASE_FILE)
 
         if ret:

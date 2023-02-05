@@ -21,7 +21,8 @@ import sys
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Gio, Adw
+from gi.repository import Gtk, Gio, GLib, Adw
+from . import update
 from . import info
 from .window import AdwaitaSteamGtkWindow
 
@@ -31,9 +32,44 @@ class Adwaita_steam_gtkApplication(Adw.Application):
 
     def __init__(self):
         super().__init__(application_id=info.APP_ID,
-                         flags=Gio.ApplicationFlags.FLAGS_NONE)
+                         flags=Gio.ApplicationFlags.HANDLES_COMMAND_LINE)
+
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
+
+        self.add_main_option(
+            "check",
+            ord("c"),
+            GLib.OptionFlags.NONE,
+            GLib.OptionArg.NONE,
+            "Check for Updates and Display a Notification",
+            None,
+        )
+
+    def do_command_line(self, command_line):
+        options = command_line.get_options_dict()
+        options = options.end().unpack()
+
+        if "check" in options:
+            (code, msg) = update.check(check_only := True)
+
+            if code == update.ExitCode.SUCCESS:
+                t = _("New Release Available: ") + msg
+            elif code == update.ExitCode.FAIL:
+                t = _("Update Check Failed: ") + msg
+            #elif code == update.ExitCode.CURRENT:
+                #t = _("Up to Date")
+            else:
+                t = None
+
+            if t:
+                self.send_notif(info.APP_NAME, t, "update-check")
+
+            self.quit()
+            return 0
+
+        self.activate()
+        return 0
 
     def do_activate(self):
         """Called when the application is activated.
@@ -78,6 +114,12 @@ class Adwaita_steam_gtkApplication(Adw.Application):
         if shortcuts:
             self.set_accels_for_action(f"app.{name}", shortcuts)
 
+    def send_notif(self, title, body, notif_id):
+        n = Gio.Notification()
+        n.set_title(title)
+        n.set_body(body)
+
+        self.send_notification(notif_id, n)
 
 def main(version):
     """The application's entry point."""
