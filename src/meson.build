@@ -60,6 +60,7 @@ adwaita_steam_gtk_sources = [
   'install.py',
   'paths.py',
   'update.py',
+  'zip.py',
 ]
 
 install_data(adwaita_steam_gtk_sources, install_dir: moduledir)

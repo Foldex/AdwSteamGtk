@@ -31,6 +31,9 @@ template AdwaitaSteamGtkWindow : ApplicationWindow {
 
       Adw.PreferencesGroup {
         title: _("Steam Theme Options");
+        Adw.ComboRow color_theme_options {
+          title: _("Color Theme");
+        }
         Adw.ComboRow window_controls_options {
           title: _("Window Controls");
           model: StringList { strings [_("Default"), _("Right-All"), _("Left"), _("Left-All"), _("None")] };

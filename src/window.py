@@ -20,6 +20,7 @@ from gi.repository import Adw, Gio, Gtk
 from . import info
 from . import install
 from . import update
+from . import zip
 
 @Gtk.Template(resource_path='/io/github/Foldex/AdwSteamGtk/window.ui')
 class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
@@ -27,6 +28,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     toast_overlay = Gtk.Template.Child()
 
+    color_theme_options = Gtk.Template.Child()
     window_controls_options = Gtk.Template.Child()
     web_theme_options = Gtk.Template.Child()
     qr_login_options = Gtk.Template.Child()
@@ -45,23 +47,36 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         if install.skin_installed():
             self.install_button.set_label("Update")
 
-        self.load_config()
         self.check_latest_release()
+        self.load_color_themes()
+        self.load_config()
+
+    def load_color_themes(self):
+        (themes, msg) = zip.get_color_themes()
+
+        if msg:
+            t = Adw.Toast(title=msg, priority="high")
+            self.pop_toast(t)
+
+        self.color_theme_options.set_model(Gtk.StringList.new(themes))
 
     def load_config(self):
         options = {
+            "color_theme": self.config_to_pos('color-theme-options', self.color_theme_options),
             "win_controls": self.config_to_pos('window-controls-options', self.window_controls_options),
             "web_theme": self.config_to_pos('web-theme-options', self.web_theme_options),
             "qr_login": self.config_to_pos('qr-login-options', self.qr_login_options),
             "whats_new": self.settings.get_boolean('whats-new-switch')
         }
 
+        self.color_theme_options.set_selected(options["color_theme"])
         self.window_controls_options.set_selected(options["win_controls"])
         self.web_theme_options.set_selected(options["web_theme"])
         self.qr_login_options.set_selected(options["qr_login"])
         self.whats_new_switch.set_active(options["whats_new"])
 
     def save_config(self, options):
+        self.settings.set_string("color-theme-options", options['color_theme'])
         self.settings.set_string("window-controls-options", options['win_controls'])
         self.settings.set_string("web-theme-options", options['web_theme'])
         self.settings.set_string("qr-login-options", options['qr_login'])
@@ -105,6 +120,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     def install_theme(self, action, _):
         options = {
+            "color_theme": self.get_selected_pref(self.color_theme_options),
             "win_controls": self.get_selected_pref(self.window_controls_options),
             "web_theme": self.get_selected_pref(self.web_theme_options),
             "qr_login": self.get_selected_pref(self.qr_login_options),

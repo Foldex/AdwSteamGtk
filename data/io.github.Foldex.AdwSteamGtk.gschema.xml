@@ -2,6 +2,10 @@
 <schemalist gettext-domain="adwaita-steam-gtk">
   <schema id="io.github.Foldex.AdwSteamGtk" path="/io/github/Foldex/AdwSteamGtk/">
 
+    <key name="color-theme-options" type="s">
+      <default>"Adwaita"</default>
+    </key>
+
     <key name="window-controls-options" type="s">
       <default>"Default"</default>
       <choices>

@@ -20,26 +20,13 @@ import os
 import shlex
 import shutil
 import subprocess
-import zipfile
 
 from . import paths
+from . import zip
 
 def clean_dir(path):
     if os.path.exists(path):
         shutil.rmtree(path)
-
-def extract(path, out_dir):
-    try:
-        with zipfile.ZipFile(path) as f:
-             f.extractall(out_dir)
-    except IOError:
-        return (False, _("Extract: Failed to read ZIP archive"))
-    except zipfile.BadZipFile:
-        return (False, _("Extract: Bad ZIP File"))
-    except:
-        return (False, _("Extract: Failed to Extract ZIP File"))
-
-    return (True, None)
 
 def move_extract_dir(path, rename):
     for dir in glob.glob(path + "/tkashkin-Adwaita-for-Steam-*"):
@@ -47,6 +34,11 @@ def move_extract_dir(path, rename):
 
 def gen_cmd_line(options):
     installer = "python install.py "
+
+    if options["color_theme"].lower() == "adwaita":
+        color_theme = ""
+    else:
+        color_theme = f"-c {options['color_theme'].lower()} "
 
     if options["win_controls"] == "Left":
         patch = "-p windowcontrols/left "
@@ -80,6 +72,7 @@ def gen_cmd_line(options):
 
     cmd = (
         f"{installer}"
+        f"{color_theme}"
         f"{patch}"
         f"{web_theme}"
         f"{qr_login}"
@@ -113,7 +106,7 @@ def run(options):
     clean_dir(paths.TMP_DIR)
     clean_dir(paths.EXTRACTED_DIR)
 
-    (ret, msg) = extract(paths.LAST_RELEASE_FILE, paths.TMP_DIR)
+    (ret, msg) = zip.extract(paths.LAST_RELEASE_FILE, paths.TMP_DIR)
 
     if not ret:
         clean_dir(paths.TMP_DIR)
