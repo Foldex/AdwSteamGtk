@@ -40,6 +40,13 @@
   </categories>
 
   <releases>
+    <release version="0.2.1" type="stable" date="2023-03-04">
+      <description>
+        <ul>
+          <li>Fixed Installer CLI Output</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.2.0" type="stable" date="2023-01-05">
       <description>
         <ul>
