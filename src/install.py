@@ -84,10 +84,13 @@ def gen_cmd_line(options):
 
 def install(cmd):
     try:
-        ret = subprocess.run(shlex.split(cmd), cwd=paths.EXTRACTED_DIR, check=True, capture_output=True)
-        if not ret.stdout.decode().find("Installing skin"):
+        ret = subprocess.run(shlex.split(cmd), cwd=paths.EXTRACTED_DIR, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, check=True)
+        out = ret.stdout.decode()
+        print(out)
+        if not out.find("Installing skin"):
             return (False, _("Install: Found no Valid Install Targets"))
-    except subprocess.CalledProcessError:
+    except subprocess.CalledProcessError as e:
+        print(e.output.decode())
         return (False, _("Install: Installer Process Failed"))
 
     return (True, None)
