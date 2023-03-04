@@ -43,7 +43,7 @@ def get_color_themes():
     try:
         with zipfile.ZipFile(paths.LAST_RELEASE_FILE) as f:
              nl = f.namelist()
-             themes = [s for s in nl if COLOR_THEMES_EXT in s]
+             themes = [s for s in nl if s[-6:] == COLOR_THEMES_EXT]
              themes = [s for s in themes if COLOR_THEMES_PREFIX in s]
              themes = [str(Path(s).stem.title()) for s in themes]
     except IOError:
