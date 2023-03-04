@@ -40,6 +40,10 @@ You may also launch with the `-c` flag to force an update check and show a notif
 
 `flatpak run io.github.Foldex.AdwSteamGtk -c`
 
+## Troubleshooting
+
+See [Troubleshooting](https://github.com/Foldex/AdwSteamGtk/wiki/Troubleshooting)
+
 ## Building
 
 It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) or `flatpak-builder` to build the project.
