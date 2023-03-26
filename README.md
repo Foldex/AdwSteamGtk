@@ -49,7 +49,7 @@ See [Troubleshooting](https://github.com/Foldex/AdwSteamGtk/wiki/Troubleshooting
 It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) or `flatpak-builder` to build the project.
 
 ```
-flatpak install org.gnome.Platform//43 org.gnome.Sdk//43
+flatpak install org.gnome.Platform//44 org.gnome.Sdk//44
 flatpak-builder --install --force-clean --user build-dir io.github.Foldex.AdwSteamGtk.json
 ```
 
