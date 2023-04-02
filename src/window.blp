@@ -52,6 +52,11 @@ template AdwaitaSteamGtkWindow : ApplicationWindow {
           model: StringList { strings [_("Show"), _("Hover Only"), _("Hide")] };
         }
 
+        Adw.ComboRow library_sidebar_options {
+          title: _("Library Sidebar");
+          model: StringList { strings [_("Show"), _("Hover Only")] };
+        }
+
         Adw.ActionRow {
           title: _("Hide Library What's New Shelf");
           activatable-widget: whats_new_switch;

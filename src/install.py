@@ -65,6 +65,11 @@ def gen_cmd_line(options):
     else:
         qr_login = ""
 
+    if options["library_sidebar"] == "Hover Only":
+        library_sidebar = "-we library/sidebar_hover "
+    else:
+        library_sidebar = ""
+
     if options["whats_new"]:
         whats_new = "-we library/hide_whats_new "
     else:
@@ -76,6 +81,7 @@ def gen_cmd_line(options):
         f"{patch}"
         f"{web_theme}"
         f"{qr_login}"
+        f"{library_sidebar}"
         f"{whats_new}"
     )
 

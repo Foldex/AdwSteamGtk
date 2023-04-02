@@ -35,6 +35,14 @@
       </choices>
     </key>
 
+    <key name="library-sidebar-options" type="s">
+      <default>"Show"</default>
+      <choices>
+        <choice value="Show"/>
+        <choice value="Hover Only"/>
+      </choices>
+    </key>
+
     <key name="whats-new-switch" type="b">
       <default>false</default>
     </key>

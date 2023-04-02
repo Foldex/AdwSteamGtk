@@ -32,6 +32,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     window_controls_options = Gtk.Template.Child()
     web_theme_options = Gtk.Template.Child()
     qr_login_options = Gtk.Template.Child()
+    library_sidebar_options = Gtk.Template.Child()
 
     whats_new_switch = Gtk.Template.Child()
     install_button = Gtk.Template.Child()
@@ -66,6 +67,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "win_controls": self.config_to_pos('window-controls-options', self.window_controls_options),
             "web_theme": self.config_to_pos('web-theme-options', self.web_theme_options),
             "qr_login": self.config_to_pos('qr-login-options', self.qr_login_options),
+            "library_sidebar": self.config_to_pos('library-sidebar-options', self.library_sidebar_options),
             "whats_new": self.settings.get_boolean('whats-new-switch')
         }
 
@@ -73,6 +75,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.window_controls_options.set_selected(options["win_controls"])
         self.web_theme_options.set_selected(options["web_theme"])
         self.qr_login_options.set_selected(options["qr_login"])
+        self.library_sidebar_options.set_selected(options["library_sidebar"])
         self.whats_new_switch.set_active(options["whats_new"])
 
     def save_config(self, options):
@@ -80,6 +83,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.settings.set_string("window-controls-options", options['win_controls'])
         self.settings.set_string("web-theme-options", options['web_theme'])
         self.settings.set_string("qr-login-options", options['qr_login'])
+        self.settings.set_string("library-sidebar-options", options['library_sidebar'])
         self.settings.set_boolean("whats-new-switch", options['whats_new'])
 
     def config_to_pos(self, config, comborow):
@@ -124,6 +128,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "win_controls": self.get_selected_pref(self.window_controls_options),
             "web_theme": self.get_selected_pref(self.web_theme_options),
             "qr_login": self.get_selected_pref(self.qr_login_options),
+            "library_sidebar": self.get_selected_pref(self.library_sidebar_options),
             "whats_new":  self.whats_new_switch.get_active()
         }
 
