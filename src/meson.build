@@ -59,6 +59,7 @@ adwaita_steam_gtk_sources = [
   'dl.py',
   'install.py',
   'paths.py',
+  'style.py',
   'update.py',
   'zip.py',
 ]

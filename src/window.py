@@ -15,10 +15,11 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from gi.repository import Adw, Gio, Gtk
+from gi.repository import Adw, Gio, Gtk, Gdk
 
 from . import info
 from . import install
+from . import style
 from . import update
 from . import zip
 
@@ -51,6 +52,22 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.check_latest_release()
         self.load_color_themes()
         self.load_config()
+        self.style_provider = None
+        self.color_theme_options.connect("notify", self.load_app_style)
+
+    def load_app_style(self, comborow, _):
+        if self.style_provider is None:
+            self.style_provider = Gtk.CssProvider()
+            Gtk.StyleContext.add_provider_for_display(Gdk.Display.get_default(), self.style_provider, Gtk.STYLE_PROVIDER_PRIORITY_USER + 1)
+
+        selected_theme = self.get_selected_pref(comborow).lower()
+        ret, msg = style.generate_style(selected_theme)
+
+        if not ret:
+            t = Adw.Toast(title=msg, priority="high")
+            self.pop_toast(t)
+
+        self.style_provider.load_from_data(msg, -1)
 
     def load_color_themes(self):
         (themes, msg) = zip.get_color_themes()

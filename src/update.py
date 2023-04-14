@@ -15,13 +15,16 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import glob
 import os
+import shutil
 import time
 from packaging import version
 from enum import Enum
 
 from . import dl
 from . import paths
+from . import zip
 
 UPDATE_INTERVAL=3600 # 1 hour
 
@@ -85,12 +88,35 @@ def check(check_only=False):
             return (ExitCode.SUCCESS, dict["name"])
 
         (ret, dl_msg) = dl.download_release(dict["zipball_url"], paths.LAST_RELEASE_FILE)
+        (ret2, pdl_msg) = post_download()
 
-        if ret:
+        if ret and ret2:
             write_file(dict["name"], paths.LAST_VERSION_FILE)
             return (ExitCode.SUCCESS, dict["name"])
-        else:
+        elif not ret:
             return (ExitCode.FAIL, dl_msg)
+        elif not ret2:
+            return (ExitCode.FAIL, pdl_msg)
     else:
         return (ExitCode.FAIL, api_msg)
 
+def clean_dir(path):
+    if os.path.exists(path):
+        shutil.rmtree(path)
+
+def move_extract_dir(path, rename):
+    for dir in glob.glob(path + "/tkashkin-Adwaita-for-Steam-*"):
+        shutil.move(dir, rename)
+
+def post_download():
+    (ret, msg) = zip.extract(paths.LAST_RELEASE_FILE, paths.TMP_DIR)
+
+    if not ret:
+        clean_dir(paths.TMP_DIR)
+        return (ret, msg)
+
+    clean_dir(paths.EXTRACTED_DIR)
+    move_extract_dir(paths.TMP_DIR, paths.EXTRACTED_DIR)
+    clean_dir(paths.TMP_DIR)
+
+    return (True, None)

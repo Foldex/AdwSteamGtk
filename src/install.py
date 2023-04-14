@@ -15,22 +15,12 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import glob
 import os
 import shlex
-import shutil
 import subprocess
 
 from . import paths
-from . import zip
-
-def clean_dir(path):
-    if os.path.exists(path):
-        shutil.rmtree(path)
-
-def move_extract_dir(path, rename):
-    for dir in glob.glob(path + "/tkashkin-Adwaita-for-Steam-*"):
-        shutil.move(dir, rename)
+from . import update
 
 def gen_cmd_line(options):
     installer = "python install.py "
@@ -107,27 +97,20 @@ def skin_installed():
 def steam_dir_missing():
     return not os.path.exists(paths.STEAM_DIR) and not os.path.exists(paths.STEAM_FLATPAK_DIR)
 
+def zip_not_extracted():
+    return os.path.exists(paths.LAST_RELEASE_FILE) and not os.path.exists(paths.EXTRACTED_DIR)
+
 def run(options):
 
     if steam_dir_missing():
         return(False, "Install: Failed to Find Valid '~/.steam/steam' Symlink")
 
-    clean_dir(paths.TMP_DIR)
-    clean_dir(paths.EXTRACTED_DIR)
-
-    (ret, msg) = zip.extract(paths.LAST_RELEASE_FILE, paths.TMP_DIR)
-
-    if not ret:
-        clean_dir(paths.TMP_DIR)
-        clean_dir(paths.EXTRACTED_DIR)
-        return (ret, msg)
-
-    move_extract_dir(paths.TMP_DIR, paths.EXTRACTED_DIR)
-    clean_dir(paths.TMP_DIR)
+    if zip_not_extracted():
+        (ret, msg) = update.post_download()
+        if not ret:
+            return (ret, msg)
 
     cmd = gen_cmd_line(options)
     (ret, msg) = install(cmd)
-
-    clean_dir(paths.EXTRACTED_DIR)
 
     return (ret, msg)

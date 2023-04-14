@@ -36,6 +36,7 @@ def extract(path, out_dir):
 
     return (True, None)
 
+# TODO No longer need to parse ZIP for this
 def get_color_themes():
     themes = []
     fallback = ["Adwaita"]
