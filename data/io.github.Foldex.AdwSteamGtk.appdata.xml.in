@@ -40,6 +40,15 @@
   </categories>
 
   <releases>
+    <release version="0.4.0" type="stable" date="2023-04-15">
+      <description>
+        <ul>
+          <li>Colortheme is now previewed in app</li>
+          <li>Added -u/-i arguments to install skin via commandline</li>
+          <li>Added -o argument to override install options for -i/-u</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.3.0" type="stable" date="2023-04-02">
       <description>
         <ul>
