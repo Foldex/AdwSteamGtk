@@ -97,13 +97,20 @@ def skin_installed():
 def steam_dir_missing():
     return not os.path.exists(paths.STEAM_DIR) and not os.path.exists(paths.STEAM_FLATPAK_DIR)
 
+def release_missing():
+    return not os.path.exists(paths.LAST_RELEASE_FILE) and not os.path.exists(paths.EXTRACTED_DIR)
+
 def zip_not_extracted():
     return os.path.exists(paths.LAST_RELEASE_FILE) and not os.path.exists(paths.EXTRACTED_DIR)
 
 def run(options):
-
     if steam_dir_missing():
         return(False, "Install: Failed to Find Valid '~/.steam/steam' Symlink")
+
+    if release_missing():
+        (ret, msg) = update.check()
+        if not ret:
+            return (ret, msg)
 
     if zip_not_extracted():
         (ret, msg) = update.post_download()

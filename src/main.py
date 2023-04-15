@@ -22,8 +22,9 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Gio, GLib, Adw
-from . import update
+from . import cli
 from . import info
+from . import update
 from .window import AdwaitaSteamGtkWindow
 
 
@@ -46,25 +47,49 @@ class Adwaita_steam_gtkApplication(Adw.Application):
             None,
         )
 
+        self.add_main_option(
+            "update",
+            ord("u"),
+            GLib.OptionFlags.NONE,
+            GLib.OptionArg.NONE,
+            "Check and Install Updates",
+            None,
+        )
+
+        self.add_main_option(
+            "install",
+            ord("i"),
+            GLib.OptionFlags.NONE,
+            GLib.OptionArg.NONE,
+            "Check Updates and Force Install",
+            None,
+        )
+
+        self.add_main_option(
+            "options",
+            ord("o"),
+            GLib.OptionFlags.NONE,
+            GLib.OptionArg.STRING,
+            "Override Install Options",
+            None,
+        )
+
     def do_command_line(self, command_line):
         options = command_line.get_options_dict()
         options = options.end().unpack()
 
-        if "check" in options:
-            (code, msg) = update.check(check_only := True)
-
-            if code == update.ExitCode.SUCCESS:
-                t = _("New Release Available: ") + msg
-            elif code == update.ExitCode.FAIL:
-                t = _("Update Check Failed: ") + msg
-            #elif code == update.ExitCode.CURRENT:
-                #t = _("Up to Date")
-            else:
-                t = None
-
-            if t:
-                self.send_notif(info.APP_NAME, t, "update-check")
-
+        if "update" in options or "install" in options:
+            (code, msg) = cli.update_install(options)
+            if code == cli.result.PRINT_AND_EXIT:
+                print(msg)
+            self.quit()
+            return 0
+        elif "check" in options:
+            (code, msg) = cli.update_notify()
+            if code == cli.result.NOTIFY_AND_EXIT:
+                self.send_notif(info.APP_NAME, msg, "update-check")
+            elif code == cli.result.PRINT_AND_EXIT:
+                print(msg)
             self.quit()
             return 0
 
