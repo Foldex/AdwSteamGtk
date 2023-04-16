@@ -40,6 +40,14 @@
   </categories>
 
   <releases>
+    <release version="0.4.1" type="stable" date="2023-04-16">
+      <description>
+        <ul>
+          <li>Fixed issue with theme preview on light mode</li>
+          <li>Added preferences toggle for theme preview</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.4.0" type="stable" date="2023-04-15">
       <description>
         <ul>
