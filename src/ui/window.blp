@@ -80,6 +80,10 @@ template AdwaitaSteamGtkWindow : ApplicationWindow {
 menu primary_menu {
   section {
     item {
+      label: _("_Preferences");
+      action: "app.prefs";
+    }
+    item {
       label: _("_About AdwSteamGtk");
       action: "app.about";
     }

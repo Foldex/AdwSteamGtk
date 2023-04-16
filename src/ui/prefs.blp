@@ -1,0 +1,24 @@
+using Gtk 4.0;
+using Adw 1;
+
+template AdwaitaSteamGtkPrefs : Adw.PreferencesWindow {
+  title: _("Preferences");
+  default-height: 400;
+  default-width: 600;
+  modal: true;
+
+  Adw.PreferencesPage general_page {
+    Adw.PreferencesGroup ui_group {
+      title: _("Interface");
+
+      Adw.ActionRow {
+        title: _("Preview Themes");
+        subtitle: _("Styles the interface to match the currently selected theme.");
+        activatable-widget: preview_theme_switch;
+        Gtk.Switch preview_theme_switch {
+          valign: center;
+        }
+      }
+    }
+  }
+}

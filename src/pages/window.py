@@ -23,7 +23,7 @@ from . import style
 from . import update
 from . import zip
 
-@Gtk.Template(resource_path='/io/github/Foldex/AdwSteamGtk/window.ui')
+@Gtk.Template(resource_path='/io/github/Foldex/AdwSteamGtk/ui/window.ui')
 class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     __gtype_name__ = 'AdwaitaSteamGtkWindow'
 
@@ -59,6 +59,12 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         if self.style_provider is None:
             self.style_provider = Gtk.CssProvider()
             Gtk.StyleContext.add_provider_for_display(Gdk.Display.get_default(), self.style_provider, Gtk.STYLE_PROVIDER_PRIORITY_USER + 1)
+
+        preview_theme = self.settings.get_boolean("prefs-ui-preview-theme")
+
+        if not preview_theme:
+            self.style_provider.load_from_data("", -1)
+            return
 
         selected_theme = self.get_selected_pref(comborow).lower()
         ret, msg = style.generate_style(selected_theme)

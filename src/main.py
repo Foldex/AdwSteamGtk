@@ -25,7 +25,9 @@ from gi.repository import Gtk, Gio, GLib, Adw
 from . import cli
 from . import info
 from . import update
+
 from .window import AdwaitaSteamGtkWindow
+from .prefs import AdwaitaSteamGtkPrefs
 
 
 class Adwaita_steam_gtkApplication(Adw.Application):
@@ -37,6 +39,7 @@ class Adwaita_steam_gtkApplication(Adw.Application):
 
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
+        self.create_action('prefs', self.on_prefs_action)
 
         self.add_main_option(
             "check",
@@ -120,6 +123,10 @@ class Adwaita_steam_gtkApplication(Adw.Application):
                                 copyright=info.COPYRIGHT)
         about.add_credit_section('Upstream', info.UPSTREAM)
         about.present()
+
+    def on_prefs_action(self, widget, _):
+        prefs = AdwaitaSteamGtkPrefs(self.props.active_window)
+        prefs.present()
 
     def on_quit_action(self, widget, _):
         self.quit()

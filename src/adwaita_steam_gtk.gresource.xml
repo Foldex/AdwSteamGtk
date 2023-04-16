@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/io/github/Foldex/AdwSteamGtk">
-    <file>window.ui</file>
+    <file>ui/window.ui</file>
+  </gresource>
+  <gresource prefix="/io/github/Foldex/AdwSteamGtk">
+    <file>ui/prefs.ui</file>
   </gresource>
 </gresources>

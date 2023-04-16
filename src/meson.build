@@ -4,7 +4,8 @@ gnome = import('gnome')
 
 blueprints = custom_target('blueprints',
   input: files(
-    'window.blp',
+    'ui/window.blp',
+    'ui/prefs.blp',
   ),
   output: '.',
   command: [find_program('blueprint-compiler'), 'batch-compile', '@OUTPUT@', '@CURRENT_SOURCE_DIR@', '@INPUT@'],
@@ -55,7 +56,6 @@ configure_file(
 adwaita_steam_gtk_sources = [
   '__init__.py',
   'main.py',
-  'window.py',
   'cli.py',
   'dl.py',
   'install.py',
@@ -63,6 +63,8 @@ adwaita_steam_gtk_sources = [
   'style.py',
   'update.py',
   'zip.py',
+  'pages/window.py',
+  'pages/prefs.py',
 ]
 
 install_data(adwaita_steam_gtk_sources, install_dir: moduledir)
