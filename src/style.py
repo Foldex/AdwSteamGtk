@@ -72,6 +72,7 @@ def generate_style(theme_name):
     css += format_css("popover_fg_color", config["popover"]["popover_fg"])
 
     css += format_css("card_fg_color", config["general"]["fg"])
+    css += format_css("card_bg_color", "rgba(255, 255, 255, 0.08)")
 
     return (True, css)
 
