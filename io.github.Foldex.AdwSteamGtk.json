@@ -45,6 +45,26 @@
             ]
         },
         {
+            "name": "libportal",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Ddocs=false",
+                "-Dbackends=gtk4"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.6.tar.gz",
+                    "sha256": "8ad326c4f53b7433645dc86d994fef0292bee8adda0fe67db9288ace19250a9c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 230124,
+                        "url-template": "https://github.com/flatpak/libportal/archive/refs/tags/$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "gnu-patch",
             "buildsystem": "autotools",
             "sources": [

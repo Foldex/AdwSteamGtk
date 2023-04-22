@@ -8,6 +8,19 @@ template AdwaitaSteamGtkPrefs : Adw.PreferencesWindow {
   modal: true;
 
   Adw.PreferencesPage general_page {
+    Adw.PreferencesGroup autostart_group {
+      title: _("Autostart");
+
+      Adw.ActionRow {
+        title: _("Auto Update Check");
+        subtitle: _("Checks and notifies for theme updates on user login.");
+        activatable-widget: update_check_switch;
+        Gtk.Switch update_check_switch {
+          valign: center;
+        }
+      }
+    }
+
     Adw.PreferencesGroup ui_group {
       title: _("Interface");
 

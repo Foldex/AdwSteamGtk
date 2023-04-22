@@ -47,6 +47,10 @@
       <default>false</default>
     </key>
 
+    <key name="prefs-autostart-update-check" type="b">
+      <default>false</default>
+    </key>
+
     <key name="prefs-ui-preview-theme" type="b">
       <default>true</default>
     </key>
