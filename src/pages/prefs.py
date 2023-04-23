@@ -16,9 +16,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import gi
-gi.require_version('Xdp', '1.0')
 
-from gi.repository import Adw, Gtk, Xdp
+from gi.repository import Adw, Gtk
 
 @Gtk.Template(resource_path='/io/github/Foldex/AdwSteamGtk/ui/prefs.ui')
 class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
@@ -53,6 +52,9 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.parent.load_app_style(self.parent.color_theme_options, None)
 
     def on_update_check_switch_toggle(self, *args):
+        gi.require_version('Xdp', '1.0')
+        from gi.repository import Xdp
+
         if self.portal == None:
             self.portal = Xdp.Portal()
 
