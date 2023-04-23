@@ -25,6 +25,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
 
     preview_theme_switch = Gtk.Template.Child()
     update_check_switch = Gtk.Template.Child()
+    install_fonts_switch = Gtk.Template.Child()
 
     def __init__(self, parent, **kwargs):
         super().__init__(**kwargs)
@@ -45,6 +46,10 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         update_check = self.settings.get_boolean("prefs-autostart-update-check")
         self.update_check_switch.set_active(update_check)
         self.update_check_switch.connect("state-set", self.on_update_check_switch_toggle)
+
+        install_fonts = self.settings.get_boolean("prefs-fonts-install-fonts")
+        self.install_fonts_switch.set_active(install_fonts)
+        self.install_fonts_switch.connect("state-set", self.on_install_fonts_switch_toggle)
 
     def on_preview_theme_switch_toggle(self, *args):
         state = not self.preview_theme_switch.props.state
@@ -75,3 +80,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
             None,
             None
         )
+
+    def on_install_fonts_switch_toggle(self, *args):
+        state = not self.install_fonts_switch.props.state
+        self.settings.set_boolean("prefs-fonts-install-fonts", state)

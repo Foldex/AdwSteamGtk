@@ -152,7 +152,8 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "web_theme": self.get_selected_pref(self.web_theme_options),
             "qr_login": self.get_selected_pref(self.qr_login_options),
             "library_sidebar": self.get_selected_pref(self.library_sidebar_options),
-            "whats_new":  self.whats_new_switch.get_active()
+            "whats_new":  self.whats_new_switch.get_active(),
+            "install_fonts": self.settings.get_boolean('prefs-fonts-install-fonts')
         }
 
         (ret, msg) = install.run(options)

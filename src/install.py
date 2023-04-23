@@ -65,6 +65,11 @@ def gen_cmd_line(options):
     else:
         whats_new = ""
 
+    if options["install_fonts"]:
+        install_fonts = "-fi "
+    else:
+        install_fonts = ""
+
     cmd = (
         f"{installer}"
         f"{color_theme}"
@@ -73,6 +78,7 @@ def gen_cmd_line(options):
         f"{qr_login}"
         f"{library_sidebar}"
         f"{whats_new}"
+        f"{install_fonts}"
     )
 
     return cmd

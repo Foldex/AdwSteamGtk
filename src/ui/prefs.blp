@@ -3,7 +3,7 @@ using Adw 1;
 
 template AdwaitaSteamGtkPrefs : Adw.PreferencesWindow {
   title: _("Preferences");
-  default-height: 450;
+  default-height: 550;
   default-width: 450;
   modal: true;
 
@@ -33,5 +33,19 @@ template AdwaitaSteamGtkPrefs : Adw.PreferencesWindow {
         }
       }
     }
+
+    Adw.PreferencesGroup font_group {
+      title: _("Fonts");
+
+      Adw.ActionRow {
+        title: _("Install Cantarell Fonts");
+        subtitle: _("Installs static Cantarell fonts to `~/.local/share/fonts`");
+        activatable-widget: install_fonts_switch;
+        Gtk.Switch install_fonts_switch {
+          valign: center;
+        }
+      }
+    }
+
   }
 }

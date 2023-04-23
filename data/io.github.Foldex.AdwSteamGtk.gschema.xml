@@ -55,5 +55,9 @@
       <default>true</default>
     </key>
 
+    <key name="prefs-fonts-install-fonts" type="b">
+      <default>true</default>
+    </key>
+
   </schema>
 </schemalist>
