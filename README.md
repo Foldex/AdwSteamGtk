@@ -89,6 +89,7 @@ See the below requirements otherwise.
 - GNU Patch (Runtime Dependency)
 - GTK4
 - Libadwaita
+- Libportal
 - Meson
 - Ninja
 - PyGObject
