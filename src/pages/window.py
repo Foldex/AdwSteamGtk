@@ -46,10 +46,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.make_action("install", self.install_theme)
         self.make_action("retry_dl", self.retry_check)
-
-        if install.skin_installed():
-            self.install_button.set_label("Update")
-
         self.check_latest_release()
         self.load_color_themes()
         self.load_config()
