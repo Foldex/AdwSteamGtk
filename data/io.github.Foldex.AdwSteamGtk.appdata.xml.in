@@ -22,9 +22,6 @@
   <ol>
     <li>Install skin via app</li>
     <li>Restart Steam if running</li>
-    <li>Go to Steam's Settings -> Interface</li>
-    <li>Select Adwaita from the dropdown</li>
-    <li>Restart Steam</li>
   </ol>
   <p>
     On startup new releases will automatically be downloaded and display a notification.
