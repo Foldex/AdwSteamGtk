@@ -119,7 +119,7 @@ def zip_not_extracted():
 
 def run(options):
     if steam_dir_missing():
-        return(False, "Install: Failed to Find Valid '~/.steam/steam' Symlink")
+        return(False, _("Install: Failed to Find Valid '~/.steam/steam' Symlink"))
 
     if release_missing():
         (ret, msg) = update.check()

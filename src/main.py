@@ -124,7 +124,7 @@ class Adwaita_steam_gtkApplication(Adw.Application):
                                 developers=info.DEVELOPERS,
                                 license_type=info.LICENSE,
                                 copyright=info.COPYRIGHT)
-        about.add_credit_section('Upstream', info.UPSTREAM)
+        about.add_credit_section(_("Upstream"), info.UPSTREAM)
         about.present()
 
     def on_prefs_action(self, *args):

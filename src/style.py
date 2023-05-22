@@ -17,6 +17,7 @@
 
 import configparser
 import os.path
+from gettext import gettext as _
 
 from . import install
 from . import paths
@@ -31,7 +32,7 @@ def generate_style(theme_name):
             return (ret, msg)
 
     if not os.path.exists(theme_path):
-        return (False, f"Style: Could not find theme {theme_name}")
+        return (False, _("Style: Could not find theme {theme_name}").format(theme_name=theme_name))
 
     config = configparser.ConfigParser()
     config.read(theme_path)

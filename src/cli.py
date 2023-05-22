@@ -95,19 +95,19 @@ def get_options(option_string):
             if cur_val in valid_options.get(key, ()):
                 options[key] = cur_val
             elif key != "colortheme":
-                    print(f"{key}: {cur_val} invalid value")
+                print(_("{key}: {cur_val} invalid value").format(key=key, cur_val=cur_val))
 
 
         themes_list, msg = zip.get_color_themes()
 
         if themes_list == ["Adwaita"]:
-            print("Could not get theme list. Falling back to last selected theme.")
+            print(_("Could not get theme list. Falling back to last selected theme."))
             return options
 
         if user_options.get("colortheme", "").title() in themes_list:
             options["color_theme"] = user_options["colortheme"]
         elif user_options.get("colortheme") is not None:
-            print(f"Could not find theme {user_options['colortheme']} in theme list. Falling back to last selected theme.")
+            print(_("Could not find theme {colortheme} in theme list. Falling back to last selected theme.").format(colortheme=user_options['colortheme']))
 
         return options
 

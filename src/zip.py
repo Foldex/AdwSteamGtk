@@ -53,6 +53,6 @@ def get_color_themes():
     except zipfile.BadZipFile:
         return (fallback, _("Get Themes: Bad ZIP File"))
     except:
-        return (fallback, _("Get themes: Failed to get themes"))
+        return (fallback, _("Get Themes: Failed to get themes"))
 
     return (themes, None)

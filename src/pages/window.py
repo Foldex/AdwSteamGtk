@@ -139,10 +139,10 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         if t:
             self.pop_toast(t)
 
-    def retry_check(self, action, _):
+    def retry_check(self, *args):
         self.check_latest_release()
 
-    def install_theme(self, action, _):
+    def install_theme(self, *args):
         options = {
             "color_theme": self.get_selected_pref(self.color_theme_options),
             "win_controls": self.get_selected_pref(self.window_controls_options),
@@ -156,7 +156,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         (ret, msg) = install.run(options)
 
         if ret:
-            t = Adw.Toast(title="Theme Installed", priority="high", timeout=2)
+            t = Adw.Toast(title=_("Theme Installed"), priority="high", timeout=2)
             self.save_config(options)
         else:
             t = Adw.Toast(title=msg, priority="high")
