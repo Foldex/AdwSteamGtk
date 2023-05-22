@@ -134,7 +134,7 @@ class Adwaita_steam_gtkApplication(Adw.Application):
     def on_uninstall_action(self, *args):
         dialog = Adw.MessageDialog(transient_for=self.props.active_window,
                                    heading=_("Uninstall Theme"),
-                                   body=_("This will reset all customizations to the steam client."))
+                                   body=_("This will reset all customizations made to the Steam client."))
 
         dialog.add_response("cancel", _("Cancel"))
         dialog.add_response("uninstall", _("Uninstall"))
