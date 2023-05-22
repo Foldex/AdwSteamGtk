@@ -26,6 +26,7 @@ from gettext import gettext as _
 from . import cli
 from . import info
 from . import update
+from . import install
 
 from .window import AdwaitaSteamGtkWindow
 from .prefs import AdwaitaSteamGtkPrefs
@@ -41,6 +42,7 @@ class Adwaita_steam_gtkApplication(Adw.Application):
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
         self.create_action('prefs', self.on_prefs_action)
+        self.create_action('uninstall', self.on_uninstall_action)
 
         self.add_main_option(
             "check",
@@ -111,7 +113,7 @@ class Adwaita_steam_gtkApplication(Adw.Application):
             win = AdwaitaSteamGtkWindow(application=self)
         win.present()
 
-    def on_about_action(self, widget, _):
+    def on_about_action(self, *args):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
                                 application_name=info.APP_NAME,
@@ -125,11 +127,29 @@ class Adwaita_steam_gtkApplication(Adw.Application):
         about.add_credit_section('Upstream', info.UPSTREAM)
         about.present()
 
-    def on_prefs_action(self, widget, _):
+    def on_prefs_action(self, *args):
         prefs = AdwaitaSteamGtkPrefs(self.props.active_window)
         prefs.present()
 
-    def on_quit_action(self, widget, _):
+    def on_uninstall_action(self, *args):
+        dialog = Adw.MessageDialog(transient_for=self.props.active_window,
+                                   heading=_("Uninstall Theme"),
+                                   body=_("This will reset all customizations to the steam client."))
+
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("uninstall", _("Uninstall"))
+        dialog.set_response_appearance("uninstall", Adw.ResponseAppearance.DESTRUCTIVE)
+        dialog.set_default_response("cancel")
+
+        dialog.connect("response", self.on_uninstall_response)
+        dialog.present()
+
+    def on_uninstall_response (self, dialog, response):
+        if response == "uninstall":
+            options = { "uninstall": True }
+            install.run(options)
+
+    def on_quit_action(self, *args):
         self.quit()
 
     def create_action(self, name, callback, shortcuts=None):

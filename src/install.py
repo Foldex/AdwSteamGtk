@@ -25,6 +25,9 @@ from . import update
 def gen_cmd_line(options):
     installer = "python install.py "
 
+    if options.get("uninstall"):
+        return f"{installer} -u"
+
     if options["color_theme"].lower() == "adwaita":
         color_theme = ""
     else:
