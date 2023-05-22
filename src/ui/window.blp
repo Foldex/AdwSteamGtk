@@ -105,6 +105,14 @@ template AdwaitaSteamGtkWindow : ApplicationWindow {
             }
           }
           Adw.ActionRow {
+            title: _("Hide URL Bar");
+            activatable-widget: hide_url_switch;
+
+            Switch hide_url_switch {
+              valign: center;
+            }
+          }
+          Adw.ActionRow {
             title: _("Show Nav Arrows");
             activatable-widget: show_nav_arrows_switch;
 
