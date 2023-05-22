@@ -18,6 +18,7 @@
 import os
 import shlex
 import subprocess
+from gettext import gettext as _
 
 from . import paths
 from . import update
@@ -28,55 +29,62 @@ def gen_cmd_line(options):
     if options.get("uninstall"):
         return f"{installer} -u"
 
-    if options["color_theme"].lower() == "adwaita":
-        color_theme = ""
-    else:
-        color_theme = f"-c {options['color_theme'].lower()} "
+    match options["color_theme"].lower():
+        case "adwaita":
+            color_theme = ""
+        case _:
+            color_theme = f"-c {options['color_theme'].lower()} "
 
-    if options["win_controls"] == "Left":
-        patch = "-p windowcontrols/left "
-    elif options["win_controls"] == "Left-All":
-        patch = "-p windowcontrols/left-all "
-    elif options["win_controls"] == "Right-All":
-        patch = "-p windowcontrols/right-all "
-    elif options["win_controls"] == "None":
-        patch = "-p windowcontrols/hide-close "
-    else:
-        patch = ""
+    match options["win_controls"].lower():
+        case "left":
+            win_controls = "-we windowcontrols/left "
+        case "left-all":
+            win_controls = "-we windowcontrols/left-all "
+        case "right-all":
+            win_controls = "-we windowcontrols/right-all "
+        case "none":
+            win_controls = "-we windowcontrols/none "
+        case _:
+            win_controls = ""
 
-    if options["web_theme"] == "Full":
-        web_theme = "-w full "
-    elif options["web_theme"] == "None":
-        web_theme = "-w none "
-    else:
-        web_theme = "-w base "
+    match options["web_theme"].lower():
+        case "base":
+            web_theme = "-w base "
+        case "full":
+            web_theme = "-w full "
+        case _:
+            web_theme = ""
 
-    if options["qr_login"] == "Hover Only":
-        qr_login = "-we login/hover_qr "
-    elif options["qr_login"] == "Hide":
-        qr_login = "-we login/hide_qr "
-    else:
-        qr_login = ""
+    match options["qr_login"].lower():
+        case "hide":
+            qr_login = "-we login/hide_qr "
+        case "hover only":
+            qr_login = "-we login/hover_qr "
+        case _:
+            qr_login = ""
 
-    if options["library_sidebar"] == "Hover Only":
-        library_sidebar = "-we library/sidebar_hover "
-    else:
-        library_sidebar = ""
+    match options["library_sidebar"].lower():
+        case "hover only":
+            library_sidebar = "-we library/sidebar_hover "
+        case _:
+            library_sidebar = ""
 
-    if options["whats_new"]:
-        whats_new = "-we library/hide_whats_new "
-    else:
-        whats_new = ""
+    match options["whats_new"]:
+        case True:
+            whats_new = "-we library/hide_whats_new "
+        case _:
+            whats_new = ""
 
-    if options["install_fonts"]:
-        install_fonts = "-fi "
-    else:
-        install_fonts = ""
+    match options["install_fonts"]:
+        case True:
+            install_fonts = "-fi "
+        case _:
+            install_fonts = ""
 
     cmd = (
         f"{installer}"
         f"{color_theme}"
-        f"{patch}"
+        f"{win_controls}"
         f"{web_theme}"
         f"{qr_login}"
         f"{library_sidebar}"
