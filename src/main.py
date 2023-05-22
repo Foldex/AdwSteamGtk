@@ -22,6 +22,7 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Gio, GLib, Adw
+from gettext import gettext as _
 from . import cli
 from . import info
 from . import update
