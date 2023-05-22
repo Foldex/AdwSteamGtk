@@ -3,12 +3,19 @@ using Adw 1;
 
 template AdwaitaSteamGtkWindow : ApplicationWindow {
   default-width: 500;
-  default-height: 650;
+  default-height: 550;
   title: _("Adwaita Steam Installer");
   resizable: false;
 
   [titlebar]
   HeaderBar header_bar {
+    [start]
+     Button install_button {
+      label: _("Install");
+      action-name: "win.install";
+      styles ["suggested-action"]
+     }
+
     [end]
     MenuButton {
       icon-name: "open-menu-symbolic";
@@ -17,63 +24,110 @@ template AdwaitaSteamGtkWindow : ApplicationWindow {
   }
 
   Adw.ToastOverlay toast_overlay {
-    child: Gtk.Box {
-      orientation: vertical;
-      valign: center;
-      // halign: center;
-      vexpand: true;
-      margin-start: 40;
-      margin-end: 40;
-      margin-top: 40;
-      margin-bottom: 80;
-      spacing: 20;
-      styles ["main-box"]
+    child: Gtk.ScrolledWindow {
+      child: Gtk.Box {
+        orientation: vertical;
+        valign: center;
+        vexpand: false;
+        margin-start: 40;
+        margin-end: 40;
+        margin-top: 20;
+        margin-bottom: 20;
+        spacing: 20;
+        styles ["main-box"]
 
-      Adw.PreferencesGroup {
-        title: _("Steam Theme Options");
-        Adw.ComboRow color_theme_options {
-          title: _("Color Theme");
-        }
-        Adw.ComboRow window_controls_options {
-          title: _("Window Controls");
-          model: StringList { strings [_("Default"), _("Right-All"), _("Left"), _("Left-All"), _("None")] };
-        }
-      }
+        Adw.PreferencesGroup {
+          title: _("Theme Options");
+          Adw.ComboRow color_theme_options {
+            title: _("Color Theme");
+          }
+          Adw.ComboRow web_theme_options {
+            title: _("Theme");
+            model: StringList { strings [_("Full"), _("Base"), _("None")] };
+          }
+          Adw.ActionRow {
+            title: _("Rounded Corners");
+            activatable-widget: rounded_corners_switch;
 
-      Adw.PreferencesGroup {
-        title: _("Web Theme Options");
-        Adw.ComboRow web_theme_options {
-          title: _("Theme");
-          model: StringList { strings [_("Full"), _("Base"), _("None")] };
-        }
-
-        Adw.ComboRow qr_login_options {
-          title: _("QR Code Login");
-          model: StringList { strings [_("Show"), _("Hover Only"), _("Hide")] };
-        }
-
-        Adw.ComboRow library_sidebar_options {
-          title: _("Library Sidebar");
-          model: StringList { strings [_("Show"), _("Hover Only")] };
-        }
-
-        Adw.ActionRow {
-          title: _("Hide Library What's New Shelf");
-          activatable-widget: whats_new_switch;
-
-          Switch whats_new_switch {
-            valign: center;
+            Switch rounded_corners_switch {
+              valign: center;
+            }
           }
         }
-      }
 
-      Button install_button {
-        label: _("Install");
-        action-name: "win.install";
-        styles ["large", "suggested-action"]
-      }
+        Adw.PreferencesGroup {
+          title: _("Window Controls Options");
+          Adw.ComboRow window_controls_options {
+            title: _("Window Controls");
+            model: StringList { strings [_("Default"), _("Right-All"), _("Left"), _("Left-All"), _("None")] };
+          }
+          Adw.ComboRow window_controls_style_options {
+            title: _("Controls Style");
+            model: StringList { strings [_("Default"), _("Dots")] };
+          }
+        }
 
-   };
+        Adw.PreferencesGroup {
+          title: _("Library Options");
+
+          Adw.ComboRow library_sidebar_options {
+            title: _("Library Sidebar");
+            model: StringList { strings [_("Show"), _("Hover Only")] };
+          }
+
+          Adw.ActionRow {
+            title: _("Hide Library What's New Shelf");
+            activatable-widget: whats_new_switch;
+
+            Switch whats_new_switch {
+              valign: center;
+            }
+          }
+        }
+
+        Adw.PreferencesGroup {
+          title: _("Login Options");
+
+          Adw.ComboRow qr_login_options {
+            title: _("QR Code Login");
+            model: StringList { strings [_("Show"), _("Hover Only"), _("Hide")] };
+          }
+        }
+
+        Adw.PreferencesGroup {
+          title: _("Top Bar Options");
+          Adw.ActionRow {
+            title: _("Hide Big Picture Button");
+            activatable-widget: hide_bp_switch;
+
+            Switch hide_bp_switch {
+              valign: center;
+            }
+          }
+          Adw.ActionRow {
+            title: _("Show Nav Arrows");
+            activatable-widget: show_nav_arrows_switch;
+
+            Switch show_nav_arrows_switch {
+              valign: center;
+            }
+          }
+        }
+
+        Adw.PreferencesGroup {
+          title: _("Bottom Bar Options");
+          Adw.ActionRow {
+            title: _("Hide Bottom Bar");
+            activatable-widget: hide_bottom_bar_switch;
+
+            Switch hide_bottom_bar_switch {
+              valign: center;
+            }
+          }
+        }
+
+       };
+    };
   }
 }
 
