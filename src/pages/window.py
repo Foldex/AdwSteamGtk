@@ -157,10 +157,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         if ret:
             t = Adw.Toast(title="Theme Installed", priority="high", timeout=2)
-
-            if install.skin_installed():
-                self.install_button.set_label("Update")
-
             self.save_config(options)
         else:
             t = Adw.Toast(title=msg, priority="high")
