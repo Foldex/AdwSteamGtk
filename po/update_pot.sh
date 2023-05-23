@@ -14,3 +14,11 @@ xgettext \
 	--package-name="AdwSteamGtk" \
 	--package-version="0.6.0"
 
+sed -i \
+	-e "s/FIRST AUTHOR <EMAIL@ADDRESS>, YEAR./Foldex, $(date +%Y)./" \
+	-e "s/Language: /Language: EDIT_LANG_HERE/" \
+	-e "s/SOME DESCRIPTIVE TITLE./AdwSteamGtk Pot/" \
+	-e "s/YEAR THE PACKAGE'S COPYRIGHT HOLDER/$(date +%Y) Foldex/" \
+	-e "s/charset=CHARSET/charset=UTF-8/" \
+	-e "s/same license as the AdwSteamGtk package./GNU GPLv3 license./" \
+	"$OUT_FILE"
