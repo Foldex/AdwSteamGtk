@@ -28,18 +28,27 @@ from . import zip
 class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     __gtype_name__ = 'AdwaitaSteamGtkWindow'
 
+    settings = Gio.Settings.new(info.APP_ID)
+    install_button = Gtk.Template.Child()
     toast_overlay = Gtk.Template.Child()
 
     color_theme_options = Gtk.Template.Child()
-    window_controls_options = Gtk.Template.Child()
     web_theme_options = Gtk.Template.Child()
-    qr_login_options = Gtk.Template.Child()
+    rounded_corners_switch = Gtk.Template.Child()
+
+    window_controls_options = Gtk.Template.Child()
+    window_controls_style_options = Gtk.Template.Child()
+
     library_sidebar_options = Gtk.Template.Child()
-
     whats_new_switch = Gtk.Template.Child()
-    install_button = Gtk.Template.Child()
 
-    settings = Gio.Settings.new(info.APP_ID)
+    qr_login_options = Gtk.Template.Child()
+
+    hide_bp_switch = Gtk.Template.Child()
+    hide_url_switch = Gtk.Template.Child()
+    show_nav_arrows_switch = Gtk.Template.Child()
+
+    hide_bottom_bar_switch = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -84,19 +93,41 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     def load_config(self):
         options = {
             "color_theme": self.config_to_pos('color-theme-options', self.color_theme_options),
-            "win_controls": self.config_to_pos('window-controls-options', self.window_controls_options),
             "web_theme": self.config_to_pos('web-theme-options', self.web_theme_options),
-            "qr_login": self.config_to_pos('qr-login-options', self.qr_login_options),
+            "rounded_corners": self.settings.get_boolean('rounded-corners-switch'),
+
+            "win_controls": self.config_to_pos('window-controls-options', self.window_controls_options),
+            "win_controls_style": self.config_to_pos('window-controls-style-options', self.window_controls_style_options),
+
             "library_sidebar": self.config_to_pos('library-sidebar-options', self.library_sidebar_options),
-            "whats_new": self.settings.get_boolean('whats-new-switch')
+            "whats_new": self.settings.get_boolean('whats-new-switch'),
+
+            "qr_login": self.config_to_pos('qr-login-options', self.qr_login_options),
+
+            "bp_button": self.settings.get_boolean('hide-bp-switch'),
+            "url_bar": self.settings.get_boolean('hide-url-switch'),
+            "nav_arrows": self.settings.get_boolean('show-nav-arrows-switch'),
+
+            "bottom_bar": self.settings.get_boolean('hide-bottom-bar-switch'),
         }
 
         self.color_theme_options.set_selected(options["color_theme"])
-        self.window_controls_options.set_selected(options["win_controls"])
         self.web_theme_options.set_selected(options["web_theme"])
-        self.qr_login_options.set_selected(options["qr_login"])
+        # self.rounded_corners_switch.set_active(options["rounded_corners"])
+
+        self.window_controls_options.set_selected(options["win_controls"])
+        # self.window_controls_style_options.set_selected(options["win_controls_style"])
+
         self.library_sidebar_options.set_selected(options["library_sidebar"])
         self.whats_new_switch.set_active(options["whats_new"])
+
+        self.qr_login_options.set_selected(options["qr_login"])
+
+        # self.hide_bp_switch.set_active(options["hide_bp_button"])
+        # self.hide_url_switch.set_active(options["hide_url_bar"])
+        # self.show_nav_arrows_switch.set_active(options["show_nav_arrows"])
+
+        # self.hide_bottom_bar_switch.set_active(options["hide_bottom_bar"])
 
     def save_config(self, options):
         self.settings.set_string("color-theme-options", options['color_theme'])

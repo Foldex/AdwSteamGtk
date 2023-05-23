@@ -2,19 +2,9 @@
 <schemalist gettext-domain="adwaita-steam-gtk">
   <schema id="io.github.Foldex.AdwSteamGtk" path="/io/github/Foldex/AdwSteamGtk/">
 
+    <!-- General -->
     <key name="color-theme-options" type="s">
       <default>"Adwaita"</default>
-    </key>
-
-    <key name="window-controls-options" type="s">
-      <default>"Default"</default>
-      <choices>
-        <choice value="Default"/>
-        <choice value="Right-All"/>
-        <choice value="Left"/>
-        <choice value="Left-All"/>
-        <choice value="None"/>
-      </choices>
     </key>
 
     <key name="web-theme-options" type="s">
@@ -26,15 +16,31 @@
       </choices>
     </key>
 
-    <key name="qr-login-options" type="s">
-      <default>"Show"</default>
+    <key name="rounded-corners-switch" type="b">
+      <default>false</default>
+    </key>
+
+    <!-- Window Controls -->
+    <key name="window-controls-options" type="s">
+      <default>"Default"</default>
       <choices>
-        <choice value="Show"/>
-        <choice value="Hover Only"/>
-        <choice value="Hide"/>
+        <choice value="Default"/>
+        <choice value="Right-All"/>
+        <choice value="Left"/>
+        <choice value="Left-All"/>
+        <choice value="None"/>
       </choices>
     </key>
 
+    <key name="window-controls-style-options" type="s">
+      <default>"Default"</default>
+      <choices>
+        <choice value="Default"/>
+        <choice value="Dots"/>
+      </choices>
+    </key>
+
+    <!-- Library -->
     <key name="library-sidebar-options" type="s">
       <default>"Show"</default>
       <choices>
@@ -47,6 +53,35 @@
       <default>false</default>
     </key>
 
+    <!-- Login -->
+    <key name="qr-login-options" type="s">
+      <default>"Show"</default>
+      <choices>
+        <choice value="Show"/>
+        <choice value="Hover Only"/>
+        <choice value="Hide"/>
+      </choices>
+    </key>
+
+    <!-- Top Bar -->
+    <key name="hide-bp-switch" type="b">
+      <default>false</default>
+    </key>
+
+    <key name="hide-url-switch" type="b">
+      <default>false</default>
+    </key>
+
+    <key name="show-nav-arrows-switch" type="b">
+      <default>false</default>
+    </key>
+
+    <!-- Bottom Bar -->
+    <key name="hide-bottom-bar-switch" type="b">
+      <default>false</default>
+    </key>
+
+    <!-- Prefs -->
     <key name="prefs-autostart-update-check" type="b">
       <default>false</default>
     </key>
