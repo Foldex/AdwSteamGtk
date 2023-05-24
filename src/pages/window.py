@@ -191,7 +191,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.check_latest_release()
 
     def install_theme(self, *args):
-        self.config_from_select('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
         options = {
             # switches that hide/disable get inverted
             "install_fonts": self.settings.get_boolean('prefs-fonts-install-fonts'),
