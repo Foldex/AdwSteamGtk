@@ -194,6 +194,8 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.config_from_select('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
         options = {
             # switches that hide/disable get inverted
+            "install_fonts": self.settings.get_boolean('prefs-fonts-install-fonts'),
+
             "color_theme": self.get_selected_pref(self.color_theme_options),
             "web_theme": self.get_selected_pref(self.web_theme_options),
             "rounded_corners": not self.get_selected_pref(self.no_rounded_corners_switch),
@@ -211,8 +213,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "top_bar_nav_arrows": self.get_selected_pref(self.show_nav_arrows_switch),
 
             "bottom_bar": not self.get_selected_pref(self.hide_bottom_bar_switch),
-
-            "install_fonts": self.settings.get_boolean('prefs-fonts-install-fonts')
         }
 
         (ret, msg) = install.run(options)
