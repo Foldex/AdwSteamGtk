@@ -24,9 +24,6 @@ Arch AUR Build (Unofficial)
 
 1. Install via app
 2. Restart Steam if running
-3. Go to `Settings -> Interface`
-4. Select `Adwaita` from the dropdown
-5. Restart Steam
 
 ## Skin Updates
 
