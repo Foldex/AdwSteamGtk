@@ -54,23 +54,49 @@ def update_install(cli_args):
 def get_options(option_string):
         settings = Gio.Settings.new(info.APP_ID)
         options = {
+            "install_fonts": settings.get_boolean('prefs-fonts-install-fonts'),
+
             "color_theme": settings.get_string('color-theme-options'),
-            "win_controls": settings.get_string('window-controls-options'),
             "web_theme": settings.get_string('web-theme-options'),
-            "qr_login": settings.get_string('qr-login-options'),
+            "rounded_corners": not settings.get_boolean('no-rounded-corners-switch'),
+
+            "win_controls": settings.get_string('window-controls-options'),
+            "win_controls_style": settings.get_string('window-controls-style-options'),
+
             "library_sidebar": settings.get_string('library-sidebar-options'),
-            "whats_new": settings.get_boolean('whats-new-switch')
+            "library_whats_new": not settings.get_boolean('hide-whats-new-switch'),
+
+            "login_qr": settings.get_string('login-qr-options'),
+
+            "top_bar_bp_button": not settings.get_boolean('hide-bp-button-switch'),
+            "top_bar_nav_url": not settings.get_boolean('hide-nav-url-switch'),
+            "top_bar_nav_arrows": settings.get_boolean('show-nav-arrows-switch'),
+
+            "bottom_bar": not settings.get_boolean('hide-bottom-bar-switch'),
         }
 
         if option_string is None:
             return options
 
         valid_options = {
+            "install_fonts": (True, False),
+
+            "web_theme": ("Base", "Full"),
+            "rounded_corners": (True, False),
+
             "win_controls": ("Default", "Right-All", "Left", "Left-All", "None"),
-            "web_theme": ("None", "Base", "Full"),
-            "qr_login": ("Show", "Hover Only", "Hide"),
+            "win_controls_style": ("Default", "Dots"),
+
             "library_sidebar": ("Show", "Hover Only"),
-            "whats_new": (True, False)
+            "library_whats_new": (True, False),
+
+            "login_qr": ("Show", "Hover Only", "Hide"),
+
+            "top_bar_bp_button": (True, False),
+            "top_bar_nav_url": (True, False),
+            "top_bar_nav_arrows": (True, False),
+
+            "bottom_bar": (True, False),
         }
 
         if ":" not in option_string:
@@ -88,13 +114,9 @@ def get_options(option_string):
             elif cur_val in ("False", "No", "Off", "F", "N"):
                 cur_val = False
 
-            # invert whats new
-            if key == "whats_new":
-                cur_val = not cur_val
-
             if cur_val in valid_options.get(key, ()):
                 options[key] = cur_val
-            elif key != "colortheme":
+            elif key != "color_theme":
                 print(_("{key}: {cur_val} invalid value").format(key=key, cur_val=cur_val))
 
 
@@ -104,10 +126,10 @@ def get_options(option_string):
             print(_("Could not get theme list. Falling back to last selected theme."))
             return options
 
-        if user_options.get("colortheme", "").title() in themes_list:
-            options["color_theme"] = user_options["colortheme"]
-        elif user_options.get("colortheme") is not None:
-            print(_("Could not find theme {colortheme} in theme list. Falling back to last selected theme.").format(colortheme=user_options['colortheme']))
+        if user_options.get("color_theme", "").title() in themes_list:
+            options["color_theme"] = user_options["color_theme"]
+        elif user_options.get("color_theme") is not None:
+            print(_("Could not find theme {colortheme} in theme list. Falling back to last selected theme.").format(colortheme=user_options['color_theme']))
 
         return options
 

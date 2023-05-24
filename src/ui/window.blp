@@ -46,10 +46,10 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
             model: StringList { strings [_("Full"), _("Base")] };
           }
           Adw.ActionRow {
-            title: _("Rounded Corners");
-            activatable-widget: rounded_corners_switch;
+            title: _("No Rounded Corners");
+            activatable-widget: no_rounded_corners_switch;
 
-            Switch rounded_corners_switch {
+            Switch no_rounded_corners_switch {
               valign: center;
             }
           }
@@ -77,9 +77,9 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
 
           Adw.ActionRow {
             title: _("Hide Library What's New Shelf");
-            activatable-widget: whats_new_switch;
+            activatable-widget: hide_whats_new_switch;
 
-            Switch whats_new_switch {
+            Switch hide_whats_new_switch {
               valign: center;
             }
           }
@@ -88,7 +88,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
         Adw.PreferencesGroup {
           title: _("Login Options");
 
-          Adw.ComboRow qr_login_options {
+          Adw.ComboRow login_qr_options {
             title: _("QR Code Login");
             model: StringList { strings [_("Show"), _("Hover Only"), _("Hide")] };
           }
@@ -98,17 +98,17 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           title: _("Top Bar Options");
           Adw.ActionRow {
             title: _("Hide Big Picture Button");
-            activatable-widget: hide_bp_switch;
+            activatable-widget: hide_bp_button_switch;
 
-            Switch hide_bp_switch {
+            Switch hide_bp_button_switch {
               valign: center;
             }
           }
           Adw.ActionRow {
             title: _("Hide URL Bar");
-            activatable-widget: hide_url_switch;
+            activatable-widget: hide_nav_url_switch;
 
-            Switch hide_url_switch {
+            Switch hide_nav_url_switch {
               valign: center;
             }
           }

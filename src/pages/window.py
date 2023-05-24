@@ -34,18 +34,18 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     color_theme_options = Gtk.Template.Child()
     web_theme_options = Gtk.Template.Child()
-    rounded_corners_switch = Gtk.Template.Child()
+    no_rounded_corners_switch = Gtk.Template.Child()
 
     window_controls_options = Gtk.Template.Child()
     window_controls_style_options = Gtk.Template.Child()
 
     library_sidebar_options = Gtk.Template.Child()
-    whats_new_switch = Gtk.Template.Child()
+    hide_whats_new_switch = Gtk.Template.Child()
 
-    qr_login_options = Gtk.Template.Child()
+    login_qr_options = Gtk.Template.Child()
 
-    hide_bp_switch = Gtk.Template.Child()
-    hide_url_switch = Gtk.Template.Child()
+    hide_bp_button_switch = Gtk.Template.Child()
+    hide_nav_url_switch = Gtk.Template.Child()
     show_nav_arrows_switch = Gtk.Template.Child()
 
     hide_bottom_bar_switch = Gtk.Template.Child()
@@ -60,6 +60,14 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.load_config()
         self.style_provider = None
         self.color_theme_options.connect("notify", self.load_app_style)
+
+    def make_action(self, action, func):
+        install_action = Gio.SimpleAction(name=action)
+        install_action.connect("activate", func)
+        self.add_action(install_action)
+
+    def pop_toast(self, toast):
+        self.toast_overlay.add_toast(toast)
 
     def load_app_style(self, comborow, _):
         if self.style_provider is None:
@@ -91,51 +99,54 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.color_theme_options.set_model(Gtk.StringList.new(themes))
 
     def load_config(self):
-        options = {
-            "color_theme": self.config_to_pos('color-theme-options', self.color_theme_options),
-            "web_theme": self.config_to_pos('web-theme-options', self.web_theme_options),
-            "rounded_corners": self.settings.get_boolean('rounded-corners-switch'),
+        self.select_from_config('color-theme-options', self.color_theme_options)
+        self.select_from_config('web-theme-options', self.web_theme_options)
+        self.select_from_config('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
-            "win_controls": self.config_to_pos('window-controls-options', self.window_controls_options),
-            "win_controls_style": self.config_to_pos('window-controls-style-options', self.window_controls_style_options),
+        self.select_from_config('window-controls-options', self.window_controls_options)
+        self.select_from_config('window-controls-style-options', self.window_controls_style_options)
 
-            "library_sidebar": self.config_to_pos('library-sidebar-options', self.library_sidebar_options),
-            "whats_new": self.settings.get_boolean('whats-new-switch'),
+        self.select_from_config('library-sidebar-options', self.library_sidebar_options)
+        self.select_from_config('hide-whats-new-switch', self.hide_whats_new_switch)
 
-            "qr_login": self.config_to_pos('qr-login-options', self.qr_login_options),
+        self.select_from_config('login-qr-options', self.login_qr_options)
 
-            "bp_button": self.settings.get_boolean('hide-bp-switch'),
-            "url_bar": self.settings.get_boolean('hide-url-switch'),
-            "nav_arrows": self.settings.get_boolean('show-nav-arrows-switch'),
+        self.select_from_config('hide-bp-button-switch', self.hide_bp_button_switch)
+        self.select_from_config('hide-nav-url-switch', self.hide_nav_url_switch)
+        self.select_from_config('show-nav-arrows-switch', self.show_nav_arrows_switch)
 
-            "bottom_bar": self.settings.get_boolean('hide-bottom-bar-switch'),
-        }
+        self.select_from_config('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
 
-        self.color_theme_options.set_selected(options["color_theme"])
-        self.web_theme_options.set_selected(options["web_theme"])
-        # self.rounded_corners_switch.set_active(options["rounded_corners"])
 
-        self.window_controls_options.set_selected(options["win_controls"])
-        # self.window_controls_style_options.set_selected(options["win_controls_style"])
+    def save_config(self):
+        self.config_from_select('color-theme-options', self.color_theme_options)
+        self.config_from_select('web-theme-options', self.web_theme_options)
+        self.config_from_select('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
-        self.library_sidebar_options.set_selected(options["library_sidebar"])
-        self.whats_new_switch.set_active(options["whats_new"])
+        self.config_from_select('window-controls-options', self.window_controls_options)
+        self.config_from_select('window-controls-style-options', self.window_controls_style_options)
 
-        self.qr_login_options.set_selected(options["qr_login"])
+        self.config_from_select('library-sidebar-options', self.library_sidebar_options)
+        self.config_from_select('hide-whats-new-switch', self.hide_whats_new_switch)
 
-        # self.hide_bp_switch.set_active(options["hide_bp_button"])
-        # self.hide_url_switch.set_active(options["hide_url_bar"])
-        # self.show_nav_arrows_switch.set_active(options["show_nav_arrows"])
+        self.config_from_select('login-qr-options', self.login_qr_options)
 
-        # self.hide_bottom_bar_switch.set_active(options["hide_bottom_bar"])
+        self.config_from_select('hide-bp-button-switch', self.hide_bp_button_switch)
+        self.config_from_select('hide-nav-url-switch', self.hide_nav_url_switch)
+        self.config_from_select('show-nav-arrows-switch', self.show_nav_arrows_switch)
 
-    def save_config(self, options):
-        self.settings.set_string("color-theme-options", options['color_theme'])
-        self.settings.set_string("window-controls-options", options['win_controls'])
-        self.settings.set_string("web-theme-options", options['web_theme'])
-        self.settings.set_string("qr-login-options", options['qr_login'])
-        self.settings.set_string("library-sidebar-options", options['library_sidebar'])
-        self.settings.set_boolean("whats-new-switch", options['whats_new'])
+        self.config_from_select('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
+
+    def get_selected_pref(self, widget):
+        match type := widget.get_name():
+            case "AdwComboRow":
+                selected = widget.get_selected_item().get_string()
+            case "GtkSwitch":
+                selected = widget.get_active()
+            case _:
+                print(f"get_selected_pref: unsupported type {type}")
+                selected = None
+        return selected
 
     def config_to_pos(self, config, comborow):
         string = self.settings.get_string(config)
@@ -144,17 +155,23 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
                 return pos
         return 0
 
-    def make_action(self, action, func):
-        install_action = Gio.SimpleAction(name=action)
-        install_action.connect("activate", func)
-        self.add_action(install_action)
+    def select_from_config(self, config, widget):
+        match type := widget.get_name():
+            case "AdwComboRow":
+                widget.set_selected(self.config_to_pos(config, widget))
+            case "GtkSwitch":
+                widget.set_active(self.settings.get_boolean(config))
+            case _:
+                print(f"set_from_config: unsupported type {type}")
 
-    def pop_toast(self, toast):
-        self.toast_overlay.add_toast(toast)
-
-    def get_selected_pref(self, comborow):
-        selected = comborow.get_selected_item()
-        return selected.get_string()
+    def config_from_select(self, config, widget):
+        match type := widget.get_name():
+            case "AdwComboRow":
+                self.settings.set_string(config, widget.get_selected_item().get_string())
+            case "GtkSwitch":
+                self.settings.set_boolean(config, widget.get_active())
+            case _:
+                print(f"config_from_select: unsupported type {type}")
 
     def check_latest_release(self):
         (code, msg) = update.check()
@@ -174,13 +191,27 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.check_latest_release()
 
     def install_theme(self, *args):
+        self.config_from_select('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
         options = {
+            # switches that hide/disable get inverted
             "color_theme": self.get_selected_pref(self.color_theme_options),
-            "win_controls": self.get_selected_pref(self.window_controls_options),
             "web_theme": self.get_selected_pref(self.web_theme_options),
-            "qr_login": self.get_selected_pref(self.qr_login_options),
+            "rounded_corners": not self.get_selected_pref(self.no_rounded_corners_switch),
+
+            "win_controls": self.get_selected_pref(self.window_controls_options),
+            "win_controls_style": self.get_selected_pref(self.window_controls_style_options),
+
             "library_sidebar": self.get_selected_pref(self.library_sidebar_options),
-            "whats_new":  self.whats_new_switch.get_active(),
+            "library_whats_new": not self.get_selected_pref(self.hide_whats_new_switch),
+
+            "login_qr": self.get_selected_pref(self.login_qr_options),
+
+            "top_bar_bp_button": not self.get_selected_pref(self.hide_bp_button_switch),
+            "top_bar_nav_url": not self.get_selected_pref(self.hide_nav_url_switch),
+            "top_bar_nav_arrows": self.get_selected_pref(self.show_nav_arrows_switch),
+
+            "bottom_bar": not self.get_selected_pref(self.hide_bottom_bar_switch),
+
             "install_fonts": self.settings.get_boolean('prefs-fonts-install-fonts')
         }
 
@@ -188,7 +219,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         if ret:
             t = Adw.Toast(title=_("Theme Installed"), priority="high", timeout=2)
-            self.save_config(options)
+            self.save_config()
         else:
             t = Adw.Toast(title=msg, priority="high")
 

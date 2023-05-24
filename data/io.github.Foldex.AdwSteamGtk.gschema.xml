@@ -16,7 +16,7 @@
       </choices>
     </key>
 
-    <key name="rounded-corners-switch" type="b">
+    <key name="no-rounded-corners-switch" type="b">
       <default>false</default>
     </key>
 
@@ -49,12 +49,12 @@
       </choices>
     </key>
 
-    <key name="whats-new-switch" type="b">
+    <key name="hide-whats-new-switch" type="b">
       <default>false</default>
     </key>
 
     <!-- Login -->
-    <key name="qr-login-options" type="s">
+    <key name="login-qr-options" type="s">
       <default>"Show"</default>
       <choices>
         <choice value="Show"/>
@@ -64,11 +64,11 @@
     </key>
 
     <!-- Top Bar -->
-    <key name="hide-bp-switch" type="b">
+    <key name="hide-bp-button-switch" type="b">
       <default>false</default>
     </key>
 
-    <key name="hide-url-switch" type="b">
+    <key name="hide-nav-url-switch" type="b">
       <default>false</default>
     </key>
 

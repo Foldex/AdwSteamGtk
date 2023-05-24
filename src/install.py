@@ -29,11 +29,32 @@ def gen_cmd_line(options):
     if options.get("uninstall"):
         return f"{installer} -u"
 
+    match options["install_fonts"]:
+        case True:
+            install_fonts = "-fi "
+        case _:
+            install_fonts = ""
+
     match options["color_theme"].lower():
         case "adwaita":
             color_theme = ""
         case _:
             color_theme = f"-c {options['color_theme'].lower()} "
+
+    match options["web_theme"].lower():
+        case "base":
+            web_theme = "-w base "
+        case "full":
+            web_theme = "-w full "
+        case _:
+            web_theme = ""
+
+    match options["rounded_corners"]:
+        case False:
+            rounded_corners = "-we general/no_rounded_corners "
+        case _:
+            rounded_corners = ""
+
 
     match options["win_controls"].lower():
         case "left":
@@ -47,21 +68,12 @@ def gen_cmd_line(options):
         case _:
             win_controls = ""
 
-    match options["web_theme"].lower():
-        case "base":
-            web_theme = "-w base "
-        case "full":
-            web_theme = "-w full "
+    match options["win_controls_style"].lower():
+        case "dots":
+            win_controls_style = "-we windowcontrols/dots "
         case _:
-            web_theme = ""
+            win_controls_style = ""
 
-    match options["qr_login"].lower():
-        case "hide":
-            qr_login = "-we login/hide_qr "
-        case "hover only":
-            qr_login = "-we login/hover_qr "
-        case _:
-            qr_login = ""
 
     match options["library_sidebar"].lower():
         case "hover only":
@@ -69,27 +81,74 @@ def gen_cmd_line(options):
         case _:
             library_sidebar = ""
 
-    match options["whats_new"]:
-        case True:
-            whats_new = "-we library/hide_whats_new "
+    match options["library_whats_new"]:
+        case False:
+            library_whats_new = "-we library/hide_whats_new "
         case _:
-            whats_new = ""
+            library_whats_new = ""
 
-    match options["install_fonts"]:
-        case True:
-            install_fonts = "-fi "
+
+    match options["login_qr"].lower():
+        case "hide":
+            login_qr = "-we login/hide_qr "
+        case "hover only":
+            login_qr = "-we login/hover_qr "
         case _:
-            install_fonts = ""
+            login_qr = ""
+
+
+    match options["top_bar_bp_button"]:
+        case False:
+            top_bar_bp_button = "-we topbar/hide_bp "
+        case _:
+            top_bar_bp_button = ""
+
+    match options["top_bar_nav_url"]:
+        case False:
+            top_bar_nav_url = "-we topbar/hide_url "
+        case _:
+            top_bar_nav_url = ""
+
+    match options["top_bar_nav_arrows"]:
+        case True:
+            top_bar_nav_arrows = "-we topbar/show_arrows "
+        case _:
+            top_bar_nav_arrows = ""
+
+    match options["top_bar_nav_arrows"]:
+        case True:
+            top_bar_nav_arrows = "-we topbar/show_arrows "
+        case _:
+            top_bar_nav_arrows = ""
+
+
+    match options["bottom_bar"]:
+        case False:
+            bottom_bar = "-we bottombar/hide_bar "
+        case _:
+            bottom_bar = ""
 
     cmd = (
         f"{installer}"
-        f"{color_theme}"
-        f"{win_controls}"
-        f"{web_theme}"
-        f"{qr_login}"
-        f"{library_sidebar}"
-        f"{whats_new}"
         f"{install_fonts}"
+
+        f"{color_theme}"
+        f"{web_theme}"
+        f"{rounded_corners}"
+
+        f"{win_controls}"
+        f"{win_controls_style}"
+
+        f"{library_sidebar}"
+        f"{library_whats_new}"
+
+        f"{login_qr}"
+
+        f"{top_bar_bp_button}"
+        f"{top_bar_nav_url}"
+        f"{top_bar_nav_arrows}"
+
+        f"{bottom_bar}"
     )
 
     return cmd
