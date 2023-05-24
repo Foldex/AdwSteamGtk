@@ -59,14 +59,21 @@ Options should be passed as a single string like so:
 
 `flatpak run io.github.Foldex.AdwSteamGtk -i -o 'option_name:option_value;option_name:option_value'`
 
-| Key             | Description                                       | Accepted Values                                          |
-| --------------  | ------------------------------------------------- | -------------------------------------------------------- |
-| colortheme      | Colortheme for skin                               | Any valid theme name                                     |
-| library_sidebar | Display Options for Library Sidebar               | show, hover_only                                         |
-| qr_login        | Display Options for the QR Code Login             | show, hover_only, hide                                   |
-| web_theme       | Type of Web Theme to Install                      | full, base, none                                         |
-| whats_new       | Show the Library What's New Section               | true, false, yes, no, on, off, t, f, y, n                |
-| win_controls    | Window Controls Presets (Maximize, Minimize, etc) | default, right-all, left, left-all, none                 |
+| Key                | Description                                        | Accepted Values                                          |
+| ------------------ | -------------------------------------------------- | -------------------------------------------------------- |
+| bottom_bar         | Show the Bottom Bar                                | true, false, yes, no, on, off, t, f, y, n                |
+| color_theme        | Colortheme for skin                                | Any valid theme name                                     |
+| install_fonts      | Install Cantarell Fonts                            | true, false, yes, no, on, off, t, f, y, n                |
+| library_sidebar    | Display Options for Library Sidebar                | show, hover_only                                         |
+| library_whats_new  | Show the Library What's New Section                | true, false, yes, no, on, off, t, f, y, n                |
+| login_qr           | Display Options for the QR Code Login              | show, hover_only, hide                                   |
+| rounded_corners    | Show Rounded Corners on Elements                   | true, false, yes, no, on, off, t, f, y, n                |
+| top_bar_bp_button  | Show the Big Picture Button on the Top Bar         | true, false, yes, no, on, off, t, f, y, n                |
+| top_bar_nav_arrows | Show the Back/Forward Nav Buttons on the Top Bar   | true, false, yes, no, on, off, t, f, y, n                |
+| top_bar_nav_url    | Show the Browser URL on Top Bar                    | true, false, yes, no, on, off, t, f, y, n                |
+| web_theme          | Type of Web Theme to Install                       | full, base                                               |
+| win_controls       | Window Controls Presets (Maximize, Minimize, etc)  | default, right-all, left, left-all, none                 |
+| win_controls_style | Window Controls Visual Style (Mac OS Dots)         | default, dots                                            |
 
 ## Troubleshooting
 
