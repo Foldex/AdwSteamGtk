@@ -89,14 +89,13 @@ See the below requirements otherwise.
 
 ### Requirements
 
-- Blueprint Compiler
-- GNU Patch (Runtime Dependency)
+- Blueprint Compiler >= 0.8.0
 - GTK4
 - Libadwaita
 - Libportal
 - Meson
 - Ninja
 - PyGObject
-- Python 3
+- Python >= 3.10
 - Python python-packaging
 
