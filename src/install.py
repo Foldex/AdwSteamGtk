@@ -35,6 +35,12 @@ def gen_cmd_line(options):
         case _:
             install_fonts = ""
 
+    match options["custom_css"]:
+        case True:
+            custom_css = f"-we {paths.CUSTOM_CSS_FILE} "
+        case _:
+            custom_css = ""
+
     match options["color_theme"].lower():
         case "adwaita":
             color_theme = ""
@@ -149,6 +155,8 @@ def gen_cmd_line(options):
         f"{top_bar_nav_arrows}"
 
         f"{bottom_bar}"
+
+        f"{custom_css}"
     )
 
     return cmd

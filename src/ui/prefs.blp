@@ -21,6 +21,33 @@ template $AdwaitaSteamGtkPrefs : Adw.PreferencesWindow {
       }
     }
 
+    Adw.PreferencesGroup installer_group {
+      title: _("Installer");
+
+      Adw.ActionRow {
+        title: _("Cantarell Fonts");
+        subtitle: _("Installs static Cantarell fonts to `~/.local/share/fonts`");
+        activatable-widget: install_fonts_switch;
+        Gtk.Switch install_fonts_switch {
+          valign: center;
+        }
+      }
+
+      Adw.ActionRow {
+        title: _("Custom CSS");
+        subtitle: _("Include Custom CSS into Steam");
+        activatable-widget: custom_css_switch;
+        Gtk.Button open_custom_css_button {
+          icon-name: "document-open-symbolic";
+          valign: center;
+        }
+        Gtk.Switch custom_css_switch {
+          valign: center;
+        }
+      }
+    }
+
+
     Adw.PreferencesGroup ui_group {
       title: _("Interface");
 
@@ -29,19 +56,6 @@ template $AdwaitaSteamGtkPrefs : Adw.PreferencesWindow {
         subtitle: _("Styles the interface to match the currently selected theme.");
         activatable-widget: preview_theme_switch;
         Gtk.Switch preview_theme_switch {
-          valign: center;
-        }
-      }
-    }
-
-    Adw.PreferencesGroup font_group {
-      title: _("Fonts");
-
-      Adw.ActionRow {
-        title: _("Install Cantarell Fonts");
-        subtitle: _("Installs static Cantarell fonts to `~/.local/share/fonts`");
-        activatable-widget: install_fonts_switch;
-        Gtk.Switch install_fonts_switch {
           valign: center;
         }
       }

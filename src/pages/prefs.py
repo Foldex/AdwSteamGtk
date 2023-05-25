@@ -17,15 +17,22 @@
 
 import gi
 
-from gi.repository import Adw, Gtk
+gi.require_version('Xdp', '1.0')
+gi.require_version('XdpGtk4', '1.0')
+from gi.repository import Adw, Gtk, Xdp, XdpGtk4
+
+from . import paths
 
 @Gtk.Template(resource_path='/io/github/Foldex/AdwSteamGtk/ui/prefs.ui')
 class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
     __gtype_name__ = 'AdwaitaSteamGtkPrefs'
 
+    custom_css_switch = Gtk.Template.Child()
+    install_fonts_switch = Gtk.Template.Child()
     preview_theme_switch = Gtk.Template.Child()
     update_check_switch = Gtk.Template.Child()
-    install_fonts_switch = Gtk.Template.Child()
+
+    open_custom_css_button = Gtk.Template.Child()
 
     def __init__(self, parent, **kwargs):
         super().__init__(**kwargs)
@@ -36,20 +43,18 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.set_transient_for(self.win)
         self.portal = None
 
-        self.load_config()
+        self.setup_widgets()
 
-    def load_config(self):
-        preview_theme = self.settings.get_boolean("prefs-ui-preview-theme")
-        self.preview_theme_switch.set_active(preview_theme)
-        self.preview_theme_switch.connect("state-set", self.on_preview_theme_switch_toggle)
+    def setup_switch(self, switch, config, callback):
+        switch.set_active(self.settings.get_boolean(config))
+        switch.connect("state-set", callback)
 
-        update_check = self.settings.get_boolean("prefs-autostart-update-check")
-        self.update_check_switch.set_active(update_check)
-        self.update_check_switch.connect("state-set", self.on_update_check_switch_toggle)
-
-        install_fonts = self.settings.get_boolean("prefs-fonts-install-fonts")
-        self.install_fonts_switch.set_active(install_fonts)
-        self.install_fonts_switch.connect("state-set", self.on_install_fonts_switch_toggle)
+    def setup_widgets(self):
+        self.setup_switch(self.preview_theme_switch, "prefs-ui-preview-theme", self.on_preview_theme_switch_toggle)
+        self.setup_switch(self.update_check_switch, "prefs-autostart-update-check", self.on_update_check_switch_toggle)
+        self.setup_switch(self.install_fonts_switch, "prefs-install-fonts", self.on_install_fonts_switch_toggle)
+        self.setup_switch(self.custom_css_switch, "prefs-install-custom-css", self.on_custom_css_switch_toggle)
+        self.open_custom_css_button.connect("clicked", self.on_open_custom_css_button_clicked)
 
     def on_preview_theme_switch_toggle(self, *args):
         state = not self.preview_theme_switch.props.state
@@ -57,9 +62,6 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.parent.load_app_style(self.parent.color_theme_options, None)
 
     def on_update_check_switch_toggle(self, *args):
-        gi.require_version('Xdp', '1.0')
-        from gi.repository import Xdp
-
         if self.portal == None:
             self.portal = Xdp.Portal()
 
@@ -83,4 +85,16 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
 
     def on_install_fonts_switch_toggle(self, *args):
         state = not self.install_fonts_switch.props.state
-        self.settings.set_boolean("prefs-fonts-install-fonts", state)
+        self.settings.set_boolean("prefs-install-fonts", state)
+
+    def on_custom_css_switch_toggle(self, *args):
+        state = not self.custom_css_switch.props.state
+        self.settings.set_boolean("prefs-install-custom-css", state)
+
+    def on_open_custom_css_button_clicked(self, *args):
+        if self.portal == None:
+            self.portal = Xdp.Portal()
+
+        parent = XdpGtk4.parent_new_gtk(self)
+        self.portal.open_uri(parent, paths.CUSTOM_CSS_URI, Xdp.OpenUriFlags.WRITABLE, None, None);
+

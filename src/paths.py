@@ -16,12 +16,17 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os.path
+import pathlib
 
 STEAM_DIR=os.path.expanduser("~/.steam/steam")
 STEAM_FLATPAK_DIR=os.path.expanduser("~/.var/app/com.valvesoftware.Steam/.steam/steam")
 
 XDG_CACHE_DIR=os.path.expanduser(os.environ.get("XDG_CACHE_HOME", "~/.cache"))
+XDG_CONFIG_DIR=os.path.expanduser(os.environ.get("XDG_CONFIG_HOME", "~/.config"))
+
 CACHE_DIR=os.path.join(XDG_CACHE_DIR, "AdwSteamInstaller")
+CONFIG_DIR=os.path.join(XDG_CONFIG_DIR, "AdwSteamGtk")
+
 TMP_DIR=os.path.join(CACHE_DIR, "tmp")
 EXTRACTED_DIR=os.path.join(CACHE_DIR, "extracted")
 THEMES_DIR=os.path.join(EXTRACTED_DIR, "extras/colorthemes")
@@ -29,3 +34,6 @@ THEMES_DIR=os.path.join(EXTRACTED_DIR, "extras/colorthemes")
 LAST_CHECK_FILE=os.path.join(CACHE_DIR, "last_check")
 LAST_VERSION_FILE=os.path.join(CACHE_DIR, "last_ver")
 LAST_RELEASE_FILE=os.path.join(CACHE_DIR, "latest.zip")
+
+CUSTOM_CSS_FILE=os.path.join(CONFIG_DIR, "custom.css")
+CUSTOM_CSS_URI=pathlib.Path(CUSTOM_CSS_FILE).as_uri()

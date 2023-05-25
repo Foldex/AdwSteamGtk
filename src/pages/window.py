@@ -18,6 +18,7 @@
 from gi.repository import Adw, Gio, Gtk, Gdk
 from gettext import gettext as _
 
+from . import custom_css
 from . import info
 from . import install
 from . import style
@@ -56,6 +57,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.make_action("install", self.install_theme)
         self.make_action("retry_dl", self.retry_check)
         self.check_latest_release()
+        self.check_custom_css()
         self.load_color_themes()
         self.load_config()
         self.style_provider = None
@@ -190,10 +192,14 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     def retry_check(self, *args):
         self.check_latest_release()
 
+    def check_custom_css(self):
+        custom_css.check()
+
     def install_theme(self, *args):
         options = {
             # switches that hide/disable get inverted
-            "install_fonts": self.settings.get_boolean('prefs-fonts-install-fonts'),
+            "install_fonts": self.settings.get_boolean('prefs-install-fonts'),
+            "custom_css": self.settings.get_boolean('prefs-install-custom-css'),
 
             "color_theme": self.get_selected_pref(self.color_theme_options),
             "web_theme": self.get_selected_pref(self.web_theme_options),

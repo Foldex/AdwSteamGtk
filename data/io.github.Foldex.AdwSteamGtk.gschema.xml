@@ -90,7 +90,11 @@
       <default>true</default>
     </key>
 
-    <key name="prefs-fonts-install-fonts" type="b">
+    <key name="prefs-install-fonts" type="b">
+      <default>false</default>
+    </key>
+
+    <key name="prefs-install-custom-css" type="b">
       <default>false</default>
     </key>
 
