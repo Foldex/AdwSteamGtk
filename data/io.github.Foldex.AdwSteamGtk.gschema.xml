@@ -8,7 +8,7 @@
     </key>
 
     <key name="web-theme-options" type="s">
-      <default>"Base"</default>
+      <default>"Full"</default>
       <choices>
         <choice value="Base"/>
         <choice value="Full"/>
