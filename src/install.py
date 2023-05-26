@@ -41,6 +41,7 @@ def gen_cmd_line(options):
         case _:
             custom_css = ""
 
+
     match options["color_theme"].lower():
         case "adwaita":
             color_theme = ""
@@ -114,12 +115,6 @@ def gen_cmd_line(options):
             top_bar_nav_url = "-we topbar/hide_url "
         case _:
             top_bar_nav_url = ""
-
-    match options["top_bar_nav_arrows"]:
-        case True:
-            top_bar_nav_arrows = "-we topbar/show_arrows "
-        case _:
-            top_bar_nav_arrows = ""
 
     match options["top_bar_nav_arrows"]:
         case True:
