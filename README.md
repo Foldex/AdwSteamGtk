@@ -86,6 +86,10 @@ Options should be passed as a single string like so:
 
 See [Troubleshooting](https://github.com/Foldex/AdwSteamGtk/wiki/Troubleshooting)
 
+## Contribute Translations
+
+See [here](/po)
+
 ## Building
 
 It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) or `flatpak-builder` to build the project.
