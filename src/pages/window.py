@@ -111,6 +111,13 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.color_theme_options.set_model(Gtk.StringList.new(themes))
 
     def load_config(self):
+        if not self.beta_support:
+            self.top_bar_group.set_visible(False)
+            self.bottom_bar_group.set_visible(False)
+            self.window_controls_style_options.set_visible(False)
+            self.no_rounded_corners.set_visible(False)
+            self.web_theme_options.set_model(Gtk.StringList.new(["Full", "Base", "None"]))
+
         self.select_from_config('color-theme-options', self.color_theme_options)
         self.select_from_config('web-theme-options', self.web_theme_options)
         self.select_from_config('no-rounded-corners-switch', self.no_rounded_corners_switch)
@@ -128,12 +135,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.select_from_config('show-nav-arrows-switch', self.show_nav_arrows_switch)
 
         self.select_from_config('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
-
-        if not self.beta_support:
-            self.top_bar_group.set_visible(False)
-            self.bottom_bar_group.set_visible(False)
-            self.window_controls_style_options.set_visible(False)
-            self.no_rounded_corners.set_visible(False)
 
     def save_config(self):
         self.config_from_select('color-theme-options', self.color_theme_options)
