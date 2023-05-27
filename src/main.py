@@ -39,6 +39,10 @@ class Adwaita_steam_gtkApplication(Adw.Application):
         super().__init__(application_id=info.APP_ID,
                          flags=Gio.ApplicationFlags.HANDLES_COMMAND_LINE)
 
+        # Beta Support
+        self.settings = Gio.Settings.new(info.APP_ID)
+        self.beta_support = self.settings.get_boolean("prefs-beta-support")
+
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
         self.create_action('prefs', self.on_prefs_action)
@@ -85,7 +89,7 @@ class Adwaita_steam_gtkApplication(Adw.Application):
         options = options.end().unpack()
 
         if "update" in options or "install" in options:
-            (code, msg) = cli.update_install(options)
+            (code, msg) = cli.update_install(options, self.beta_support)
             if code == cli.result.PRINT_AND_EXIT:
                 print(msg)
             self.quit()
@@ -132,22 +136,30 @@ class Adwaita_steam_gtkApplication(Adw.Application):
         prefs.present()
 
     def on_uninstall_action(self, *args):
-        dialog = Adw.MessageDialog(transient_for=self.props.active_window,
-                                   heading=_("Uninstall Theme"),
-                                   body=_("This will reset all customizations made to the Steam client."))
+        if self.beta_support:
+            dialog = Adw.MessageDialog(transient_for=self.props.active_window,
+                                       heading=_("Uninstall Theme"),
+                                       body=_("This will reset all customizations made to the Steam client."))
 
-        dialog.add_response("cancel", _("Cancel"))
-        dialog.add_response("uninstall", _("Uninstall"))
-        dialog.set_response_appearance("uninstall", Adw.ResponseAppearance.DESTRUCTIVE)
-        dialog.set_default_response("cancel")
+            dialog.add_response("cancel", _("Cancel"))
+            dialog.add_response("uninstall", _("Uninstall"))
+            dialog.set_response_appearance("uninstall", Adw.ResponseAppearance.DESTRUCTIVE)
+            dialog.set_default_response("cancel")
 
-        dialog.connect("response", self.on_uninstall_response)
+            dialog.connect("response", self.on_uninstall_response)
+        else:
+            dialog = Adw.MessageDialog(transient_for=self.props.active_window,
+                                       heading=_("Not Supported"),
+                                       body=_("This feature is only available for the Steam Beta."))
+
+            dialog.add_response("confirm", _("Okay"))
+
         dialog.present()
 
     def on_uninstall_response (self, dialog, response):
         if response == "uninstall":
             options = { "uninstall": True }
-            install.run(options)
+            install.run(options, self.beta_support)
 
     def on_quit_action(self, *args):
         self.quit()

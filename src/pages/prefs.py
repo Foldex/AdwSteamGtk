@@ -16,12 +16,14 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import gi
+import os
 
 gi.require_version('Xdp', '1.0')
 gi.require_version('XdpGtk4', '1.0')
 from gi.repository import Adw, Gtk, Xdp, XdpGtk4
 
 from . import paths
+from . import update
 
 @Gtk.Template(resource_path='/io/github/Foldex/AdwSteamGtk/ui/prefs.ui')
 class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
@@ -31,6 +33,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
     install_fonts_switch = Gtk.Template.Child()
     preview_theme_switch = Gtk.Template.Child()
     update_check_switch = Gtk.Template.Child()
+    beta_support_switch = Gtk.Template.Child()
 
     open_custom_css_button = Gtk.Template.Child()
 
@@ -54,12 +57,34 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.setup_switch(self.update_check_switch, "prefs-autostart-update-check", self.on_update_check_switch_toggle)
         self.setup_switch(self.install_fonts_switch, "prefs-install-fonts", self.on_install_fonts_switch_toggle)
         self.setup_switch(self.custom_css_switch, "prefs-install-custom-css", self.on_custom_css_switch_toggle)
+        self.setup_switch(self.beta_support_switch, "prefs-beta-support", self.on_beta_support_switch_toggle)
         self.open_custom_css_button.connect("clicked", self.on_open_custom_css_button_clicked)
 
     def on_preview_theme_switch_toggle(self, *args):
         state = not self.preview_theme_switch.props.state
         self.settings.set_boolean("prefs-ui-preview-theme", state)
         self.parent.load_app_style(self.parent.color_theme_options, None)
+
+    def on_beta_support_switch_toggle(self, *args):
+        state = not self.beta_support_switch.props.state
+        self.settings.set_boolean("prefs-beta-support", state)
+
+        dialog = Adw.MessageDialog(transient_for=self.parent,
+                                   heading=_("Shutting Down"),
+                                   body=_("Relaunch AdwSteamGtk to apply this change."))
+
+        dialog.add_response("confirm", _("Okay"))
+        dialog.set_default_response("confirm")
+
+        dialog.connect("response", self.on_beta_support_response)
+        dialog.present()
+
+    def on_beta_support_response(self, dialog, response):
+        update.clean_dir(paths.EXTRACTED_DIR)
+        os.remove(paths.LAST_CHECK_FILE)
+        os.remove(paths.LAST_RELEASE_FILE)
+        os.remove(paths.LAST_VERSION_FILE)
+        self.app.quit()
 
     def on_update_check_switch_toggle(self, *args):
         if self.portal == None:

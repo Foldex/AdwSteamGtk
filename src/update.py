@@ -1,4 +1,4 @@
-# update.py
+# update.ey
 #
 # Copyright 2022 Foldex
 #
@@ -68,18 +68,23 @@ def need_update(check_only):
 def release_is_newer(server_version, cached_version):
     return version.parse(server_version) > version.parse(cached_version)
 
-def check(check_only=False):
+def check(check_only=False, beta_support=True):
     if not os.path.exists(paths.CACHE_DIR):
         os.makedirs(paths.CACHE_DIR)
 
     if not need_update(check_only) and os.path.exists(paths.LAST_RELEASE_FILE):
         return (ExitCode.CURRENT, None)
 
-    (dict, api_msg) = dl.get_release_info()
+    (dict, api_msg) = dl.get_release_info(beta_support)
 
     if dict:
         last_ver=read_check_file(paths.LAST_VERSION_FILE)
-        is_newer = release_is_newer(dict["name"], str(last_ver))
+        
+        # Force Newer if we're downloading the beta
+        if beta_support:
+            is_newer = True
+        else:
+            is_newer = release_is_newer(dict["name"], str(last_ver))
 
         if os.path.exists(paths.LAST_RELEASE_FILE) and not is_newer:
             return (ExitCode.CURRENT, None)
@@ -105,7 +110,12 @@ def clean_dir(path):
         shutil.rmtree(path)
 
 def move_extract_dir(path, rename):
+    # Non-Beta
     for dir in glob.glob(path + "/tkashkin-Adwaita-for-Steam-*"):
+        shutil.move(dir, rename)
+
+    # Beta
+    for dir in glob.glob(path + "/Adwaita-for-Steam-*"):
         shutil.move(dir, rename)
 
 def post_download():

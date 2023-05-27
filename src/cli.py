@@ -31,8 +31,8 @@ class result(Enum):
     PRINT_AND_EXIT = 3
     FAIL = 4
 
-def update_install(cli_args):
-    (code, msg) = update.check()
+def update_install(cli_args, beta_support):
+    (code, msg) = update.check(False, beta_support)
     force_install = cli_args.get("install", False)
     option_string = cli_args.get("options")
 
@@ -41,7 +41,7 @@ def update_install(cli_args):
         t = msg
     elif code == update.ExitCode.SUCCESS or force_install:
         options = get_options(option_string)
-        (code, msg) = install.run(options)
+        (code, msg) = install.run(options, beta_support)
         t = msg
     elif code == update.ExitCode.CURRENT:
         code = result.PRINT_AND_EXIT
@@ -142,7 +142,7 @@ def option_string_dict(option_string):
     return dict(x.split(":") for x in option_string.split(";"))
 
 def update_notify():
-    (code, msg) = update.check(check_only := True)
+    (code, msg) = update.check(check_only := True, False)
 
     if code == update.ExitCode.SUCCESS:
         code = result.NOTIFY_AND_EXIT

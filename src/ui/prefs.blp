@@ -21,6 +21,19 @@ template $AdwaitaSteamGtkPrefs : Adw.PreferencesWindow {
       }
     }
 
+    Adw.PreferencesGroup beta_group {
+      title: _("Beta");
+
+      Adw.ActionRow {
+        title: _("Experimental Beta Support");
+        subtitle: _("Enables Beta Support (requires restart)");
+        activatable-widget: beta_support_switch;
+        Gtk.Switch beta_support_switch {
+          valign: center;
+        }
+      }
+    }
+
     Adw.PreferencesGroup installer_group {
       title: _("Installer");
 

@@ -23,8 +23,14 @@ from . import install
 from . import paths
 from . import update
 
-def generate_style(theme_name):
-    theme_path = f"{paths.THEMES_DIR}/{theme_name}/{theme_name}.theme"
+def generate_style(theme_name, beta_support):
+
+    if beta_support:
+        theme_dir = paths.BETA_THEMES_DIR
+    else:
+        theme_dir = paths.THEMES_DIR
+
+    theme_path = f"{theme_dir}/{theme_name}/{theme_name}.theme"
 
     if install.zip_not_extracted():
         (ret, msg) = update.post_download()
@@ -71,6 +77,9 @@ def generate_style(theme_name):
 
     css += format_css("popover_bg_color", config["popover"]["popover_bg"])
     css += format_css("popover_fg_color", config["popover"]["popover_fg"])
+
+    css += format_css("dialog_bg_color", config["popover"]["popover_bg"])
+    css += format_css("dialog_fg_color", config["popover"]["popover_fg"])
 
     css += format_css("card_fg_color", config["general"]["fg"])
     css += format_css("card_bg_color", "rgba(255, 255, 255, 0.08)")

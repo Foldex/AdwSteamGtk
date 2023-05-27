@@ -36,7 +36,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
         spacing: 20;
         styles ["main-box"]
 
-        Adw.PreferencesGroup {
+        Adw.PreferencesGroup theme_group {
           title: _("Theme Options");
           Adw.ComboRow color_theme_options {
             title: _("Color Theme");
@@ -45,7 +45,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
             title: _("Theme");
             model: StringList { strings [_("Full"), _("Base")] };
           }
-          Adw.ActionRow {
+          Adw.ActionRow no_rounded_corners {
             title: _("No Rounded Corners");
             activatable-widget: no_rounded_corners_switch;
 
@@ -55,7 +55,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           }
         }
 
-        Adw.PreferencesGroup {
+        Adw.PreferencesGroup window_controls_group {
           title: _("Window Controls Options");
           Adw.ComboRow window_controls_options {
             title: _("Window Controls");
@@ -67,7 +67,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           }
         }
 
-        Adw.PreferencesGroup {
+        Adw.PreferencesGroup library_group {
           title: _("Library Options");
 
           Adw.ComboRow library_sidebar_options {
@@ -85,7 +85,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           }
         }
 
-        Adw.PreferencesGroup {
+        Adw.PreferencesGroup login_group {
           title: _("Login Options");
 
           Adw.ComboRow login_qr_options {
@@ -94,7 +94,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           }
         }
 
-        Adw.PreferencesGroup {
+        Adw.PreferencesGroup top_bar_group {
           title: _("Top Bar Options");
           Adw.ActionRow {
             title: _("Hide Big Picture Button");
@@ -122,7 +122,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           }
         }
 
-        Adw.PreferencesGroup {
+        Adw.PreferencesGroup bottom_bar_group {
           title: _("Bottom Bar Options");
           Adw.ActionRow {
             title: _("Hide Bottom Bar");

@@ -33,26 +33,35 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     install_button = Gtk.Template.Child()
     toast_overlay = Gtk.Template.Child()
 
+    theme_group = Gtk.Template.Child()
     color_theme_options = Gtk.Template.Child()
     web_theme_options = Gtk.Template.Child()
+    no_rounded_corners = Gtk.Template.Child()
     no_rounded_corners_switch = Gtk.Template.Child()
 
+    window_controls_group = Gtk.Template.Child()
     window_controls_options = Gtk.Template.Child()
     window_controls_style_options = Gtk.Template.Child()
 
+    library_group = Gtk.Template.Child()
     library_sidebar_options = Gtk.Template.Child()
     hide_whats_new_switch = Gtk.Template.Child()
 
+    login_group = Gtk.Template.Child()
     login_qr_options = Gtk.Template.Child()
 
+    top_bar_group = Gtk.Template.Child()
     hide_bp_button_switch = Gtk.Template.Child()
     hide_nav_url_switch = Gtk.Template.Child()
     show_nav_arrows_switch = Gtk.Template.Child()
 
+    bottom_bar_group = Gtk.Template.Child()
     hide_bottom_bar_switch = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+
+        self.beta_support = self.settings.get_boolean("prefs-beta-support")
 
         self.make_action("install", self.install_theme)
         self.make_action("retry_dl", self.retry_check)
@@ -61,6 +70,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.load_color_themes()
         self.load_config()
         self.style_provider = None
+        self.load_app_style()
         self.color_theme_options.connect("notify", self.load_app_style)
 
     def make_action(self, action, func):
@@ -71,7 +81,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     def pop_toast(self, toast):
         self.toast_overlay.add_toast(toast)
 
-    def load_app_style(self, comborow, _):
+    def load_app_style(self, *args):
         if self.style_provider is None:
             self.style_provider = Gtk.CssProvider()
             Gtk.StyleContext.add_provider_for_display(Gdk.Display.get_default(), self.style_provider, Gtk.STYLE_PROVIDER_PRIORITY_USER + 1)
@@ -82,8 +92,8 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             self.style_provider.load_from_data("", -1)
             return
 
-        selected_theme = self.get_selected_pref(comborow).lower()
-        ret, msg = style.generate_style(selected_theme)
+        selected_theme = self.get_selected_pref(self.color_theme_options).lower()
+        ret, msg = style.generate_style(selected_theme, self.beta_support)
 
         if not ret:
             t = Adw.Toast(title=msg, priority="high")
@@ -119,6 +129,11 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.select_from_config('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
 
+        if not self.beta_support:
+            self.top_bar_group.set_visible(False)
+            self.bottom_bar_group.set_visible(False)
+            self.window_controls_style_options.set_visible(False)
+            self.no_rounded_corners.set_visible(False)
 
     def save_config(self):
         self.config_from_select('color-theme-options', self.color_theme_options)
@@ -176,7 +191,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
                 print(f"config_from_select: unsupported type {type}")
 
     def check_latest_release(self):
-        (code, msg) = update.check()
+        (code, msg) = update.check(False, self.beta_support)
         t = None
 
         if code == update.ExitCode.SUCCESS:
@@ -220,7 +235,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "bottom_bar": not self.get_selected_pref(self.hide_bottom_bar_switch),
         }
 
-        (ret, msg) = install.run(options)
+        (ret, msg) = install.run(options, self.beta_support)
 
         if ret:
             t = Adw.Toast(title=_("Theme Installed"), priority="high", timeout=2)

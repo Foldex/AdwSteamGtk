@@ -21,7 +21,7 @@ from pathlib import Path
 
 from . import paths
 
-COLOR_THEMES_PREFIX="/extras/colorthemes"
+COLOR_THEMES_PREFIX="/colorthemes"
 COLOR_THEMES_EXT=".theme"
 
 def extract(path, out_dir):

@@ -21,19 +21,24 @@ import json
 import urllib.request
 
 API_URL="https://api.github.com/repos/tkashkin/Adwaita-for-Steam/releases/latest"
+BETA_ZIP="https://github.com/Foldex/Adwaita-for-Steam/archive/refs/heads/beta.zip"
 
-def get_release_info():
-    try:
-        data = urllib.request.urlopen(API_URL).read()
-        out = json.loads(data)
-    except urllib.error.HTTPError as e:
-        return (False, _("API: HTTP Error Code ") + str(e.code))
-    except ValueError:
-        return (False, _("API: Error Parsing JSON"))
-    except:
-        return (False, _("API: Error retrieving release info"))
+def get_release_info(beta_support=False):
+    if not beta_support:
+        try:
+            data = urllib.request.urlopen(API_URL).read()
+            out = json.loads(data)
+        except urllib.error.HTTPError as e:
+            return (False, _("API: HTTP Error Code ") + str(e.code))
+        except ValueError:
+            return (False, _("API: Error Parsing JSON"))
+        except:
+            return (False, _("API: Error retrieving release info"))
 
-    if all(key in out for key in ("name", "zipball_url")):
+        if all(key in out for key in ("name", "zipball_url")):
+            return (out, None)
+    else:
+        out = { "name": "Beta", "zipball_url": BETA_ZIP }
         return (out, None)
 
     return (False, _("API: JSON is missing required keys"))

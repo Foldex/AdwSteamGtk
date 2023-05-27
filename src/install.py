@@ -23,11 +23,18 @@ from gettext import gettext as _
 from . import paths
 from . import update
 
-def gen_cmd_line(options):
+def gen_cmd_line(options, beta_support):
     installer = "python install.py "
 
     if options.get("uninstall"):
         return f"{installer} -u"
+
+    # Beta no longer uses patches
+    match beta_support:
+        case True:
+            wc_prefix = "-we"
+        case _:
+            wc_prefix = "-p"
 
     match options["install_fonts"]:
         case True:
@@ -62,16 +69,15 @@ def gen_cmd_line(options):
         case _:
             rounded_corners = ""
 
-
     match options["win_controls"].lower():
         case "left":
-            win_controls = "-we windowcontrols/left "
+            win_controls = f"{wc_prefix} windowcontrols/left "
         case "left-all":
-            win_controls = "-we windowcontrols/left-all "
+            win_controls = f"{wc_prefix} windowcontrols/left-all "
         case "right-all":
-            win_controls = "-we windowcontrols/right-all "
+            win_controls = f"{wc_prefix} windowcontrols/right-all "
         case "none":
-            win_controls = "-we windowcontrols/none "
+            win_controls = f"{wc_prefix} windowcontrols/none "
         case _:
             win_controls = ""
 
@@ -129,6 +135,19 @@ def gen_cmd_line(options):
         case _:
             bottom_bar = ""
 
+    # Disable Beta
+    match beta_support:
+        case True:
+            pass
+        case _:
+            rounded_corners = ""
+            win_controls_style = ""
+            top_bar_bp_button = ""
+            top_bar_nav_url = ""
+            top_bar_nav_arrows = ""
+            bottom_bar = ""
+
+
     cmd = (
         f"{installer}"
         f"{install_fonts}"
@@ -179,12 +198,12 @@ def release_missing():
 def zip_not_extracted():
     return os.path.exists(paths.LAST_RELEASE_FILE) and not os.path.exists(paths.EXTRACTED_DIR)
 
-def run(options):
+def run(options, beta_support=False):
     if steam_dir_missing():
         return(False, _("Install: Failed to Find Valid '~/.steam/steam' Symlink"))
 
     if release_missing():
-        (ret, msg) = update.check()
+        (ret, msg) = update.check(False, beta_support)
         if not ret:
             return (ret, msg)
 
@@ -193,7 +212,7 @@ def run(options):
         if not ret:
             return (ret, msg)
 
-    cmd = gen_cmd_line(options)
+    cmd = gen_cmd_line(options, beta_support)
     (ret, msg) = install(cmd)
 
     return (ret, msg)
