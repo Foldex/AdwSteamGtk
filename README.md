@@ -22,6 +22,16 @@ Arch AUR Build (Unofficial)
 
 ## Skin Install
 
+### Non-Beta
+
+1. Install via app
+2. Restart Steam if running
+3. Go to `Settings -> Interface`
+4. Select `Adwaita` from the dropdown
+5. Restart Steam
+
+## Beta
+
 1. Install via app
 2. Restart Steam if running
 
@@ -56,21 +66,21 @@ Options should be passed as a single string like so:
 
 `flatpak run io.github.Foldex.AdwSteamGtk -i -o 'option_name:option_value;option_name:option_value'`
 
-| Key                | Description                                        | Accepted Values                                          |
-| ------------------ | -------------------------------------------------- | -------------------------------------------------------- |
-| bottom_bar         | Show the Bottom Bar                                | true, false, yes, no, on, off, t, f, y, n                |
-| color_theme        | Colortheme for skin                                | Any valid theme name                                     |
-| install_fonts      | Install Cantarell Fonts                            | true, false, yes, no, on, off, t, f, y, n                |
-| library_sidebar    | Display Options for Library Sidebar                | show, hover_only                                         |
-| library_whats_new  | Show the Library What's New Section                | true, false, yes, no, on, off, t, f, y, n                |
-| login_qr           | Display Options for the QR Code Login              | show, hover_only, hide                                   |
-| rounded_corners    | Show Rounded Corners on Elements                   | true, false, yes, no, on, off, t, f, y, n                |
-| top_bar_bp_button  | Show the Big Picture Button on the Top Bar         | true, false, yes, no, on, off, t, f, y, n                |
-| top_bar_nav_arrows | Show the Back/Forward Nav Buttons on the Top Bar   | true, false, yes, no, on, off, t, f, y, n                |
-| top_bar_nav_url    | Show the Browser URL on Top Bar                    | true, false, yes, no, on, off, t, f, y, n                |
-| web_theme          | Type of Web Theme to Install                       | full, base                                               |
-| win_controls       | Window Controls Presets (Maximize, Minimize, etc)  | default, right-all, left, left-all, none                 |
-| win_controls_style | Window Controls Visual Style (Mac OS Dots)         | default, dots                                            |
+| Beta | Key                | Description                                        | Accepted Values                                          |
+| ---- | ------------------ | -------------------------------------------------- | -------------------------------------------------------- |
+| 𐄂    | bottom_bar         | Show the Bottom Bar                                | true, false, yes, no, on, off, t, f, y, n                |
+|      | color_theme        | Colortheme for skin                                | Any valid theme name                                     |
+|      | install_fonts      | Install Cantarell Fonts                            | true, false, yes, no, on, off, t, f, y, n                |
+|      | library_sidebar    | Display Options for Library Sidebar                | show, hover_only                                         |
+|      | library_whats_new  | Show the Library What's New Section                | true, false, yes, no, on, off, t, f, y, n                |
+|      | login_qr           | Display Options for the QR Code Login              | show, hover_only, hide                                   |
+| 𐄂    | rounded_corners    | Show Rounded Corners on Elements                   | true, false, yes, no, on, off, t, f, y, n                |
+| 𐄂    | top_bar_bp_button  | Show the Big Picture Button on the Top Bar         | true, false, yes, no, on, off, t, f, y, n                |
+| 𐄂    | top_bar_nav_arrows | Show the Back/Forward Nav Buttons on the Top Bar   | true, false, yes, no, on, off, t, f, y, n                |
+| 𐄂    | top_bar_nav_url    | Show the Browser URL on Top Bar                    | true, false, yes, no, on, off, t, f, y, n                |
+|      | web_theme          | Type of Web Theme to Install                       | full, base                                               |
+|      | win_controls       | Window Controls Presets (Maximize, Minimize, etc)  | default, right-all, left, left-all, none                 |
+| 𐄂    | win_controls_style | Window Controls Visual Style (Mac OS Dots)         | default, dots                                            |
 
 ## Troubleshooting
 
@@ -89,13 +99,14 @@ See the below requirements otherwise.
 
 ### Requirements
 
-- Blueprint Compiler >= 0.8.0
+- Blueprint Compiler >= `0.8.0`
+- GNU Patch (Runtime Dependency)
 - GTK4
 - Libadwaita
 - Libportal
 - Meson
 - Ninja
 - PyGObject
-- Python >= 3.10
+- Python >= `3.10`
 - Python python-packaging
 
