@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-27 13:25-0400\n"
-"PO-Revision-Date: 2023-05-28 01:10+0300\n"
+"PO-Revision-Date: 2023-05-28 01:18+0300\n"
 "Last-Translator: volkov <volkovissocool@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -383,7 +383,7 @@ msgstr "Пред-перегляд тем"
 
 #: src/ui/prefs.blp:75
 msgid "Styles the interface to match the currently selected theme."
-msgstr "Стилізує інтерфейс відповідно до поточної вибраної теми."
+msgstr "Стилізує інтерфейс додатку відповідно до поточної вибраної теми."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
@@ -467,7 +467,7 @@ msgstr "Показати"
 
 #: src/ui/window.blp:75 src/ui/window.blp:93
 msgid "Hover Only"
-msgstr "Тільки коли курсор наводиться"
+msgstr "Коли наведено курсор"
 
 #: src/ui/window.blp:79
 msgid "Hide Library What's New Shelf"
@@ -479,7 +479,7 @@ msgstr "Налаштування входу"
 
 #: src/ui/window.blp:92
 msgid "QR Code Login"
-msgstr "Вхід через QR код"
+msgstr "Показувати QR код"
 
 #: src/ui/window.blp:93
 msgid "Hide"
