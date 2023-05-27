@@ -23,16 +23,6 @@ TEMPLATE = """/* ------------------ */
 /* --- Custom CSS --- */
 /* ------------------ */
 
-/*
- How to Inspect Steam Classes:
- https://github.com/tkashkin/Adwaita-for-Steam/tree/master/extras/web#inspecting-classes
-*/
-
-/*
- Full List of CSS Variables:
- https://github.com/tkashkin/Adwaita-for-Steam/blob/master/extras/web/base/_root.css
-*/
-
 /* --- EXAMPLE: Override Theme Colors --- */
 /* -- DELETE BOTH LINES TO ENABLE
 :root
