@@ -109,6 +109,12 @@ def clean_dir(path):
     if os.path.exists(path):
         shutil.rmtree(path)
 
+def reset_files():
+    clean_dir(paths.EXTRACTED_DIR)
+    os.remove(paths.LAST_CHECK_FILE)
+    os.remove(paths.LAST_RELEASE_FILE)
+    os.remove(paths.LAST_VERSION_FILE)
+
 def move_extract_dir(path, rename):
     # Non-Beta
     for dir in glob.glob(path + "/tkashkin-Adwaita-for-Steam-*"):

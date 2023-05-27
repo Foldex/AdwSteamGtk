@@ -80,10 +80,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         dialog.present()
 
     def on_beta_support_response(self, dialog, response):
-        update.clean_dir(paths.EXTRACTED_DIR)
-        os.remove(paths.LAST_CHECK_FILE)
-        os.remove(paths.LAST_RELEASE_FILE)
-        os.remove(paths.LAST_VERSION_FILE)
+        update.reset_files()
         self.app.quit()
 
     def on_update_check_switch_toggle(self, *args):
