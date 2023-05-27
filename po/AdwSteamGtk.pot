@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-27 12:39-0400\n"
+"POT-Creation-Date: 2023-05-27 13:25-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,114 +60,118 @@ msgid ""
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
-msgid "Added Experimental Beta Client Support"
+msgid "New UI"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:44
+msgid "Added Experimental Beta Client Support (with new options)"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:45
 msgid "Added Custom CSS Option"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
 msgid "Added Autostart Update Check preference toggle"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
 msgid "Added Font Install preference toggle"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:59
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
 msgid "Fixed issue with theme preview on light mode"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:61
 msgid "Added preferences toggle for theme preview"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
 msgid "Colortheme is now previewed in app"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:69
 msgid "Added -u/-i arguments to install skin via commandline"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:69
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:70
 msgid "Added -o argument to override install options for -i/-u"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:76
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
 msgid "Added Library Sidebar Options"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:83
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
 msgid "Updated to Gnome 44 Runtime"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:85
 msgid "Changed Default Web Theme to Full Variant"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:91
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
 msgid "Fixed Installer CLI Output"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:98
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:99
 msgid "Added Color Theme Support"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:99
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:100
 msgid "Added -c argument to notify about updates"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:106
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:107
 msgid "Last chosen settings are now loaded at startup"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:107
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:108
 msgid "Changed display of install button if the theme is already installed"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:114
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:115
 msgid "Added None to Window Control Options"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:121
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:122
 msgid "Added QR Login Options"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:122
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:123
 msgid "Improved Missing Dir Messages"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:129
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:130
 msgid "Updated to Gnome 43 SDK"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:130
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:131
 msgid "Implemented AdwAboutWindow"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:131
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
 msgid "Updated Filesystem Permissions"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:133
 msgid "Fixed Quit Shortcut"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:133
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:134
 msgid "Fixed Current Check"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:143
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
 msgid "Main Window"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:147
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:148
 msgid "Theme Preview"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:151
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:152
 msgid "Login Preview"
 msgstr ""
 
