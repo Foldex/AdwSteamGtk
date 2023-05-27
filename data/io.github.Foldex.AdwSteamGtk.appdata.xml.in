@@ -37,6 +37,15 @@
   </categories>
 
   <releases>
+    <release version="0.6.0" type="stable" date="2023-05-27">
+      <description>
+        <ul>
+          <li>New UI</li>
+          <li>Added Experimental Beta Client Support (with new options)</li>
+          <li>Added Custom CSS Option</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.5.0" type="stable" date="2023-05-03">
       <description>
         <ul>
