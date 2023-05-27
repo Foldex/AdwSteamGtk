@@ -36,6 +36,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
     beta_support_switch = Gtk.Template.Child()
 
     open_custom_css_button = Gtk.Template.Child()
+    custom_css_info_button = Gtk.Template.Child()
 
     def __init__(self, parent, **kwargs):
         super().__init__(**kwargs)
@@ -44,7 +45,8 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.app = self.parent.get_application()
         self.win = self.app.get_active_window()
         self.set_transient_for(self.win)
-        self.portal = None
+        self.portal = Xdp.Portal()
+        self.portal_parent = XdpGtk4.parent_new_gtk(self)
 
         self.setup_widgets()
 
@@ -59,6 +61,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.setup_switch(self.custom_css_switch, "prefs-install-custom-css", self.on_custom_css_switch_toggle)
         self.setup_switch(self.beta_support_switch, "prefs-beta-support", self.on_beta_support_switch_toggle)
         self.open_custom_css_button.connect("clicked", self.on_open_custom_css_button_clicked)
+        self.custom_css_info_button.connect("clicked", self.on_custom_css_info_button_clicked)
 
     def on_preview_theme_switch_toggle(self, *args):
         state = not self.preview_theme_switch.props.state
@@ -84,9 +87,6 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.app.quit()
 
     def on_update_check_switch_toggle(self, *args):
-        if self.portal == None:
-            self.portal = Xdp.Portal()
-
         state = not self.update_check_switch.props.state
         self.settings.set_boolean("prefs-autostart-update-check", state)
 
@@ -114,9 +114,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.settings.set_boolean("prefs-install-custom-css", state)
 
     def on_open_custom_css_button_clicked(self, *args):
-        if self.portal == None:
-            self.portal = Xdp.Portal()
+        self.portal.open_uri(self.portal_parent, paths.CUSTOM_CSS_URI, Xdp.OpenUriFlags.WRITABLE, None, None);
 
-        parent = XdpGtk4.parent_new_gtk(self)
-        self.portal.open_uri(parent, paths.CUSTOM_CSS_URI, Xdp.OpenUriFlags.WRITABLE, None, None);
-
+    def on_custom_css_info_button_clicked(self, *args):
+        self.portal.open_uri(self.portal_parent, paths.CUSTOM_CSS_INFO_URL, Xdp.OpenUriFlags.NONE, None, None);

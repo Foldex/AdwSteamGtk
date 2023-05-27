@@ -50,6 +50,11 @@ template $AdwaitaSteamGtkPrefs : Adw.PreferencesWindow {
         title: _("Custom CSS");
         subtitle: _("Include Custom CSS into Steam");
         activatable-widget: custom_css_switch;
+        Gtk.Button custom_css_info_button {
+          icon-name: "help-about-symbolic";
+          valign: center;
+          tooltip-text: _("Custom CSS Info");
+        }
         Gtk.Button open_custom_css_button {
           icon-name: "document-open-symbolic";
           valign: center;

@@ -38,3 +38,4 @@ LAST_RELEASE_FILE=os.path.join(CACHE_DIR, "latest.zip")
 
 CUSTOM_CSS_FILE=os.path.join(CONFIG_DIR, "custom.css")
 CUSTOM_CSS_URI=pathlib.Path(CUSTOM_CSS_FILE).as_uri()
+CUSTOM_CSS_INFO_URL="https://github.com/Foldex/AdwSteamGtk/wiki/Custom-CSS"
