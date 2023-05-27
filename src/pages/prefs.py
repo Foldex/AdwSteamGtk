@@ -35,7 +35,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
     update_check_switch = Gtk.Template.Child()
     beta_support_switch = Gtk.Template.Child()
 
-    open_custom_css_button = Gtk.Template.Child()
+    custom_css_edit_button = Gtk.Template.Child()
     custom_css_info_button = Gtk.Template.Child()
 
     def __init__(self, parent, **kwargs):
@@ -60,7 +60,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.setup_switch(self.install_fonts_switch, "prefs-install-fonts", self.on_install_fonts_switch_toggle)
         self.setup_switch(self.custom_css_switch, "prefs-install-custom-css", self.on_custom_css_switch_toggle)
         self.setup_switch(self.beta_support_switch, "prefs-beta-support", self.on_beta_support_switch_toggle)
-        self.open_custom_css_button.connect("clicked", self.on_open_custom_css_button_clicked)
+        self.custom_css_edit_button.connect("clicked", self.on_custom_css_edit_button_clicked)
         self.custom_css_info_button.connect("clicked", self.on_custom_css_info_button_clicked)
 
     def on_preview_theme_switch_toggle(self, *args):
@@ -113,7 +113,7 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         state = not self.custom_css_switch.props.state
         self.settings.set_boolean("prefs-install-custom-css", state)
 
-    def on_open_custom_css_button_clicked(self, *args):
+    def on_custom_css_edit_button_clicked(self, *args):
         self.portal.open_uri(self.portal_parent, paths.CUSTOM_CSS_URI, Xdp.OpenUriFlags.WRITABLE, None, None);
 
     def on_custom_css_info_button_clicked(self, *args):
