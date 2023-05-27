@@ -32,8 +32,9 @@ Arch AUR Build (Unofficial)
 
 ## Beta
 
-1. Install via app
-2. Restart Steam if running
+1. Enable Beta Support in Settings
+2. Install via app
+3. Restart Steam if running
 
 ## Skin Updates
 
