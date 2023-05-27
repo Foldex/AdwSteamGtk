@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-22 23:58-0400\n"
+"POT-Creation-Date: 2023-05-27 12:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,106 +60,114 @@ msgid ""
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
-msgid "Added Autostart Update Check preference toggle"
+msgid "Added Experimental Beta Client Support"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:44
-msgid "Added Font Install preference toggle"
+msgid "Added Custom CSS Option"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
-msgid "Fixed issue with theme preview on light mode"
+msgid "Added Autostart Update Check preference toggle"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
-msgid "Added preferences toggle for theme preview"
+msgid "Added Font Install preference toggle"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:59
-msgid "Colortheme is now previewed in app"
+msgid "Fixed issue with theme preview on light mode"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
-msgid "Added -u/-i arguments to install skin via commandline"
+msgid "Added preferences toggle for theme preview"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:61
-msgid "Added -o argument to override install options for -i/-u"
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
+msgid "Colortheme is now previewed in app"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
-msgid "Added Library Sidebar Options"
+msgid "Added -u/-i arguments to install skin via commandline"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:75
-msgid "Updated to Gnome 44 Runtime"
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:69
+msgid "Added -o argument to override install options for -i/-u"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:76
-msgid "Changed Default Web Theme to Full Variant"
+msgid "Added Library Sidebar Options"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:83
-msgid "Fixed Installer CLI Output"
+msgid "Updated to Gnome 44 Runtime"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:90
-msgid "Added Color Theme Support"
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
+msgid "Changed Default Web Theme to Full Variant"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:91
-msgid "Added -c argument to notify about updates"
+msgid "Fixed Installer CLI Output"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:98
-msgid "Last chosen settings are now loaded at startup"
+msgid "Added Color Theme Support"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:99
-msgid "Changed display of install button if the theme is already installed"
+msgid "Added -c argument to notify about updates"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:106
-msgid "Added None to Window Control Options"
+msgid "Last chosen settings are now loaded at startup"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:113
-msgid "Added QR Login Options"
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:107
+msgid "Changed display of install button if the theme is already installed"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:114
-msgid "Improved Missing Dir Messages"
+msgid "Added None to Window Control Options"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:121
-msgid "Updated to Gnome 43 SDK"
+msgid "Added QR Login Options"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:122
+msgid "Improved Missing Dir Messages"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:129
+msgid "Updated to Gnome 43 SDK"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:130
 msgid "Implemented AdwAboutWindow"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:123
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:131
 msgid "Updated Filesystem Permissions"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:124
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
 msgid "Fixed Quit Shortcut"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:125
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:133
 msgid "Fixed Current Check"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:135
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:143
 msgid "Main Window"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:139
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:147
 msgid "Theme Preview"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:143
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:151
 msgid "Login Preview"
 msgstr ""
 
@@ -171,111 +179,123 @@ msgstr ""
 msgid "Steam;Adwaita;Skin;"
 msgstr ""
 
-#: src/cli.py:48 src/cli.py:131
+#: src/cli.py:48 src/cli.py:155
 msgid "Up to Date."
 msgstr ""
 
-#: src/cli.py:98
+#: src/cli.py:122
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
 msgstr ""
 
-#: src/cli.py:104
+#: src/cli.py:128
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
 
-#: src/cli.py:110
+#: src/cli.py:134
 #, python-brace-format
 msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
 
-#: src/cli.py:125
+#: src/cli.py:149
 msgid "New Release Available: "
 msgstr ""
 
-#: src/cli.py:128
+#: src/cli.py:152
 msgid "Update Check Failed: "
 msgstr ""
 
-#: src/dl.py:30
+#: src/dl.py:32
 msgid "API: HTTP Error Code "
 msgstr ""
 
-#: src/dl.py:32
+#: src/dl.py:34
 msgid "API: Error Parsing JSON"
 msgstr ""
 
-#: src/dl.py:34
+#: src/dl.py:36
 msgid "API: Error retrieving release info"
 msgstr ""
 
-#: src/dl.py:39
+#: src/dl.py:44
 msgid "API: JSON is missing required keys"
 msgstr ""
 
-#: src/dl.py:45
+#: src/dl.py:50
 msgid "Release: HTTP Error Code "
 msgstr ""
 
-#: src/dl.py:47
+#: src/dl.py:52
 msgid "Release: Connection Reset"
 msgstr ""
 
-#: src/dl.py:49
+#: src/dl.py:54
 msgid "Release: Permission Error"
 msgstr ""
 
-#: src/dl.py:51
+#: src/dl.py:56
 msgid "Release: Connection Timeout"
 msgstr ""
 
-#: src/dl.py:53
+#: src/dl.py:58
 msgid "Release: Error Retrieving Zip"
 msgstr ""
 
-#: src/install.py:104
+#: src/install.py:185
 msgid "Install: Found no Valid Install Targets"
 msgstr ""
 
-#: src/install.py:107
+#: src/install.py:188
 msgid "Install: Installer Process Failed"
 msgstr ""
 
-#: src/install.py:122
+#: src/install.py:203
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
 msgstr ""
 
-#: src/main.py:127
+#: src/main.py:131
 msgid "Upstream"
 msgstr ""
 
-#: src/main.py:136
+#: src/main.py:141
 msgid "Uninstall Theme"
 msgstr ""
 
-#: src/main.py:137
+#: src/main.py:142
 msgid "This will reset all customizations made to the Steam client."
 msgstr ""
 
-#: src/main.py:139
+#: src/main.py:144
 msgid "Cancel"
 msgstr ""
 
-#: src/main.py:140
+#: src/main.py:145
 msgid "Uninstall"
 msgstr ""
 
-#: src/pages/window.py:164
+#: src/main.py:152
+msgid "Not Supported"
+msgstr ""
+
+#: src/main.py:153
+msgid "This feature is only available for the Steam Beta."
+msgstr ""
+
+#: src/main.py:155
+msgid "Okay"
+msgstr ""
+
+#: src/pages/window.py:199
 msgid "New Release Downloaded: "
 msgstr ""
 
-#: src/pages/window.py:166
+#: src/pages/window.py:201
 msgid "Retry"
 msgstr ""
 
-#: src/pages/window.py:190
+#: src/pages/window.py:242
 msgid "Theme Installed"
 msgstr ""
 
@@ -296,27 +316,55 @@ msgid "Checks and notifies for theme updates on user login."
 msgstr ""
 
 #: src/ui/prefs.blp:25
-msgid "Interface"
+msgid "Beta"
 msgstr ""
 
 #: src/ui/prefs.blp:28
-msgid "Preview Themes"
+msgid "Experimental Beta Support"
 msgstr ""
 
 #: src/ui/prefs.blp:29
-msgid "Styles the interface to match the currently selected theme."
+msgid "Enables Beta Support (requires restart)"
 msgstr ""
 
 #: src/ui/prefs.blp:38
-msgid "Fonts"
+msgid "Installer"
 msgstr ""
 
 #: src/ui/prefs.blp:41
-msgid "Install Cantarell Fonts"
+msgid "Cantarell Fonts"
 msgstr ""
 
 #: src/ui/prefs.blp:42
 msgid "Installs static Cantarell fonts to `~/.local/share/fonts`"
+msgstr ""
+
+#: src/ui/prefs.blp:50
+msgid "Custom CSS"
+msgstr ""
+
+#: src/ui/prefs.blp:51
+msgid "Include Custom CSS into Steam"
+msgstr ""
+
+#: src/ui/prefs.blp:56
+msgid "Custom CSS Info"
+msgstr ""
+
+#: src/ui/prefs.blp:61
+msgid "Edit Custom CSS File"
+msgstr ""
+
+#: src/ui/prefs.blp:71
+msgid "Interface"
+msgstr ""
+
+#: src/ui/prefs.blp:74
+msgid "Preview Themes"
+msgstr ""
+
+#: src/ui/prefs.blp:75
+msgid "Styles the interface to match the currently selected theme."
 msgstr ""
 
 #: src/ui/window.blp:7
@@ -348,7 +396,7 @@ msgid "Base"
 msgstr ""
 
 #: src/ui/window.blp:49
-msgid "Rounded Corners"
+msgid "No Rounded Corners"
 msgstr ""
 
 #: src/ui/window.blp:59
