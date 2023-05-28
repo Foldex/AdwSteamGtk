@@ -63,6 +63,18 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.beta_support = self.settings.get_boolean("prefs-beta-support")
 
+        self.opt_array = {
+            "color_theme": ["Adwaita"],
+            "web_theme": ["Full", "Base", "None"],
+
+            "win_controls": ["Default", "Right-All", "Left", "Left-All", "None"],
+            "win_controls_style": ["Default", "Dots"],
+
+            "library_sidebar": ["Show", "Hover Only"],
+
+            "login_qr": ["Show", "Hover Only", "Hide"]
+        }
+
         self.make_action("install", self.install_theme)
         self.make_action("retry_dl", self.retry_check)
         self.check_latest_release()
@@ -92,7 +104,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             self.style_provider.load_from_data("", -1)
             return
 
-        selected_theme = self.get_selected_pref(self.color_theme_options).lower()
+        selected_theme = self.get_selected_pref(self.color_theme_options, self.opt_array["color_theme"]).lower()
         ret, msg = style.generate_style(selected_theme, self.beta_support)
 
         if not ret:
@@ -108,6 +120,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             t = Adw.Toast(title=msg, priority="high")
             self.pop_toast(t)
 
+        self.opt_array["color_theme"] = themes
         self.color_theme_options.set_model(Gtk.StringList.new(themes))
 
     def load_config(self):
@@ -118,17 +131,17 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             self.no_rounded_corners.set_visible(False)
             self.web_theme_options.set_model(Gtk.StringList.new([_("Full"), _("Base"), _("None")]))
 
-        self.select_from_config('color-theme-options', self.color_theme_options)
-        self.select_from_config('web-theme-options', self.web_theme_options)
+        self.select_from_config('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
+        self.select_from_config('web-theme-options', self.web_theme_options, self.opt_array["web_theme"])
         self.select_from_config('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
-        self.select_from_config('window-controls-options', self.window_controls_options)
-        self.select_from_config('window-controls-style-options', self.window_controls_style_options)
+        self.select_from_config('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
+        self.select_from_config('window-controls-style-options', self.window_controls_style_options, self.opt_array["win_controls_style"])
 
-        self.select_from_config('library-sidebar-options', self.library_sidebar_options)
+        self.select_from_config('library-sidebar-options', self.library_sidebar_options, self.opt_array["library_sidebar"])
         self.select_from_config('hide-whats-new-switch', self.hide_whats_new_switch)
 
-        self.select_from_config('login-qr-options', self.login_qr_options)
+        self.select_from_config('login-qr-options', self.login_qr_options, self.opt_array["login_qr"])
 
         self.select_from_config('hide-bp-button-switch', self.hide_bp_button_switch)
         self.select_from_config('hide-nav-url-switch', self.hide_nav_url_switch)
@@ -137,17 +150,17 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.select_from_config('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
 
     def save_config(self):
-        self.config_from_select('color-theme-options', self.color_theme_options)
-        self.config_from_select('web-theme-options', self.web_theme_options)
+        self.config_from_select('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
+        self.config_from_select('web-theme-options', self.web_theme_options, self.opt_array["web_theme"])
         self.config_from_select('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
-        self.config_from_select('window-controls-options', self.window_controls_options)
-        self.config_from_select('window-controls-style-options', self.window_controls_style_options)
+        self.config_from_select('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
+        self.config_from_select('window-controls-style-options', self.window_controls_style_options, self.opt_array["win_controls_style"])
 
-        self.config_from_select('library-sidebar-options', self.library_sidebar_options)
+        self.config_from_select('library-sidebar-options', self.library_sidebar_options, self.opt_array["library_sidebar"])
         self.config_from_select('hide-whats-new-switch', self.hide_whats_new_switch)
 
-        self.config_from_select('login-qr-options', self.login_qr_options)
+        self.config_from_select('login-qr-options', self.login_qr_options, self.opt_array["login_qr"])
 
         self.config_from_select('hide-bp-button-switch', self.hide_bp_button_switch)
         self.config_from_select('hide-nav-url-switch', self.hide_nav_url_switch)
@@ -155,10 +168,14 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.config_from_select('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
 
-    def get_selected_pref(self, widget):
+    def get_selected_pref(self, widget, array=None):
         match type := widget.get_name():
             case "AdwComboRow":
-                selected = widget.get_selected_item().get_string()
+                if not array:
+                    print("get_selected_pref: AdwComboRows need array passed")
+                    selected = None
+                else:
+                    selected = array[widget.get_selected()]
             case "GtkSwitch":
                 selected = widget.get_active()
             case _:
@@ -166,26 +183,32 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
                 selected = None
         return selected
 
-    def config_to_pos(self, config, comborow):
+    def config_to_pos(self, config, array):
         string = self.settings.get_string(config)
-        for pos,s in enumerate(comborow.get_model()):
-            if string == s.get_string():
+        for pos,s in enumerate(array):
+            if string == s:
                 return pos
         return 0
 
-    def select_from_config(self, config, widget):
+    def select_from_config(self, config, widget, array=None):
         match type := widget.get_name():
             case "AdwComboRow":
-                widget.set_selected(self.config_to_pos(config, widget))
+                if not array:
+                    print("select_from_config: AdwComboRows need array passed")
+                else:
+                    widget.set_selected(self.config_to_pos(config, array))
             case "GtkSwitch":
                 widget.set_active(self.settings.get_boolean(config))
             case _:
                 print(f"set_from_config: unsupported type {type}")
 
-    def config_from_select(self, config, widget):
+    def config_from_select(self, config, widget, array=None):
         match type := widget.get_name():
             case "AdwComboRow":
-                self.settings.set_string(config, widget.get_selected_item().get_string())
+                if not array:
+                    print("config_from_select: AdwComboRows need array passed")
+                else:
+                    self.settings.set_string(config, array[widget.get_selected()])
             case "GtkSwitch":
                 self.settings.set_boolean(config, widget.get_active())
             case _:
@@ -217,17 +240,17 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "install_fonts": self.settings.get_boolean('prefs-install-fonts'),
             "custom_css": self.settings.get_boolean('prefs-install-custom-css'),
 
-            "color_theme": self.get_selected_pref(self.color_theme_options),
-            "web_theme": self.get_selected_pref(self.web_theme_options),
+            "color_theme": self.get_selected_pref(self.color_theme_options, self.opt_array["color_theme"]),
+            "web_theme": self.get_selected_pref(self.web_theme_options, self.opt_array["web_theme"]),
             "rounded_corners": not self.get_selected_pref(self.no_rounded_corners_switch),
 
-            "win_controls": self.get_selected_pref(self.window_controls_options),
-            "win_controls_style": self.get_selected_pref(self.window_controls_style_options),
+            "win_controls": self.get_selected_pref(self.window_controls_options, self.opt_array["win_controls"]),
+            "win_controls_style": self.get_selected_pref(self.window_controls_style_options, self.opt_array["win_controls_style"]),
 
-            "library_sidebar": self.get_selected_pref(self.library_sidebar_options),
+            "library_sidebar": self.get_selected_pref(self.library_sidebar_options, self.opt_array["library_sidebar"]),
             "library_whats_new": not self.get_selected_pref(self.hide_whats_new_switch),
 
-            "login_qr": self.get_selected_pref(self.login_qr_options),
+            "login_qr": self.get_selected_pref(self.login_qr_options, self.opt_array["login_qr"]),
 
             "top_bar_bp_button": not self.get_selected_pref(self.hide_bp_button_switch),
             "top_bar_nav_url": not self.get_selected_pref(self.hide_nav_url_switch),
