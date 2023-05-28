@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-28 23:00+0300\n"
-"PO-Revision-Date: 2023-05-28 23:03+0300\n"
+"PO-Revision-Date: 2023-05-28 23:39+0300\n"
 "Last-Translator: volkov <volkovissocool@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -274,7 +274,7 @@ msgstr ""
 
 #: src/main.py:131
 msgid "Upstream"
-msgstr "Апстрим"
+msgstr "Автор темы Adwaita для Steam"
 
 #: src/main.py:132
 msgid "Translators"
