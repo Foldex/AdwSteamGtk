@@ -8,3 +8,4 @@ e.g. `fr` for French, `de` for German.
 
 - Run `./update_pot.sh` and copy `AdwSteamGtk.pot` to `xx.po`.
 - Make your changes and add `xx` to `LINGUAS` on a new line. Keep this list sorted.
+- Add yourself to the [Translators credits](/src/info.py.in)
