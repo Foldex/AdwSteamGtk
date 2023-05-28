@@ -31,6 +31,7 @@ DEVELOPERS=[
 ]
 
 TRANSLATORS=[
+    'volkov <volkovissocool@gmail.com>'
 ]
 
 UPSTREAM=['Anatoliy Kashkin  https://github.com/tkashkin']
