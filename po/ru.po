@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-27 13:25-0400\n"
-"PO-Revision-Date: 2023-05-28 13:26+0300\n"
+"POT-Creation-Date: 2023-05-28 23:00+0300\n"
+"PO-Revision-Date: 2023-05-28 23:03+0300\n"
 "Last-Translator: volkov <volkovissocool@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -35,8 +35,7 @@ msgstr "Foldex"
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "A simple application that installs and updates the Adwaita-for-Steam skin."
-msgstr ""
-"Простое приложение для установки и обновления темы Adwaita для Steam."
+msgstr "Простое приложение для установки и обновления темы Adwaita для Steam."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:21
 msgid "Install Directions:"
@@ -139,8 +138,7 @@ msgstr "Последние выбранные настройки теперь б
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:108
 msgid "Changed display of install button if the theme is already installed"
-msgstr ""
-"Изменено отображение кнопки установки темы, если тема уже установлена"
+msgstr "Изменено отображение кнопки установки темы, если тема уже установлена"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:115
 msgid "Added None to Window Control Options"
@@ -278,43 +276,59 @@ msgstr ""
 msgid "Upstream"
 msgstr "Апстрим"
 
-#: src/main.py:141
+#: src/main.py:132
+msgid "Translators"
+msgstr "Переводчики"
+
+#: src/main.py:142
 msgid "Uninstall Theme"
 msgstr "Удалить тему"
 
-#: src/main.py:142
+#: src/main.py:143
 msgid "This will reset all customizations made to the Steam client."
 msgstr "Это действие скинет все настройки кастомизации клиента Steam."
 
-#: src/main.py:144
+#: src/main.py:145
 msgid "Cancel"
 msgstr "Отменить"
 
-#: src/main.py:145
+#: src/main.py:146
 msgid "Uninstall"
 msgstr "Удалить"
 
-#: src/main.py:152
+#: src/main.py:153
 msgid "Not Supported"
 msgstr "Не поддерживается"
 
-#: src/main.py:153
+#: src/main.py:154
 msgid "This feature is only available for the Steam Beta."
 msgstr "Эта функция доступна только для бета версии клиента Steam."
 
-#: src/main.py:155
+#: src/main.py:156
 msgid "Okay"
 msgstr "Хорошо"
 
-#: src/pages/window.py:199
+#: src/pages/window.py:132 src/ui/window.blp:46
+msgid "Full"
+msgstr "Полная"
+
+#: src/pages/window.py:132 src/ui/window.blp:46
+msgid "Base"
+msgstr "Базовая"
+
+#: src/pages/window.py:132 src/ui/window.blp:62
+msgid "None"
+msgstr "Ничего"
+
+#: src/pages/window.py:222
 msgid "New Release Downloaded: "
 msgstr "Загружен новый релиз: "
 
-#: src/pages/window.py:201
+#: src/pages/window.py:224
 msgid "Retry"
 msgstr "Попробовать еще раз"
 
-#: src/pages/window.py:242
+#: src/pages/window.py:265
 msgid "Theme Installed"
 msgstr "Тема установлена"
 
@@ -406,14 +420,6 @@ msgstr "Цвет темы"
 msgid "Theme"
 msgstr "Тема"
 
-#: src/ui/window.blp:46
-msgid "Full"
-msgstr "Полная"
-
-#: src/ui/window.blp:46
-msgid "Base"
-msgstr "Базовая"
-
 #: src/ui/window.blp:49
 msgid "No Rounded Corners"
 msgstr "БЕЗ закругленных углов"
@@ -441,10 +447,6 @@ msgstr "Слева"
 #: src/ui/window.blp:62
 msgid "Left-All"
 msgstr "Все слева"
-
-#: src/ui/window.blp:62
-msgid "None"
-msgstr "Ничего"
 
 #: src/ui/window.blp:65
 msgid "Controls Style"

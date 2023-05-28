@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-27 13:25-0400\n"
-"PO-Revision-Date: 2023-05-28 13:18+0300\n"
+"POT-Creation-Date: 2023-05-28 23:00+0300\n"
+"PO-Revision-Date: 2023-05-28 23:02+0300\n"
 "Last-Translator: volkov <volkovissocool@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -35,8 +35,7 @@ msgstr "Foldex"
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "A simple application that installs and updates the Adwaita-for-Steam skin."
-msgstr ""
-"Простий додаток для встановлення і оновлення теми Adwaita для Steam."
+msgstr "Простий додаток для встановлення і оновлення теми Adwaita для Steam."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:21
 msgid "Install Directions:"
@@ -55,17 +54,17 @@ msgid ""
 "On startup new releases will automatically be downloaded and display a "
 "notification. Simply reinstall the skin and restart Steam to update."
 msgstr ""
-"При запуску системи, нові релізи тем будуть автоматично завантажені і "
-"буде показано повідомлення. Просто перевстановіть тему та перезавантажте "
-"Steam, щоб оновитися."
+"При запуску системи, нові релізи тем будуть автоматично завантажені і буде "
+"показано повідомлення. Просто перевстановіть тему та перезавантажте Steam, "
+"щоб оновитися."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid ""
 "Note: In order to get rounded corners on Steam, you will need to use the "
 "\"Rounded Window Corners\" gnome extension."
 msgstr ""
-"Примітка: щоб кути були закруглені у Steam, встановіть розширення "
-"\"Rounded Window Corners\" для GNOME."
+"Примітка: щоб кути були закруглені у Steam, встановіть розширення \"Rounded "
+"Window Corners\" для GNOME."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
 msgid "New UI"
@@ -107,8 +106,7 @@ msgstr "Додано -u/-i аргументи для встановлення т
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:70
 msgid "Added -o argument to override install options for -i/-u"
-msgstr ""
-"Додано -o аргумент для перезапису налаштувань встановлення для -i/-u"
+msgstr "Додано -o аргумент для перезапису налаштувань встановлення для -i/-u"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
 msgid "Added Library Sidebar Options"
@@ -214,8 +212,8 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
-"Не вдалося знайти тему {colortheme} у списку тем. Повертаємося до "
-"останньої обраної теми."
+"Не вдалося знайти тему {colortheme} у списку тем. Повертаємося до останньої "
+"обраної теми."
 
 #: src/cli.py:149
 msgid "New Release Available: "
@@ -272,50 +270,65 @@ msgstr "Встановлення: Не вдалося встановити"
 #: src/install.py:203
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
 msgstr ""
-"Встановлення: Не вдалося знайти правильний '~/.steam/steam' сімлінк "
-"(symlink)"
+"Встановлення: Не вдалося знайти правильний '~/.steam/steam' сімлінк (symlink)"
 
 #: src/main.py:131
 msgid "Upstream"
-msgstr "Апстрім"
+msgstr "Upstream"
 
-#: src/main.py:141
+#: src/main.py:132
+msgid "Translators"
+msgstr "Перекладачі"
+
+#: src/main.py:142
 msgid "Uninstall Theme"
 msgstr "Видалити тему"
 
-#: src/main.py:142
+#: src/main.py:143
 msgid "This will reset all customizations made to the Steam client."
 msgstr "Ці дія скине усі налаштування кастомізації клієнта Steam."
 
-#: src/main.py:144
+#: src/main.py:145
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: src/main.py:145
+#: src/main.py:146
 msgid "Uninstall"
 msgstr "Видалити"
 
-#: src/main.py:152
+#: src/main.py:153
 msgid "Not Supported"
 msgstr "Не підтримується"
 
-#: src/main.py:153
+#: src/main.py:154
 msgid "This feature is only available for the Steam Beta."
 msgstr "Ця функція доступна лише для бета версії клієнта Steam."
 
-#: src/main.py:155
+#: src/main.py:156
 msgid "Okay"
 msgstr "Добре"
 
-#: src/pages/window.py:199
+#: src/pages/window.py:132 src/ui/window.blp:46
+msgid "Full"
+msgstr "Повна"
+
+#: src/pages/window.py:132 src/ui/window.blp:46
+msgid "Base"
+msgstr "Базова"
+
+#: src/pages/window.py:132 src/ui/window.blp:62
+msgid "None"
+msgstr "Нічого"
+
+#: src/pages/window.py:222
 msgid "New Release Downloaded: "
 msgstr "Завантажено новий реліз: "
 
-#: src/pages/window.py:201
+#: src/pages/window.py:224
 msgid "Retry"
 msgstr "Спробувати ще раз"
 
-#: src/pages/window.py:242
+#: src/pages/window.py:265
 msgid "Theme Installed"
 msgstr "Тема встановлена"
 
@@ -407,14 +420,6 @@ msgstr "Колір теми"
 msgid "Theme"
 msgstr "Тема"
 
-#: src/ui/window.blp:46
-msgid "Full"
-msgstr "Повна"
-
-#: src/ui/window.blp:46
-msgid "Base"
-msgstr "Базова"
-
 #: src/ui/window.blp:49
 msgid "No Rounded Corners"
 msgstr "БЕЗ закруглених кутів"
@@ -442,10 +447,6 @@ msgstr "Зліва"
 #: src/ui/window.blp:62
 msgid "Left-All"
 msgstr "Усе зліва"
-
-#: src/ui/window.blp:62
-msgid "None"
-msgstr "Нічого"
 
 #: src/ui/window.blp:65
 msgid "Controls Style"
