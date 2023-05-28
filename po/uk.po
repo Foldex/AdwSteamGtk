@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-27 13:25-0400\n"
-"PO-Revision-Date: 2023-05-28 01:18+0300\n"
+"PO-Revision-Date: 2023-05-28 13:18+0300\n"
 "Last-Translator: volkov <volkovissocool@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -26,7 +26,7 @@ msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Adwaita for Steam Skin Installer"
-msgstr "Тема Adwaita для встановлювача Steam"
+msgstr "Встановлювач теми Adwaita для Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 msgid "Foldex"
@@ -35,7 +35,8 @@ msgstr "Foldex"
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "A simple application that installs and updates the Adwaita-for-Steam skin."
-msgstr "Простий додаток для встановлення теми Adwaita для Steam."
+msgstr ""
+"Простий додаток для встановлення і оновлення теми Adwaita для Steam."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:21
 msgid "Install Directions:"
@@ -73,7 +74,8 @@ msgstr "Новий інтерфейс"
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:44
 msgid "Added Experimental Beta Client Support (with new options)"
 msgstr ""
-"Додано експериментальну підтримку бета клієнта (з новими налаштуваннями)"
+"Додано експериментальну підтримку бета версій клієнта (з новими "
+"налаштуваннями)"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:45
 msgid "Added Custom CSS Option"
@@ -81,7 +83,7 @@ msgstr "Додано опцію для власних CSS"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
 msgid "Added Autostart Update Check preference toggle"
-msgstr "Додано опцію для автозапуску оновлень"
+msgstr "Додано опцію для автозапуску перевірки оновлень"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
 msgid "Added Font Install preference toggle"
@@ -190,11 +192,11 @@ msgstr "Простий додаток який встановлює тему Adw
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr "Steam;Adwaita;Skin;стім;тема;"
+msgstr "Steam;Adwaita;Skin;стім;тема;скін;"
 
 #: src/cli.py:48 src/cli.py:155
 msgid "Up to Date."
-msgstr "Актуальна версія."
+msgstr "Найновіша версія."
 
 #: src/cli.py:122
 #, python-brace-format
@@ -217,7 +219,7 @@ msgstr ""
 
 #: src/cli.py:149
 msgid "New Release Available: "
-msgstr "Новий реліз доступно: "
+msgstr "Доступно новий реліз: "
 
 #: src/cli.py:152
 msgid "Update Check Failed: "
@@ -237,7 +239,7 @@ msgstr "API: Помилка отримування інформації про �
 
 #: src/dl.py:44
 msgid "API: JSON is missing required keys"
-msgstr "Reset"
+msgstr "API: Не знайдено обов'язкових ключів у JSON"
 
 #: src/dl.py:50
 msgid "Release: HTTP Error Code "
@@ -283,7 +285,7 @@ msgstr "Видалити тему"
 
 #: src/main.py:142
 msgid "This will reset all customizations made to the Steam client."
-msgstr "Це скине усі налаштування кастомізації клієнта Steam."
+msgstr "Ці дія скине усі налаштування кастомізації клієнта Steam."
 
 #: src/main.py:144
 msgid "Cancel"
@@ -299,7 +301,7 @@ msgstr "Не підтримується"
 
 #: src/main.py:153
 msgid "This feature is only available for the Steam Beta."
-msgstr "Ця функція доступна лише для бета клієнта Steam."
+msgstr "Ця функція доступна лише для бета версії клієнта Steam."
 
 #: src/main.py:155
 msgid "Okay"
@@ -307,7 +309,7 @@ msgstr "Добре"
 
 #: src/pages/window.py:199
 msgid "New Release Downloaded: "
-msgstr "Новий реліз завантажено: "
+msgstr "Завантажено новий реліз: "
 
 #: src/pages/window.py:201
 msgid "Retry"
@@ -355,7 +357,7 @@ msgstr "Cantarell шрифти"
 
 #: src/ui/prefs.blp:42
 msgid "Installs static Cantarell fonts to `~/.local/share/fonts`"
-msgstr "Встановить Cantarell шрифти у `~/.local/share/fonts`"
+msgstr "Встановить шрифт Cantarell у `~/.local/share/fonts`"
 
 #: src/ui/prefs.blp:50
 msgid "Custom CSS"
@@ -415,7 +417,7 @@ msgstr "Базова"
 
 #: src/ui/window.blp:49
 msgid "No Rounded Corners"
-msgstr "Без закруглених кутів"
+msgstr "БЕЗ закруглених кутів"
 
 #: src/ui/window.blp:59
 msgid "Window Controls Options"
@@ -447,7 +449,7 @@ msgstr "Нічого"
 
 #: src/ui/window.blp:65
 msgid "Controls Style"
-msgstr "Тема кнопок керування вікном"
+msgstr "Стиль кнопок керування вікном"
 
 #: src/ui/window.blp:66
 msgid "Dots"
@@ -523,23 +525,23 @@ msgstr "_Про AdwSteamGtk"
 
 #: src/zip.py:32
 msgid "Extract: Failed to read ZIP archive"
-msgstr "Розпакування: не вдалося прочитати ZIP"
+msgstr "Розпакування: Не вдалося прочитати ZIP"
 
 #: src/zip.py:34
 msgid "Extract: Bad ZIP File"
-msgstr "Розпакування: не правильний ZIP файл"
+msgstr "Розпакування: Не правильний ZIP файл"
 
 #: src/zip.py:36
 msgid "Extract: Failed to Extract ZIP File"
-msgstr "Розпакування: не вдалося розпакувати ZIP файл"
+msgstr "Розпакування: Не вдалося розпакувати ZIP файл"
 
 #: src/zip.py:52
 msgid "Get Themes: Failed to read ZIP archive"
-msgstr "Отримування тем: не вдалося прочитати ZIP"
+msgstr "Отримування тем: Не вдалося прочитати ZIP"
 
 #: src/zip.py:54
 msgid "Get Themes: Bad ZIP File"
-msgstr "Отримування тем: не правильний ZIP файл"
+msgstr "Отримування тем: Не правильний ZIP файл"
 
 #: src/zip.py:56
 msgid "Get Themes: Failed to get themes"
