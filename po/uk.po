@@ -286,7 +286,7 @@ msgstr "Видалити тему"
 
 #: src/main.py:143
 msgid "This will reset all customizations made to the Steam client."
-msgstr "Ці дія скине усі налаштування кастомізації клієнта Steam."
+msgstr "Ця дія скине усі налаштування кастомізації клієнта Steam."
 
 #: src/main.py:145
 msgid "Cancel"
