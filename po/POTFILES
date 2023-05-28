@@ -6,6 +6,7 @@ src/dl.py
 src/install.py
 src/main.py
 src/pages/window.py
+src/style.py
 src/ui/prefs.blp
 src/ui/window.blp
 src/zip.py
