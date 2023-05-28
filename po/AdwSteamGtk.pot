@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-27 13:25-0400\n"
+"POT-Creation-Date: 2023-05-28 23:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -263,43 +263,59 @@ msgstr ""
 msgid "Upstream"
 msgstr ""
 
-#: src/main.py:141
-msgid "Uninstall Theme"
+#: src/main.py:132
+msgid "Translators"
 msgstr ""
 
 #: src/main.py:142
+msgid "Uninstall Theme"
+msgstr ""
+
+#: src/main.py:143
 msgid "This will reset all customizations made to the Steam client."
 msgstr ""
 
-#: src/main.py:144
+#: src/main.py:145
 msgid "Cancel"
 msgstr ""
 
-#: src/main.py:145
+#: src/main.py:146
 msgid "Uninstall"
 msgstr ""
 
-#: src/main.py:152
+#: src/main.py:153
 msgid "Not Supported"
 msgstr ""
 
-#: src/main.py:153
+#: src/main.py:154
 msgid "This feature is only available for the Steam Beta."
 msgstr ""
 
-#: src/main.py:155
+#: src/main.py:156
 msgid "Okay"
 msgstr ""
 
-#: src/pages/window.py:199
+#: src/pages/window.py:132 src/ui/window.blp:46
+msgid "Full"
+msgstr ""
+
+#: src/pages/window.py:132 src/ui/window.blp:46
+msgid "Base"
+msgstr ""
+
+#: src/pages/window.py:132 src/ui/window.blp:62
+msgid "None"
+msgstr ""
+
+#: src/pages/window.py:222
 msgid "New Release Downloaded: "
 msgstr ""
 
-#: src/pages/window.py:201
+#: src/pages/window.py:224
 msgid "Retry"
 msgstr ""
 
-#: src/pages/window.py:242
+#: src/pages/window.py:265
 msgid "Theme Installed"
 msgstr ""
 
@@ -391,14 +407,6 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
-#: src/ui/window.blp:46
-msgid "Full"
-msgstr ""
-
-#: src/ui/window.blp:46
-msgid "Base"
-msgstr ""
-
 #: src/ui/window.blp:49
 msgid "No Rounded Corners"
 msgstr ""
@@ -425,10 +433,6 @@ msgstr ""
 
 #: src/ui/window.blp:62
 msgid "Left-All"
-msgstr ""
-
-#: src/ui/window.blp:62
-msgid "None"
 msgstr ""
 
 #: src/ui/window.blp:65
