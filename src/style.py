@@ -17,7 +17,6 @@
 
 import configparser
 import os.path
-from gettext import gettext as _
 
 from . import install
 from . import paths

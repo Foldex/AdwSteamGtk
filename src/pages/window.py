@@ -16,7 +16,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from gi.repository import Adw, Gio, Gtk, Gdk
-from gettext import gettext as _
 
 from . import custom_css
 from . import info

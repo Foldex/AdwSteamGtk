@@ -17,7 +17,6 @@
 
 from gi.repository import Gio
 from enum import Enum
-from gettext import gettext as _
 
 from . import info
 from . import install

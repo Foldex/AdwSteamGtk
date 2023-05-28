@@ -18,7 +18,6 @@
 import os
 import shlex
 import subprocess
-from gettext import gettext as _
 
 from . import paths
 from . import update
