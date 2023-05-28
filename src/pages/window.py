@@ -116,7 +116,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             self.bottom_bar_group.set_visible(False)
             self.window_controls_style_options.set_visible(False)
             self.no_rounded_corners.set_visible(False)
-            self.web_theme_options.set_model(Gtk.StringList.new(["Full", "Base", "None"]))
+            self.web_theme_options.set_model(Gtk.StringList.new([_("Full"), _("Base"), _("None")]))
 
         self.select_from_config('color-theme-options', self.color_theme_options)
         self.select_from_config('web-theme-options', self.web_theme_options)
