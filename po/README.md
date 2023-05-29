@@ -14,7 +14,7 @@ e.g. `en-GB` is English from Great Britain
 
 [Regional Language Codes](https://lingohub.com/developers/supported-locales/language-designators-with-regions)
 
-## Adding a New Language Example
+## Adding Support for a New Language
 
 Assume `xx` is your Language Code:
 - [Fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#forking-a-repository) and [Clone](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#cloning-a-fork) this repo
