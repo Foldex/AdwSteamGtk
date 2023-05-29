@@ -1,11 +1,22 @@
 # Localization
 
-## Adding a New Language Example
+## Language Codes
 
-Assume `xx` is your [Language Code](https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html):
+Languages are typically given a two-letter designation.
 
 e.g. `fr` for French, `de` for German.
 
+For languages where regional differences exist, a hyphen followed by a region code is added to distinguish it.
+
+e.g. `en-GB` is English from Great Britain
+
+[Usual Language Codes](https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html)
+
+[Regional Language Codes](https://lingohub.com/developers/supported-locales/language-designators-with-regions)
+
+## Adding a New Language Example
+
+Assume `xx` is your Language Code:
 - [Fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#forking-a-repository) and [Clone](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#cloning-a-fork) this repo
 - Ensure you have [gettext](#gettext) installed
 - Run `./update_pot.sh` and copy `AdwSteamGtk.pot` to `xx.po`
