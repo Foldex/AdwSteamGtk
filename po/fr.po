@@ -1,0 +1,569 @@
+# French translation for AdwSteamGtk.
+# Copyright (C) 2023 Foldex
+# This file is distributed under the GNU GPLv3 license.
+# Foldex, 2023.
+# Rob'OT, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AdwSteamGtk 0.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-28 17:06-0400\n"
+"PO-Revision-Date: 2023-06-04 19:19+0200\n"
+"Last-Translator: Rob'OT\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
+msgid "AdwSteamGtk"
+msgstr "AdwSteamGtk"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
+msgid "Adwaita for Steam Skin Installer"
+msgstr "Installeur du skin Adwaita pour Steam"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
+msgid "Foldex"
+msgstr "Foldex"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
+msgid ""
+"A simple application that installs and updates the Adwaita-for-Steam skin."
+msgstr ""
+"Une application simple qui installe et met à jour le skin Adwaita pour Steam."
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:21
+msgid "Install Directions:"
+msgstr "Instructions d'installation :"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:23
+msgid "Install skin via app"
+msgstr "Installer le skin via l'application"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:24
+msgid "Restart Steam if running"
+msgstr "Redémarrer Steam s'il est en cours d'utilisation"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
+msgid ""
+"On startup new releases will automatically be downloaded and display a "
+"notification. Simply reinstall the skin and restart Steam to update."
+msgstr ""
+"Au démarrage, les nouvelles versions seront automatiquement téléchargées et "
+"afficheront une notification.Réinstallez simplement le skin et redémarrez "
+"Steam pour mettre à jour."
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
+msgid ""
+"Note: In order to get rounded corners on Steam, you will need to use the "
+"\"Rounded Window Corners\" gnome extension."
+msgstr ""
+"Remarque : Afin d'obtenir des coins arrondis sur Steam, vous devrez utiliser "
+"l'extension de Gnome \"Rounded Window Corners\"."
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
+msgid "New UI"
+msgstr "Nouvelle interface"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:44
+msgid "Added Experimental Beta Client Support (with new options)"
+msgstr ""
+"Ajout du support expérimental du client bêta (avec de nouvelles options)"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:45
+msgid "Added Custom CSS Option"
+msgstr "Ajout des options CSS personnalisée"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
+msgid "Added Autostart Update Check preference toggle"
+msgstr ""
+"Ajout du bouton pour la préférence de détection automatique de mise à jour "
+"au démarrage."
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
+msgid "Added Font Install preference toggle"
+msgstr ""
+"Ajout du bouton pour la préférence d'installation de la police de caractère"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
+msgid "Fixed issue with theme preview on light mode"
+msgstr "Correction du problème avec l'aperçu du thème avec le mode jour"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:61
+msgid "Added preferences toggle for theme preview"
+msgstr "Ajout du bouton pour la préférence de l'aperçu du thème"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
+msgid "Colortheme is now previewed in app"
+msgstr "Le thème de couleur est maintenant prévisualisable dans l'application"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:69
+msgid "Added -u/-i arguments to install skin via commandline"
+msgstr ""
+"Ajout des arguments -u/-i pour l'installation du skin via la ligne de "
+"commande"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:70
+msgid "Added -o argument to override install options for -i/-u"
+msgstr ""
+"Ajout de l'argument -o pour remplacer les options d'installation pour -i/-u"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
+msgid "Added Library Sidebar Options"
+msgstr "Ajout de l'options pour la barre latérale de la bibliothèque"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
+msgid "Updated to Gnome 44 Runtime"
+msgstr "Mise à jour vers Gnome 44 Runtime"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:85
+msgid "Changed Default Web Theme to Full Variant"
+msgstr "Modification de la variante compléte en tant que thème Web par défaut"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
+msgid "Fixed Installer CLI Output"
+msgstr "Correction de la sortie du CLI de l'installeur"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:99
+msgid "Added Color Theme Support"
+msgstr "Ajout du support de thème de couleur"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:100
+msgid "Added -c argument to notify about updates"
+msgstr "Ajout de l'argument -c pour les notifications de mise à jour"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:107
+msgid "Last chosen settings are now loaded at startup"
+msgstr "Les derniers paramétres appliqués sont maintenant chargés au démarrage"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:108
+msgid "Changed display of install button if the theme is already installed"
+msgstr ""
+"Modifier l'affichage du bouton d'installation si le thème est déjà installé"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:115
+msgid "Added None to Window Control Options"
+msgstr "Ajout de l'option \"Aucun\" aux options de contrôle de la fenêtre"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:122
+msgid "Added QR Login Options"
+msgstr "Ajout du QR code aux options de connexion"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:123
+msgid "Improved Missing Dir Messages"
+msgstr "Amélioration du messages des répertoires manquants"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:130
+msgid "Updated to Gnome 43 SDK"
+msgstr "Mise à jour vers Gnome 43 SDK"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:131
+msgid "Implemented AdwAboutWindow"
+msgstr "Implémentation de AdwAboutWindow"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
+msgid "Updated Filesystem Permissions"
+msgstr "Mise à jour des autorisations du système de fichiers"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:133
+msgid "Fixed Quit Shortcut"
+msgstr "Correction de raccourci \"Quitter\""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:134
+msgid "Fixed Current Check"
+msgstr "Correction de la sélection actuelle"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
+msgid "Main Window"
+msgstr "Fenêtre principale"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:148
+msgid "Theme Preview"
+msgstr "Aperçu du thème"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:152
+msgid "Login Preview"
+msgstr "Aperçu de la connexion"
+
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
+msgid "A simple wrapper that installs Adwaita for Steam"
+msgstr "Un utilitaire simple qui installe Adwaita pour Steam"
+
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
+msgid "Steam;Adwaita;Skin;"
+msgstr "Steam;Adwaita;Skin;"
+
+#: src/cli.py:47 src/cli.py:154
+msgid "Up to Date."
+msgstr "À jour."
+
+#: src/cli.py:121
+#, python-brace-format
+msgid "{key}: {cur_val} invalid value"
+msgstr "{key}: {cur_val} invalid value"
+
+#: src/cli.py:127
+msgid "Could not get theme list. Falling back to last selected theme."
+msgstr ""
+"Impossible d'obtenir une liste de thème. Utilisation du dernier thème "
+"sélectionné à la place."
+
+#: src/cli.py:133
+#, python-brace-format
+msgid ""
+"Could not find theme {colortheme} in theme list. Falling back to last "
+"selected theme."
+msgstr ""
+"Impossible de trouver le thème {colortheme} dans la liste de thème. "
+"Utilisation du dernier thème sélectionné à la place."
+
+#: src/cli.py:148
+msgid "New Release Available: "
+msgstr "Nouvelle version disponible : "
+
+#: src/cli.py:151
+msgid "Update Check Failed: "
+msgstr "La vérification de la mise à jour échouée : "
+
+#: src/dl.py:30
+msgid "API: HTTP Error Code "
+msgstr "API : Code d'erreur HTTP "
+
+#: src/dl.py:32
+msgid "API: Error Parsing JSON"
+msgstr "API : Erreur durant l'analyse JSON"
+
+#: src/dl.py:34
+msgid "API: Error retrieving release info"
+msgstr "API : Erreur de récupération des informations de version"
+
+#: src/dl.py:42
+msgid "API: JSON is missing required keys"
+msgstr "API : Les clés obligatoires sont manquantes dans le JSON"
+
+#: src/dl.py:48
+msgid "Release: HTTP Error Code "
+msgstr "Version : Code d'erreur HTTP "
+
+#: src/dl.py:50
+msgid "Release: Connection Reset"
+msgstr "Version : Connexion réinitialisée"
+
+#: src/dl.py:52
+msgid "Release: Permission Error"
+msgstr "Version : Erreur de permission"
+
+#: src/dl.py:54
+msgid "Release: Connection Timeout"
+msgstr "Version : Délai de connection dépassé"
+
+#: src/dl.py:56
+msgid "Release: Error Retrieving Zip"
+msgstr "Version : Erreur lors de la récupération du ZIP"
+
+#: src/install.py:184
+msgid "Install: Found no Valid Install Targets"
+msgstr "Installation : Aucun répertoire d'installation valide trouvé"
+
+#: src/install.py:187
+msgid "Install: Installer Process Failed"
+msgstr "Installation : Le processus d'installation a échoué"
+
+#: src/install.py:202
+msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
+msgstr ""
+"Installation : Échec de la recherche de lien symbolic valide pour '~ / ."
+"steam / Steam'"
+
+#: src/main.py:131
+msgid "Upstream"
+msgstr "En amont"
+
+#: src/main.py:132
+msgid "Translators"
+msgstr "Traducteurs"
+
+#: src/main.py:142
+msgid "Uninstall Theme"
+msgstr "Désinstallation du thème"
+
+#: src/main.py:143
+msgid "This will reset all customizations made to the Steam client."
+msgstr ""
+"Cela réinitialisera toutes les personnalisations faites au client Steam."
+
+#: src/main.py:145
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/main.py:146
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+#: src/main.py:153
+msgid "Not Supported"
+msgstr "Non supporté"
+
+#: src/main.py:154
+msgid "This feature is only available for the Steam Beta."
+msgstr ""
+"Cette fonctionnalité n'est disponible que pour la version Bêta de Steam."
+
+#: src/main.py:156
+msgid "Okay"
+msgstr "OK"
+
+#: src/pages/window.py:131 src/ui/window.blp:46
+msgid "Full"
+msgstr "Complet"
+
+#: src/pages/window.py:131 src/ui/window.blp:46
+msgid "Base"
+msgstr "Base"
+
+#: src/pages/window.py:131 src/ui/window.blp:62
+msgid "None"
+msgstr "Aucun"
+
+#: src/pages/window.py:221
+msgid "New Release Downloaded: "
+msgstr "Nouvelle version téléchargée : "
+
+#: src/pages/window.py:223
+msgid "Retry"
+msgstr "Recommencez"
+
+#: src/pages/window.py:264
+msgid "Theme Installed"
+msgstr "Thème installé"
+
+#: src/style.py:40
+#, python-brace-format
+msgid "Style: Could not find theme {theme_name}"
+msgstr "Style: Impossible de trouver le thème {theme_name}"
+
+#: src/ui/prefs.blp:5
+msgid "Preferences"
+msgstr "Préférences"
+
+#: src/ui/prefs.blp:12
+msgid "Autostart"
+msgstr "Démarrage automatique"
+
+#: src/ui/prefs.blp:15
+msgid "Auto Update Check"
+msgstr "Vérification automatique des mises à jour"
+
+#: src/ui/prefs.blp:16
+msgid "Checks and notifies for theme updates on user login."
+msgstr ""
+"Vérifie et notifie d'une mise à jour disponible à la connexion de "
+"l'utilisateur"
+
+#: src/ui/prefs.blp:25
+msgid "Beta"
+msgstr "Bêta"
+
+#: src/ui/prefs.blp:28
+msgid "Experimental Beta Support"
+msgstr "Support bêta expérimental"
+
+#: src/ui/prefs.blp:29
+msgid "Enables Beta Support (requires restart)"
+msgstr "Activer le support bêta expérimental (nécessite un redémarrage)"
+
+#: src/ui/prefs.blp:38
+msgid "Installer"
+msgstr "Installateur"
+
+#: src/ui/prefs.blp:41
+msgid "Cantarell Fonts"
+msgstr "Polices de caractère Cantarell"
+
+#: src/ui/prefs.blp:42
+msgid "Installs static Cantarell fonts to `~/.local/share/fonts`"
+msgstr ""
+"Installe les polices de caractère statiques Cantarell dans `~/.local/share/"
+"fonts`"
+
+#: src/ui/prefs.blp:50
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: src/ui/prefs.blp:51
+msgid "Include Custom CSS into Steam"
+msgstr "Inclure le CSS personnalisé dans Steam"
+
+#: src/ui/prefs.blp:56
+msgid "Custom CSS Info"
+msgstr "Informations sur le CSS personnalisé"
+
+#: src/ui/prefs.blp:61
+msgid "Edit Custom CSS File"
+msgstr "Modifier le fichier de CSS personnalisé"
+
+#: src/ui/prefs.blp:71
+msgid "Interface"
+msgstr "Interface"
+
+#: src/ui/prefs.blp:74
+msgid "Preview Themes"
+msgstr "Prévisualisation de thème"
+
+#: src/ui/prefs.blp:75
+msgid "Styles the interface to match the currently selected theme."
+msgstr ""
+"Styliser l'interface pour correspondre au thème actuellement sélectionné."
+
+#: src/ui/window.blp:7
+msgid "Adwaita Steam Installer"
+msgstr "Installateur Adwaita Steam"
+
+#: src/ui/window.blp:14
+msgid "Apply"
+msgstr "Appliquer"
+
+#: src/ui/window.blp:40
+msgid "Theme Options"
+msgstr "Options de thème"
+
+#: src/ui/window.blp:42
+msgid "Color Theme"
+msgstr "Couleur de thème"
+
+#: src/ui/window.blp:45
+msgid "Theme"
+msgstr "Thème"
+
+#: src/ui/window.blp:49
+msgid "No Rounded Corners"
+msgstr "Pas de coins arrondis"
+
+#: src/ui/window.blp:59
+msgid "Window Controls Options"
+msgstr "Options des boutons de fenêtre"
+
+#: src/ui/window.blp:61
+msgid "Window Controls"
+msgstr "Boutons de fenêtre"
+
+#: src/ui/window.blp:62 src/ui/window.blp:66
+msgid "Default"
+msgstr "Par défaut"
+
+#: src/ui/window.blp:62
+msgid "Right-All"
+msgstr "À droite (Tous)"
+
+#: src/ui/window.blp:62
+msgid "Left"
+msgstr "À gauche"
+
+#: src/ui/window.blp:62
+msgid "Left-All"
+msgstr "À gauche (Tous)"
+
+#: src/ui/window.blp:65
+msgid "Controls Style"
+msgstr "Style de contrôle"
+
+#: src/ui/window.blp:66
+msgid "Dots"
+msgstr "Points de suspension"
+
+#: src/ui/window.blp:71
+msgid "Library Options"
+msgstr "Options de la bibliothèque"
+
+#: src/ui/window.blp:74
+msgid "Library Sidebar"
+msgstr "Barre latérale de la bibliothèque"
+
+#: src/ui/window.blp:75 src/ui/window.blp:93
+msgid "Show"
+msgstr "Montrer"
+
+#: src/ui/window.blp:75 src/ui/window.blp:93
+msgid "Hover Only"
+msgstr "Au survol uniquement"
+
+#: src/ui/window.blp:79
+msgid "Hide Library What's New Shelf"
+msgstr "Masquer l'étagère des actualités dans la bibliothèque"
+
+#: src/ui/window.blp:89
+msgid "Login Options"
+msgstr "Options de connexion"
+
+#: src/ui/window.blp:92
+msgid "QR Code Login"
+msgstr "Connexion avec QR code"
+
+#: src/ui/window.blp:93
+msgid "Hide"
+msgstr "Masquer"
+
+#: src/ui/window.blp:98
+msgid "Top Bar Options"
+msgstr "Options de barre supérieure"
+
+#: src/ui/window.blp:100
+msgid "Hide Big Picture Button"
+msgstr "Masquer le bouton Big Picture"
+
+#: src/ui/window.blp:108
+msgid "Hide URL Bar"
+msgstr "Masquer la barre d'URL"
+
+#: src/ui/window.blp:116
+msgid "Show Nav Arrows"
+msgstr "Afficher les flèches de navigation"
+
+#: src/ui/window.blp:126
+msgid "Bottom Bar Options"
+msgstr "Options de barre inférieure"
+
+#: src/ui/window.blp:128
+msgid "Hide Bottom Bar"
+msgstr "Masquer la barre inférieure"
+
+#: src/ui/window.blp:145
+msgid "_Preferences"
+msgstr "_Preferences"
+
+#: src/ui/window.blp:149
+msgid "_Uninstall"
+msgstr "_Uninstall"
+
+#: src/ui/window.blp:153
+msgid "_About AdwSteamGtk"
+msgstr "_About AdwSteamGtk"
+
+#: src/zip.py:31
+msgid "Extract: Failed to read ZIP archive"
+msgstr "Extraction : La lecture de l'archive ZIP a échouée"
+
+#: src/zip.py:33
+msgid "Extract: Bad ZIP File"
+msgstr "Extraction : Archive ZIP corrompue"
+
+#: src/zip.py:35
+msgid "Extract: Failed to Extract ZIP File"
+msgstr "Extraction : L'extraction de l'archive ZIP a échouée"
+
+#: src/zip.py:51
+msgid "Get Themes: Failed to read ZIP archive"
+msgstr "Récupération des thèmes : La lecture de l'archive ZIP a échouée"
+
+#: src/zip.py:53
+msgid "Get Themes: Bad ZIP File"
+msgstr "Récupération des thèmes : Archive ZIP corrompue"
+
+#: src/zip.py:55
+msgid "Get Themes: Failed to get themes"
+msgstr "Récupération des thèmes : La récupération des thèmes a échouée"
