@@ -1,4 +1,4 @@
-# German translation for AdwSteamGtk.
+272393# German translation for AdwSteamGtk.
 # Copyright (C) 2023 Foldex
 # This file is distributed under the GNU GPLv3 license.
 # Foldex, 2023.
@@ -22,7 +22,7 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Adwaita for Steam Skin Installer"
@@ -35,99 +35,104 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "A simple application that installs and updates the Adwaita-for-Steam skin."
-msgstr ""
+msgstr "Eine einfache Anwendung die den Adwaita-for-Steam Skin installiert und aktualisiert"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:21
 msgid "Install Directions:"
-msgstr ""
+msgstr "Installationswege"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:23
 msgid "Install skin via app"
-msgstr ""
+msgstr "Installiere den Skin über die Anwendung"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:24
 msgid "Restart Steam if running"
-msgstr ""
+msgstr "Starte Steam gegebenenfalls neu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
 msgid ""
 "On startup new releases will automatically be downloaded and display a "
 "notification. Simply reinstall the skin and restart Steam to update."
 msgstr ""
+"Während des Hochfahrens wird die neueste Version automatisch "
+"heruntergeladen und gibt eine Benachrichtigung ab. "
+"Um das Update anzuwenden, reinstalliere den Skin und starte Steam neu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid ""
 "Note: In order to get rounded corners on Steam, you will need to use the "
 "\"Rounded Window Corners\" gnome extension."
 msgstr ""
+"Info: Um abgerundete Ecken in Steam zu erhalten benötigst du die "
+"Gnome Erweiterung \"Rounded Window Corners\"."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
 msgid "Added French, Ukrainian, and Russian Translations"
-msgstr ""
+msgstr "Französische, Ukrainische und Russische Übersetzungen wurden hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "New UI"
-msgstr ""
+msgstr "Neue UI"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
 msgid "Added Experimental Beta Client Support (with new options)"
-msgstr ""
+msgstr "Unterstützung für experimentellen Beta-Client hinzugefügt (mit neuen Optionen)"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
 msgid "Added Custom CSS Option"
-msgstr ""
+msgstr "Benutzerdefinierte CSS Option hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:59
 msgid "Added Autostart Update Check preference toggle"
-msgstr ""
+msgstr "Autostart-Update-Check-Einstellung hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
 msgid "Added Font Install preference toggle"
-msgstr ""
+msgstr "Einstellungsschalter für Font Installationen hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
 msgid "Fixed issue with theme preview on light mode"
-msgstr ""
+msgstr "Problem mit der Themenvorschau im hellen Modus behoben"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
 msgid "Added preferences toggle for theme preview"
-msgstr ""
+msgstr "Einstellungsschalter für Themenvorschau hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:75
 msgid "Colortheme is now previewed in app"
-msgstr ""
+msgstr "Colortheme ist jetzt in der App zu sehen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:76
 msgid "Added -u/-i arguments to install skin via commandline"
-msgstr ""
+msgstr "Argumente -u/-i zur Installation von Skins über die Kommandozeile hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
 msgid "Added -o argument to override install options for -i/-u"
-msgstr ""
+msgstr "Argument -o hinzugefügt, um die Installationsoptionen um -i/-u überschreiben zu können"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
 msgid "Added Library Sidebar Options"
-msgstr ""
+msgstr "Optionen für die Bibliotheks-Seitenleiste hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:91
 msgid "Updated to Gnome 44 Runtime"
-msgstr ""
+msgstr "Aktualisiert auf das Gnome 44 Runtime"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
 msgid "Changed Default Web Theme to Full Variant"
-msgstr ""
+msgstr "Standard-Web-Theme auf Vollvariante umgestellt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:99
 msgid "Fixed Installer CLI Output"
-msgstr ""
+msgstr "Installierungs Konsolen Ausgabe behoben"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:106
 msgid "Added Color Theme Support"
-msgstr ""
+msgstr "Farbthema Unterstützung behoben"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:107
 msgid "Added -c argument to notify about updates"
-msgstr ""
+msgstr "Argument -c hinzugefügt, um über Updates zu informieren"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:114
 msgid "Last chosen settings are now loaded at startup"
