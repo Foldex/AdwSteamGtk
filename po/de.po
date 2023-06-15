@@ -184,7 +184,7 @@ msgstr "Themenvorschau"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:159
 msgid "Login Preview"
-msgstr "Anmeldungsvorschau"
+msgstr "Anmeldevorschau"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
@@ -206,7 +206,7 @@ msgstr "{key}: {cur_val} Fehlerhafter Wert"
 #: src/cli.py:127
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
-"Konnte Liste an Themen nicht laden. Falle auf zuletzt ausgewähltes Thema "
+"Konnte Themenliste nicht laden. Falle auf zuletzt ausgewähltes Thema "
 "zurück."
 
 #: src/cli.py:133
@@ -236,7 +236,7 @@ msgstr "API: Fehler JSON zu interpretieren"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr "API: Fehler beim holen der versionsinformationen"
+msgstr "API: Fehler beim holen der Versionsinformationen"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
@@ -292,7 +292,7 @@ msgstr "Dies wird alle Modifikationen am Steam-Client zurücksetzen"
 
 #: src/main.py:145
 msgid "Cancel"
-msgstr "Abbruch"
+msgstr "Abbrechen"
 
 #: src/main.py:146
 msgid "Uninstall"
@@ -308,7 +308,7 @@ msgstr "Diese Funktion ist nur für die Steam Beta verfügbar."
 
 #: src/main.py:156
 msgid "Okay"
-msgstr "In ordnung"
+msgstr "Alles Klar"
 
 #: src/pages/window.py:131 src/ui/window.blp:46
 msgid "Full"
@@ -337,7 +337,7 @@ msgstr "Thema installiert"
 #: src/style.py:40
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr "Style: konnte {theme_name} nicht finden"
+msgstr "Style: Konnte {theme_name} nicht finden"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
@@ -362,7 +362,7 @@ msgstr "Beta"
 
 #: src/ui/prefs.blp:28
 msgid "Experimental Beta Support"
-msgstr "Experimentelle beta Unterstützung"
+msgstr "Experimentelle Beta Unterstützung"
 
 #: src/ui/prefs.blp:29
 msgid "Enables Beta Support (requires restart)"
@@ -406,11 +406,11 @@ msgstr "Vorschau von Themen anzeigen"
 
 #: src/ui/prefs.blp:75
 msgid "Styles the interface to match the currently selected theme."
-msgstr "Lässt die Oberfläche wie das aktuell gewählte Thema aussegen."
+msgstr "Lässt die Oberfläche wie das aktuell gewählte Thema aussehen."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Adwaita Steam Installierer"
 
 #: src/ui/window.blp:14
 msgid "Apply"
@@ -430,7 +430,7 @@ msgstr "Thema"
 
 #: src/ui/window.blp:49
 msgid "No Rounded Corners"
-msgstr "Keine runden Ecken"
+msgstr "Keine abgerunden Ecken"
 
 #: src/ui/window.blp:59
 msgid "Window Controls Options"
@@ -446,15 +446,15 @@ msgstr "Standard"
 
 #: src/ui/window.blp:62
 msgid "Right-All"
-msgstr ""
+msgstr "Alles rechts"
 
 #: src/ui/window.blp:62
 msgid "Left"
-msgstr ""
+msgstr "Links"
 
 #: src/ui/window.blp:62
 msgid "Left-All"
-msgstr ""
+msgstr "Alles rinks"
 
 #: src/ui/window.blp:65
 msgid "Controls Style"
@@ -490,7 +490,7 @@ msgstr "Anmeldeoptionen"
 
 #: src/ui/window.blp:92
 msgid "QR Code Login"
-msgstr "Anmelden via QR-Code"
+msgstr "Anmelden mit QR-Code"
 
 #: src/ui/window.blp:93
 msgid "Hide"
