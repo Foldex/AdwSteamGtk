@@ -136,39 +136,39 @@ msgstr "Argument -c hinzugefügt, um über Updates zu informieren"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:114
 msgid "Last chosen settings are now loaded at startup"
-msgstr ""
+msgstr "Die zuletzt gewählten Einstellungen werden nun beim Start geladen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:115
 msgid "Changed display of install button if the theme is already installed"
-msgstr ""
+msgstr "Anzeige der Installationsschaltfläche, wenn das Theme bereits installiert ist, geändert"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:122
 msgid "Added None to Window Control Options"
-msgstr ""
+msgstr "Keine zu Fenstersteuerungsoptionen hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:129
 msgid "Added QR Login Options"
-msgstr ""
+msgstr "QR Anmeldungsoption hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:130
 msgid "Improved Missing Dir Messages"
-msgstr ""
+msgstr "Missing-Dir-Meldungen verbessert"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:137
 msgid "Updated to Gnome 43 SDK"
-msgstr ""
+msgstr "Aktualisiert auf Gnome 43 SDK"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:138
 msgid "Implemented AdwAboutWindow"
-msgstr ""
+msgstr "AdwAboutWindow implementiert"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:139
 msgid "Updated Filesystem Permissions"
-msgstr ""
+msgstr "Aktualisierte Dateisystem-Berechtigungen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:140
 msgid "Fixed Quit Shortcut"
-msgstr ""
+msgstr "Beenden-Verknüpfung behoben"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:141
 msgid "Fixed Current Check"
@@ -176,19 +176,19 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:151
 msgid "Main Window"
-msgstr ""
+msgstr "Hauptfenster"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:155
 msgid "Theme Preview"
-msgstr ""
+msgstr "Themenvorschau"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:159
 msgid "Login Preview"
-msgstr ""
+msgstr "Anmeldungsvorschau"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "Ein einfacher Wrapper der Adwaita for Steam installiert"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
