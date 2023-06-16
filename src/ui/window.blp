@@ -40,13 +40,16 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           title: _("Theme Options");
           Adw.ComboRow color_theme_options {
             title: _("Color Theme");
+            tooltip-text: _("Changes the color theme of Steam's interface.");
           }
           Adw.ComboRow web_theme_options {
             title: _("Theme");
+            tooltip-text: _("Changes the theme variant. Full themes more areas of the client, while Base is less fully featured.");
             model: StringList { strings [_("Full"), _("Base")] };
           }
           Adw.ActionRow no_rounded_corners {
             title: _("No Rounded Corners");
+            tooltip-text: _("Removes smooth rounded corners from the interface.");
             activatable-widget: no_rounded_corners_switch;
 
             Switch no_rounded_corners_switch {
@@ -59,10 +62,12 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           title: _("Window Controls Options");
           Adw.ComboRow window_controls_options {
             title: _("Window Controls");
+            tooltip-text: _("Changes Window Control position and type. Minimize and Maximize buttons are hidden by default. Use All to show them.");
             model: StringList { strings [_("Default"), _("Right-All"), _("Left"), _("Left-All"), _("None")] };
           }
           Adw.ComboRow window_controls_style_options {
             title: _("Controls Style");
+            tooltip-text: _("Changes Window Control visual style. Default is the traditional style, while Dots are Mac OS style colored circles.");
             model: StringList { strings [_("Default"), _("Dots")] };
           }
         }
@@ -72,11 +77,13 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
 
           Adw.ComboRow library_sidebar_options {
             title: _("Library Sidebar");
+            tooltip-text: _("Changes display options for the Library's left sidebar.");
             model: StringList { strings [_("Show"), _("Hover Only")] };
           }
 
           Adw.ActionRow {
             title: _("Hide Library What's New Shelf");
+            tooltip-text: _("Disables display of the new updates section on top of the Library.");
             activatable-widget: hide_whats_new_switch;
 
             Switch hide_whats_new_switch {
@@ -90,6 +97,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
 
           Adw.ComboRow login_qr_options {
             title: _("QR Code Login");
+            tooltip-text: _("Changes display options for the mobile QR code in the Login dialog.");
             model: StringList { strings [_("Show"), _("Hover Only"), _("Hide")] };
           }
         }
@@ -98,6 +106,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           title: _("Top Bar Options");
           Adw.ActionRow {
             title: _("Original Steam Top Bar");
+            tooltip-text: _("Changes the top bar back to Steam's original style, instead of the Adwaita styled one.");
             activatable-widget: original_topbar_switch;
 
             Switch original_topbar_switch {
@@ -106,6 +115,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           }
           Adw.ActionRow {
             title: _("Hide Big Picture Button");
+            tooltip-text: _("Disables display of the Big Picture button on the Top Bar.");
             activatable-widget: hide_bp_button_switch;
 
             Switch hide_bp_button_switch {
@@ -114,6 +124,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           }
           Adw.ActionRow {
             title: _("Hide URL Bar");
+            tooltip-text: _("Disables display of the page URL on the Top Bar.");
             activatable-widget: hide_nav_url_switch;
 
             Switch hide_nav_url_switch {
@@ -122,6 +133,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           }
           Adw.ActionRow {
             title: _("Show Nav Arrows");
+            tooltip-text: _("Enables display of the forward/back navigation arrows on the Top Bar.");
             activatable-widget: show_nav_arrows_switch;
 
             Switch show_nav_arrows_switch {
@@ -134,6 +146,7 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           title: _("Bottom Bar Options");
           Adw.ActionRow {
             title: _("Hide Bottom Bar");
+            tooltip-text: _("Disables display of the Bottom Bar.");
             activatable-widget: hide_bottom_bar_switch;
 
             Switch hide_bottom_bar_switch {
