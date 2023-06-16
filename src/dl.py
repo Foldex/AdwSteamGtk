@@ -33,10 +33,10 @@ def get_release_info(beta_support=False):
         except:
             return (False, _("API: Error retrieving release info"))
 
-        if all(key in out for key in ("name", "zipball_url")):
+        if all(key in out for key in ("tag_name", "zipball_url")):
             return (out, None)
     else:
-        out = { "name": "Beta", "zipball_url": BETA_ZIP }
+        out = { "tag_name": "Beta", "zipball_url": BETA_ZIP }
         return (out, None)
 
     return (False, _("API: JSON is missing required keys"))

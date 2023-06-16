@@ -22,13 +22,9 @@ from . import install
 from . import paths
 from . import update
 
-def generate_style(theme_name, beta_support):
+def generate_style(theme_name):
 
-    if beta_support:
-        theme_dir = paths.BETA_THEMES_DIR
-    else:
-        theme_dir = paths.THEMES_DIR
-
+    theme_dir = paths.THEMES_DIR
     theme_path = f"{theme_dir}/{theme_name}/{theme_name}.theme"
 
     if install.zip_not_extracted():

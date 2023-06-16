@@ -30,7 +30,7 @@ class result(Enum):
     PRINT_AND_EXIT = 3
     FAIL = 4
 
-def update_install(cli_args, beta_support):
+def update_install(cli_args, beta_support=False):
     (code, msg) = update.check(False, beta_support)
     force_install = cli_args.get("install", False)
     option_string = cli_args.get("options")

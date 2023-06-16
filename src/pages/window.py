@@ -60,6 +60,8 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
+        # Disable Beta Support
+        self.settings.set_boolean("prefs-beta-support", False)
         self.beta_support = self.settings.get_boolean("prefs-beta-support")
 
         self.opt_array = {
@@ -104,7 +106,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             return
 
         selected_theme = self.get_selected_pref(self.color_theme_options, self.opt_array["color_theme"]).lower()
-        ret, msg = style.generate_style(selected_theme, self.beta_support)
+        ret, msg = style.generate_style(selected_theme)
 
         if not ret:
             t = Adw.Toast(title=msg, priority="high")
@@ -123,13 +125,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.color_theme_options.set_model(Gtk.StringList.new(themes))
 
     def load_config(self):
-        if not self.beta_support:
-            self.top_bar_group.set_visible(False)
-            self.bottom_bar_group.set_visible(False)
-            self.window_controls_style_options.set_visible(False)
-            self.no_rounded_corners.set_visible(False)
-            self.web_theme_options.set_model(Gtk.StringList.new([_("Full"), _("Base"), _("None")]))
-
         self.select_from_config('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
         self.select_from_config('web-theme-options', self.web_theme_options, self.opt_array["web_theme"])
         self.select_from_config('no-rounded-corners-switch', self.no_rounded_corners_switch)
