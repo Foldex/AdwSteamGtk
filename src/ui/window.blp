@@ -97,6 +97,14 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
         Adw.PreferencesGroup top_bar_group {
           title: _("Top Bar Options");
           Adw.ActionRow {
+            title: _("Original Steam Top Bar");
+            activatable-widget: original_topbar_switch;
+
+            Switch original_topbar_switch {
+              valign: center;
+            }
+          }
+          Adw.ActionRow {
             title: _("Hide Big Picture Button");
             activatable-widget: hide_bp_button_switch;
 

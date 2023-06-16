@@ -53,6 +53,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     hide_bp_button_switch = Gtk.Template.Child()
     hide_nav_url_switch = Gtk.Template.Child()
     show_nav_arrows_switch = Gtk.Template.Child()
+    original_topbar_switch = Gtk.Template.Child()
 
     bottom_bar_group = Gtk.Template.Child()
     hide_bottom_bar_switch = Gtk.Template.Child()
@@ -140,6 +141,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.select_from_config('hide-bp-button-switch', self.hide_bp_button_switch)
         self.select_from_config('hide-nav-url-switch', self.hide_nav_url_switch)
         self.select_from_config('show-nav-arrows-switch', self.show_nav_arrows_switch)
+        self.select_from_config('original-topbar-switch', self.original_topbar_switch)
 
         self.select_from_config('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
 
@@ -159,6 +161,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.config_from_select('hide-bp-button-switch', self.hide_bp_button_switch)
         self.config_from_select('hide-nav-url-switch', self.hide_nav_url_switch)
         self.config_from_select('show-nav-arrows-switch', self.show_nav_arrows_switch)
+        self.config_from_select('original-topbar-switch', self.original_topbar_switch)
 
         self.config_from_select('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
 
@@ -249,6 +252,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "top_bar_bp_button": not self.get_selected_pref(self.hide_bp_button_switch),
             "top_bar_nav_url": not self.get_selected_pref(self.hide_nav_url_switch),
             "top_bar_nav_arrows": self.get_selected_pref(self.show_nav_arrows_switch),
+            "top_bar_original": self.get_selected_pref(self.original_topbar_switch),
 
             "bottom_bar": not self.get_selected_pref(self.hide_bottom_bar_switch),
         }

@@ -71,6 +71,7 @@ def get_options(option_string):
             "top_bar_bp_button": not settings.get_boolean('hide-bp-button-switch'),
             "top_bar_nav_url": not settings.get_boolean('hide-nav-url-switch'),
             "top_bar_nav_arrows": settings.get_boolean('show-nav-arrows-switch'),
+            "top_bar_original": settings.get_boolean('original-topbar-switch'),
 
             "bottom_bar": not settings.get_boolean('hide-bottom-bar-switch'),
         }
@@ -96,6 +97,7 @@ def get_options(option_string):
             "top_bar_bp_button": (True, False),
             "top_bar_nav_url": (True, False),
             "top_bar_nav_arrows": (True, False),
+            "top_bar_original": (True, False),
 
             "bottom_bar": (True, False),
         }

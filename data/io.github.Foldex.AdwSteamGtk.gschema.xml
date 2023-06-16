@@ -76,6 +76,10 @@
       <default>false</default>
     </key>
 
+    <key name="original-topbar-switch" type="b">
+      <default>false</default>
+    </key>
+
     <!-- Bottom Bar -->
     <key name="hide-bottom-bar-switch" type="b">
       <default>false</default>

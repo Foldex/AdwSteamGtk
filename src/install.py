@@ -120,6 +120,11 @@ def gen_cmd_line(options, beta_support):
         case _:
             top_bar_nav_arrows = ""
 
+    match options["top_bar_original"]:
+        case True:
+            top_bar_original = "-we topbar/vanilla_bar "
+        case _:
+            top_bar_original = ""
 
     match options["bottom_bar"]:
         case False:
@@ -146,6 +151,7 @@ def gen_cmd_line(options, beta_support):
         f"{top_bar_bp_button}"
         f"{top_bar_nav_url}"
         f"{top_bar_nav_arrows}"
+        f"{top_bar_original}"
 
         f"{bottom_bar}"
 
