@@ -22,13 +22,9 @@ from . import install
 from . import paths
 from . import update
 
-def generate_style(theme_name, beta_support):
+def generate_style(theme_name):
 
-    if beta_support:
-        theme_dir = paths.BETA_THEMES_DIR
-    else:
-        theme_dir = paths.THEMES_DIR
-
+    theme_dir = paths.THEMES_DIR
     theme_path = f"{theme_dir}/{theme_name}/{theme_name}.theme"
 
     if install.zip_not_extracted():
@@ -82,6 +78,8 @@ def generate_style(theme_name, beta_support):
 
     css += format_css("card_fg_color", config["general"]["fg"])
     css += format_css("card_bg_color", "rgba(255, 255, 255, 0.08)")
+
+    css += "tooltip.background { background-color: rgba(0, 0, 0, 0.8); color: @card_fg_color; }\n"
 
     return (True, css)
 

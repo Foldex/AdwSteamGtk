@@ -40,8 +40,13 @@ class Adwaita_steam_gtkApplication(Adw.Application):
                          flags=Gio.ApplicationFlags.HANDLES_COMMAND_LINE)
 
         # Beta Support
-        self.settings = Gio.Settings.new(info.APP_ID)
-        self.beta_support = self.settings.get_boolean("prefs-beta-support")
+        # Used for when a Steam Client Beta diverges far enough from stable
+        # that we want to install from separate branches
+        # Probably not seeing much use since the new UI merged into stable
+
+        # self.settings = Gio.Settings.new(info.APP_ID)
+        # self.beta_support = self.settings.get_boolean("prefs-beta-support")
+        self.beta_support = False
 
         self.create_action('quit', self.on_quit_action, ['<primary>q'])
         self.create_action('about', self.on_about_action)
@@ -137,23 +142,16 @@ class Adwaita_steam_gtkApplication(Adw.Application):
         prefs.present()
 
     def on_uninstall_action(self, *args):
-        if self.beta_support:
-            dialog = Adw.MessageDialog(transient_for=self.props.active_window,
-                                       heading=_("Uninstall Theme"),
-                                       body=_("This will reset all customizations made to the Steam client."))
+        dialog = Adw.MessageDialog(transient_for=self.props.active_window,
+                                   heading=_("Uninstall Theme"),
+                                   body=_("This will reset all customizations made to the Steam client."))
 
-            dialog.add_response("cancel", _("Cancel"))
-            dialog.add_response("uninstall", _("Uninstall"))
-            dialog.set_response_appearance("uninstall", Adw.ResponseAppearance.DESTRUCTIVE)
-            dialog.set_default_response("cancel")
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("uninstall", _("Uninstall"))
+        dialog.set_response_appearance("uninstall", Adw.ResponseAppearance.DESTRUCTIVE)
+        dialog.set_default_response("cancel")
 
-            dialog.connect("response", self.on_uninstall_response)
-        else:
-            dialog = Adw.MessageDialog(transient_for=self.props.active_window,
-                                       heading=_("Not Supported"),
-                                       body=_("This feature is only available for the Steam Beta."))
-
-            dialog.add_response("confirm", _("Okay"))
+        dialog.connect("response", self.on_uninstall_response)
 
         dialog.present()
 

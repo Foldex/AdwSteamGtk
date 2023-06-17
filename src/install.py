@@ -28,13 +28,6 @@ def gen_cmd_line(options, beta_support):
     if options.get("uninstall"):
         return f"{installer} -u"
 
-    # Beta no longer uses patches
-    match beta_support:
-        case True:
-            wc_prefix = "-we"
-        case _:
-            wc_prefix = "-p"
-
     match options["install_fonts"]:
         case True:
             install_fonts = "-fi "
@@ -70,13 +63,13 @@ def gen_cmd_line(options, beta_support):
 
     match options["win_controls"].lower():
         case "left":
-            win_controls = f"{wc_prefix} windowcontrols/left "
+            win_controls = f"-we windowcontrols/left "
         case "left-all":
-            win_controls = f"{wc_prefix} windowcontrols/left-all "
+            win_controls = f"-we windowcontrols/left-all "
         case "right-all":
-            win_controls = f"{wc_prefix} windowcontrols/right-all "
+            win_controls = f"-we windowcontrols/right-all "
         case "none":
-            win_controls = f"{wc_prefix} windowcontrols/none "
+            win_controls = f"-we windowcontrols/none "
         case _:
             win_controls = ""
 
@@ -127,25 +120,17 @@ def gen_cmd_line(options, beta_support):
         case _:
             top_bar_nav_arrows = ""
 
+    match options["top_bar_original"]:
+        case True:
+            top_bar_original = "-we topbar/vanilla_bar "
+        case _:
+            top_bar_original = ""
 
     match options["bottom_bar"]:
         case False:
             bottom_bar = "-we bottombar/hide_bar "
         case _:
             bottom_bar = ""
-
-    # Disable Beta
-    match beta_support:
-        case True:
-            pass
-        case _:
-            rounded_corners = ""
-            win_controls_style = ""
-            top_bar_bp_button = ""
-            top_bar_nav_url = ""
-            top_bar_nav_arrows = ""
-            bottom_bar = ""
-
 
     cmd = (
         f"{installer}"
@@ -166,6 +151,7 @@ def gen_cmd_line(options, beta_support):
         f"{top_bar_bp_button}"
         f"{top_bar_nav_url}"
         f"{top_bar_nav_arrows}"
+        f"{top_bar_original}"
 
         f"{bottom_bar}"
 

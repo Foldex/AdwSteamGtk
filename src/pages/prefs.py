@@ -59,7 +59,9 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
         self.setup_switch(self.update_check_switch, "prefs-autostart-update-check", self.on_update_check_switch_toggle)
         self.setup_switch(self.install_fonts_switch, "prefs-install-fonts", self.on_install_fonts_switch_toggle)
         self.setup_switch(self.custom_css_switch, "prefs-install-custom-css", self.on_custom_css_switch_toggle)
-        self.setup_switch(self.beta_support_switch, "prefs-beta-support", self.on_beta_support_switch_toggle)
+
+        # self.setup_switch(self.beta_support_switch, "prefs-beta-support", self.on_beta_support_switch_toggle)
+
         self.custom_css_edit_button.connect("clicked", self.on_custom_css_edit_button_clicked)
         self.custom_css_info_button.connect("clicked", self.on_custom_css_info_button_clicked)
 

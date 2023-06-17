@@ -30,7 +30,7 @@ class result(Enum):
     PRINT_AND_EXIT = 3
     FAIL = 4
 
-def update_install(cli_args, beta_support):
+def update_install(cli_args, beta_support=False):
     (code, msg) = update.check(False, beta_support)
     force_install = cli_args.get("install", False)
     option_string = cli_args.get("options")
@@ -71,6 +71,7 @@ def get_options(option_string):
             "top_bar_bp_button": not settings.get_boolean('hide-bp-button-switch'),
             "top_bar_nav_url": not settings.get_boolean('hide-nav-url-switch'),
             "top_bar_nav_arrows": settings.get_boolean('show-nav-arrows-switch'),
+            "top_bar_original": settings.get_boolean('original-topbar-switch'),
 
             "bottom_bar": not settings.get_boolean('hide-bottom-bar-switch'),
         }
@@ -96,6 +97,7 @@ def get_options(option_string):
             "top_bar_bp_button": (True, False),
             "top_bar_nav_url": (True, False),
             "top_bar_nav_arrows": (True, False),
+            "top_bar_original": (True, False),
 
             "bottom_bar": (True, False),
         }

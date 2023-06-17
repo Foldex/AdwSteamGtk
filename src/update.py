@@ -68,7 +68,7 @@ def need_update(check_only):
 def release_is_newer(server_version, cached_version):
     return version.parse(server_version) > version.parse(cached_version)
 
-def check(check_only=False, beta_support=True):
+def check(check_only=False, beta_support=False):
     if not os.path.exists(paths.CACHE_DIR):
         os.makedirs(paths.CACHE_DIR)
 
@@ -79,25 +79,30 @@ def check(check_only=False, beta_support=True):
 
     if dict:
         last_ver=read_check_file(paths.LAST_VERSION_FILE)
-        
+        version = dict["tag_name"]
+        url = dict["zipball_url"]
+
         # Force Newer if we're downloading the beta
         if beta_support:
             is_newer = True
+        # Or if we're not on the beta but there's a stale beta entry
+        elif not beta_support and last_ver == "Beta":
+            is_newer = True
         else:
-            is_newer = release_is_newer(dict["name"], str(last_ver))
+            is_newer = release_is_newer(version, str(last_ver))
 
         if os.path.exists(paths.LAST_RELEASE_FILE) and not is_newer:
             return (ExitCode.CURRENT, None)
 
         if check_only == True and is_newer:
-            return (ExitCode.SUCCESS, dict["name"])
+            return (ExitCode.SUCCESS, version)
 
-        (ret, dl_msg) = dl.download_release(dict["zipball_url"], paths.LAST_RELEASE_FILE)
+        (ret, dl_msg) = dl.download_release(url, paths.LAST_RELEASE_FILE)
         (ret2, pdl_msg) = post_download()
 
         if ret and ret2:
-            write_file(dict["name"], paths.LAST_VERSION_FILE)
-            return (ExitCode.SUCCESS, dict["name"])
+            write_file(version, paths.LAST_VERSION_FILE)
+            return (ExitCode.SUCCESS, version)
         elif not ret:
             return (ExitCode.FAIL, dl_msg)
         elif not ret2:
