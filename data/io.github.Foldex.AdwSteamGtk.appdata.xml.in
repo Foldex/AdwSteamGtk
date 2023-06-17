@@ -37,6 +37,16 @@
   </categories>
 
   <releases>
+    <release version="0.6.2" type="stable" date="2023-06-16">
+      <description>
+        <ul>
+          <li>Beta Toggle removed as new UI support landed upstream</li>
+          <li>Added option to use Steam's Original Top Bar instead of our Adwaita styled one</li>
+          <li>Initial German Translation</li>
+          <li>Added hover tooltips to installer options</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.1" type="stable" date="2023-06-04">
       <description>
         <ul>
