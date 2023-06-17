@@ -37,6 +37,13 @@
   </categories>
 
   <releases>
+    <release version="0.6.3" type="stable" date="2023-06-16">
+      <description>
+        <ul>
+          <li>Fixed Appdata</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.2" type="stable" date="2023-06-16">
       <description>
         <ul>
