@@ -81,6 +81,8 @@ See [Troubleshooting](https://github.com/Foldex/AdwSteamGtk/wiki/Troubleshooting
 
 See [here](/po)
 
+[Weblate](https://weblate.org/) integration is currently a work in progress.
+
 ## Building
 
 It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) or `flatpak-builder` to build the project.
