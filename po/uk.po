@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: AdwSteamGtk 0.6.0\n"
+"Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
 "PO-Revision-Date: 2023-06-17 13:58+0300\n"
@@ -643,12 +643,3 @@ msgstr "Отримування тем: Не правильний ZIP файл"
 #: src/zip.py:55
 msgid "Get Themes: Failed to get themes"
 msgstr "Отримування тем: Не вдалося отримати теми"
-
-#~ msgid "Not Supported"
-#~ msgstr "Не підтримується"
-
-#~ msgid "This feature is only available for the Steam Beta."
-#~ msgstr "Ця функція доступна лише для бета версії клієнта Steam."
-
-#~ msgid "Okay"
-#~ msgstr "Добре"

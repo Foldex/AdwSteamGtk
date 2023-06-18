@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: AdwSteamGtk 0.6.0\n"
+"Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-28 23:00+0300\n"
+"POT-Creation-Date: 2023-06-17 13:32+0300\n"
 "PO-Revision-Date: 2023-05-28 23:39+0300\n"
 "Last-Translator: volkov <volkovissocool@gmail.com>\n"
 "Language-Team: \n"
@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.1.1\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
@@ -67,120 +67,147 @@ msgstr ""
 "\"Rounded Window Corners\" для GNOME."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
+msgid "Fixed Appdata"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
+msgid "Beta Toggle removed as new UI support landed upstream"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
+msgid ""
+"Added option to use Steam's Original Top Bar instead of our Adwaita styled "
+"one"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
+msgid "Initial German Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
+#, fuzzy
+msgid "Added hover tooltips to installer options"
+msgstr "Добавлена опция \"Ничего\" к кнопкам управления окном"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
+msgid "Added French, Ukrainian, and Russian Translations"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
 msgid "New UI"
 msgstr "Новый интерфейс"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:44
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
 msgid "Added Experimental Beta Client Support (with new options)"
 msgstr ""
 "Добавлено експериментальную поддержку бета версий клиента (с новыми "
 "настройками)"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:45
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:69
 msgid "Added Custom CSS Option"
 msgstr "Добавлено опции для собственных CSS"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:76
 msgid "Added Autostart Update Check preference toggle"
 msgstr "Добавлено опцию для автозапуска проверки обновлений"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
 msgid "Added Font Install preference toggle"
 msgstr "Добавлено опцию для установки шрифта"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
 msgid "Fixed issue with theme preview on light mode"
 msgstr "Исправлена проблема с пред-просмотром тем в светлом режиме"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:61
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:85
 msgid "Added preferences toggle for theme preview"
 msgstr "Добавлена опция для пред-просмотра тем"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
 msgid "Colortheme is now previewed in app"
 msgstr "Цвет темы теперь можна пред-просмотреть в приложении"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:69
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:93
 msgid "Added -u/-i arguments to install skin via commandline"
 msgstr "Добавлено -u/-i аргументы для установки темы через командную строку"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:70
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:94
 msgid "Added -o argument to override install options for -i/-u"
 msgstr "Добавлено -o аргумент для перезаписи настройки для -i/-u"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:101
 msgid "Added Library Sidebar Options"
 msgstr "Добавлено опции для боковой панели"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:108
 msgid "Updated to Gnome 44 Runtime"
 msgstr "Обновлен рантайм GNOME до 44 версии"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:85
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:109
 msgid "Changed Default Web Theme to Full Variant"
 msgstr "Изменено стандартную тему веб элементов на полную"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:116
 msgid "Fixed Installer CLI Output"
 msgstr "Исправлен вывод установщика через командную строку"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:99
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:123
 msgid "Added Color Theme Support"
 msgstr "Добавлена поддержка цветов темы"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:100
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:124
 msgid "Added -c argument to notify about updates"
 msgstr "Добавлен -c аргумент для оповещения об обновлениях"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:107
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:131
 msgid "Last chosen settings are now loaded at startup"
 msgstr "Последние выбранные настройки теперь будут загружаться при запуске"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:108
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
 msgid "Changed display of install button if the theme is already installed"
 msgstr "Изменено отображение кнопки установки темы, если тема уже установлена"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:115
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:139
 msgid "Added None to Window Control Options"
 msgstr "Добавлена опция \"Ничего\" к кнопкам управления окном"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:122
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
 msgid "Added QR Login Options"
 msgstr "Добавлены опции для входа через QR код"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:123
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:147
 msgid "Improved Missing Dir Messages"
 msgstr "Улучшены оповещения про отсутствующую папку"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:130
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:154
 msgid "Updated to Gnome 43 SDK"
 msgstr "Обновлен GNOME SDK до 43 версии"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:131
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:155
 msgid "Implemented AdwAboutWindow"
 msgstr "Реализован AdwAboutWindow"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:156
 msgid "Updated Filesystem Permissions"
 msgstr "Обновлены разрешения файловой системы"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:133
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:157
 msgid "Fixed Quit Shortcut"
 msgstr "Исправлено комбинацию клавиш для выхода"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:134
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:158
 msgid "Fixed Current Check"
 msgstr "Исправлено проверку текущей версии"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:168
 msgid "Main Window"
 msgstr "Главное окно"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:148
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:172
 msgid "Theme Preview"
 msgstr "Пред-просмотр темы"
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:152
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:176
 msgid "Login Preview"
 msgstr "Пред-просмотр входа"
 
@@ -192,21 +219,21 @@ msgstr "Простое приложение для установки темы A
 msgid "Steam;Adwaita;Skin;"
 msgstr "Steam;Adwaita;Skin;стим;скин;тема;"
 
-#: src/cli.py:48 src/cli.py:155
+#: src/cli.py:47 src/cli.py:156
 msgid "Up to Date."
 msgstr "Новейшая версия."
 
-#: src/cli.py:122
+#: src/cli.py:123
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
 msgstr "{key}: {cur_val} не правильное значение"
 
-#: src/cli.py:128
+#: src/cli.py:129
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
 "Не удается получить список тем. Возращаемся к последней выбранной теме."
 
-#: src/cli.py:134
+#: src/cli.py:135
 #, python-brace-format
 msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
@@ -215,122 +242,103 @@ msgstr ""
 "Не удалось найти тему {colortheme} в списке тем. Возращаемся к последней "
 "выбранной теме."
 
-#: src/cli.py:149
+#: src/cli.py:150
 msgid "New Release Available: "
 msgstr "Доступен новый релиз: "
 
-#: src/cli.py:152
+#: src/cli.py:153
 msgid "Update Check Failed: "
 msgstr "Не удалось проверить обновления: "
 
-#: src/dl.py:32
+#: src/dl.py:30
 msgid "API: HTTP Error Code "
 msgstr "API: Код ошибки HTTP "
 
-#: src/dl.py:34
+#: src/dl.py:32
 msgid "API: Error Parsing JSON"
 msgstr "API: Ошибка парсирования JSON"
 
-#: src/dl.py:36
+#: src/dl.py:34
 msgid "API: Error retrieving release info"
 msgstr "API: Ошибка получения информации про релиз"
 
-#: src/dl.py:44
+#: src/dl.py:42
 msgid "API: JSON is missing required keys"
 msgstr "API: Не найдено необходимых ключей в JSON"
 
-#: src/dl.py:50
+#: src/dl.py:48
 msgid "Release: HTTP Error Code "
 msgstr "Релиз: Код ошибки HTTP "
 
-#: src/dl.py:52
+#: src/dl.py:50
 msgid "Release: Connection Reset"
 msgstr "Релиз: Соединение скинулось"
 
-#: src/dl.py:54
+#: src/dl.py:52
 msgid "Release: Permission Error"
 msgstr "Релиз: Ошибка получения доступа"
 
-#: src/dl.py:56
+#: src/dl.py:54
 msgid "Release: Connection Timeout"
 msgstr "Релиз: Тайм-аут соединения"
 
-#: src/dl.py:58
+#: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
 msgstr "Релиз: Ошибка при получении ZIP"
 
-#: src/install.py:185
+#: src/install.py:170
 msgid "Install: Found no Valid Install Targets"
 msgstr "Установка: Не найдено правильную цель для установки"
 
-#: src/install.py:188
+#: src/install.py:173
 msgid "Install: Installer Process Failed"
 msgstr "Установка: Не удалось установить"
 
-#: src/install.py:203
+#: src/install.py:188
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
 msgstr ""
 "Установка: Не удалось найти правильный '~/.steam/steam' симлинк (symlink)"
 
-#: src/main.py:131
+#: src/main.py:136
 msgid "Upstream"
 msgstr "Автор темы Adwaita для Steam"
 
-#: src/main.py:132
+#: src/main.py:137
 msgid "Translators"
 msgstr "Переводчики"
 
-#: src/main.py:142
+#: src/main.py:146
 msgid "Uninstall Theme"
 msgstr "Удалить тему"
 
-#: src/main.py:143
+#: src/main.py:147
 msgid "This will reset all customizations made to the Steam client."
 msgstr "Это действие скинет все настройки кастомизации клиента Steam."
 
-#: src/main.py:145
+#: src/main.py:149
 msgid "Cancel"
 msgstr "Отменить"
 
-#: src/main.py:146
+#: src/main.py:150
 msgid "Uninstall"
 msgstr "Удалить"
 
-#: src/main.py:153
-msgid "Not Supported"
-msgstr "Не поддерживается"
-
-#: src/main.py:154
-msgid "This feature is only available for the Steam Beta."
-msgstr "Эта функция доступна только для бета версии клиента Steam."
-
-#: src/main.py:156
-msgid "Okay"
-msgstr "Хорошо"
-
-#: src/pages/window.py:132 src/ui/window.blp:46
-msgid "Full"
-msgstr "Полная"
-
-#: src/pages/window.py:132 src/ui/window.blp:46
-msgid "Base"
-msgstr "Базовая"
-
-#: src/pages/window.py:132 src/ui/window.blp:62
-msgid "None"
-msgstr "Ничего"
-
-#: src/pages/window.py:222
+#: src/pages/window.py:219
 msgid "New Release Downloaded: "
 msgstr "Загружен новый релиз: "
 
-#: src/pages/window.py:224
+#: src/pages/window.py:221
 msgid "Retry"
 msgstr "Попробовать еще раз"
 
-#: src/pages/window.py:265
+#: src/pages/window.py:263
 msgid "Theme Installed"
 msgstr "Тема установлена"
+
+#: src/style.py:36
+#, python-brace-format
+msgid "Style: Could not find theme {theme_name}"
+msgstr ""
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
@@ -352,51 +360,51 @@ msgstr "Проверять и сообщать о обновлениях тем�
 msgid "Beta"
 msgstr "Бета"
 
-#: src/ui/prefs.blp:28
+#: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
 msgstr "Експериментальная поддержка бета версий"
 
-#: src/ui/prefs.blp:29
+#: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
 msgstr "Включит поддержку бета версий (требуется перезапуск)"
 
-#: src/ui/prefs.blp:38
+#: src/ui/prefs.blp:39
 msgid "Installer"
 msgstr "Установщик"
 
-#: src/ui/prefs.blp:41
+#: src/ui/prefs.blp:42
 msgid "Cantarell Fonts"
 msgstr "Шрифты Cantarell"
 
-#: src/ui/prefs.blp:42
+#: src/ui/prefs.blp:43
 msgid "Installs static Cantarell fonts to `~/.local/share/fonts`"
 msgstr "Установит шрифт Cantarell в `~/.local/share/fonts`"
 
-#: src/ui/prefs.blp:50
+#: src/ui/prefs.blp:51
 msgid "Custom CSS"
 msgstr "Собственный CSS"
 
-#: src/ui/prefs.blp:51
+#: src/ui/prefs.blp:52
 msgid "Include Custom CSS into Steam"
 msgstr "Включить собственный CSS в Steam"
 
-#: src/ui/prefs.blp:56
+#: src/ui/prefs.blp:57
 msgid "Custom CSS Info"
 msgstr "Информация про собственные CSS"
 
-#: src/ui/prefs.blp:61
+#: src/ui/prefs.blp:62
 msgid "Edit Custom CSS File"
 msgstr "Редактировать собственный CSS файл"
 
-#: src/ui/prefs.blp:71
+#: src/ui/prefs.blp:72
 msgid "Interface"
 msgstr "Интерфейс"
 
-#: src/ui/prefs.blp:74
+#: src/ui/prefs.blp:75
 msgid "Preview Themes"
 msgstr "Пред-просмотр тем"
 
-#: src/ui/prefs.blp:75
+#: src/ui/prefs.blp:76
 msgid "Styles the interface to match the currently selected theme."
 msgstr "Стилизирует интерфейс приложения под текущую выбранную тему."
 
@@ -416,134 +424,219 @@ msgstr "Настройки темы"
 msgid "Color Theme"
 msgstr "Цвет темы"
 
-#: src/ui/window.blp:45
+#: src/ui/window.blp:43
+msgid "Changes the color theme of Steam's interface."
+msgstr ""
+
+#: src/ui/window.blp:46
 msgid "Theme"
 msgstr "Тема"
 
-#: src/ui/window.blp:49
+#: src/ui/window.blp:47
+msgid ""
+"Changes the theme variant. Full themes more areas of the client, while Base "
+"is less fully featured."
+msgstr ""
+
+#: src/ui/window.blp:48
+msgid "Full"
+msgstr "Полная"
+
+#: src/ui/window.blp:48
+msgid "Base"
+msgstr "Базовая"
+
+#: src/ui/window.blp:51
 msgid "No Rounded Corners"
 msgstr "БЕЗ закругленных углов"
 
-#: src/ui/window.blp:59
+#: src/ui/window.blp:52
+msgid "Removes smooth rounded corners from the interface."
+msgstr ""
+
+#: src/ui/window.blp:62
 msgid "Window Controls Options"
 msgstr "Настройки кнопок управления окном"
 
-#: src/ui/window.blp:61
+#: src/ui/window.blp:64
 msgid "Window Controls"
 msgstr "Кнопки управления окном"
 
-#: src/ui/window.blp:62 src/ui/window.blp:66
+#: src/ui/window.blp:65
+msgid ""
+"Changes Window Control position and type. Minimize and Maximize buttons are "
+"hidden by default. Use All to show them."
+msgstr ""
+
+#: src/ui/window.blp:66 src/ui/window.blp:71
 msgid "Default"
 msgstr "По умолчанию"
 
-#: src/ui/window.blp:62
+#: src/ui/window.blp:66
 msgid "Right-All"
 msgstr "Все справа"
 
-#: src/ui/window.blp:62
+#: src/ui/window.blp:66
 msgid "Left"
 msgstr "Слева"
 
-#: src/ui/window.blp:62
+#: src/ui/window.blp:66
 msgid "Left-All"
 msgstr "Все слева"
 
-#: src/ui/window.blp:65
+#: src/ui/window.blp:66
+msgid "None"
+msgstr "Ничего"
+
+#: src/ui/window.blp:69
 msgid "Controls Style"
 msgstr "Стиль кнопок управления окном"
 
-#: src/ui/window.blp:66
+#: src/ui/window.blp:70
+msgid ""
+"Changes Window Control visual style. Default is the traditional style, while "
+"Dots are Mac OS style colored circles."
+msgstr ""
+
+#: src/ui/window.blp:71
 msgid "Dots"
 msgstr "Точки"
 
-#: src/ui/window.blp:71
+#: src/ui/window.blp:76
 msgid "Library Options"
 msgstr "Настройки библиотеки"
 
-#: src/ui/window.blp:74
+#: src/ui/window.blp:79
 msgid "Library Sidebar"
 msgstr "Боковая панель библиотеки"
 
-#: src/ui/window.blp:75 src/ui/window.blp:93
+#: src/ui/window.blp:80
+msgid "Changes display options for the Library's left sidebar."
+msgstr ""
+
+#: src/ui/window.blp:81 src/ui/window.blp:101
 msgid "Show"
 msgstr "Показать"
 
-#: src/ui/window.blp:75 src/ui/window.blp:93
+#: src/ui/window.blp:81 src/ui/window.blp:101
 msgid "Hover Only"
 msgstr "Когда наведен курсор"
 
-#: src/ui/window.blp:79
+#: src/ui/window.blp:85
 msgid "Hide Library What's New Shelf"
 msgstr "Спрятать полку \"Что нового\" библиотеки"
 
-#: src/ui/window.blp:89
+#: src/ui/window.blp:86
+msgid "Disables display of the new updates section on top of the Library."
+msgstr ""
+
+#: src/ui/window.blp:96
 msgid "Login Options"
 msgstr "Настройки входа"
 
-#: src/ui/window.blp:92
+#: src/ui/window.blp:99
 msgid "QR Code Login"
 msgstr "QR код для входа"
 
-#: src/ui/window.blp:93
+#: src/ui/window.blp:100
+msgid "Changes display options for the mobile QR code in the Login dialog."
+msgstr ""
+
+#: src/ui/window.blp:101
 msgid "Hide"
 msgstr "Спрятать"
 
-#: src/ui/window.blp:98
+#: src/ui/window.blp:106
 msgid "Top Bar Options"
 msgstr "Настройки верхней панели"
 
-#: src/ui/window.blp:100
+#: src/ui/window.blp:108
+msgid "Original Steam Top Bar"
+msgstr ""
+
+#: src/ui/window.blp:109
+msgid ""
+"Changes the top bar back to Steam's original style, instead of the Adwaita "
+"styled one."
+msgstr ""
+
+#: src/ui/window.blp:117
 msgid "Hide Big Picture Button"
 msgstr "Спрятать кнопку Big Picture"
 
-#: src/ui/window.blp:108
+#: src/ui/window.blp:118
+msgid "Disables display of the Big Picture button on the Top Bar."
+msgstr ""
+
+#: src/ui/window.blp:126
 msgid "Hide URL Bar"
 msgstr "Спрятать адресную строку"
 
-#: src/ui/window.blp:116
+#: src/ui/window.blp:127
+msgid "Disables display of the page URL on the Top Bar."
+msgstr ""
+
+#: src/ui/window.blp:135
 msgid "Show Nav Arrows"
 msgstr "Показывать стрелки навигации"
 
-#: src/ui/window.blp:126
+#: src/ui/window.blp:136
+msgid "Enables display of the forward/back navigation arrows on the Top Bar."
+msgstr ""
+
+#: src/ui/window.blp:146
 msgid "Bottom Bar Options"
 msgstr "Настройки нижней панели"
 
-#: src/ui/window.blp:128
+#: src/ui/window.blp:148
 msgid "Hide Bottom Bar"
 msgstr "Спрятать нижнюю панель"
 
-#: src/ui/window.blp:145
+#: src/ui/window.blp:149
+msgid "Disables display of the Bottom Bar."
+msgstr ""
+
+#: src/ui/window.blp:166
 msgid "_Preferences"
 msgstr "_Настройки"
 
-#: src/ui/window.blp:149
+#: src/ui/window.blp:170
 msgid "_Uninstall"
 msgstr "_Удалить"
 
-#: src/ui/window.blp:153
+#: src/ui/window.blp:174
 msgid "_About AdwSteamGtk"
 msgstr "_Про AdwSteamGtk"
 
-#: src/zip.py:32
+#: src/zip.py:31
 msgid "Extract: Failed to read ZIP archive"
 msgstr "Распаковка: Не удалось прочитать ZIP файл"
 
-#: src/zip.py:34
+#: src/zip.py:33
 msgid "Extract: Bad ZIP File"
 msgstr "Распаковка: Не правильный ZIP файл"
 
-#: src/zip.py:36
+#: src/zip.py:35
 msgid "Extract: Failed to Extract ZIP File"
 msgstr "Распаковка: Не удалось распаковать ZIP файл"
 
-#: src/zip.py:52
+#: src/zip.py:51
 msgid "Get Themes: Failed to read ZIP archive"
 msgstr "Получение тем: Не удалось прочитать ZIP архив"
 
-#: src/zip.py:54
+#: src/zip.py:53
 msgid "Get Themes: Bad ZIP File"
 msgstr "Получение тем: Не правильный ZIP файл"
 
-#: src/zip.py:56
+#: src/zip.py:55
 msgid "Get Themes: Failed to get themes"
 msgstr "Получение тем: Не удалось получить темы"
+
+#~ msgid "Not Supported"
+#~ msgstr "Не поддерживается"
+
+#~ msgid "This feature is only available for the Steam Beta."
+#~ msgstr "Эта функция доступна только для бета версии клиента Steam."
+
+#~ msgid "Okay"
+#~ msgstr "Хорошо"
