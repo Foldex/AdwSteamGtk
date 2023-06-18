@@ -22,7 +22,7 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Adwaita for Steam Skin Installer"
@@ -35,135 +35,140 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "A simple application that installs and updates the Adwaita-for-Steam skin."
-msgstr ""
+msgstr "Eine einfache Anwendung die den Adwaita-for-Steam Skin installiert und aktualisiert"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:21
 msgid "Install Directions:"
-msgstr ""
+msgstr "Installationswege"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:23
 msgid "Install skin via app"
-msgstr ""
+msgstr "Installiere den Skin über die Anwendung"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:24
 msgid "Restart Steam if running"
-msgstr ""
+msgstr "Starte Steam gegebenenfalls neu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
 msgid ""
 "On startup new releases will automatically be downloaded and display a "
 "notification. Simply reinstall the skin and restart Steam to update."
 msgstr ""
+"Während des Hochfahrens wird die neueste Version automatisch "
+"heruntergeladen und gibt eine Benachrichtigung ab. "
+"Um das Update anzuwenden, reinstalliere den Skin und starte Steam neu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid ""
 "Note: In order to get rounded corners on Steam, you will need to use the "
 "\"Rounded Window Corners\" gnome extension."
 msgstr ""
+"Info: Um abgerundete Ecken in Steam zu erhalten benötigst du die "
+"Gnome Erweiterung \"Rounded Window Corners\"."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
 msgid "Added French, Ukrainian, and Russian Translations"
-msgstr ""
+msgstr "Französische, Ukrainische und Russische Übersetzungen wurden hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "New UI"
-msgstr ""
+msgstr "Neue UI"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
 msgid "Added Experimental Beta Client Support (with new options)"
-msgstr ""
+msgstr "Unterstützung für experimentellen Beta-Client hinzugefügt (mit neuen Optionen)"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
 msgid "Added Custom CSS Option"
-msgstr ""
+msgstr "Benutzerdefinierte CSS Option hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:59
 msgid "Added Autostart Update Check preference toggle"
-msgstr ""
+msgstr "Autostart-Update-Check-Einstellung hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
 msgid "Added Font Install preference toggle"
-msgstr ""
+msgstr "Einstellungsschalter für Font Installationen hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
 msgid "Fixed issue with theme preview on light mode"
-msgstr ""
+msgstr "Problem mit der Themenvorschau im hellen Modus behoben"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
 msgid "Added preferences toggle for theme preview"
-msgstr ""
+msgstr "Einstellungsschalter für Themenvorschau hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:75
 msgid "Colortheme is now previewed in app"
-msgstr ""
+msgstr "Colortheme ist jetzt in der App zu sehen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:76
 msgid "Added -u/-i arguments to install skin via commandline"
-msgstr ""
+msgstr "Argumente -u/-i zur Installation von Skins über die Kommandozeile hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
 msgid "Added -o argument to override install options for -i/-u"
-msgstr ""
+msgstr "Argument -o hinzugefügt, um die Installationsoptionen um -i/-u überschreiben zu können"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
 msgid "Added Library Sidebar Options"
-msgstr ""
+msgstr "Optionen für die Bibliotheks-Seitenleiste hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:91
 msgid "Updated to Gnome 44 Runtime"
-msgstr ""
+msgstr "Aktualisiert auf das Gnome 44 Runtime"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
 msgid "Changed Default Web Theme to Full Variant"
-msgstr ""
+msgstr "Standard-Web-Theme auf Vollvariante umgestellt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:99
 msgid "Fixed Installer CLI Output"
-msgstr ""
+msgstr "Installierungs Konsolen Ausgabe behoben"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:106
 msgid "Added Color Theme Support"
-msgstr ""
+msgstr "Farbthema Unterstützung behoben"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:107
 msgid "Added -c argument to notify about updates"
-msgstr ""
+msgstr "Argument -c hinzugefügt, um über Updates zu informieren"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:114
 msgid "Last chosen settings are now loaded at startup"
-msgstr ""
+msgstr "Die zuletzt gewählten Einstellungen werden nun beim Start geladen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:115
 msgid "Changed display of install button if the theme is already installed"
-msgstr ""
+msgstr "Anzeige der Installationsschaltfläche, wenn das Theme bereits installiert ist, geändert"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:122
 msgid "Added None to Window Control Options"
-msgstr ""
+msgstr "Keine zu Fenstersteuerungsoptionen hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:129
 msgid "Added QR Login Options"
-msgstr ""
+msgstr "QR Anmeldungsoption hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:130
 msgid "Improved Missing Dir Messages"
-msgstr ""
+msgstr "Missing-Dir-Meldungen verbessert"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:137
 msgid "Updated to Gnome 43 SDK"
-msgstr ""
+msgstr "Aktualisiert auf Gnome 43 SDK"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:138
 msgid "Implemented AdwAboutWindow"
-msgstr ""
+msgstr "AdwAboutWindow implementiert"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:139
 msgid "Updated Filesystem Permissions"
-msgstr ""
+msgstr "Aktualisierte Dateisystem-Berechtigungen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:140
 msgid "Fixed Quit Shortcut"
-msgstr ""
+msgstr "Beenden-Verknüpfung behoben"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:141
 msgid "Fixed Current Check"
@@ -171,19 +176,19 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:151
 msgid "Main Window"
-msgstr ""
+msgstr "Hauptfenster"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:155
 msgid "Theme Preview"
-msgstr ""
+msgstr "Themenvorschau"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:159
 msgid "Login Preview"
-msgstr ""
+msgstr "Anmeldevorschau"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "Ein einfacher Wrapper der Adwaita for Steam installiert"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
@@ -201,7 +206,7 @@ msgstr "{key}: {cur_val} Fehlerhafter Wert"
 #: src/cli.py:127
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
-"Konnte Liste an Themen nicht laden. Falle auf zuletzt ausgewähltes Thema "
+"Konnte Themenliste nicht laden. Falle auf zuletzt ausgewähltes Thema "
 "zurück."
 
 #: src/cli.py:133
@@ -231,7 +236,7 @@ msgstr "API: Fehler JSON zu interpretieren"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr "API: Fehler beim holen der versionsinformationen"
+msgstr "API: Fehler beim holen der Versionsinformationen"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
@@ -287,7 +292,7 @@ msgstr "Dies wird alle Modifikationen am Steam-Client zurücksetzen"
 
 #: src/main.py:145
 msgid "Cancel"
-msgstr "Abbruch"
+msgstr "Abbrechen"
 
 #: src/main.py:146
 msgid "Uninstall"
@@ -303,7 +308,7 @@ msgstr "Diese Funktion ist nur für die Steam Beta verfügbar."
 
 #: src/main.py:156
 msgid "Okay"
-msgstr "In ordnung"
+msgstr "Alles Klar"
 
 #: src/pages/window.py:131 src/ui/window.blp:46
 msgid "Full"
@@ -332,7 +337,7 @@ msgstr "Thema installiert"
 #: src/style.py:40
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr "Style: konnte {theme_name} nicht finden"
+msgstr "Style: Konnte {theme_name} nicht finden"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
@@ -357,7 +362,7 @@ msgstr "Beta"
 
 #: src/ui/prefs.blp:28
 msgid "Experimental Beta Support"
-msgstr "Experimentelle beta Unterstützung"
+msgstr "Experimentelle Beta Unterstützung"
 
 #: src/ui/prefs.blp:29
 msgid "Enables Beta Support (requires restart)"
@@ -401,11 +406,11 @@ msgstr "Vorschau von Themen anzeigen"
 
 #: src/ui/prefs.blp:75
 msgid "Styles the interface to match the currently selected theme."
-msgstr "Lässt die Oberfläche wie das aktuell gewählte Thema aussegen."
+msgstr "Lässt die Oberfläche wie das aktuell gewählte Thema aussehen."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Adwaita Steam Installierer"
 
 #: src/ui/window.blp:14
 msgid "Apply"
@@ -425,7 +430,7 @@ msgstr "Thema"
 
 #: src/ui/window.blp:49
 msgid "No Rounded Corners"
-msgstr "Keine runden Ecken"
+msgstr "Keine abgerunden Ecken"
 
 #: src/ui/window.blp:59
 msgid "Window Controls Options"
@@ -441,15 +446,15 @@ msgstr "Standard"
 
 #: src/ui/window.blp:62
 msgid "Right-All"
-msgstr ""
+msgstr "Alles rechts"
 
 #: src/ui/window.blp:62
 msgid "Left"
-msgstr ""
+msgstr "Links"
 
 #: src/ui/window.blp:62
 msgid "Left-All"
-msgstr ""
+msgstr "Alles rinks"
 
 #: src/ui/window.blp:65
 msgid "Controls Style"
@@ -485,7 +490,7 @@ msgstr "Anmeldeoptionen"
 
 #: src/ui/window.blp:92
 msgid "QR Code Login"
-msgstr "Anmelden via QR-Code"
+msgstr "Anmelden mit QR-Code"
 
 #: src/ui/window.blp:93
 msgid "Hide"
