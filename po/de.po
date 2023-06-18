@@ -1,4 +1,4 @@
-272393# German translation for AdwSteamGtk.
+# German translation for AdwSteamGtk.
 # Copyright (C) 2023 Foldex
 # This file is distributed under the GNU GPLv3 license.
 # Foldex, 2023.
