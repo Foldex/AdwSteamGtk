@@ -66,22 +66,6 @@
             ]
         },
         {
-            "name": "gnu-patch",
-            "buildsystem": "autotools",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://git.savannah.gnu.org/git/patch.git",
-                    "tag": "v2.7.6",
-                    "commit": "40b387de08653a1e46872b8ac1a6a14b9b94feb3",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$"
-                    }
-                }
-            ]
-        },
-        {
             "name": "python3-packaging",
             "buildsystem": "simple",
             "build-commands": [

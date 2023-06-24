@@ -97,7 +97,6 @@ See the below requirements otherwise.
 ### Requirements
 
 - Blueprint Compiler >= `0.8.0`
-- GNU Patch (Runtime Dependency)
 - GTK4
 - Libadwaita
 - Libportal
