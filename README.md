@@ -77,11 +77,15 @@ Options should be passed as a single string like so:
 
 See [Troubleshooting](https://github.com/Foldex/AdwSteamGtk/wiki/Troubleshooting)
 
-## Contribute Translations
+## Translations
 
-See [here](/po)
+<a href="https://hosted.weblate.org/engage/adwsteamgtk/">
+    <img src="https://hosted.weblate.org/widgets/adwsteamgtk/-/adwsteamgtk/multi-auto.svg" alt="Translation status" />
+</a>
 
-[Weblate](https://weblate.org/) integration is currently a work in progress.
+The [Weblate](https://hosted.weblate.org/projects/adwsteamgtk/adwsteamgtk/) platform is the preferred method of contributing translations.
+
+[Manual Instructions](/po) do exist for an alternative method of contributing as well.
 
 ## Building
 
