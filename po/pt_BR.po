@@ -301,7 +301,8 @@ msgstr "Instalação: Falha no Processo do Instalador"
 
 #: src/install.py:188
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
-msgstr "Instalação: Falha ao Encontrar o Link Simbólico '~/.steam/steam' Válido"
+msgstr ""
+"Instalação: Falha ao Encontrar o Link Simbólico '~/.steam/steam' Válido"
 
 #: src/main.py:136
 msgid "Upstream"
