@@ -1,0 +1,648 @@
+# AdwSteamGtk Pot
+# Copyright (C) 2023 Foldex
+# This file is distributed under the GNU GPLv3 license.
+# Foldex, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AdwSteamGtk 0.6.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-17 13:32+0300\n"
+"PO-Revision-Date: 2023-07-06 22:52+0000\n"
+"Last-Translator: Fernando Lopes <118869201+plasmus777@users.noreply.github."
+"com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"adwsteamgtk/adwsteamgtk/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
+msgid "AdwSteamGtk"
+msgstr "AdwSteamGtk"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
+msgid "Adwaita for Steam Skin Installer"
+msgstr "Instalador da Capa Adwaita para a Steam"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
+msgid "Foldex"
+msgstr "Foldex"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
+msgid ""
+"A simple application that installs and updates the Adwaita-for-Steam skin."
+msgstr "Um aplicativo simples que instala e atualiza a capa Adwaita-for-Steam."
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:21
+msgid "Install Directions:"
+msgstr "Direções de Instalação:"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:23
+msgid "Install skin via app"
+msgstr "Instalar capa pelo aplicativo"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:24
+msgid "Restart Steam if running"
+msgstr "Reiniciar a Steam caso esteja executando"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
+msgid ""
+"On startup new releases will automatically be downloaded and display a "
+"notification. Simply reinstall the skin and restart Steam to update."
+msgstr ""
+"Na inicialização, novos lançamentos serão transferidos automaticamente e "
+"exibirão uma notificação. Simplesmente reinstale a capa e reinicie a Steam "
+"para atualizar."
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
+msgid ""
+"Note: In order to get rounded corners on Steam, you will need to use the "
+"\"Rounded Window Corners\" gnome extension."
+msgstr ""
+"Nota: Para obter cantos arredondados na Steam, você precisará usar a "
+"extensão do gnome \"Rounded Window Corners\"."
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
+msgid "Fixed Appdata"
+msgstr "Dados de aplicativo corrigidos"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
+msgid "Beta Toggle removed as new UI support landed upstream"
+msgstr ""
+"Chave Beta removida quando o novo suporte à interface de usuário chegou ao "
+"upstream"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
+msgid ""
+"Added option to use Steam's Original Top Bar instead of our Adwaita styled "
+"one"
+msgstr ""
+"Opção adicionada para usar a barra superior original da Steam em vez da "
+"barra estilo Adwaita"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
+msgid "Initial German Translation"
+msgstr "Tradução Inicial em Alemão"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
+msgid "Added hover tooltips to installer options"
+msgstr "Adicionadas dicas de ferramentas em foco às opções do instalador"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
+msgid "Added French, Ukrainian, and Russian Translations"
+msgstr "Adicionadas Traduções para Francês, Ucraniano e Russo"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
+msgid "New UI"
+msgstr "Nova Interface de Usuário"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
+msgid "Added Experimental Beta Client Support (with new options)"
+msgstr "Adicionado Suporte ao Cliente Beta Experimental (com novas opções)"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:69
+msgid "Added Custom CSS Option"
+msgstr "Adicionada Opção de CSS Personalizada"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:76
+msgid "Added Autostart Update Check preference toggle"
+msgstr ""
+"Adicionada chave de preferência de Verificação de Atualização com Início "
+"Automático"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
+msgid "Added Font Install preference toggle"
+msgstr "Adicionada chave de preferência para Instalação de Fonte"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
+msgid "Fixed issue with theme preview on light mode"
+msgstr "Corrige problema com a visualização de tema no modo claro"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:85
+msgid "Added preferences toggle for theme preview"
+msgstr "Adicionada chave de preferência para a visualização de tema"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
+msgid "Colortheme is now previewed in app"
+msgstr "Esquemas de cores agora são visualizados no aplicativo"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:93
+msgid "Added -u/-i arguments to install skin via commandline"
+msgstr "Adiciona os argumentos -u/-i para instalar capas por linha de comando"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:94
+msgid "Added -o argument to override install options for -i/-u"
+msgstr ""
+"Adiciona o argumento -o para sobrescrever as opções de instalação para -i/-u"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:101
+msgid "Added Library Sidebar Options"
+msgstr "Adiciona Opções da Barra Lateral da Biblioteca"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:108
+msgid "Updated to Gnome 44 Runtime"
+msgstr "Atualiza o Runtime para Gnome 44"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:109
+msgid "Changed Default Web Theme to Full Variant"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:116
+msgid "Fixed Installer CLI Output"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:123
+msgid "Added Color Theme Support"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:124
+msgid "Added -c argument to notify about updates"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:131
+msgid "Last chosen settings are now loaded at startup"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
+msgid "Changed display of install button if the theme is already installed"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:139
+msgid "Added None to Window Control Options"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
+msgid "Added QR Login Options"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:147
+msgid "Improved Missing Dir Messages"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:154
+msgid "Updated to Gnome 43 SDK"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:155
+msgid "Implemented AdwAboutWindow"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:156
+msgid "Updated Filesystem Permissions"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:157
+msgid "Fixed Quit Shortcut"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:158
+msgid "Fixed Current Check"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:168
+msgid "Main Window"
+msgstr "Janela Principal"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:172
+msgid "Theme Preview"
+msgstr "Visualização de Tema"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:176
+msgid "Login Preview"
+msgstr "Visualização de Entrada"
+
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
+msgid "A simple wrapper that installs Adwaita for Steam"
+msgstr "Um wrapper simples que instala o Adwaita para Steam"
+
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
+msgid "Steam;Adwaita;Skin;"
+msgstr "Steam;Adwaita;Capa;"
+
+#: src/cli.py:47 src/cli.py:156
+msgid "Up to Date."
+msgstr "Atualizado."
+
+#: src/cli.py:123
+#, python-brace-format
+msgid "{key}: {cur_val} invalid value"
+msgstr "{key}: {cur_val} valor inválido"
+
+#: src/cli.py:129
+msgid "Could not get theme list. Falling back to last selected theme."
+msgstr ""
+"Não foi possível obter a lista de temas. Voltando ao último tema selecionado."
+
+#: src/cli.py:135
+#, python-brace-format
+msgid ""
+"Could not find theme {colortheme} in theme list. Falling back to last "
+"selected theme."
+msgstr ""
+"Não foi possível encontrar o tema {colortheme} na lista de temas. Voltando "
+"ao último tema selecionado."
+
+#: src/cli.py:150
+msgid "New Release Available: "
+msgstr "Novo Lançamento Disponível: "
+
+#: src/cli.py:153
+msgid "Update Check Failed: "
+msgstr "Falha na Verificação de Atualização: "
+
+#: src/dl.py:30
+msgid "API: HTTP Error Code "
+msgstr "API: Código de Erro HTTP "
+
+#: src/dl.py:32
+msgid "API: Error Parsing JSON"
+msgstr "API: Erro ao Processar JSON"
+
+#: src/dl.py:34
+msgid "API: Error retrieving release info"
+msgstr "API: Erro ao obter informações de lançamento"
+
+#: src/dl.py:42
+msgid "API: JSON is missing required keys"
+msgstr "API: O arquivo JSON não possui as chaves necessárias"
+
+#: src/dl.py:48
+msgid "Release: HTTP Error Code "
+msgstr "Lançamento: Código de Erro HTTP "
+
+#: src/dl.py:50
+msgid "Release: Connection Reset"
+msgstr "Lançamento: Conexão Reiniciada"
+
+#: src/dl.py:52
+msgid "Release: Permission Error"
+msgstr "Lançamento: Erro de Permissão"
+
+#: src/dl.py:54
+msgid "Release: Connection Timeout"
+msgstr "Lançamento: Tempo Limite de Conexão Atingido"
+
+#: src/dl.py:56
+msgid "Release: Error Retrieving Zip"
+msgstr "Lançamento: Erro ao Obter Zip"
+
+#: src/install.py:170
+msgid "Install: Found no Valid Install Targets"
+msgstr "Instalação: Não Foram Encontrados Destinos de Instalação Válidos"
+
+#: src/install.py:173
+msgid "Install: Installer Process Failed"
+msgstr "Instalação: Falha no Processo do Instalador"
+
+#: src/install.py:188
+msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
+msgstr "Instalação: Falha ao Encontrar o Link Simbólico '~/.steam/steam' Válido"
+
+#: src/main.py:136
+msgid "Upstream"
+msgstr "Upstream"
+
+#: src/main.py:137
+msgid "Translators"
+msgstr "Tradutores"
+
+#: src/main.py:146
+msgid "Uninstall Theme"
+msgstr "Desinstalar Tema"
+
+#: src/main.py:147
+msgid "This will reset all customizations made to the Steam client."
+msgstr "Isso irá restaurar todas as customizações feitas no cliente Steam."
+
+#: src/main.py:149
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/main.py:150
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+#: src/pages/window.py:219
+msgid "New Release Downloaded: "
+msgstr "Novo Lançamento Transferido: "
+
+#: src/pages/window.py:221
+msgid "Retry"
+msgstr "Repetir"
+
+#: src/pages/window.py:263
+msgid "Theme Installed"
+msgstr "Tema Instalado"
+
+#: src/style.py:36
+#, python-brace-format
+msgid "Style: Could not find theme {theme_name}"
+msgstr "Estilo: Não foi possível encontrar o tema {theme_name}"
+
+#: src/ui/prefs.blp:5
+msgid "Preferences"
+msgstr "Preferências"
+
+#: src/ui/prefs.blp:12
+msgid "Autostart"
+msgstr "Autoiniciar"
+
+#: src/ui/prefs.blp:15
+msgid "Auto Update Check"
+msgstr "Verificar por Atualizações Automaticamente"
+
+#: src/ui/prefs.blp:16
+msgid "Checks and notifies for theme updates on user login."
+msgstr "Verifica e notifica por mudanças no tema assim que o usuário entrar."
+
+#: src/ui/prefs.blp:25
+msgid "Beta"
+msgstr "Beta"
+
+#: src/ui/prefs.blp:29
+msgid "Experimental Beta Support"
+msgstr "Suporte Beta Experimental"
+
+#: src/ui/prefs.blp:30
+msgid "Enables Beta Support (requires restart)"
+msgstr "Habilita Suporte Beta (requer reinício)"
+
+#: src/ui/prefs.blp:39
+msgid "Installer"
+msgstr "Instalador"
+
+#: src/ui/prefs.blp:42
+msgid "Cantarell Fonts"
+msgstr "Fontes Cantarell"
+
+#: src/ui/prefs.blp:43
+msgid "Installs static Cantarell fonts to `~/.local/share/fonts`"
+msgstr "Instala fontes Cantarell estáticas em `~/.local/share/fonts`"
+
+#: src/ui/prefs.blp:51
+msgid "Custom CSS"
+msgstr "CSS Personalizado"
+
+#: src/ui/prefs.blp:52
+msgid "Include Custom CSS into Steam"
+msgstr "Incluir CSS Personalizado à Steam"
+
+#: src/ui/prefs.blp:57
+msgid "Custom CSS Info"
+msgstr "Informação do CSS Personalizado"
+
+#: src/ui/prefs.blp:62
+msgid "Edit Custom CSS File"
+msgstr "Editar o Arquivo do CSS Personalizado"
+
+#: src/ui/prefs.blp:72
+msgid "Interface"
+msgstr "Interface"
+
+#: src/ui/prefs.blp:75
+msgid "Preview Themes"
+msgstr "Visualizar Temas"
+
+#: src/ui/prefs.blp:76
+msgid "Styles the interface to match the currently selected theme."
+msgstr "Estiliza a interface de acordo com o tema selecionado."
+
+#: src/ui/window.blp:7
+msgid "Adwaita Steam Installer"
+msgstr "Instalador do Adwaita Steam"
+
+#: src/ui/window.blp:14
+msgid "Apply"
+msgstr "Aplicar"
+
+#: src/ui/window.blp:40
+msgid "Theme Options"
+msgstr "Opções de Tema"
+
+#: src/ui/window.blp:42
+msgid "Color Theme"
+msgstr "Esquema de Cores"
+
+#: src/ui/window.blp:43
+msgid "Changes the color theme of Steam's interface."
+msgstr "Muda o esquema de cores da interface da Steam."
+
+#: src/ui/window.blp:46
+msgid "Theme"
+msgstr "Tema"
+
+#: src/ui/window.blp:47
+msgid ""
+"Changes the theme variant. Full themes more areas of the client, while Base "
+"is less fully featured."
+msgstr ""
+"Altera a variante do tema. Cheio modifica mais áreas do cliente, enquanto "
+"Base possui menos mudanças."
+
+#: src/ui/window.blp:48
+msgid "Full"
+msgstr "Cheio"
+
+#: src/ui/window.blp:48
+msgid "Base"
+msgstr "Base"
+
+#: src/ui/window.blp:51
+msgid "No Rounded Corners"
+msgstr "Sem Cantos Arrendondados"
+
+#: src/ui/window.blp:52
+msgid "Removes smooth rounded corners from the interface."
+msgstr "Remove cantos arredondados suaves da interface."
+
+#: src/ui/window.blp:62
+msgid "Window Controls Options"
+msgstr "Opções dos Controles da Janela"
+
+#: src/ui/window.blp:64
+msgid "Window Controls"
+msgstr "Controles da Janela"
+
+#: src/ui/window.blp:65
+msgid ""
+"Changes Window Control position and type. Minimize and Maximize buttons are "
+"hidden by default. Use All to show them."
+msgstr ""
+"Altera o posicionamento e tipo dos Controles da Janela. Botões Minimizar e "
+"Maximizar são escondidos por padrão. Utilize Todos para exibí-los."
+
+#: src/ui/window.blp:66 src/ui/window.blp:71
+msgid "Default"
+msgstr "Padrão"
+
+#: src/ui/window.blp:66
+msgid "Right-All"
+msgstr "Direita-Todos"
+
+#: src/ui/window.blp:66
+msgid "Left"
+msgstr "Esquerda"
+
+#: src/ui/window.blp:66
+msgid "Left-All"
+msgstr "Esquerda-Todos"
+
+#: src/ui/window.blp:66
+msgid "None"
+msgstr "Nenhum"
+
+#: src/ui/window.blp:69
+msgid "Controls Style"
+msgstr "Estilo dos Controles"
+
+#: src/ui/window.blp:70
+msgid ""
+"Changes Window Control visual style. Default is the traditional style, while "
+"Dots are Mac OS style colored circles."
+msgstr ""
+"Altera o estilo visual dos Controles da Janela. Padrão é o estilo "
+"tradicional, enquanto Pontos são círculos coloridos ao estilo Mac OS."
+
+#: src/ui/window.blp:71
+msgid "Dots"
+msgstr "Pontos"
+
+#: src/ui/window.blp:76
+msgid "Library Options"
+msgstr "Opções de Biblioteca"
+
+#: src/ui/window.blp:79
+msgid "Library Sidebar"
+msgstr "Barra Lateral da Biblioteca"
+
+#: src/ui/window.blp:80
+msgid "Changes display options for the Library's left sidebar."
+msgstr "Altera opções de exibição para a barra lateral da Biblioteca."
+
+#: src/ui/window.blp:81 src/ui/window.blp:101
+msgid "Show"
+msgstr "Exibir"
+
+#: src/ui/window.blp:81 src/ui/window.blp:101
+msgid "Hover Only"
+msgstr "Apenas Passando o Mouse"
+
+#: src/ui/window.blp:85
+msgid "Hide Library What's New Shelf"
+msgstr "Esconder Novidades da Biblioteca"
+
+#: src/ui/window.blp:86
+msgid "Disables display of the new updates section on top of the Library."
+msgstr ""
+"Desabilita a exibição da seção de novas atualizações ao topo da Biblioteca."
+
+#: src/ui/window.blp:96
+msgid "Login Options"
+msgstr "Opções de Entrada"
+
+#: src/ui/window.blp:99
+msgid "QR Code Login"
+msgstr "Entrada com Código QR"
+
+#: src/ui/window.blp:100
+msgid "Changes display options for the mobile QR code in the Login dialog."
+msgstr ""
+"Altera as opções de exibição para o código móvel QR na janela de Entrada."
+
+#: src/ui/window.blp:101
+msgid "Hide"
+msgstr "Esconder"
+
+#: src/ui/window.blp:106
+msgid "Top Bar Options"
+msgstr "Opções da Barra Superior"
+
+#: src/ui/window.blp:108
+msgid "Original Steam Top Bar"
+msgstr "Barra Superior Original da Steam"
+
+#: src/ui/window.blp:109
+msgid ""
+"Changes the top bar back to Steam's original style, instead of the Adwaita "
+"styled one."
+msgstr ""
+"Altera a barra superior de volta ao estilo original da Steam, ao invés do "
+"estilo Adwaita."
+
+#: src/ui/window.blp:117
+msgid "Hide Big Picture Button"
+msgstr "Esconder Botão do Modo Big Picture"
+
+#: src/ui/window.blp:118
+msgid "Disables display of the Big Picture button on the Top Bar."
+msgstr "Desabilita a exibição do botão Modo Big Picture na Barra Superior."
+
+#: src/ui/window.blp:126
+msgid "Hide URL Bar"
+msgstr "Esconder Barra de URL"
+
+#: src/ui/window.blp:127
+msgid "Disables display of the page URL on the Top Bar."
+msgstr "Desabilita a exibição da URL da página na Barra Superior."
+
+#: src/ui/window.blp:135
+msgid "Show Nav Arrows"
+msgstr "Mostrar Setas de Navegação"
+
+#: src/ui/window.blp:136
+msgid "Enables display of the forward/back navigation arrows on the Top Bar."
+msgstr ""
+"Habilita a exibição das setas de navegação voltar/avançar na Barra Superior."
+
+#: src/ui/window.blp:146
+msgid "Bottom Bar Options"
+msgstr "Opções da Barra Inferior"
+
+#: src/ui/window.blp:148
+msgid "Hide Bottom Bar"
+msgstr "Esconder a Barra Inferior"
+
+#: src/ui/window.blp:149
+msgid "Disables display of the Bottom Bar."
+msgstr "Desabilita a exibição da Barra Inferior."
+
+#: src/ui/window.blp:166
+msgid "_Preferences"
+msgstr "_Preferências"
+
+#: src/ui/window.blp:170
+msgid "_Uninstall"
+msgstr "_Desinstalar"
+
+#: src/ui/window.blp:174
+msgid "_About AdwSteamGtk"
+msgstr "_Sobre o AdwSteamGtk"
+
+#: src/zip.py:31
+msgid "Extract: Failed to read ZIP archive"
+msgstr "Extração: Falhou em ler o arquivo ZIP"
+
+#: src/zip.py:33
+msgid "Extract: Bad ZIP File"
+msgstr "Extração: Arquivo ZIP Ruim"
+
+#: src/zip.py:35
+msgid "Extract: Failed to Extract ZIP File"
+msgstr "Extração: Falhou em Extrair o Arquivo ZIP"
+
+#: src/zip.py:51
+msgid "Get Themes: Failed to read ZIP archive"
+msgstr "Obter Temas: Falhou em ler o arquivo ZIP"
+
+#: src/zip.py:53
+msgid "Get Themes: Bad ZIP File"
+msgstr "Obter Temas: Arquivo ZIP Ruim"
+
+#: src/zip.py:55
+msgid "Get Themes: Failed to get themes"
+msgstr "Obter Temas: Falhou em obter temas"
