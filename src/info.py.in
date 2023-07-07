@@ -33,8 +33,9 @@ DEVELOPERS=[
 TRANSLATORS=[
     'volkov <volkovissocool@gmail.com>',
     'RobOT05442309 https://github.com/RobOT05442309',
-    'Christoph Kohnen https://github.com/ChaosMelone9'
-    'AnaxMorden https://github.com/AnaxMorden'
+    'Christoph Kohnen https://github.com/cmkohnen',
+    'AnaxMorden https://github.com/AnaxMorden',
+    'Fernando Lopes https://github.com/plasmus777'
 ]
 
 UPSTREAM=['Anatoliy Kashkin  https://github.com/tkashkin']
