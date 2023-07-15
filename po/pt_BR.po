@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
-"PO-Revision-Date: 2023-07-06 22:52+0000\n"
+"PO-Revision-Date: 2023-07-15 15:50+0000\n"
 "Last-Translator: Fernando Lopes <118869201+plasmus777@users.noreply.github."
 "com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -150,59 +150,60 @@ msgstr "Atualiza o Runtime para Gnome 44"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:109
 msgid "Changed Default Web Theme to Full Variant"
-msgstr ""
+msgstr "Altera o Tema Web Padrão para a Variante Cheia"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:116
 msgid "Fixed Installer CLI Output"
-msgstr ""
+msgstr "Corrige a Saída de Linha de Comando do Instalador"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:123
 msgid "Added Color Theme Support"
-msgstr ""
+msgstr "Adicionado Suporte a Esquemas de Cores"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:124
 msgid "Added -c argument to notify about updates"
-msgstr ""
+msgstr "Adiciona o argumento -c para notificações sobre atualizações"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:131
 msgid "Last chosen settings are now loaded at startup"
 msgstr ""
+"As últimas configurações selecionadas agora são carregadas na inicialização"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
 msgid "Changed display of install button if the theme is already installed"
-msgstr ""
+msgstr "Altera a exibição do botão instalar se o tema já estiver instalado"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:139
 msgid "Added None to Window Control Options"
-msgstr ""
+msgstr "Adiciona Nenhum para as Opções de Controle de Janela"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
 msgid "Added QR Login Options"
-msgstr ""
+msgstr "Adicionada a Opção de Entrada por Código QR"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:147
 msgid "Improved Missing Dir Messages"
-msgstr ""
+msgstr "Aprimora as Mensagens de Diretório Faltando"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:154
 msgid "Updated to Gnome 43 SDK"
-msgstr ""
+msgstr "SDK atualizada para Gnome 43"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:155
 msgid "Implemented AdwAboutWindow"
-msgstr ""
+msgstr "Implementa AdwAboutWindow"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:156
 msgid "Updated Filesystem Permissions"
-msgstr ""
+msgstr "Atualiza as Permissões do Sistema de Arquivos"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:157
 msgid "Fixed Quit Shortcut"
-msgstr ""
+msgstr "Corrige o Atalho Sair"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:158
 msgid "Fixed Current Check"
-msgstr ""
+msgstr "Corrige a Verificação Atual"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:168
 msgid "Main Window"
