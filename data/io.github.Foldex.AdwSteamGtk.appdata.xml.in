@@ -37,6 +37,14 @@
   </categories>
 
   <releases>
+    <release version="0.6.4" type="stable" date="2023-07-15">
+      <description>
+        <ul>
+          <li>Updated German and Ukrainian Translations</li>
+          <li>Added Portuguese Translation</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.3" type="stable" date="2023-06-16">
       <description>
         <ul>
