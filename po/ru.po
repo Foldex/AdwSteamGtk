@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
-"PO-Revision-Date: 2023-05-28 23:39+0300\n"
-"Last-Translator: volkov <volkovissocool@gmail.com>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-07-18 19:07+0000\n"
+"Last-Translator: volkov <d2oo1dle2x@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.1.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -68,30 +69,33 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
 msgid "Fixed Appdata"
-msgstr ""
+msgstr "Исправлено данные приложения"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Beta Toggle removed as new UI support landed upstream"
 msgstr ""
+"Переключение бета версии темы была удалена, поскольку новый интерфейс "
+"клиента Steam вышла из тестирования"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
 msgid ""
 "Added option to use Steam's Original Top Bar instead of our Adwaita styled "
 "one"
 msgstr ""
+"Добавлена опция отображения оригинальной верхней панели клиента Steam, "
+"вместо темы Adwaita"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
 msgid "Initial German Translation"
-msgstr ""
+msgstr "Добавлена поддержка немецкой локализации"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
-#, fuzzy
 msgid "Added hover tooltips to installer options"
-msgstr "Добавлена опция \"Ничего\" к кнопкам управления окном"
+msgstr "Добавлены всплывающие подсказки для елементов интерфейса програмы"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
 msgid "Added French, Ukrainian, and Russian Translations"
-msgstr ""
+msgstr "Добавлены немецкая, украинская и русская локализации"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
 msgid "New UI"
@@ -338,7 +342,7 @@ msgstr "Тема установлена"
 #: src/style.py:36
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
+msgstr "Стиль: Не удалось найти тему {theme_name}"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
@@ -426,7 +430,7 @@ msgstr "Цвет темы"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Меняет цвет темы интерфейса Steam."
 
 #: src/ui/window.blp:46
 msgid "Theme"
@@ -437,6 +441,8 @@ msgid ""
 "Changes the theme variant. Full themes more areas of the client, while Base "
 "is less fully featured."
 msgstr ""
+"Меняет вариацию темы. \"Полная\" будет менять больше елементов клиента, а "
+"\"Базовая\" меньше елементов клиента."
 
 #: src/ui/window.blp:48
 msgid "Full"
@@ -452,7 +458,7 @@ msgstr "БЕЗ закругленных углов"
 
 #: src/ui/window.blp:52
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Уберет закругленные края интерфейса клиента."
 
 #: src/ui/window.blp:62
 msgid "Window Controls Options"
@@ -467,6 +473,9 @@ msgid ""
 "Changes Window Control position and type. Minimize and Maximize buttons are "
 "hidden by default. Use All to show them."
 msgstr ""
+"Меняет позицию и тип кнопок управления окна. Кнопка сворачивания и "
+"разворачивания окна спрятаны по умолчанию. Установите вариант с\"Все\", "
+"чтобы показать все кнопки."
 
 #: src/ui/window.blp:66 src/ui/window.blp:71
 msgid "Default"
@@ -497,6 +506,8 @@ msgid ""
 "Changes Window Control visual style. Default is the traditional style, while "
 "Dots are Mac OS style colored circles."
 msgstr ""
+"Меняет визульный стиль кнопок управления окном. \"По умолчанию\" это "
+"традиционный стиль, а \"Точки\" будут цветными кружками, как в Mac OS."
 
 #: src/ui/window.blp:71
 msgid "Dots"
@@ -512,7 +523,7 @@ msgstr "Боковая панель библиотеки"
 
 #: src/ui/window.blp:80
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "Изменит отображение элементов в левой панели библиотеки игр."
 
 #: src/ui/window.blp:81 src/ui/window.blp:101
 msgid "Show"
@@ -529,6 +540,7 @@ msgstr "Спрятать полку \"Что нового\" библиотеки
 #: src/ui/window.blp:86
 msgid "Disables display of the new updates section on top of the Library."
 msgstr ""
+"Отключит отображение секции \"Что нового\" в самом вверху библиотеки игр."
 
 #: src/ui/window.blp:96
 msgid "Login Options"
@@ -541,6 +553,8 @@ msgstr "QR код для входа"
 #: src/ui/window.blp:100
 msgid "Changes display options for the mobile QR code in the Login dialog."
 msgstr ""
+"Изменит отображение QR кода для мобильного приложения Steam в окне входа в "
+"аккаунт."
 
 #: src/ui/window.blp:101
 msgid "Hide"
@@ -552,13 +566,15 @@ msgstr "Настройки верхней панели"
 
 #: src/ui/window.blp:108
 msgid "Original Steam Top Bar"
-msgstr ""
+msgstr "Оригинальная верхняя панель Steam"
 
 #: src/ui/window.blp:109
 msgid ""
 "Changes the top bar back to Steam's original style, instead of the Adwaita "
 "styled one."
 msgstr ""
+"Будет использовать оригинальную тему верхней панели Steam, вместо темы "
+"Adwaita."
 
 #: src/ui/window.blp:117
 msgid "Hide Big Picture Button"
@@ -566,7 +582,7 @@ msgstr "Спрятать кнопку Big Picture"
 
 #: src/ui/window.blp:118
 msgid "Disables display of the Big Picture button on the Top Bar."
-msgstr ""
+msgstr "Убрать кнопку \"Big Picture\" в верхней панели окна."
 
 #: src/ui/window.blp:126
 msgid "Hide URL Bar"
@@ -574,7 +590,7 @@ msgstr "Спрятать адресную строку"
 
 #: src/ui/window.blp:127
 msgid "Disables display of the page URL on the Top Bar."
-msgstr ""
+msgstr "Убрать адресную строку в верхней панели."
 
 #: src/ui/window.blp:135
 msgid "Show Nav Arrows"
@@ -582,7 +598,7 @@ msgstr "Показывать стрелки навигации"
 
 #: src/ui/window.blp:136
 msgid "Enables display of the forward/back navigation arrows on the Top Bar."
-msgstr ""
+msgstr "Отображать кнопки навигации (назад/вперед) в верхней панели."
 
 #: src/ui/window.blp:146
 msgid "Bottom Bar Options"
@@ -594,7 +610,7 @@ msgstr "Спрятать нижнюю панель"
 
 #: src/ui/window.blp:149
 msgid "Disables display of the Bottom Bar."
-msgstr ""
+msgstr "Отключить отоброжение нижней панели."
 
 #: src/ui/window.blp:166
 msgid "_Preferences"
