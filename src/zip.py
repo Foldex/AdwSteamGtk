@@ -16,9 +16,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import zipfile
-from pathlib import Path
-
-from . import paths
 
 COLOR_THEMES_PREFIX="/colorthemes"
 COLOR_THEMES_EXT=".theme"
@@ -35,23 +32,3 @@ def extract(path, out_dir):
         return (False, _("Extract: Failed to Extract ZIP File"))
 
     return (True, None)
-
-# TODO No longer need to parse ZIP for this
-def get_color_themes():
-    themes = []
-    fallback = ["Adwaita"]
-
-    try:
-        with zipfile.ZipFile(paths.LAST_RELEASE_FILE) as f:
-             nl = f.namelist()
-             themes = [s for s in nl if s[-6:] == COLOR_THEMES_EXT]
-             themes = [s for s in themes if COLOR_THEMES_PREFIX in s]
-             themes = [str(Path(s).stem.title()) for s in themes]
-    except IOError:
-        return (fallback, _("Get Themes: Failed to read ZIP archive"))
-    except zipfile.BadZipFile:
-        return (fallback, _("Get Themes: Bad ZIP File"))
-    except:
-        return (fallback, _("Get Themes: Failed to get themes"))
-
-    return (themes, None)

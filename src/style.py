@@ -15,17 +15,52 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import configparser
 import os.path
+import re
+from pathlib import Path
 
 from . import install
 from . import paths
 from . import update
 
-def generate_style(theme_name):
+def get_color_themes():
+    themes = []
+    fallback = ["Adwaita"]
 
+    if install.zip_not_extracted():
+        (ret, msg) = update.post_download()
+        if not ret:
+            return (ret, msg)
+
+    theme_dir = Path(paths.THEMES_DIR)
+    theme_ext = "css"
+    themes = [ x.stem.title() for x in theme_dir.glob(f"*/*.{theme_ext}")]
+
+    if not themes:
+        return (fallback, _("Get Themes: Failed to get themes"))
+
+    return (themes, None)
+
+def parse_css(file):
+    with open (file, 'r' ) as f:
+        content = f.read()
+
+    pattern = r'--(\w+)\s*:\s*(.*);'
+    matches = re.findall(pattern, content)
+
+    vars = {}
+
+    for match in matches:
+        key = match[0]
+        value = match[1]
+
+        vars[key] = value
+
+    return vars
+
+def generate_style(theme_name):
     theme_dir = paths.THEMES_DIR
-    theme_path = f"{theme_dir}/{theme_name}/{theme_name}.theme"
+    theme_path = f"{theme_dir}/{theme_name}/{theme_name}.css"
 
     if install.zip_not_extracted():
         (ret, msg) = update.post_download()
@@ -35,48 +70,47 @@ def generate_style(theme_name):
     if not os.path.exists(theme_path):
         return (False, _("Style: Could not find theme {theme_name}").format(theme_name=theme_name))
 
-    config = configparser.ConfigParser()
-    config.read(theme_path)
+    css_vars = parse_css(theme_path)
     css = ""
 
-    css += format_css("accent_color", config["accent"]["accent"])
-    css += format_css("accent_bg_color", config["accent"]["accent_bg"])
-    css += format_css("accent_fg_color", config["accent"]["accent_fg"])
+    css += format_css("accent_color", css_vars["accent"])
+    css += format_css("accent_bg_color", css_vars["accent_bg"])
+    css += format_css("accent_fg_color", css_vars["accent_fg"])
 
-    css += format_css("destructive", config["destructive"]["destructive"])
-    css += format_css("destructive_fg_color", config["destructive"]["destructive_fg"])
-    css += format_css("destructive_bg_color", config["destructive"]["destructive_bg"])
+    css += format_css("destructive", css_vars["destructive"])
+    css += format_css("destructive_fg_color", css_vars["destructive_fg"])
+    css += format_css("destructive_bg_color", css_vars["destructive_bg"])
 
-    css += format_css("success_color", config["success"]["success"])
-    css += format_css("success_bg_color", config["success"]["success_bg"])
-    css += format_css("success_fg_color", config["success"]["success_fg"])
+    css += format_css("success_color", css_vars["success"])
+    css += format_css("success_bg_color", css_vars["success_bg"])
+    css += format_css("success_fg_color", css_vars["success_fg"])
 
-    css += format_css("warning_color", config["warning"]["warning"])
-    css += format_css("warning_bg_color", config["warning"]["warning_bg"])
-    css += format_css("warning_fg_color", config["warning"]["warning_fg"])
+    css += format_css("warning_color", css_vars["warning"])
+    css += format_css("warning_bg_color", css_vars["warning_bg"])
+    css += format_css("warning_fg_color", css_vars["warning_fg"])
 
-    css += format_css("error_color", config["error"]["error"])
-    css += format_css("error_bg_color", config["error"]["error_bg"])
-    css += format_css("error_fg_color", config["error"]["error_fg"])
+    css += format_css("error_color", css_vars["error"])
+    css += format_css("error_bg_color", css_vars["error_bg"])
+    css += format_css("error_fg_color", css_vars["error_fg"])
 
-    css += format_css("headerbar_bg_color", config["headerbar"]["headerbar_bg"])
-    css += format_css("headerbar_fg_color", config["headerbar"]["headerbar_fg"])
-    css += format_css("headerbar_backdrop_color", config["headerbar"]["headerbar_backdrop"])
-    css += format_css("headerbar_shade_color", config["headerbar"]["headerbar_shade"])
+    css += format_css("headerbar_bg_color", css_vars["headerbar_bg"])
+    css += format_css("headerbar_fg_color", css_vars["headerbar_fg"])
+    css += format_css("headerbar_backdrop_color", css_vars["headerbar_backdrop"])
+    css += format_css("headerbar_shade_color", css_vars["headerbar_shade"])
 
-    css += format_css("window_bg_color", config["window"]["window_bg"])
-    css += format_css("window_fg_color", config["window"]["window_fg"])
+    css += format_css("window_bg_color", css_vars["window_bg"])
+    css += format_css("window_fg_color", css_vars["window_fg"])
 
-    css += format_css("view_bg_color", config["view"]["view_bg"])
-    css += format_css("view_fg_color", config["view"]["view_fg"])
+    css += format_css("view_bg_color", css_vars["view_bg"])
+    css += format_css("view_fg_color", css_vars["view_fg"])
 
-    css += format_css("popover_bg_color", config["popover"]["popover_bg"])
-    css += format_css("popover_fg_color", config["popover"]["popover_fg"])
+    css += format_css("popover_bg_color", css_vars["popover_bg"])
+    css += format_css("popover_fg_color", css_vars["popover_fg"])
 
-    css += format_css("dialog_bg_color", config["popover"]["popover_bg"])
-    css += format_css("dialog_fg_color", config["popover"]["popover_fg"])
+    css += format_css("dialog_bg_color", css_vars["popover_bg"])
+    css += format_css("dialog_fg_color", css_vars["popover_fg"])
 
-    css += format_css("card_fg_color", config["general"]["fg"])
+    css += format_css("card_fg_color", css_vars["fg"])
     css += format_css("card_bg_color", "rgba(255, 255, 255, 0.08)")
 
     css += "tooltip.background { background-color: rgba(0, 0, 0, 0.8); color: @card_fg_color; }\n"

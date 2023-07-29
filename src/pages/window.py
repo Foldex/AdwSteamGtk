@@ -109,7 +109,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.style_provider.load_from_data(msg, -1)
 
     def load_color_themes(self):
-        (themes, msg) = zip.get_color_themes()
+        (themes, msg) = style.get_color_themes()
 
         if msg:
             t = Adw.Toast(title=msg, priority="high")

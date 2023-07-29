@@ -29,7 +29,8 @@ CONFIG_DIR=os.path.join(XDG_CONFIG_DIR, "AdwSteamGtk")
 
 TMP_DIR=os.path.join(CACHE_DIR, "tmp")
 EXTRACTED_DIR=os.path.join(CACHE_DIR, "extracted")
-THEMES_DIR=os.path.join(EXTRACTED_DIR, "colorthemes")
+ADWAITA_DIR=os.path.join(EXTRACTED_DIR, "adwaita")
+THEMES_DIR=os.path.join(ADWAITA_DIR, "colorthemes")
 
 LAST_CHECK_FILE=os.path.join(CACHE_DIR, "last_check")
 LAST_VERSION_FILE=os.path.join(CACHE_DIR, "last_ver")
