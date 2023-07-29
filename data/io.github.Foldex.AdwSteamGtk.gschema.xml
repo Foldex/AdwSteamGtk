@@ -7,15 +7,6 @@
       <default>"Adwaita"</default>
     </key>
 
-    <key name="web-theme-options" type="s">
-      <default>"Full"</default>
-      <choices>
-        <choice value="Base"/>
-        <choice value="Full"/>
-        <choice value="None"/>
-      </choices>
-    </key>
-
     <key name="no-rounded-corners-switch" type="b">
       <default>false</default>
     </key>
@@ -69,19 +60,6 @@
     </key>
 
     <key name="hide-nav-url-switch" type="b">
-      <default>false</default>
-    </key>
-
-    <key name="show-nav-arrows-switch" type="b">
-      <default>false</default>
-    </key>
-
-    <key name="original-topbar-switch" type="b">
-      <default>false</default>
-    </key>
-
-    <!-- Bottom Bar -->
-    <key name="hide-bottom-bar-switch" type="b">
       <default>false</default>
     </key>
 
