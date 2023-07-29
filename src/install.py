@@ -30,13 +30,13 @@ def gen_cmd_line(options, beta_support):
 
     match options["install_fonts"]:
         case True:
-            install_fonts = "-fi "
+            install_fonts = "-f "
         case _:
             install_fonts = ""
 
     match options["custom_css"]:
         case True:
-            custom_css = f"-we {paths.CUSTOM_CSS_FILE} "
+            custom_css = "--custom-css "
         case _:
             custom_css = ""
 
@@ -49,60 +49,60 @@ def gen_cmd_line(options, beta_support):
 
     match options["rounded_corners"]:
         case False:
-            rounded_corners = "-we general/no_rounded_corners "
+            rounded_corners = "-e general/no_rounded_corners "
         case _:
             rounded_corners = ""
 
     match options["win_controls"].lower():
         case "left":
-            win_controls = f"-we windowcontrols/left "
+            win_controls = "-e windowcontrols/left "
         case "left-all":
-            win_controls = f"-we windowcontrols/left-all "
+            win_controls = "-e windowcontrols/left-all "
         case "right-all":
-            win_controls = f"-we windowcontrols/right-all "
+            win_controls = "-e windowcontrols/right-all "
         case "none":
-            win_controls = f"-we windowcontrols/none "
+            win_controls = "-e windowcontrols/none "
         case _:
             win_controls = ""
 
     match options["win_controls_style"].lower():
         case "dots":
-            win_controls_style = "-we windowcontrols/dots "
+            win_controls_style = "-e windowcontrols/dots "
         case _:
             win_controls_style = ""
 
 
     match options["library_sidebar"].lower():
         case "hover only":
-            library_sidebar = "-we library/sidebar_hover "
+            library_sidebar = "-e library/sidebar_hover "
         case _:
             library_sidebar = ""
 
     match options["library_whats_new"]:
         case False:
-            library_whats_new = "-we library/hide_whats_new "
+            library_whats_new = "-e library/hide_whats_new "
         case _:
             library_whats_new = ""
 
 
     match options["login_qr"].lower():
         case "hide":
-            login_qr = "-we login/hide_qr "
+            login_qr = "-e login/hide_qr "
         case "hover only":
-            login_qr = "-we login/hover_qr "
+            login_qr = "-e login/hover_qr "
         case _:
             login_qr = ""
 
 
     match options["top_bar_bp_button"]:
         case False:
-            top_bar_bp_button = "-we topbar/hide_bp "
+            top_bar_bp_button = "-e topbar/hide_bp "
         case _:
             top_bar_bp_button = ""
 
     match options["top_bar_nav_url"]:
         case False:
-            top_bar_nav_url = "-we topbar/hide_url "
+            top_bar_nav_url = "-e topbar/hide_url "
         case _:
             top_bar_nav_url = ""
 
