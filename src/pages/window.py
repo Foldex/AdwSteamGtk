@@ -48,10 +48,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     login_group = Gtk.Template.Child()
     login_qr_options = Gtk.Template.Child()
 
-    top_bar_group = Gtk.Template.Child()
-    hide_bp_button_switch = Gtk.Template.Child()
-    hide_nav_url_switch = Gtk.Template.Child()
-
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
@@ -130,9 +126,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.select_from_config('login-qr-options', self.login_qr_options, self.opt_array["login_qr"])
 
-        self.select_from_config('hide-bp-button-switch', self.hide_bp_button_switch)
-        self.select_from_config('hide-nav-url-switch', self.hide_nav_url_switch)
-
     def save_config(self):
         self.config_from_select('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
         self.config_from_select('no-rounded-corners-switch', self.no_rounded_corners_switch)
@@ -144,9 +137,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.config_from_select('hide-whats-new-switch', self.hide_whats_new_switch)
 
         self.config_from_select('login-qr-options', self.login_qr_options, self.opt_array["login_qr"])
-
-        self.config_from_select('hide-bp-button-switch', self.hide_bp_button_switch)
-        self.config_from_select('hide-nav-url-switch', self.hide_nav_url_switch)
 
 
     def get_selected_pref(self, widget, array=None):
@@ -231,9 +221,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "library_whats_new": not self.get_selected_pref(self.hide_whats_new_switch),
 
             "login_qr": self.get_selected_pref(self.login_qr_options, self.opt_array["login_qr"]),
-
-            "top_bar_bp_button": not self.get_selected_pref(self.hide_bp_button_switch),
-            "top_bar_nav_url": not self.get_selected_pref(self.hide_nav_url_switch),
         }
 
         (ret, msg) = install.run(options, self.beta_support)

@@ -54,15 +54,6 @@
       </choices>
     </key>
 
-    <!-- Top Bar -->
-    <key name="hide-bp-button-switch" type="b">
-      <default>false</default>
-    </key>
-
-    <key name="hide-nav-url-switch" type="b">
-      <default>false</default>
-    </key>
-
     <!-- Prefs -->
     <key name="prefs-autostart-update-check" type="b">
       <default>false</default>

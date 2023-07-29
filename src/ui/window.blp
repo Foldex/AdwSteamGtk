@@ -97,29 +97,6 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
           }
         }
 
-        Adw.PreferencesGroup top_bar_group {
-          title: _("Top Bar Options");
-          Adw.ActionRow {
-            title: _("Hide Big Picture Button");
-            tooltip-text: _("Disables display of the Big Picture button on the Top Bar.");
-            activatable-widget: hide_bp_button_switch;
-
-            Switch hide_bp_button_switch {
-              valign: center;
-            }
-          }
-          Adw.ActionRow {
-            title: _("Hide URL Bar");
-            tooltip-text: _("Disables display of the page URL on the Top Bar.");
-            activatable-widget: hide_nav_url_switch;
-
-            Switch hide_nav_url_switch {
-              valign: center;
-            }
-          }
-        }
-
-
        };
     };
   }

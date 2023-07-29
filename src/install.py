@@ -94,19 +94,6 @@ def gen_cmd_line(options, beta_support):
         case _:
             login_qr = ""
 
-
-    match options["top_bar_bp_button"]:
-        case False:
-            top_bar_bp_button = "-e topbar/hide_bp "
-        case _:
-            top_bar_bp_button = ""
-
-    match options["top_bar_nav_url"]:
-        case False:
-            top_bar_nav_url = "-e topbar/hide_url "
-        case _:
-            top_bar_nav_url = ""
-
     cmd = (
         f"{installer}"
         f"{install_fonts}"
@@ -121,9 +108,6 @@ def gen_cmd_line(options, beta_support):
         f"{library_whats_new}"
 
         f"{login_qr}"
-
-        f"{top_bar_bp_button}"
-        f"{top_bar_nav_url}"
 
         f"{custom_css}"
     )

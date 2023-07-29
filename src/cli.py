@@ -66,9 +66,6 @@ def get_options(option_string):
             "library_whats_new": not settings.get_boolean('hide-whats-new-switch'),
 
             "login_qr": settings.get_string('login-qr-options'),
-
-            "top_bar_bp_button": not settings.get_boolean('hide-bp-button-switch'),
-            "top_bar_nav_url": not settings.get_boolean('hide-nav-url-switch'),
         }
 
         if option_string is None:
@@ -87,9 +84,6 @@ def get_options(option_string):
             "library_whats_new": (True, False),
 
             "login_qr": ("Show", "Hover Only", "Hide"),
-
-            "top_bar_bp_button": (True, False),
-            "top_bar_nav_url": (True, False),
         }
 
         if ":" not in option_string:
