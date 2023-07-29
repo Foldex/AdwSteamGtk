@@ -37,6 +37,14 @@
   </categories>
 
   <releases>
+    <release version="0.6.6" type="stable" date="2023-07-28">
+      <description>
+        <ul>
+          <li>Fixed Appdata</li>
+          <li>Removed some options that no longer exist upstream</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.5" type="stable" date="2023-07-28">
       <description>
         <ul>
@@ -190,7 +198,7 @@
     </screenshot>
     <screenshot>
       <caption>Login Preview</caption>
-      <image>https://raw.githubusercontent.com/tkashkin/Adwaita-for-Steam/master/colorthemes/adwaita/preview.png</image>
+      <image>https://raw.githubusercontent.com/tkashkin/Adwaita-for-Steam/master/adwaita/colorthemes/adwaita/preview.png</image>
     </screenshot>
   </screenshots>
 

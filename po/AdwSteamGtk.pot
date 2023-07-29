@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: AdwSteamGtk 0.6.5\n"
+"Project-Id-Version: AdwSteamGtk 0.6.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-28 22:48-0400\n"
+"POT-Creation-Date: 2023-07-28 23:11-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,160 +60,165 @@ msgid ""
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
-msgid "Updated Russian Translation"
-msgstr ""
-
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:44
-msgid "Updated to new upstream install method"
-msgstr ""
-
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
-msgid "Updated German and Ukrainian Translations"
-msgstr ""
-
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
-msgid "Added Portuguese Translation"
-msgstr ""
-
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:59
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
 msgid "Fixed Appdata"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:66
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:44
+msgid "Removed some options that no longer exist upstream"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
+msgid "Updated Russian Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
+msgid "Updated to new upstream install method"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:59
+msgid "Updated German and Ukrainian Translations"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
+msgid "Added Portuguese Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:74
 msgid "Beta Toggle removed as new UI support landed upstream"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:75
 msgid ""
 "Added option to use Steam's Original Top Bar instead of our Adwaita styled "
 "one"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:76
 msgid "Initial German Translation"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:69
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
 msgid "Added hover tooltips to installer options"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:76
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
 msgid "Added French, Ukrainian, and Russian Translations"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:83
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:91
 msgid "New UI"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
 msgid "Added Experimental Beta Client Support (with new options)"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:85
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:93
 msgid "Added Custom CSS Option"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:100
 msgid "Added Autostart Update Check preference toggle"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:93
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:101
 msgid "Added Font Install preference toggle"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:100
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:108
 msgid "Fixed issue with theme preview on light mode"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:101
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:109
 msgid "Added preferences toggle for theme preview"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:108
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:116
 msgid "Colortheme is now previewed in app"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:109
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:117
 msgid "Added -u/-i arguments to install skin via commandline"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:110
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:118
 msgid "Added -o argument to override install options for -i/-u"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:117
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:125
 msgid "Added Library Sidebar Options"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:124
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
 msgid "Updated to Gnome 44 Runtime"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:125
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:133
 msgid "Changed Default Web Theme to Full Variant"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:140
 msgid "Fixed Installer CLI Output"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:139
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:147
 msgid "Added Color Theme Support"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:140
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:148
 msgid "Added -c argument to notify about updates"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:147
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:155
 msgid "Last chosen settings are now loaded at startup"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:148
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:156
 msgid "Changed display of install button if the theme is already installed"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:155
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:163
 msgid "Added None to Window Control Options"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:162
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:170
 msgid "Added QR Login Options"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:163
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:171
 msgid "Improved Missing Dir Messages"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:170
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:178
 msgid "Updated to Gnome 43 SDK"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:171
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:179
 msgid "Implemented AdwAboutWindow"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:172
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:180
 msgid "Updated Filesystem Permissions"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:173
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:181
 msgid "Fixed Quit Shortcut"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:174
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:182
 msgid "Fixed Current Check"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:184
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:192
 msgid "Main Window"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:188
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:196
 msgid "Theme Preview"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:192
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:200
 msgid "Login Preview"
 msgstr ""
 
@@ -225,31 +230,31 @@ msgstr ""
 msgid "Steam;Adwaita;Skin;"
 msgstr ""
 
-#: src/cli.py:47 src/cli.py:146
+#: src/cli.py:47 src/cli.py:140
 msgid "Up to Date."
 msgstr ""
 
-#: src/cli.py:113
+#: src/cli.py:107
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
 msgstr ""
 
-#: src/cli.py:119
+#: src/cli.py:113
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
 
-#: src/cli.py:125
+#: src/cli.py:119
 #, python-brace-format
 msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
 
-#: src/cli.py:140
+#: src/cli.py:134
 msgid "New Release Available: "
 msgstr ""
 
-#: src/cli.py:143
+#: src/cli.py:137
 msgid "Update Check Failed: "
 msgstr ""
 
@@ -289,15 +294,15 @@ msgstr ""
 msgid "Release: Error Retrieving Zip"
 msgstr ""
 
-#: src/install.py:140
+#: src/install.py:124
 msgid "Install: Found no Valid Install Targets"
 msgstr ""
 
-#: src/install.py:143
+#: src/install.py:127
 msgid "Install: Installer Process Failed"
 msgstr ""
 
-#: src/install.py:158
+#: src/install.py:142
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
 msgstr ""
 
@@ -325,15 +330,15 @@ msgstr ""
 msgid "Uninstall"
 msgstr ""
 
-#: src/pages/window.py:203
+#: src/pages/window.py:193
 msgid "New Release Downloaded: "
 msgstr ""
 
-#: src/pages/window.py:205
+#: src/pages/window.py:195
 msgid "Retry"
 msgstr ""
 
-#: src/pages/window.py:242
+#: src/pages/window.py:229
 msgid "Theme Installed"
 msgstr ""
 
@@ -534,35 +539,15 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-#: src/ui/window.blp:101
-msgid "Top Bar Options"
-msgstr ""
-
-#: src/ui/window.blp:103
-msgid "Hide Big Picture Button"
-msgstr ""
-
-#: src/ui/window.blp:104
-msgid "Disables display of the Big Picture button on the Top Bar."
-msgstr ""
-
-#: src/ui/window.blp:112
-msgid "Hide URL Bar"
-msgstr ""
-
-#: src/ui/window.blp:113
-msgid "Disables display of the page URL on the Top Bar."
-msgstr ""
-
-#: src/ui/window.blp:131
+#: src/ui/window.blp:108
 msgid "_Preferences"
 msgstr ""
 
-#: src/ui/window.blp:135
+#: src/ui/window.blp:112
 msgid "_Uninstall"
 msgstr ""
 
-#: src/ui/window.blp:139
+#: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
 msgstr ""
 
