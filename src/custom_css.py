@@ -16,6 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
+import shutil
 
 from . import paths
 
@@ -81,3 +82,6 @@ def check():
 def create():
     with open(paths.CUSTOM_CSS_FILE, "w") as f:
         f.write(TEMPLATE)
+
+def install():
+    shutil.copy(paths.CUSTOM_CSS_FILE, paths.CUSTOM_CSS_FILE_DEST)

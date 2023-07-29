@@ -19,6 +19,7 @@ import os
 import shlex
 import subprocess
 
+from . import custom_css
 from . import paths
 from . import update
 
@@ -165,6 +166,9 @@ def run(options, beta_support=False):
         (ret, msg) = update.post_download()
         if not ret:
             return (ret, msg)
+
+    if options["custom_css"]:
+        custom_css.install()
 
     cmd = gen_cmd_line(options, beta_support)
     (ret, msg) = install(cmd)
