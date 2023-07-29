@@ -12,7 +12,7 @@ xgettext \
 	--keyword=C_:1c,2 \
 	--keyword=_ \
 	--package-name="AdwSteamGtk" \
-	--package-version="0.6.4"
+	--package-version="0.6.5"
 
 sed -i \
 	-e "s/FIRST AUTHOR <EMAIL@ADDRESS>, YEAR./Foldex, $(date +%Y)./" \

@@ -37,6 +37,14 @@
   </categories>
 
   <releases>
+    <release version="0.6.5" type="stable" date="2023-07-28">
+      <description>
+        <ul>
+          <li>Updated Russian Translation</li>
+          <li>Updated to new upstream install method</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.4" type="stable" date="2023-07-15">
       <description>
         <ul>
