@@ -42,11 +42,6 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
             title: _("Color Theme");
             tooltip-text: _("Changes the color theme of Steam's interface.");
           }
-          Adw.ComboRow web_theme_options {
-            title: _("Theme");
-            tooltip-text: _("Changes the theme variant. Full themes more areas of the client, while Base is less fully featured.");
-            model: StringList { strings [_("Full"), _("Base")] };
-          }
           Adw.ActionRow no_rounded_corners {
             title: _("No Rounded Corners");
             tooltip-text: _("Removes smooth rounded corners from the interface.");
@@ -105,15 +100,6 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
         Adw.PreferencesGroup top_bar_group {
           title: _("Top Bar Options");
           Adw.ActionRow {
-            title: _("Original Steam Top Bar");
-            tooltip-text: _("Changes the top bar back to Steam's original style, instead of the Adwaita styled one.");
-            activatable-widget: original_topbar_switch;
-
-            Switch original_topbar_switch {
-              valign: center;
-            }
-          }
-          Adw.ActionRow {
             title: _("Hide Big Picture Button");
             tooltip-text: _("Disables display of the Big Picture button on the Top Bar.");
             activatable-widget: hide_bp_button_switch;
@@ -131,29 +117,8 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
               valign: center;
             }
           }
-          Adw.ActionRow {
-            title: _("Show Nav Arrows");
-            tooltip-text: _("Enables display of the forward/back navigation arrows on the Top Bar.");
-            activatable-widget: show_nav_arrows_switch;
-
-            Switch show_nav_arrows_switch {
-              valign: center;
-            }
-          }
         }
 
-        Adw.PreferencesGroup bottom_bar_group {
-          title: _("Bottom Bar Options");
-          Adw.ActionRow {
-            title: _("Hide Bottom Bar");
-            tooltip-text: _("Disables display of the Bottom Bar.");
-            activatable-widget: hide_bottom_bar_switch;
-
-            Switch hide_bottom_bar_switch {
-              valign: center;
-            }
-          }
-        }
 
        };
     };

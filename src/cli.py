@@ -57,7 +57,6 @@ def get_options(option_string):
             "custom_css": settings.get_boolean('prefs-install-custom-css'),
 
             "color_theme": settings.get_string('color-theme-options'),
-            "web_theme": settings.get_string('web-theme-options'),
             "rounded_corners": not settings.get_boolean('no-rounded-corners-switch'),
 
             "win_controls": settings.get_string('window-controls-options'),
@@ -70,10 +69,6 @@ def get_options(option_string):
 
             "top_bar_bp_button": not settings.get_boolean('hide-bp-button-switch'),
             "top_bar_nav_url": not settings.get_boolean('hide-nav-url-switch'),
-            "top_bar_nav_arrows": settings.get_boolean('show-nav-arrows-switch'),
-            "top_bar_original": settings.get_boolean('original-topbar-switch'),
-
-            "bottom_bar": not settings.get_boolean('hide-bottom-bar-switch'),
         }
 
         if option_string is None:
@@ -83,7 +78,6 @@ def get_options(option_string):
             "install_fonts": (True, False),
             "custom_css": (True, False),
 
-            "web_theme": ("Base", "Full"),
             "rounded_corners": (True, False),
 
             "win_controls": ("Default", "Right-All", "Left", "Left-All", "None"),
@@ -96,10 +90,6 @@ def get_options(option_string):
 
             "top_bar_bp_button": (True, False),
             "top_bar_nav_url": (True, False),
-            "top_bar_nav_arrows": (True, False),
-            "top_bar_original": (True, False),
-
-            "bottom_bar": (True, False),
         }
 
         if ":" not in option_string:

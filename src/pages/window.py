@@ -34,7 +34,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     theme_group = Gtk.Template.Child()
     color_theme_options = Gtk.Template.Child()
-    web_theme_options = Gtk.Template.Child()
     no_rounded_corners = Gtk.Template.Child()
     no_rounded_corners_switch = Gtk.Template.Child()
 
@@ -52,11 +51,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     top_bar_group = Gtk.Template.Child()
     hide_bp_button_switch = Gtk.Template.Child()
     hide_nav_url_switch = Gtk.Template.Child()
-    show_nav_arrows_switch = Gtk.Template.Child()
-    original_topbar_switch = Gtk.Template.Child()
-
-    bottom_bar_group = Gtk.Template.Child()
-    hide_bottom_bar_switch = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -67,7 +61,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.opt_array = {
             "color_theme": ["Adwaita"],
-            "web_theme": ["Full", "Base", "None"],
 
             "win_controls": ["Default", "Right-All", "Left", "Left-All", "None"],
             "win_controls_style": ["Default", "Dots"],
@@ -127,7 +120,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     def load_config(self):
         self.select_from_config('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
-        self.select_from_config('web-theme-options', self.web_theme_options, self.opt_array["web_theme"])
         self.select_from_config('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
         self.select_from_config('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
@@ -140,14 +132,9 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.select_from_config('hide-bp-button-switch', self.hide_bp_button_switch)
         self.select_from_config('hide-nav-url-switch', self.hide_nav_url_switch)
-        self.select_from_config('show-nav-arrows-switch', self.show_nav_arrows_switch)
-        self.select_from_config('original-topbar-switch', self.original_topbar_switch)
-
-        self.select_from_config('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
 
     def save_config(self):
         self.config_from_select('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
-        self.config_from_select('web-theme-options', self.web_theme_options, self.opt_array["web_theme"])
         self.config_from_select('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
         self.config_from_select('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
@@ -160,10 +147,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.config_from_select('hide-bp-button-switch', self.hide_bp_button_switch)
         self.config_from_select('hide-nav-url-switch', self.hide_nav_url_switch)
-        self.config_from_select('show-nav-arrows-switch', self.show_nav_arrows_switch)
-        self.config_from_select('original-topbar-switch', self.original_topbar_switch)
 
-        self.config_from_select('hide-bottom-bar-switch', self.hide_bottom_bar_switch)
 
     def get_selected_pref(self, widget, array=None):
         match type := widget.get_name():
@@ -238,7 +222,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "custom_css": self.settings.get_boolean('prefs-install-custom-css'),
 
             "color_theme": self.get_selected_pref(self.color_theme_options, self.opt_array["color_theme"]),
-            "web_theme": self.get_selected_pref(self.web_theme_options, self.opt_array["web_theme"]),
             "rounded_corners": not self.get_selected_pref(self.no_rounded_corners_switch),
 
             "win_controls": self.get_selected_pref(self.window_controls_options, self.opt_array["win_controls"]),
@@ -251,10 +234,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
             "top_bar_bp_button": not self.get_selected_pref(self.hide_bp_button_switch),
             "top_bar_nav_url": not self.get_selected_pref(self.hide_nav_url_switch),
-            "top_bar_nav_arrows": self.get_selected_pref(self.show_nav_arrows_switch),
-            "top_bar_original": self.get_selected_pref(self.original_topbar_switch),
-
-            "bottom_bar": not self.get_selected_pref(self.hide_bottom_bar_switch),
         }
 
         (ret, msg) = install.run(options, self.beta_support)
