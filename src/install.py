@@ -144,7 +144,7 @@ def run(options, beta_support=False):
         if not ret:
             return (ret, msg)
 
-    if options["custom_css"]:
+    if options.get("custom_css"):
         custom_css.install()
 
     cmd = gen_cmd_line(options, beta_support)
