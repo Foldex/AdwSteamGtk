@@ -11,8 +11,7 @@
         "--device=dri",
         "--socket=wayland",
         "--filesystem=~/.var/app/com.valvesoftware.Steam/.steam/steam",
-        "--filesystem=~/.steam/steam",
-        "--filesystem=~/.local/share/fonts:create"
+        "--filesystem=~/.steam/steam"
     ],
     "cleanup": [
         "/include",
