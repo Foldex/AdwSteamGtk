@@ -53,7 +53,6 @@ def update_install(cli_args, beta_support=False):
 def get_options(option_string):
         settings = Gio.Settings.new(info.APP_ID)
         options = {
-            "install_fonts": settings.get_boolean('prefs-install-fonts'),
             "custom_css": settings.get_boolean('prefs-install-custom-css'),
 
             "color_theme": settings.get_string('color-theme-options'),
@@ -72,7 +71,6 @@ def get_options(option_string):
             return options
 
         valid_options = {
-            "install_fonts": (True, False),
             "custom_css": (True, False),
 
             "rounded_corners": (True, False),

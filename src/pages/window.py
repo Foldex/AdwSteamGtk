@@ -208,7 +208,6 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     def install_theme(self, *args):
         options = {
             # switches that hide/disable get inverted
-            "install_fonts": self.settings.get_boolean('prefs-install-fonts'),
             "custom_css": self.settings.get_boolean('prefs-install-custom-css'),
 
             "color_theme": self.get_selected_pref(self.color_theme_options, self.opt_array["color_theme"]),

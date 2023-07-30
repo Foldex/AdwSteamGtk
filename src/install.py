@@ -29,12 +29,6 @@ def gen_cmd_line(options, beta_support):
     if options.get("uninstall"):
         return f"{installer} -u"
 
-    match options["install_fonts"]:
-        case True:
-            install_fonts = "-f "
-        case _:
-            install_fonts = ""
-
     match options["custom_css"]:
         case True:
             custom_css = "--custom-css "
@@ -96,7 +90,6 @@ def gen_cmd_line(options, beta_support):
 
     cmd = (
         f"{installer}"
-        f"{install_fonts}"
 
         f"{color_theme}"
         f"{rounded_corners}"

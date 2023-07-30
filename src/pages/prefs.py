@@ -30,7 +30,6 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
     __gtype_name__ = 'AdwaitaSteamGtkPrefs'
 
     custom_css_switch = Gtk.Template.Child()
-    install_fonts_switch = Gtk.Template.Child()
     preview_theme_switch = Gtk.Template.Child()
     update_check_switch = Gtk.Template.Child()
     beta_support_switch = Gtk.Template.Child()
@@ -57,7 +56,6 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
     def setup_widgets(self):
         self.setup_switch(self.preview_theme_switch, "prefs-ui-preview-theme", self.on_preview_theme_switch_toggle)
         self.setup_switch(self.update_check_switch, "prefs-autostart-update-check", self.on_update_check_switch_toggle)
-        self.setup_switch(self.install_fonts_switch, "prefs-install-fonts", self.on_install_fonts_switch_toggle)
         self.setup_switch(self.custom_css_switch, "prefs-install-custom-css", self.on_custom_css_switch_toggle)
 
         # self.setup_switch(self.beta_support_switch, "prefs-beta-support", self.on_beta_support_switch_toggle)
@@ -106,10 +104,6 @@ class AdwaitaSteamGtkPrefs(Adw.PreferencesWindow):
             None,
             None
         )
-
-    def on_install_fonts_switch_toggle(self, *args):
-        state = not self.install_fonts_switch.props.state
-        self.settings.set_boolean("prefs-install-fonts", state)
 
     def on_custom_css_switch_toggle(self, *args):
         state = not self.custom_css_switch.props.state

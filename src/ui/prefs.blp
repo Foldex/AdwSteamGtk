@@ -39,15 +39,6 @@ template $AdwaitaSteamGtkPrefs : Adw.PreferencesWindow {
       title: _("Installer");
 
       Adw.ActionRow {
-        title: _("Cantarell Fonts");
-        subtitle: _("Installs static Cantarell fonts to `~/.local/share/fonts`");
-        activatable-widget: install_fonts_switch;
-        Gtk.Switch install_fonts_switch {
-          valign: center;
-        }
-      }
-
-      Adw.ActionRow {
         title: _("Custom CSS");
         subtitle: _("Include Custom CSS into Steam");
         activatable-widget: custom_css_switch;
