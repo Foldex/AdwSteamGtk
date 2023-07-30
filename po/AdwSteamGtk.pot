@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: AdwSteamGtk 0.6.6\n"
+"Project-Id-Version: AdwSteamGtk 0.6.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-28 23:11-0400\n"
+"POT-Creation-Date: 2023-07-30 10:02-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -230,31 +230,31 @@ msgstr ""
 msgid "Steam;Adwaita;Skin;"
 msgstr ""
 
-#: src/cli.py:47 src/cli.py:140
+#: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
 msgstr ""
 
-#: src/cli.py:107
+#: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
 msgstr ""
 
-#: src/cli.py:113
+#: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
 
-#: src/cli.py:119
+#: src/cli.py:117
 #, python-brace-format
 msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
 
-#: src/cli.py:134
+#: src/cli.py:132
 msgid "New Release Available: "
 msgstr ""
 
-#: src/cli.py:137
+#: src/cli.py:135
 msgid "Update Check Failed: "
 msgstr ""
 
@@ -294,15 +294,15 @@ msgstr ""
 msgid "Release: Error Retrieving Zip"
 msgstr ""
 
-#: src/install.py:124
+#: src/install.py:117
 msgid "Install: Found no Valid Install Targets"
 msgstr ""
 
-#: src/install.py:127
+#: src/install.py:120
 msgid "Install: Installer Process Failed"
 msgstr ""
 
-#: src/install.py:142
+#: src/install.py:135
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
 msgstr ""
 
@@ -338,7 +338,7 @@ msgstr ""
 msgid "Retry"
 msgstr ""
 
-#: src/pages/window.py:229
+#: src/pages/window.py:228
 msgid "Theme Installed"
 msgstr ""
 
@@ -384,38 +384,30 @@ msgid "Installer"
 msgstr ""
 
 #: src/ui/prefs.blp:42
-msgid "Cantarell Fonts"
-msgstr ""
-
-#: src/ui/prefs.blp:43
-msgid "Installs static Cantarell fonts to `~/.local/share/fonts`"
-msgstr ""
-
-#: src/ui/prefs.blp:51
 msgid "Custom CSS"
 msgstr ""
 
-#: src/ui/prefs.blp:52
+#: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
 msgstr ""
 
-#: src/ui/prefs.blp:57
+#: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
 msgstr ""
 
-#: src/ui/prefs.blp:62
+#: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
 msgstr ""
 
-#: src/ui/prefs.blp:72
+#: src/ui/prefs.blp:63
 msgid "Interface"
 msgstr ""
 
-#: src/ui/prefs.blp:75
+#: src/ui/prefs.blp:66
 msgid "Preview Themes"
 msgstr ""
 
-#: src/ui/prefs.blp:76
+#: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
 msgstr ""
 
