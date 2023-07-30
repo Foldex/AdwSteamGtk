@@ -37,6 +37,13 @@
   </categories>
 
   <releases>
+    <release version="0.6.8" type="stable" date="2023-07-30">
+      <description>
+        <ul>
+          <li>Fixed issue with Uninstall</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.7" type="stable" date="2023-07-30">
       <description>
         <ul>
