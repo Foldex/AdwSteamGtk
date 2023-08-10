@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
-"PO-Revision-Date: 2023-06-04 19:19+0200\n"
-"Last-Translator: Rob'OT\n"
-"Language-Team: \n"
-"Language: fr_FR\n"
+"PO-Revision-Date: 2023-08-02 11:07+0000\n"
+"Last-Translator: PoorPockets McNewHold <poorpocketsmcnewhold@protonmail.ch>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -67,30 +70,33 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
 msgid "Fixed Appdata"
-msgstr ""
+msgstr "Correction de l'appdata"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Beta Toggle removed as new UI support landed upstream"
 msgstr ""
+"L'option pour basculer vers la version bêta a été désactivé, maintenant que "
+"la nouvelle interface est publique"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
 msgid ""
 "Added option to use Steam's Original Top Bar instead of our Adwaita styled "
 "one"
 msgstr ""
+"Ajout d'une option pour utiliser la barre supérieure de Steam au lieu de "
+"celle inspirée d'Adwaita personnalisée"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
 msgid "Initial German Translation"
-msgstr ""
+msgstr "Traduction allemande initiale"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
-#, fuzzy
 msgid "Added hover tooltips to installer options"
-msgstr "Ajout de l'option \"Aucun\" aux options de contrôle de la fenêtre"
+msgstr "Ajout des astuces lors de l'aperçu d'options de l'installeur"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
 msgid "Added French, Ukrainian, and Russian Translations"
-msgstr ""
+msgstr "Ajout des traductions françaises, ukrainiennes et russe"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:67
 msgid "New UI"
@@ -109,7 +115,7 @@ msgstr "Ajout des options CSS personnalisée"
 msgid "Added Autostart Update Check preference toggle"
 msgstr ""
 "Ajout du bouton pour la préférence de détection automatique de mise à jour "
-"au démarrage."
+"au démarrage"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:77
 msgid "Added Font Install preference toggle"
@@ -222,7 +228,7 @@ msgstr "Un utilitaire simple qui installe Adwaita pour Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr "Steam;Adwaita;Skin;"
+msgstr "Steam;Adwaita;Thème;"
 
 #: src/cli.py:47 src/cli.py:156
 msgid "Up to Date."
@@ -231,7 +237,7 @@ msgstr "À jour."
 #: src/cli.py:123
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr "{key}: {cur_val} invalid value"
+msgstr "{key}: {cur_val} valeur invalide"
 
 #: src/cli.py:129
 msgid "Could not get theme list. Falling back to last selected theme."
@@ -346,7 +352,7 @@ msgstr "Thème installé"
 #: src/style.py:36
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr "Style: Impossible de trouver le thème {theme_name}"
+msgstr "Style : Impossible de trouver le thème {theme_name}"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
@@ -364,7 +370,7 @@ msgstr "Vérification automatique des mises à jour"
 msgid "Checks and notifies for theme updates on user login."
 msgstr ""
 "Vérifie et notifie d'une mise à jour disponible à la connexion de "
-"l'utilisateur"
+"l'utilisateur."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
@@ -439,7 +445,7 @@ msgstr "Couleur de thème"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Change le thème de couleur de l'interface de Steam."
 
 #: src/ui/window.blp:46
 msgid "Theme"
@@ -465,7 +471,7 @@ msgstr "Pas de coins arrondis"
 
 #: src/ui/window.blp:52
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Retire les coins ronds de l'interface."
 
 #: src/ui/window.blp:62
 msgid "Window Controls Options"
@@ -480,6 +486,8 @@ msgid ""
 "Changes Window Control position and type. Minimize and Maximize buttons are "
 "hidden by default. Use All to show them."
 msgstr ""
+"Change le type et position de contrôle de la fenêtre. Les boutons Minimiser "
+"et Maximiser sont cachés par défaut. Choisissez Tous pour les afficher."
 
 #: src/ui/window.blp:66 src/ui/window.blp:71
 msgid "Default"
@@ -510,6 +518,9 @@ msgid ""
 "Changes Window Control visual style. Default is the traditional style, while "
 "Dots are Mac OS style colored circles."
 msgstr ""
+"Change le style visuel des contrôles de la fenêtre. Défaut est le style "
+"traditionnel, pendant que Points de suspension sont les pastilles colorées "
+"iconiques de Mac OS."
 
 #: src/ui/window.blp:71
 msgid "Dots"
@@ -525,7 +536,7 @@ msgstr "Barre latérale de la bibliothèque"
 
 #: src/ui/window.blp:80
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "Change les options d'affichage de la barre latérale de la bibliothèque."
 
 #: src/ui/window.blp:81 src/ui/window.blp:101
 msgid "Show"
@@ -542,6 +553,8 @@ msgstr "Masquer l'étagère des actualités dans la bibliothèque"
 #: src/ui/window.blp:86
 msgid "Disables display of the new updates section on top of the Library."
 msgstr ""
+"Désactive l'affichage de la section des nouveautés en haut de la "
+"bibliothèque."
 
 #: src/ui/window.blp:96
 msgid "Login Options"
@@ -554,6 +567,7 @@ msgstr "Connexion avec QR code"
 #: src/ui/window.blp:100
 msgid "Changes display options for the mobile QR code in the Login dialog."
 msgstr ""
+"Change l'affichage du QR code de connexion dans le dialogue de connexion."
 
 #: src/ui/window.blp:101
 msgid "Hide"
@@ -611,15 +625,15 @@ msgstr ""
 
 #: src/ui/window.blp:166
 msgid "_Preferences"
-msgstr "_Preferences"
+msgstr "_Préférences"
 
 #: src/ui/window.blp:170
 msgid "_Uninstall"
-msgstr "_Uninstall"
+msgstr "_Désinstaller"
 
 #: src/ui/window.blp:174
 msgid "_About AdwSteamGtk"
-msgstr "_About AdwSteamGtk"
+msgstr "_À propos de AdwSteamGtk"
 
 #: src/zip.py:31
 msgid "Extract: Failed to read ZIP archive"
