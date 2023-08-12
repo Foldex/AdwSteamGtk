@@ -1,13 +1,13 @@
 ---
 name: Bug Report
-about: Report an issue with functionality
+about: Report an issue with functionality (e.g. The installer crashes)
 title: 'Bug Report: '
 labels: 'bug'
 assignees: ''
 
 ---
 
-**This issue is specific to AdwSteamGtk and not the upstream project:**
+**This issue is a problem with AdwSteamGtk and not the [Theme](https://github.com/tkashkin/Adwaita-for-Steam) it installs:**
 
 - [ ] Yes
 
