@@ -10,24 +10,27 @@
   <launchable type="desktop-id">io.github.Foldex.AdwSteamGtk.desktop</launchable>
 
   <name>AdwSteamGtk</name>
-  <summary>Adwaita for Steam Skin Installer</summary>
+  <summary>Give Steam the Adwaita treatment</summary>
   <developer_name>Foldex</developer_name>
 
   <url type="homepage">https://github.com/Foldex/AdwSteamGtk</url>
   <url type="bugtracker">https://github.com/Foldex/AdwSteamGtk/issues</url>
 
   <description>
-  <p>A simple application that installs and updates the Adwaita-for-Steam skin.</p>
-  <p>Install Directions:</p>
+  <p>
+    Make Steam look like it belongs on your computer. This app installs and updates the
+    Adwaita-for-Steam skin for you. It's as simple as this:
+  </p>
   <ol>
-    <li>Install skin via app</li>
-    <li>Restart Steam if running</li>
+    <li>Configure the skin to your liking</li>
+    <li>Click the “Apply” button</li>
+    <li>Restart Steam</li>
   </ol>
   <p>
-    On startup new releases will automatically be downloaded and display a notification.
-    Simply reinstall the skin and restart Steam to update.
+    On startup, the app will automatically download any updates to the skin and display a notification.
+    Apply the skin again and restart Steam to take the changes into use.
   </p>
-  <p>Note: In order to get rounded corners on Steam, you will need to use the "Rounded Window Corners" gnome extension.</p>
+  <p>In order to get rounded corners on Steam, you will need to use the “Rounded Window Corners” GNOME extension.</p>
   </description>
 
   <categories>
