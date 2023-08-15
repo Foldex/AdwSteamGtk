@@ -25,9 +25,15 @@ BUG_TRACKER_URL="@BUG_TRACKER_URL@"
 LICENSE="@LICENSE@"
 COPYRIGHT="@COPYRIGHT@"
 
+AUTHOR='Foldex'
+
 DEVELOPERS=[
     'Foldex https://github.com/Foldex',
     'Christoph Kohnen https://github.com/ChaosMelone9'
+]
+
+ARTISTS=[
+    'Brage Fuglseth https://bragefuglseth.dev'
 ]
 
 TRANSLATORS=[
