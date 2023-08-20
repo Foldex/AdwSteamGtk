@@ -127,10 +127,12 @@ class Adwaita_steam_gtkApplication(Adw.Application):
         about = Adw.AboutWindow(transient_for=self.props.active_window,
                                 application_name=info.APP_NAME,
                                 application_icon=info.APP_ID,
+                                developer_name=info.AUTHOR,
                                 website=info.PROJECT_URL,
                                 issue_url=info.BUG_TRACKER_URL,
                                 version=info.VERSION,
                                 developers=info.DEVELOPERS,
+                                artists=info.ARTISTS,
                                 license_type=info.LICENSE,
                                 copyright=info.COPYRIGHT)
         about.add_credit_section(_("Upstream"), info.UPSTREAM)

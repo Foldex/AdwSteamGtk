@@ -114,6 +114,7 @@ def generate_style(theme_name):
     css += format_css("card_bg_color", "rgba(255, 255, 255, 0.08)")
 
     css += "tooltip.background { background-color: rgba(0, 0, 0, 0.8); color: @card_fg_color; }\n"
+    css += "list.boxed-list > row:not(:last-child) { border-bottom: 1px solid rgba(0, 0, 0, 0.36); }\n"
 
     return (True, css)
 
