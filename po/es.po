@@ -352,7 +352,8 @@ msgstr "Desinstalar Tema"
 
 #: src/main.py:147
 msgid "This will reset all customizations made to the Steam client."
-msgstr "Esto reiniciará todas las personalizaciones hechas al cliente de Steam."
+msgstr ""
+"Esto reiniciará todas las personalizaciones hechas al cliente de Steam."
 
 #: src/main.py:149
 msgid "Cancel"
