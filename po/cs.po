@@ -8,59 +8,69 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 15:54-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-09-13 12:52+0000\n"
+"Last-Translator: Kryštof Černý <cleverline1mc@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
+#, fuzzy
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Adwaita for Steam Skin Installer"
-msgstr ""
+msgstr "Instalátor motivu Adwaita pro Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
+#, fuzzy
 msgid "Foldex"
-msgstr ""
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "A simple application that installs and updates the Adwaita-for-Steam skin."
 msgstr ""
+"Jednoduchá aplikace pro instalaci a aktualizaci motivu Adwaita pro Steam."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:21
 msgid "Install Directions:"
-msgstr ""
+msgstr "Pokyny pro instalaci:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:23
 msgid "Install skin via app"
-msgstr ""
+msgstr "Instalovat motiv přes aplikaci"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:24
 msgid "Restart Steam if running"
-msgstr ""
+msgstr "Restartovat Steam pokud běží"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
 msgid ""
 "On startup new releases will automatically be downloaded and display a "
 "notification. Simply reinstall the skin and restart Steam to update."
 msgstr ""
+"Při startu budou automaticky stažena nová vydání a zobrazeno oznámení. Pro "
+"aktualizaci přeinstalujte motiv a restartujte Steam."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid ""
 "Note: In order to get rounded corners on Steam, you will need to use the "
 "\"Rounded Window Corners\" gnome extension."
 msgstr ""
+"Poznámka: pro získání zaoblených rohů pro Steam budete muset použít "
+"rozšíření GNOME \"Rounded Window Corners\"."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
 msgid "Fixed issue with Uninstall"
-msgstr ""
+msgstr "Opraveny chyby s odinstalací"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Removed Deprecated Font Install Preference"
@@ -219,36 +229,36 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:206
 msgid "Main Window"
-msgstr ""
+msgstr "Hlavní okno"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:210
 msgid "Theme Preview"
-msgstr ""
+msgstr "Náhled motivu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:214
 msgid "Login Preview"
-msgstr ""
+msgstr "Náhled přihlášení"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "Jednoduchá aplikace pro instalaci Adwaity pro Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;Skin;Motiv;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "Aktuální."
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr ""
+msgstr "{key}:{cur_val} neplatná hodnota"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr ""
+msgstr "Nebylo možné získat seznam motivů. Poslední vybraný motiv se vrací."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -256,308 +266,315 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
+"Nebylo možné najít motiv {colortheme} v seznamu. Vrací se poslední vybraný "
+"motiv."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "K dispozici nové vydání: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "Chyba při hledání aktualizací: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: Chybový kód HTTP "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr ""
+msgstr "API: Chyba rozboru JSON"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "API: Chyba při získávání informací o vydání"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr ""
+msgstr "API: V JSON chybí požadované klíče"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "Vydání: Chybový kód HTTP "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "Vydání: Připojení resetováno"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr ""
+msgstr "Vydání: Chyba oprávnění"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr ""
+msgstr "Vydání: Doba připojení vypršela"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "Vydání: Chyba získávání Zipu"
 
 #: src/install.py:117
 msgid "Install: Found no Valid Install Targets"
-msgstr ""
+msgstr "Instalace: Nenalezeny jakékoliv platné instalační cíle"
 
 #: src/install.py:120
 msgid "Install: Installer Process Failed"
-msgstr ""
+msgstr "Instalace: Proces instalace selhal"
 
 #: src/install.py:135
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
 msgstr ""
+"Instalace: Chyba při hledání platného symbolického odkazu '~/.steam/steam'"
 
 #: src/main.py:136
 msgid "Upstream"
-msgstr ""
+msgstr "Motiv"
 
 #: src/main.py:137
 msgid "Translators"
-msgstr ""
+msgstr "Překladatelé"
 
 #: src/main.py:146
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "Odinstalovat motiv"
 
 #: src/main.py:147
 msgid "This will reset all customizations made to the Steam client."
-msgstr ""
+msgstr "Toto zruší všechny úpravy udělané na klientovi Steam."
 
 #: src/main.py:149
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: src/main.py:150
 msgid "Uninstall"
-msgstr ""
+msgstr "Odinstalovat"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "Staženo nové vydání: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "Opakovat"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "Motiv nainstalován"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr ""
+msgstr "Získávaní motivů: Získávání motivů selhalo"
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
+msgstr "Styl: nebylo možné najít motiv {theme_name}"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr ""
+msgstr "Nastavení"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
-msgstr ""
+msgstr "Automatické spouštění"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr ""
+msgstr "Automatické zkontrolování aktualizací"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
-msgstr ""
+msgstr "Zkontroluje a upozorní na aktualizaci motivu při přihlášení uživatele."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr ""
+msgstr "Podpora experimentální bety"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr ""
+msgstr "Povolí podporu bety (vyžaduje restart)"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr ""
+msgstr "Instalátor"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr ""
+msgstr "Vlastní CSS"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr ""
+msgstr "Zahrnout vlastní CSS do Steamu"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "Informace o vlastním CSS"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr ""
+msgstr "Upravit soubor vlastního CSS"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr ""
+msgstr "Rozhraní"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr ""
+msgstr "Náhled motivu"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
-msgstr ""
+msgstr "Stylizuje rozhraní pro shodu s právě vybraným motivem."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Instalátor Steam Adwaita"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "Použít"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "Možnosti motivu"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "Barva motivu"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Změní barvu motivu rozhraní Steam."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "Bez zaoblených rohů"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Odstraní zaoblené rohy z rozhraní."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr ""
+msgstr "Možnosti ovládání okna"
 
 #: src/ui/window.blp:59
 msgid "Window Controls"
-msgstr ""
+msgstr "Ovládání okna"
 
 #: src/ui/window.blp:60
 msgid ""
 "Changes Window Control position and type. Minimize and Maximize buttons are "
 "hidden by default. Use All to show them."
 msgstr ""
+"Změní pozici a druh ovládání okna. Tlačítka minimalizovat a maximalizovat "
+"jsou implicitně skryta, použijte \"všechny\" pro jejich zobrazení."
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Default"
-msgstr ""
+msgstr "Výchozí"
 
 #: src/ui/window.blp:61
 msgid "Right-All"
-msgstr ""
+msgstr "Vpravo-všechny"
 
 #: src/ui/window.blp:61
 msgid "Left"
-msgstr ""
+msgstr "Vlevo"
 
 #: src/ui/window.blp:61
 msgid "Left-All"
-msgstr ""
+msgstr "Vlevo-všechny"
 
 #: src/ui/window.blp:61
 msgid "None"
-msgstr ""
+msgstr "Žádné"
 
 #: src/ui/window.blp:64
 msgid "Controls Style"
-msgstr ""
+msgstr "Styl ovládání"
 
 #: src/ui/window.blp:65
 msgid ""
 "Changes Window Control visual style. Default is the traditional style, while "
 "Dots are Mac OS style colored circles."
 msgstr ""
+"Změní styl zobrazení ovládání oken. Tradiční styl je výchozí, Tečky jsou "
+"barevné kroužky dle Mac OS."
 
 #: src/ui/window.blp:66
 msgid "Dots"
-msgstr ""
+msgstr "Tečky"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "Možnosti knihovny"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr ""
+msgstr "Postranní panel knihovny"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "Změní možnosti zobrazení pro levý postranní panel knihovny."
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "Zobrazit"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr ""
+msgstr "Pouze při najetí"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr ""
+msgstr "Skrýt poličku \"Co je nového\" v knihovně"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
-msgstr ""
+msgstr "Zakáže zobrazování sekce nových aktualizací nahoře v knihovně."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr ""
+msgstr "Možnosti přihlášení"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr ""
+msgstr "Přihlášení QR kódem"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr ""
+msgstr "Změní možnosti zobrazení mobilního QR kódu v přihlašovacím okně."
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr ""
+msgstr "Skrýt"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr ""
+msgstr "_Možnosti"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr ""
+msgstr "_Odinstalovat"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "_O aplikaci AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr ""
+msgstr "Rozbalení: Chyba při čtení archivu ZIP"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr ""
+msgstr "Rozbalení: Špatný soubor ZIP"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr ""
+msgstr "Rozbalení: Rozbalení soboru ZIP selhalo"
