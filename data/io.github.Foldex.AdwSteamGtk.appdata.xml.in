@@ -40,6 +40,17 @@
   </categories>
 
   <releases>
+    <release version="0.6.9" type="stable" date="2023-09-16">
+      <description>
+        <ul>
+          <li>Added Czech Translation</li>
+          <li>Added Spanish Translation</li>
+          <li>Updated French Translation</li>
+          <li>New Application Icon</li>
+          <li>Updated Libportal</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.8" type="stable" date="2023-07-30">
       <description>
         <ul>

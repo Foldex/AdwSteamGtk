@@ -41,7 +41,9 @@ TRANSLATORS=[
     'RobOT05442309 https://github.com/RobOT05442309',
     'Christoph Kohnen https://github.com/cmkohnen',
     'AnaxMorden https://github.com/AnaxMorden',
-    'Fernando Lopes https://github.com/plasmus777'
+    'Fernando Lopes https://github.com/plasmus777',
+    'Percy De La Rosa https://github.com/PercyDLR',
+    'Kryštof Černý https://github.com/cewbdex'
 ]
 
 UPSTREAM=['Anatoliy Kashkin  https://github.com/tkashkin']
