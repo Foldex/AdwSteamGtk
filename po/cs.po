@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 15:54-0400\n"
-"PO-Revision-Date: 2023-09-13 12:52+0000\n"
-"Last-Translator: Kryštof Černý <cleverline1mc@gmail.com>\n"
+"PO-Revision-Date: 2023-09-26 12:59+0000\n"
+"Last-Translator: \"Margaret K.\" <magstheidiot@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/cs/>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -74,158 +74,159 @@ msgstr "Opraveny chyby s odinstalací"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Removed Deprecated Font Install Preference"
-msgstr ""
+msgstr "Odstraněny Zastaralé Preference Instalace Písem"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:57
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:81
 msgid "Fixed Appdata"
-msgstr ""
+msgstr "Opraveny Appdata"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:58
 msgid "Removed some options that no longer exist upstream"
-msgstr ""
+msgstr "Některé možnosti které již v upstreamu neexistují byly odstraněny"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:65
 msgid "Updated Russian Translation"
-msgstr ""
+msgstr "Byl aktualizován ruský překlad"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:66
 msgid "Updated to new upstream install method"
-msgstr ""
+msgstr "Aktualizováno na novou upstreamovou metodu instalace"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:73
 msgid "Updated German and Ukrainian Translations"
-msgstr ""
+msgstr "Aktualizovány Německé a Ukrajinské překlady"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:74
 msgid "Added Portuguese Translation"
-msgstr ""
+msgstr "Přídán překlad do Portugalštiny"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:88
 msgid "Beta Toggle removed as new UI support landed upstream"
-msgstr ""
+msgstr "Beta Přepínač byl odebrán kvůli nové UI v upstreamu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:89
 msgid ""
 "Added option to use Steam's Original Top Bar instead of our Adwaita styled "
 "one"
 msgstr ""
+"Přidána možnost používat původní Stavový Řádek místo našeho ve stylu Adwaity"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:90
 msgid "Initial German Translation"
-msgstr ""
+msgstr "Prvotní překlad do Němčiny"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:91
 msgid "Added hover tooltips to installer options"
-msgstr ""
+msgstr "Přidány popisky při ukázání na možnosti instalátoru"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:98
 msgid "Added French, Ukrainian, and Russian Translations"
-msgstr ""
+msgstr "Přidány Francouzské, Ukrajinské a Ruské překlady"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:105
 msgid "New UI"
-msgstr ""
+msgstr "Nové UI"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:106
 msgid "Added Experimental Beta Client Support (with new options)"
-msgstr ""
+msgstr "Přidána podpora experimentálního Beta Klienta (s novými možnostmi)"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:107
 msgid "Added Custom CSS Option"
-msgstr ""
+msgstr "Přidána možnost vlastního CSS"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:114
 msgid "Added Autostart Update Check preference toggle"
-msgstr ""
+msgstr "Přidán přepínač pro automatické kontroly aktualizací"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:115
 msgid "Added Font Install preference toggle"
-msgstr ""
+msgstr "Přidán přepínač pro preference instalace písem"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:122
 msgid "Fixed issue with theme preview on light mode"
-msgstr ""
+msgstr "Opravena chyba s náhledem motivu ve světlém režimu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:123
 msgid "Added preferences toggle for theme preview"
-msgstr ""
+msgstr "Přidán přepínač pro náhled motivu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:130
 msgid "Colortheme is now previewed in app"
-msgstr ""
+msgstr "Barva motivu má nyní v aplikaci náhled"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:131
 msgid "Added -u/-i arguments to install skin via commandline"
-msgstr ""
+msgstr "Přidány argumenty -u/-i pro instalaci motivu přes příkazový řádek"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:132
 msgid "Added -o argument to override install options for -i/-u"
-msgstr ""
+msgstr "Přidán argument -o pro přebití možností -i/-u"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:139
 msgid "Added Library Sidebar Options"
-msgstr ""
+msgstr "Přidány možnosti pro boční panel Knihovna"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
 msgid "Updated to Gnome 44 Runtime"
-msgstr ""
+msgstr "Aktualizováno na Gnome 44 Runtime"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:147
 msgid "Changed Default Web Theme to Full Variant"
-msgstr ""
+msgstr "Výchozí Webový motiv změněn na Plnou Variantu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:154
 msgid "Fixed Installer CLI Output"
-msgstr ""
+msgstr "Opraven výstup instalátora v CLI"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:161
 msgid "Added Color Theme Support"
-msgstr ""
+msgstr "Přidána podpora barev v motivu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:162
 msgid "Added -c argument to notify about updates"
-msgstr ""
+msgstr "Přidán argument -c pro notifikace o aktualizacích"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:169
 msgid "Last chosen settings are now loaded at startup"
-msgstr ""
+msgstr "Poslední vybrané nastavení jsou nyní načteny při startu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:170
 msgid "Changed display of install button if the theme is already installed"
-msgstr ""
+msgstr "Změněno zobrazení instalačního tlačítka pokud je motiv již nainstalován"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:177
 msgid "Added None to Window Control Options"
-msgstr ""
+msgstr "Přídána možnost \"Žádné\" do Nastavení Ovládacích Prvků Okna"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:184
 msgid "Added QR Login Options"
-msgstr ""
+msgstr "Přidány nastavení pro přihlášení přes QR Kód"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:185
 msgid "Improved Missing Dir Messages"
-msgstr ""
+msgstr "Vylepšeny zprávy o chybějících adresářích"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:192
 msgid "Updated to Gnome 43 SDK"
-msgstr ""
+msgstr "Aktualizováno na Gnome 43 SDK"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:193
 msgid "Implemented AdwAboutWindow"
-msgstr ""
+msgstr "Přidáno AdwAboutWindow"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:194
 msgid "Updated Filesystem Permissions"
-msgstr ""
+msgstr "Aktualizovány povolení souborového systému"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:195
 msgid "Fixed Quit Shortcut"
-msgstr ""
+msgstr "Opravena zkratka pro opuštění programu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:196
 msgid "Fixed Current Check"
-msgstr ""
+msgstr "Opravena Kontrola Aktuality"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:206
 msgid "Main Window"
