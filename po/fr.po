@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
-"PO-Revision-Date: 2023-08-02 11:07+0000\n"
-"Last-Translator: PoorPockets McNewHold <poorpocketsmcnewhold@protonmail.ch>\n"
+"PO-Revision-Date: 2023-09-30 02:01+0000\n"
+"Last-Translator: fail a fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/fr/>\n"
 "Language: fr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -456,6 +456,8 @@ msgid ""
 "Changes the theme variant. Full themes more areas of the client, while Base "
 "is less fully featured."
 msgstr ""
+"Modifie la variante du thème. Les thèmes complets couvrent plus de sections "
+"du client, tandis que le thème de base est moins fourni."
 
 #: src/ui/window.blp:48
 msgid "Full"
@@ -579,13 +581,15 @@ msgstr "Options de barre supérieure"
 
 #: src/ui/window.blp:108
 msgid "Original Steam Top Bar"
-msgstr ""
+msgstr "Barre supérieure Steam d'origine"
 
 #: src/ui/window.blp:109
 msgid ""
 "Changes the top bar back to Steam's original style, instead of the Adwaita "
 "styled one."
 msgstr ""
+"Remet la barre supérieure dans le style original de Steam, à la place du "
+"style Adwaita."
 
 #: src/ui/window.blp:117
 msgid "Hide Big Picture Button"
@@ -593,7 +597,7 @@ msgstr "Masquer le bouton Big Picture"
 
 #: src/ui/window.blp:118
 msgid "Disables display of the Big Picture button on the Top Bar."
-msgstr ""
+msgstr "Supprime le bouton Big Picture de la barre supérieure."
 
 #: src/ui/window.blp:126
 msgid "Hide URL Bar"
@@ -601,7 +605,7 @@ msgstr "Masquer la barre d'URL"
 
 #: src/ui/window.blp:127
 msgid "Disables display of the page URL on the Top Bar."
-msgstr ""
+msgstr "Supprime l'affichage de l'URL de la page dans la barre supérieure."
 
 #: src/ui/window.blp:135
 msgid "Show Nav Arrows"
@@ -610,6 +614,8 @@ msgstr "Afficher les flèches de navigation"
 #: src/ui/window.blp:136
 msgid "Enables display of the forward/back navigation arrows on the Top Bar."
 msgstr ""
+"Permet l'affichage des flèches de navigation avant/retour dans la barre "
+"supérieure."
 
 #: src/ui/window.blp:146
 msgid "Bottom Bar Options"
@@ -621,7 +627,7 @@ msgstr "Masquer la barre inférieure"
 
 #: src/ui/window.blp:149
 msgid "Disables display of the Bottom Bar."
-msgstr ""
+msgstr "Supprime l'affichage de la barre inférieure."
 
 #: src/ui/window.blp:166
 msgid "_Preferences"
