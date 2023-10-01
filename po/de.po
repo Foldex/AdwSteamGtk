@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
-"PO-Revision-Date: 2023-09-26 12:59+0000\n"
-"Last-Translator: AnaxMorden <Anax.Morden@e.email>\n"
+"PO-Revision-Date: 2023-10-02 23:01+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/de/>\n"
 "Language: de\n"
@@ -85,12 +85,11 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
 msgid "Initial German Translation"
-msgstr ""
+msgstr "Initiale deutsche Übersetzung"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
-#, fuzzy
 msgid "Added hover tooltips to installer options"
-msgstr "Keine zu Fenstersteuerungsoptionen hinzugefügt"
+msgstr "Hover-Tooltips zu den Installationsprogrammoptionen hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
 msgid "Added French, Ukrainian, and Russian Translations"
