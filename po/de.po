@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
-"PO-Revision-Date: 2023-06-08 18:53+0200\n"
-"Last-Translator: Christoph Matthias Kohnen <christoph.kohnen@disroot.org>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-10-02 23:01+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 42.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -30,26 +31,26 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 msgid "Foldex"
-msgstr ""
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "A simple application that installs and updates the Adwaita-for-Steam skin."
 msgstr ""
 "Eine einfache Anwendung die den Adwaita-for-Steam Skin installiert und "
-"aktualisiert"
+"aktualisiert."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:21
 msgid "Install Directions:"
-msgstr "Installationswege"
+msgstr "Installationswege:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:23
 msgid "Install skin via app"
-msgstr "Installiere den Skin über die Anwendung"
+msgstr "Installiere den ausgewählten Skin über die Anwendung."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:24
 msgid "Restart Steam if running"
-msgstr "Starte Steam gegebenenfalls neu"
+msgstr "Sollte Steam gestartet sein, starte es gegebenenfalls neu."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
 msgid ""
@@ -58,7 +59,7 @@ msgid ""
 msgstr ""
 "Während des Hochfahrens wird die neueste Version automatisch heruntergeladen "
 "und gibt eine Benachrichtigung ab. Um das Update anzuwenden, reinstalliere "
-"den Skin und starte Steam neu"
+"den Skin und starte Steam neu."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid ""
@@ -70,7 +71,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:43
 msgid "Fixed Appdata"
-msgstr ""
+msgstr "Appdata überarbeitet"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Beta Toggle removed as new UI support landed upstream"
@@ -84,12 +85,11 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
 msgid "Initial German Translation"
-msgstr ""
+msgstr "Initiale deutsche Übersetzung"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
-#, fuzzy
 msgid "Added hover tooltips to installer options"
-msgstr "Keine zu Fenstersteuerungsoptionen hinzugefügt"
+msgstr "Hover-Tooltips zu den Installationsprogrammoptionen hinzugefügt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:60
 msgid "Added French, Ukrainian, and Russian Translations"
@@ -225,7 +225,7 @@ msgstr "Ein einfacher Wrapper der Adwaita for Steam installiert"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;Skin;"
 
 #: src/cli.py:47 src/cli.py:156
 msgid "Up to Date."
@@ -234,7 +234,7 @@ msgstr "Auf dem neuesten Stand."
 #: src/cli.py:123
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr "{key}: {cur_val} Fehlerhafter Wert"
+msgstr "{key}: {cur_val} ungültiger Wert"
 
 #: src/cli.py:129
 msgid "Could not get theme list. Falling back to last selected theme."
@@ -308,7 +308,7 @@ msgstr "Install: Kein zulässiger '~/.steam/steam' Symlink gefunden"
 
 #: src/main.py:136
 msgid "Upstream"
-msgstr ""
+msgstr "Urheber"
 
 #: src/main.py:137
 msgid "Translators"
@@ -434,7 +434,7 @@ msgstr "Farbthema"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Ändert das Farbthema der Oberfläche von Steam"
 
 #: src/ui/window.blp:46
 msgid "Theme"
@@ -445,6 +445,8 @@ msgid ""
 "Changes the theme variant. Full themes more areas of the client, while Base "
 "is less fully featured."
 msgstr ""
+"Ändert die Themenvariante. \"Komplett ändert mehr Bereich des Programms, "
+"während \"Basis\" weniger Features enhält."
 
 #: src/ui/window.blp:48
 msgid "Full"
@@ -460,7 +462,7 @@ msgstr "Keine abgerunden Ecken"
 
 #: src/ui/window.blp:52
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Entfernt die sanft abgerundeten Ecken aus der Oberfläche"
 
 #: src/ui/window.blp:62
 msgid "Window Controls Options"
@@ -475,6 +477,9 @@ msgid ""
 "Changes Window Control position and type. Minimize and Maximize buttons are "
 "hidden by default. Use All to show them."
 msgstr ""
+"Ändert die Fenster Kontrollposition und ihren Typ. Minimierte und Maximierte "
+"Knöpfe sind normalerweise versteckt. Benutze \"Alles\" um sie anzeigen zu "
+"lassen."
 
 #: src/ui/window.blp:66 src/ui/window.blp:71
 msgid "Default"
@@ -505,6 +510,8 @@ msgid ""
 "Changes Window Control visual style. Default is the traditional style, while "
 "Dots are Mac OS style colored circles."
 msgstr ""
+"Ändert den Fenster Kontrollstil. Standart ist der traditionelle Stil, "
+"während Punkte farbige Zirkel im Mac OS Stil sind."
 
 #: src/ui/window.blp:71
 msgid "Dots"
@@ -520,7 +527,7 @@ msgstr "Seitenleiste in der Bibliothek"
 
 #: src/ui/window.blp:80
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "Ändert die Anzeigeoptionen für die linke Bibliotheksanzeige."
 
 #: src/ui/window.blp:81 src/ui/window.blp:101
 msgid "Show"
@@ -537,6 +544,8 @@ msgstr "Verstecke Neuerungen in der Bibliothek"
 #: src/ui/window.blp:86
 msgid "Disables display of the new updates section on top of the Library."
 msgstr ""
+"Deaktiviert das Display der neuen Aktualisierungs Sektion oberhalb der "
+"Bibliothek."
 
 #: src/ui/window.blp:96
 msgid "Login Options"
@@ -548,7 +557,7 @@ msgstr "Anmelden mit QR-Code"
 
 #: src/ui/window.blp:100
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr ""
+msgstr "Ändert Anzeigeoptionen für den Handy QR Code im Anmeldedialog."
 
 #: src/ui/window.blp:101
 msgid "Hide"
@@ -560,21 +569,23 @@ msgstr "Optionen der oberen Leiste"
 
 #: src/ui/window.blp:108
 msgid "Original Steam Top Bar"
-msgstr ""
+msgstr "Obere Leiste in Steam beibehalten"
 
 #: src/ui/window.blp:109
 msgid ""
 "Changes the top bar back to Steam's original style, instead of the Adwaita "
 "styled one."
 msgstr ""
+"Ändert die obere Leiste wieder in den ursprünglichen Stil von Steam zurück, "
+"anstelle der Leiste im Stil von Adwaita."
 
 #: src/ui/window.blp:117
 msgid "Hide Big Picture Button"
-msgstr "Verstecke Knopf für den Big-Picture-Modus"
+msgstr "Verstecke den Knopf für den Big-Picture-Modus"
 
 #: src/ui/window.blp:118
 msgid "Disables display of the Big Picture button on the Top Bar."
-msgstr ""
+msgstr "Versteckt den Knopf für den Big Picture Modus in der oberen Leiste."
 
 #: src/ui/window.blp:126
 msgid "Hide URL Bar"
@@ -582,39 +593,40 @@ msgstr "Verstecke die Adresszeile"
 
 #: src/ui/window.blp:127
 msgid "Disables display of the page URL on the Top Bar."
-msgstr ""
+msgstr "Deaktiviert die Anzeige für die Seitenurl in der oberen Leiste."
 
 #: src/ui/window.blp:135
 msgid "Show Nav Arrows"
-msgstr "Zeige die Navigationspfeile"
+msgstr "Anzeigen der Navigationspfeile"
 
 #: src/ui/window.blp:136
 msgid "Enables display of the forward/back navigation arrows on the Top Bar."
 msgstr ""
+"Aktiviert die Ansicht für die Vor- und Rückwärtspfeile in der oberen Leiste."
 
 #: src/ui/window.blp:146
 msgid "Bottom Bar Options"
-msgstr "Optionen der unteren Leiste"
+msgstr "Optionen für die untere Leiste"
 
 #: src/ui/window.blp:148
 msgid "Hide Bottom Bar"
-msgstr "Verstecke die untere Leiste"
+msgstr "Versteckt die untere Leiste"
 
 #: src/ui/window.blp:149
 msgid "Disables display of the Bottom Bar."
-msgstr ""
+msgstr "Versteckt die Anzeige der unteren Leiste."
 
 #: src/ui/window.blp:166
 msgid "_Preferences"
-msgstr ""
+msgstr "Einstellungen"
 
 #: src/ui/window.blp:170
 msgid "_Uninstall"
-msgstr ""
+msgstr "Deinstallieren"
 
 #: src/ui/window.blp:174
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "Über AdwSteamGtk"
 
 #: src/zip.py:31
 msgid "Extract: Failed to read ZIP archive"
@@ -630,7 +642,7 @@ msgstr "Extract: Fehler die ZIP-Datei auszulesen"
 
 #: src/zip.py:51
 msgid "Get Themes: Failed to read ZIP archive"
-msgstr "Get Themes: Fehler das ZIP-Archiv auszulesen"
+msgstr "Get Themes: Das ZIP Archiv konnte nicht ausgelesen werden"
 
 #: src/zip.py:53
 msgid "Get Themes: Bad ZIP File"
