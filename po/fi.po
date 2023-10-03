@@ -8,44 +8,50 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-10-04 16:11+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr ""
+msgstr "Anna Steamille Adwaita-kohtelu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 msgid "Foldex"
-msgstr ""
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
+"Aseta Steam näyttämään samalta kuin muut tietokoneesi sovellukset. Tämä "
+"sovellus asentaa ja päivittää Adwaita-for-Steam-ulkoasun tietokoneellesi. Se "
+"on näin helppoa:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid "Configure the skin to your liking"
-msgstr ""
+msgstr "Määritä haluamasi ulkoasu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
 msgid "Click the “Apply” button"
-msgstr ""
+msgstr "Napsauta \"Toteuta\"-painiketta"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:27
 msgid "Restart Steam"
-msgstr ""
+msgstr "Käynnistä Steam uudelleen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:29
 msgid ""
@@ -53,12 +59,17 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
+"Tietokoneen käynnistäessä tämä sovellus lataa ja päivittää automaattisesti "
+"Steam-skinin ja näyttää ilmoituksen. Toteuta skini uudelleen ja käynnistä "
+"Steam uudelleen, niin muutokset tulevat voimaan."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:33
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
+"Jos haluat pyöristetyt kulmat Steamiin, tarvitset Gnome-laajennuksen nimeltä "
+"“Rounded Window Corners” ."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:46
 msgid "Added Czech Translation"
@@ -241,36 +252,37 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:220
 msgid "Main Window"
-msgstr ""
+msgstr "Pääikkuna"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:224
 msgid "Theme Preview"
-msgstr ""
+msgstr "Teeman esikatselu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:228
 msgid "Login Preview"
-msgstr ""
+msgstr "Kirjautumisen esikatselu"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "Yksinkertainen työkalu Adwaitan asentamiseksi Steamiin"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;Skin;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "Ajan tasalla."
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr ""
+msgstr "{key}: {cur_val} virheellinen arvo"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
+"Teemaluettelon noutaminen epäonnistui. Palataan viimeksi valittuun teemaan."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -278,308 +290,316 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
+"Teemaluettelosta ei löytynyt teemaa {colortheme}. Palataan viimeksi "
+"valittuun teemaan."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "Uusi julkaisu saatavilla: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "Päivitysten tarkistaminen epäonnistui: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: HTTP-virhekoodi "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr ""
+msgstr "API: Virhe jäsentäessä JSON:ia"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "API: Virhe noutaessa julkaisutietoja"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr ""
+msgstr "API: JSON:ista puuttuu vaadittuja avaimia"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "Julkaisu: HTTP-virhekoodi "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "Julkaisu: Yhteys katkesi"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr ""
+msgstr "Julkaisu: Käyttöoikeusvirhe"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr ""
+msgstr "Julkaisu: Yhteys aikakatkaistu"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "Julkaisu: Virhe noutaessa zip-tiedostoa"
 
 #: src/install.py:117
 msgid "Install: Found no Valid Install Targets"
-msgstr ""
+msgstr "Asennus: Kelvollisia asennuskohteita ei löytynyt"
 
 #: src/install.py:120
 msgid "Install: Installer Process Failed"
-msgstr ""
+msgstr "Asennus: Asennusohjelman prosessi epäonnistui"
 
 #: src/install.py:135
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
-msgstr ""
+msgstr "Asennus: Kelvollista symbolista linkkiä '~/.steam/steam' ei löytynyt"
 
 #: src/main.py:138
 msgid "Upstream"
-msgstr ""
+msgstr "Upstream"
 
 #: src/main.py:139
 msgid "Translators"
-msgstr ""
+msgstr "Kääntäjät"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "Poista teema"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
-msgstr ""
+msgstr "Tämä nollaa kaikki Steam-sovellukseen tehdyt mukautukset."
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr ""
+msgstr "Peru"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr ""
+msgstr "Poista asennus"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "Uusi julkaisu ladattu: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "Yritä uudelleen"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "Teema asennettu"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr ""
+msgstr "Hae teema: Teemojen noutaminen epäonnistui"
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
+msgstr "Tyyli: Teemaa {theme_name} ei löytynyt"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr ""
+msgstr "Asetukset"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
-msgstr ""
+msgstr "Automaattinen käynnistys"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr ""
+msgstr "Automaattinen päivitysten tarkistus"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
 msgstr ""
+"Tarkistaa ja ilmoittaa teemapäivityksistä sisäänkirjautumisen yhteydessä."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "Beeta"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr ""
+msgstr "Kokeellinen beetatuki"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr ""
+msgstr "Ottaa käyttöön beetatuen (vaatii uudelleenkäynnistyksen)"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr ""
+msgstr "Asennusohjelma"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr ""
+msgstr "Mukautettu CSS"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr ""
+msgstr "Sisällytä mukautettua CSS:ää Steamiin"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "Mukautetun CSS:n tiedot"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr ""
+msgstr "Muokkaa mukautetun CSS:n tiedostoa"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr ""
+msgstr "Käyttöliittymä"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr ""
+msgstr "Esikatsele teemat"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
-msgstr ""
+msgstr "Toteuttaa käyttöliittymän tyylin vastaamaan valittua teemaa."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Adwaitan Steam-asennus"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "Toteuta"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "Teeman asetukset"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "Väriteema"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Muuttaa Steamin käyttöliittymän värin."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "Ei pyöristettyjä kulmia"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Poistaa pyöristetyt kulmat käyttöliittymästä."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr ""
+msgstr "Ikkunapainikkeiden asetukset"
 
 #: src/ui/window.blp:59
 msgid "Window Controls"
-msgstr ""
+msgstr "Ikkunapainikkeet"
 
 #: src/ui/window.blp:60
 msgid ""
 "Changes Window Control position and type. Minimize and Maximize buttons are "
 "hidden by default. Use All to show them."
 msgstr ""
+"Muuttaa ikkunapainikkeiden sijaintia ja tyyppiä. Pienennä- ja Suurenna-"
+"painikkeet on oletusarvoisesti piilotettu. Käytä asetusta \"Kaikki\" "
+"ottaaksei ne käyttöön."
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Default"
-msgstr ""
+msgstr "Oletus"
 
 #: src/ui/window.blp:61
 msgid "Right-All"
-msgstr ""
+msgstr "Kaikki oikealla"
 
 #: src/ui/window.blp:61
 msgid "Left"
-msgstr ""
+msgstr "Vasen"
 
 #: src/ui/window.blp:61
 msgid "Left-All"
-msgstr ""
+msgstr "Kaikki vasemmalla"
 
 #: src/ui/window.blp:61
 msgid "None"
-msgstr ""
+msgstr "Ei mitään"
 
 #: src/ui/window.blp:64
 msgid "Controls Style"
-msgstr ""
+msgstr "Painikkeiden tyyli"
 
 #: src/ui/window.blp:65
 msgid ""
 "Changes Window Control visual style. Default is the traditional style, while "
 "Dots are Mac OS style colored circles."
 msgstr ""
+"Muuttaa ikkunapainikkeiden tyyliä. Oletus on perinteinen tyyli, Pisteet "
+"tarkoittavat macOS-tyylisiä värikkäitä ympyröitä."
 
 #: src/ui/window.blp:66
 msgid "Dots"
-msgstr ""
+msgstr "Pisteet"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "Kirjaston asetukset"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr ""
+msgstr "Kirjaston sivupalkki"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "Muuttaa kirjaston vasemman sivupalkin näkymäasetuksia."
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "Näytä"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr ""
+msgstr "Vain hiiren ollessa päällä"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr ""
+msgstr "Piilota kirjaston \"Uutuudet\"-hylly"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
-msgstr ""
+msgstr "Poistaa käytöstä kirjaston yläosan uusien päivitysten näkymän."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr ""
+msgstr "Kirjautumisasetukset"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr ""
+msgstr "QR-koodilla kirjautuminen"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr ""
+msgstr "Muuttaa kirjautumisikkunan QR-koodin näkymäasetuksia."
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr ""
+msgstr "Piilota"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr ""
+msgstr "_Asetukset"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr ""
+msgstr "_Poista asennus"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "_Tietoja - AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr ""
+msgstr "Purku: Zip-arkiston lukeminen epäonnistui"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr ""
+msgstr "Purku: Rikkinäinen zip-tiedosto"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr ""
+msgstr "Purku: Zip-tiedoston purkaminen epäonnistui"
