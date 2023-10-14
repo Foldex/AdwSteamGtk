@@ -8,18 +8,21 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-10-16 04:17+0000\n"
+"Last-Translator: \"P.O\" <rasmusson.mikael@protonmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
@@ -45,7 +48,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:27
 msgid "Restart Steam"
-msgstr ""
+msgstr "Starta om Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:29
 msgid ""
@@ -245,7 +248,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:224
 msgid "Theme Preview"
-msgstr ""
+msgstr "Temaförhandsvisning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:228
 msgid "Login Preview"
@@ -337,15 +340,15 @@ msgstr ""
 
 #: src/main.py:138
 msgid "Upstream"
-msgstr ""
+msgstr "Uppströms"
 
 #: src/main.py:139
 msgid "Translators"
-msgstr ""
+msgstr "Översättare"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "Avinstallera Tema"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
@@ -353,11 +356,11 @@ msgstr ""
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr ""
+msgstr "Avinstallera"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
@@ -369,7 +372,7 @@ msgstr ""
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "Tema Installerat"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
@@ -410,7 +413,7 @@ msgstr ""
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr ""
+msgstr "Installerare"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
@@ -430,11 +433,11 @@ msgstr ""
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr ""
+msgstr "Gränssnitt"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr ""
+msgstr "Förhandvisa Teman"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
@@ -442,27 +445,27 @@ msgstr ""
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Adwaita Steam-installerare"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "Tillämpa"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "Temaalternativ"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "Färgtema"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Ändrar färgtemat för Steams gränssnitt."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "Inga Rundade Hörn"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
@@ -492,7 +495,7 @@ msgstr ""
 
 #: src/ui/window.blp:61
 msgid "Left"
-msgstr ""
+msgstr "Vänster"
 
 #: src/ui/window.blp:61
 msgid "Left-All"
@@ -500,7 +503,7 @@ msgstr ""
 
 #: src/ui/window.blp:61
 msgid "None"
-msgstr ""
+msgstr "Ingen"
 
 #: src/ui/window.blp:64
 msgid "Controls Style"
@@ -518,7 +521,7 @@ msgstr ""
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "Biblioteksalternativ"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
@@ -530,7 +533,7 @@ msgstr ""
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "Visa"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
@@ -546,11 +549,11 @@ msgstr ""
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr ""
+msgstr "Inloggningsalternativ"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr ""
+msgstr "QR-kodinlogg"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
@@ -558,7 +561,7 @@ msgstr ""
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr ""
+msgstr "Dölj"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
@@ -570,7 +573,7 @@ msgstr ""
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "_Om AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
