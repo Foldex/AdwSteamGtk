@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
-"PO-Revision-Date: 2023-10-02 23:01+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2023-11-19 10:54+0000\n"
+"Last-Translator: arctize <patrick.wicki96@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/de/>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -76,12 +76,16 @@ msgstr "Appdata überarbeitet"
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Beta Toggle removed as new UI support landed upstream"
 msgstr ""
+"Beta Option entfernt, da Unterstützung für das neue UI Upstream eingeführt "
+"wurde"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
 msgid ""
 "Added option to use Steam's Original Top Bar instead of our Adwaita styled "
 "one"
 msgstr ""
+"Option hinzugefügt, um Steam's originale obere Leiste zu nutzen statt den "
+"Adwaita Stil"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
 msgid "Initial German Translation"
