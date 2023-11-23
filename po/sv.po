@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
 "PO-Revision-Date: 2023-11-25 11:02+0000\n"
-"Last-Translator: muggs <rsr.mugen@gmail.com>\n"
+"Last-Translator: Bo Gustavsson <bosseg09@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/sv/>\n"
 "Language: sv\n"
@@ -483,15 +483,15 @@ msgstr "Inga Rundade Hörn"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Tar bort rundade hörn från gränssnittet."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr ""
+msgstr "Fönsterkontrollsalternativ"
 
 #: src/ui/window.blp:59
 msgid "Window Controls"
-msgstr ""
+msgstr "Fönsterkontroller"
 
 #: src/ui/window.blp:60
 msgid ""
