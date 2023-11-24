@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2023-10-16 04:17+0000\n"
-"Last-Translator: \"P.O\" <rasmusson.mikael@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-25 11:02+0000\n"
+"Last-Translator: muggs <rsr.mugen@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -26,25 +26,27 @@ msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr ""
+msgstr "Ge Steam Adwaitabehandlingen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 msgid "Foldex"
-msgstr ""
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
+"Få Steam att se ut som om det tillhör på din dator. Denna app installerar "
+"och uppdaterar Adwaita-för-Steam skinnet för dig. Så här enkelt är det:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid "Configure the skin to your liking"
-msgstr ""
+msgstr "Justera skinnet så som du vill ha det"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
 msgid "Click the “Apply” button"
-msgstr ""
+msgstr "Klick på \"Använda\" knappen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:27
 msgid "Restart Steam"
@@ -56,195 +58,204 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
+"Vid start ladar appen automatiskt ner uppdateringar för skinnet och visar en "
+"avisering. Använd skinnet igen och starta om Steam för att ta förendringarna "
+"i bruk."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:33
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
+"För att få rundade hörnor i Steam, så behövs \"Rounded Window Corners\" "
+"GNOME extensionen."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:46
 msgid "Added Czech Translation"
-msgstr ""
+msgstr "Lade till tjeckisk översättning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:47
 msgid "Added Spanish Translation"
-msgstr ""
+msgstr "Lade till spansk översättning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:48
 msgid "Updated French Translation"
-msgstr ""
+msgstr "Uppdaterad fransk översättning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:49
 msgid "New Application Icon"
-msgstr ""
+msgstr "Nytt app ikon"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Updated Libportal"
-msgstr ""
+msgstr "Uppdaterad Libportal"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:57
 msgid "Fixed issue with Uninstall"
-msgstr ""
+msgstr "Löste ett problem med avinstallering"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:64
 msgid "Removed Deprecated Font Install Preference"
-msgstr ""
+msgstr "Tog bort föråldrad typsnittinstallationsföredrag"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:71
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:95
 msgid "Fixed Appdata"
-msgstr ""
+msgstr "Fixade appdata"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:72
 msgid "Removed some options that no longer exist upstream"
-msgstr ""
+msgstr "Tog bort några val some inte längra existerar uppströms"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:79
 msgid "Updated Russian Translation"
-msgstr ""
+msgstr "Updaterad rysk översättning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:80
 msgid "Updated to new upstream install method"
-msgstr ""
+msgstr "Uppdaterade till ny uppströms installationsmetod"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:87
 msgid "Updated German and Ukrainian Translations"
-msgstr ""
+msgstr "Uppdaterade tyska och ukrainska översättningar"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:88
 msgid "Added Portuguese Translation"
-msgstr ""
+msgstr "Lade till portugisisk översättning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:102
 msgid "Beta Toggle removed as new UI support landed upstream"
-msgstr ""
+msgstr "Tog bort beta knappen på grund av ny gränssnitt support uppströms"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:103
 msgid ""
 "Added option to use Steam's Original Top Bar instead of our Adwaita styled "
 "one"
 msgstr ""
+"Lade till möjligheten att använda Steams ursprungliga aktivitetsfält "
+"istället för våran Adwaita version"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:104
 msgid "Initial German Translation"
-msgstr ""
+msgstr "Första tyska översättning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:105
 msgid "Added hover tooltips to installer options"
-msgstr ""
+msgstr "Lade till sväva verktygstipps till installeringsoptionerna"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:112
 msgid "Added French, Ukrainian, and Russian Translations"
-msgstr ""
+msgstr "Lade till franska, ukrainska och ryska översättningar"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:119
 msgid "New UI"
-msgstr ""
+msgstr "Nytt gränssnitt"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:120
 msgid "Added Experimental Beta Client Support (with new options)"
-msgstr ""
+msgstr "Lade till stöd för experimentall beta klient (med nya optioner)"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:121
 msgid "Added Custom CSS Option"
-msgstr ""
+msgstr "Lade till justerbar CSS option"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:128
 msgid "Added Autostart Update Check preference toggle"
 msgstr ""
+"Lade till knapp för att ställa in att leta efter uppdateringar vid autostart"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:129
 msgid "Added Font Install preference toggle"
-msgstr ""
+msgstr "Lade till knapp för typsnittsinstallationspreferenser"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:136
 msgid "Fixed issue with theme preview on light mode"
-msgstr ""
+msgstr "Löste ett problem med temaförsmak i ljusa modus"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:137
 msgid "Added preferences toggle for theme preview"
-msgstr ""
+msgstr "Lade till knapp för att toggla preferenser för temaförsmak"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
 msgid "Colortheme is now previewed in app"
-msgstr ""
+msgstr "Färgtema förvisas nu i appen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:145
 msgid "Added -u/-i arguments to install skin via commandline"
-msgstr ""
+msgstr "Lade till -u/-i argument för att installera skinn via kommandolinjen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
 msgid "Added -o argument to override install options for -i/-u"
 msgstr ""
+"Lade till -o argumenten för att överskrida installationsoptionerna för -i/-u"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:153
 msgid "Added Library Sidebar Options"
-msgstr ""
+msgstr "Lade till biblioteks sidomeny optioner"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:160
 msgid "Updated to Gnome 44 Runtime"
-msgstr ""
+msgstr "Uppdaterade till Gnome 44 Runtime"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:161
 msgid "Changed Default Web Theme to Full Variant"
-msgstr ""
+msgstr "Ändrade standard web tema till fulla varianten"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:168
 msgid "Fixed Installer CLI Output"
-msgstr ""
+msgstr "Fixade installationsprogrammets CLI utmatning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:175
 msgid "Added Color Theme Support"
-msgstr ""
+msgstr "Lade till stöd för färg tema"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:176
 msgid "Added -c argument to notify about updates"
-msgstr ""
+msgstr "Lade till -c argument för att avisera om uppdateringer"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:183
 msgid "Last chosen settings are now loaded at startup"
-msgstr ""
+msgstr "Sista valda inställningar laddas nu vid start"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:184
 msgid "Changed display of install button if the theme is already installed"
-msgstr ""
+msgstr "Ändrade utseendet av installeringsknappen om temat redan är installerad"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:191
 msgid "Added None to Window Control Options"
-msgstr ""
+msgstr "Lade till \"Ingen\" till fönster kontroll optionerna"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:198
 msgid "Added QR Login Options"
-msgstr ""
+msgstr "Lade till QR inloggnings option"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:199
 msgid "Improved Missing Dir Messages"
-msgstr ""
+msgstr "Förbättrade saknande mapp meddelanden"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:206
 msgid "Updated to Gnome 43 SDK"
-msgstr ""
+msgstr "Updaterade till Gnome 43 SDK"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:207
 msgid "Implemented AdwAboutWindow"
-msgstr ""
+msgstr "Implementerade AdwAboutWindow"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:208
 msgid "Updated Filesystem Permissions"
-msgstr ""
+msgstr "Uppdaterade filsystems behörigheterna"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:209
 msgid "Fixed Quit Shortcut"
-msgstr ""
+msgstr "Fixade avkortningen för att stänga"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:210
 msgid "Fixed Current Check"
-msgstr ""
+msgstr "Fixade aktualitetsprövning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:220
 msgid "Main Window"
-msgstr ""
+msgstr "Huvudfönster"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:224
 msgid "Theme Preview"
@@ -252,28 +263,28 @@ msgstr "Temaförhandsvisning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:228
 msgid "Login Preview"
-msgstr ""
+msgstr "Inloggnings förhandvisning"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "Ett enkelt hölje som installerar Adwaita för Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;Skinn;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "Aktuell."
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr ""
+msgstr "{key}: {cur_val} ogiltigt värde"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr ""
+msgstr "Kunde inte hämta lista med teman. Återgår till sista utvalda tema."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -281,62 +292,64 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
+"Kunde inte hitta tema {colortheme} i temalistan. Återgår till sista utvalda "
+"tema."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "Ny utgåva tillgänglig: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "Uppdateringskontroll slog fel: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: HTTP felkod "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr ""
+msgstr "API: Fel med att parsa JSON"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "API: Fel vid hämtning av utgåvans information"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr ""
+msgstr "API: JSON saknar nödvändiga keys"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "Utgåva: HTTP Felkod "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "Utgåva: Förbindning återställs"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr ""
+msgstr "Utgåva: fel med behörigheter"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr ""
+msgstr "Utgåva: Förbindingen timeade ur"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "Utgåva: Fel vid hämtning av zip"
 
 #: src/install.py:117
 msgid "Install: Found no Valid Install Targets"
-msgstr ""
+msgstr "Installation: Hittade inga giltiga installationsmål"
 
 #: src/install.py:120
 msgid "Install: Installer Process Failed"
-msgstr ""
+msgstr "Installation: Installationsprocessen slog fel"
 
 #: src/install.py:135
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
-msgstr ""
+msgstr "Installation: kunde inte hitta giltig '~/.steam/steam' Symlink"
 
 #: src/main.py:138
 msgid "Upstream"
@@ -352,7 +365,7 @@ msgstr "Avinstallera Tema"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
-msgstr ""
+msgstr "Återställer alla justeringar som gjordes till Steam klienten."
 
 #: src/main.py:151
 msgid "Cancel"
@@ -364,11 +377,11 @@ msgstr "Avinstallera"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "Ny utgåva nerladdad: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "Försök igen"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
@@ -376,40 +389,41 @@ msgstr "Tema Installerat"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr ""
+msgstr "Hämta teman: kunde inte hämta teman"
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
+msgstr "Stil: kunde inte hitta tema {theme_name}"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr ""
+msgstr "Inställningar"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
-msgstr ""
+msgstr "Autostart"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr ""
+msgstr "Sök efter uppdateringar automatiskt"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
 msgstr ""
+"Letar efter och meddelerar om det finns uppdateringar för teman vid anmälan."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr ""
+msgstr "Experimentellt beta stöd"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr ""
+msgstr "Aktiverar beta stöd (omstart krävs)"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
@@ -417,19 +431,19 @@ msgstr "Installerare"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr ""
+msgstr "Anpassad CSS"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr ""
+msgstr "Inkludera anpassad CSS i Steam"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "Anpassad CSS information"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr ""
+msgstr "Redigera anpassade CSS filer"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
@@ -441,7 +455,7 @@ msgstr "Förhandvisa Teman"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
-msgstr ""
+msgstr "Ändrar gränssnittet för att matcha det utvalda temat."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
@@ -484,14 +498,16 @@ msgid ""
 "Changes Window Control position and type. Minimize and Maximize buttons are "
 "hidden by default. Use All to show them."
 msgstr ""
+"Ändrar fönster kontroll position och typ. Minimera och maximera knappar "
+"gömms standardmässigt. Använd \"Alla\" för att visa de."
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #: src/ui/window.blp:61
 msgid "Right-All"
-msgstr ""
+msgstr "Höger-Alla"
 
 #: src/ui/window.blp:61
 msgid "Left"
@@ -499,7 +515,7 @@ msgstr "Vänster"
 
 #: src/ui/window.blp:61
 msgid "Left-All"
-msgstr ""
+msgstr "Vänster-Alla"
 
 #: src/ui/window.blp:61
 msgid "None"
@@ -507,17 +523,19 @@ msgstr "Ingen"
 
 #: src/ui/window.blp:64
 msgid "Controls Style"
-msgstr ""
+msgstr "Kontrollstil"
 
 #: src/ui/window.blp:65
 msgid ""
 "Changes Window Control visual style. Default is the traditional style, while "
 "Dots are Mac OS style colored circles."
 msgstr ""
+"Ändrar visuella stilen för fönster kontroll. Standard är den traditionella "
+"stilen, medan Punkter är färgade cirklar i stil av macOS."
 
 #: src/ui/window.blp:66
 msgid "Dots"
-msgstr ""
+msgstr "Punkter"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
@@ -525,11 +543,11 @@ msgstr "Biblioteksalternativ"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr ""
+msgstr "Bibliotekssidomeny"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "Ändrar visningsoptionerna för bibliotekets vänstra sidomeny."
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
@@ -537,15 +555,15 @@ msgstr "Visa"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr ""
+msgstr "sväva bara"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr ""
+msgstr "Göm bibliotekets \"Nyheter\" hylla"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
-msgstr ""
+msgstr "Deaktiverar att \"Dina Uppdateringar\" delen visas över ditt bibliotek."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
@@ -558,6 +576,7 @@ msgstr "QR-kodinlogg"
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
 msgstr ""
+"Ändrar visningsoptionen för mobile QR kod inloggning i inloggningsfönstret."
 
 #: src/ui/window.blp:96
 msgid "Hide"
@@ -565,11 +584,11 @@ msgstr "Dölj"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr ""
+msgstr "_Preferenser"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr ""
+msgstr "_Avinstallera"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
@@ -577,12 +596,12 @@ msgstr "_Om AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr ""
+msgstr "Extrahering: misslyckades att läsa ZIP-arkivet"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr ""
+msgstr "Extrahering: dålig ZIP-fil"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr ""
+msgstr "Extrahering: misslyckades att extrahera ZIP-filen"
