@@ -2,7 +2,7 @@
 <component type="desktop">
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
-  <update_contact>foldex|at|pm|dot|me</update_contact>
+  <update_contact>foldex_at_pm.dot.me</update_contact>
 
   <content_rating type="oars-1.1" />
 
@@ -15,6 +15,8 @@
 
   <url type="homepage">https://github.com/Foldex/AdwSteamGtk</url>
   <url type="bugtracker">https://github.com/Foldex/AdwSteamGtk/issues</url>
+  <url type="vcs-browser">https://github.com/Foldex/AdwSteamGtk</url>
+  <url type="translate">https://hosted.weblate.org/projects/adwsteamgtk/</url>
 
   <description>
   <p>
@@ -41,7 +43,7 @@
 
   <releases>
     <release version="0.6.9" type="stable" date="2023-09-16">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Added Czech Translation</li>
           <li>Added Spanish Translation</li>
@@ -52,21 +54,21 @@
       </description>
     </release>
     <release version="0.6.8" type="stable" date="2023-07-30">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Fixed issue with Uninstall</li>
         </ul>
       </description>
     </release>
     <release version="0.6.7" type="stable" date="2023-07-30">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Removed Deprecated Font Install Preference</li>
         </ul>
       </description>
     </release>
     <release version="0.6.6" type="stable" date="2023-07-28">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Fixed Appdata</li>
           <li>Removed some options that no longer exist upstream</li>
@@ -74,7 +76,7 @@
       </description>
     </release>
     <release version="0.6.5" type="stable" date="2023-07-28">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Updated Russian Translation</li>
           <li>Updated to new upstream install method</li>
@@ -82,7 +84,7 @@
       </description>
     </release>
     <release version="0.6.4" type="stable" date="2023-07-15">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Updated German and Ukrainian Translations</li>
           <li>Added Portuguese Translation</li>
@@ -90,14 +92,14 @@
       </description>
     </release>
     <release version="0.6.3" type="stable" date="2023-06-16">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Fixed Appdata</li>
         </ul>
       </description>
     </release>
     <release version="0.6.2" type="stable" date="2023-06-16">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Beta Toggle removed as new UI support landed upstream</li>
           <li>Added option to use Steam's Original Top Bar instead of our Adwaita styled one</li>
@@ -107,14 +109,14 @@
       </description>
     </release>
     <release version="0.6.1" type="stable" date="2023-06-04">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Added French, Ukrainian, and Russian Translations</li>
         </ul>
       </description>
     </release>
     <release version="0.6.0" type="stable" date="2023-05-27">
-      <description>
+      <description translatable="no">
         <ul>
           <li>New UI</li>
           <li>Added Experimental Beta Client Support (with new options)</li>
@@ -123,7 +125,7 @@
       </description>
     </release>
     <release version="0.5.0" type="stable" date="2023-05-03">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Added Autostart Update Check preference toggle</li>
           <li>Added Font Install preference toggle</li>
@@ -131,7 +133,7 @@
       </description>
     </release>
     <release version="0.4.1" type="stable" date="2023-04-16">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Fixed issue with theme preview on light mode</li>
           <li>Added preferences toggle for theme preview</li>
@@ -139,7 +141,7 @@
       </description>
     </release>
     <release version="0.4.0" type="stable" date="2023-04-15">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Colortheme is now previewed in app</li>
           <li>Added -u/-i arguments to install skin via commandline</li>
@@ -148,14 +150,14 @@
       </description>
     </release>
     <release version="0.3.0" type="stable" date="2023-04-02">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Added Library Sidebar Options</li>
         </ul>
       </description>
     </release>
     <release version="0.2.2" type="stable" date="2023-03-23">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Updated to Gnome 44 Runtime</li>
           <li>Changed Default Web Theme to Full Variant</li>
@@ -163,14 +165,14 @@
       </description>
     </release>
     <release version="0.2.1" type="stable" date="2023-03-04">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Fixed Installer CLI Output</li>
         </ul>
       </description>
     </release>
     <release version="0.2.0" type="stable" date="2023-01-05">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Added Color Theme Support</li>
           <li>Added -c argument to notify about updates</li>
@@ -178,7 +180,7 @@
       </description>
     </release>
     <release version="0.1.5" type="stable" date="2022-11-03">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Last chosen settings are now loaded at startup</li>
           <li>Changed display of install button if the theme is already installed</li>
@@ -186,14 +188,14 @@
       </description>
     </release>
     <release version="0.1.4" type="stable" date="2022-10-31">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Added None to Window Control Options</li>
         </ul>
       </description>
     </release>
     <release version="0.1.3" type="stable" date="2022-10-15">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Added QR Login Options</li>
           <li>Improved Missing Dir Messages</li>
@@ -201,7 +203,7 @@
       </description>
     </release>
     <release version="0.1.2" type="stable" date="2022-10-07">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Updated to Gnome 43 SDK</li>
           <li>Implemented AdwAboutWindow</li>
