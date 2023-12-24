@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2023-12-24 01:24+0000\n"
+"PO-Revision-Date: 2023-12-25 02:09+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/tr/>\n"
@@ -22,15 +22,15 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr ""
+msgstr "Steam'e Adwaita makyajı yapın"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 msgid "Foldex"
-msgstr ""
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
@@ -40,15 +40,15 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid "Configure the skin to your liking"
-msgstr ""
+msgstr "Görünümü istediğiniz gibi yapılandırın"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
 msgid "Click the “Apply” button"
-msgstr ""
+msgstr "\"Uygula\" düğmesine tıklayın"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:27
 msgid "Restart Steam"
-msgstr ""
+msgstr "Steam'i Yeniden Başlatın"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:29
 msgid ""
@@ -244,36 +244,36 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:220
 msgid "Main Window"
-msgstr ""
+msgstr "Ana Pencere"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:224
 msgid "Theme Preview"
-msgstr ""
+msgstr "Tema Ön İzlemesi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:228
 msgid "Login Preview"
-msgstr ""
+msgstr "Giriş Ön İzlemesi"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "Steam için Adwaita teması yükleyen basit bir sarmalayıcı"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;Skin;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "Güncel."
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr ""
+msgstr "{key}: {cur_val} geçersiz değer"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr ""
+msgstr "Tema listesi alınamadı. Son seçilen temaya geri dönülüyor."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -281,62 +281,64 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
+"Tema listesinde {colortheme} teması bulunamadı. Son seçilen temaya geri "
+"dönülüyor."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "Yeni sürüm var: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "Güncelleme Denetimi Başarısız: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr "API: HTTP Hata Kodu- "
+msgstr "API: HTTP Hata Kodu "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr "API: Hata Parsing JSON"
+msgstr "API: JSON Ayrıştırma Hatası"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "API: Sürüm bilgisi alınırken hata oluştu"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr ""
+msgstr "API: JSON'da gerekli anahtarlar eksik"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "Yayın: HTTP Hata Kodu "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "Yayın: Bağlantı Sıfırlandı"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr ""
+msgstr "Yayın: İzin Hatası"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr ""
+msgstr "Yayın: Bağlantı Zaman Aşımı"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "Yayın: Zip Alınırken Hata Oluştu"
 
 #: src/install.py:117
 msgid "Install: Found no Valid Install Targets"
-msgstr ""
+msgstr "Kurulum: Geçerli Kurulum Hedefi Bulunamadı"
 
 #: src/install.py:120
 msgid "Install: Installer Process Failed"
-msgstr ""
+msgstr "Kurulum: Kurulum Süreci Başarısız"
 
 #: src/install.py:135
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
-msgstr ""
+msgstr "Kurulum: Geçerli '~/.steam/steam' Sembolik Bağlantısı Bulunamadı"
 
 #: src/main.py:138
 msgid "Upstream"
@@ -344,7 +346,7 @@ msgstr "Kaynak"
 
 #: src/main.py:139
 msgid "Translators"
-msgstr "Çeviriler"
+msgstr "Çevirmenler"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
@@ -352,7 +354,7 @@ msgstr "Temayı Kaldır"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
-msgstr "Bu ayar tüm yapılmış değişiklikleri sıfırlayacak."
+msgstr "Bu, Steam istemcisinde yapılan tüm özelleştirmeleri sıfırlayacak."
 
 #: src/main.py:151
 msgid "Cancel"
@@ -368,7 +370,7 @@ msgstr "Yeni Sürüm İndirildi: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr "Tekrar Dene"
+msgstr "Yeniden Dene"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
@@ -381,7 +383,7 @@ msgstr "Temaları Getir: Temalar alınamadı"
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr "Tarz: {theme_name} teması bulunamadı"
+msgstr "Biçem: {theme_name} teması bulunamadı"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
@@ -389,15 +391,15 @@ msgstr "Tercihler"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
-msgstr "Kendikendine Başlatma"
+msgstr "Kendiliğinden başlat"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr "Kendikendine Güncelleme Kontrolü"
+msgstr "Kendiliğinden Güncelleme Denetimi"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
-msgstr "Giriş yaparken güncelleme var mı kotrol eder."
+msgstr "Kullanıcı oturum açtığında tema güncellemelerini denetler ve bildirir."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
@@ -409,11 +411,11 @@ msgstr "Deneysel Beta Desteği"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr "Beta Desteğini Aktifleştirir (Yeniden başlatmayı gerektirir)"
+msgstr "Beta Desteğini Etkinleştirir (yeniden başlatma gerektirir)"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr "Yükleyici"
+msgstr "Kurucu"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
@@ -421,15 +423,15 @@ msgstr "Özel CSS"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr "Stean'e Özel CSS Dahil Et"
+msgstr "Özel CSS'yi Steam'e Dahil Et"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr "Özel CSS bilgisi"
+msgstr "Özel CSS Bilgisi"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr "Özel CSS Dosyası Düzenleme"
+msgstr "Özel CSS Dosyasını Düzenle"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
@@ -437,15 +439,15 @@ msgstr "Arayüz"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr "Önizleme Temaları"
+msgstr "Temaları Ön İzle"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
-msgstr "Arayüzü seçili temaya uydurur."
+msgstr "Arayüzü o anda seçili temayla eşleşecek şekilde şekillendirir."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr "Adwaita Steam Yükleyicisi"
+msgstr "Adwaita Steam Kurucu"
 
 #: src/ui/window.blp:14
 msgid "Apply"
@@ -461,35 +463,36 @@ msgstr "Renk Teması"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr "Steam'in arayüz temasını değiştirir."
+msgstr "Steam arayüzünün renk temasını değiştirir."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr "Kavisli kenarsız"
+msgstr "Yuvarlatılmış Köşe Yok"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr "Arayüzden yumuşak kavisli kenarları kaldırır."
+msgstr "Düzgün yuvarlatılmış köşeleri arayüzden kaldırır."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr "Pencere Kontrol Ayarları"
+msgstr "Pencere Denetimleri Ayarları"
 
 #: src/ui/window.blp:59
 msgid "Window Controls"
-msgstr "Pencere Ayarları"
+msgstr "Pencere Denetimleri"
 
 #: src/ui/window.blp:60
 msgid ""
 "Changes Window Control position and type. Minimize and Maximize buttons are "
 "hidden by default. Use All to show them."
 msgstr ""
-"Pencere Kontrol yerini ve tipini değiştirir. Küçültme ve Büyütme butonları "
-"varsayılan olarak gizlidir. Tümünü kullanarak görülür yapın."
+"Pencere Denetimi konumunu ve türünü değiştirir. Küçült, Ekranı Kapla "
+"düğmeleri öntanımlı olarak gizlidir. Bunları göstermek için Tümü seçeneğini "
+"kullanın."
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Default"
-msgstr "Varsayılan"
+msgstr "Öntanımlı"
 
 #: src/ui/window.blp:61
 msgid "Right-All"
@@ -505,19 +508,19 @@ msgstr "Hepsi Sol"
 
 #: src/ui/window.blp:61
 msgid "None"
-msgstr "Hiç"
+msgstr "Hiçbiri"
 
 #: src/ui/window.blp:64
 msgid "Controls Style"
-msgstr "Kontrol Tarzı"
+msgstr "Denetim Biçemi"
 
 #: src/ui/window.blp:65
 msgid ""
 "Changes Window Control visual style. Default is the traditional style, while "
 "Dots are Mac OS style colored circles."
 msgstr ""
-"Pencere Kontrol görünüm tarzını değiştirir. Varsayılan geleneksel tarzdır, "
-"Noktalar MacOs tarzı renkli dairelerdir."
+"Pencere Denetimi görsel biçemini değiştirir. Öntanımlı geleneksel biçemdir, "
+"Noktalar ise Mac OS biçemi renkli dairelerdir."
 
 #: src/ui/window.blp:66
 msgid "Dots"
@@ -525,15 +528,15 @@ msgstr "Noktalar"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr "Kütüphane Tercihleri"
+msgstr "Kütüphane Seçenekleri"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr "Kütüphane Yan barı"
+msgstr "Kütüphane Kenar Çubuğu"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr "Kütüphanenin sol yanbarının görünüm ayarlarını değiştirir."
+msgstr "Kütüphane sol kenar çubuğunun gösterim seçeneklerini değiştirir."
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
@@ -541,27 +544,31 @@ msgstr "Göster"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr "Sadece Üzerine Gelince"
+msgstr "Yalnızca Üzerine Gelince"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr "Kütüphanenin Yeni ne var rafını gizle"
+msgstr "Kütüphane Yenilikleri Rafını Gizle"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
-msgstr "Kütüphanenin üstünde yer alan yeni güncellemeler kısmını gizle."
+msgstr ""
+"Kitaplığın üst kısmındaki yeni güncellemeler bölümünün görüntülenmesini "
+"devre dışı bırakır."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr "Giriş Tercihleri"
+msgstr "Giriş Seçenekleri"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr "QR Kod Giriş"
+msgstr "QR Kod Girişi"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr "Mobile QR Kod giriş tercihlerini değiştirir."
+msgstr ""
+"Giriş iletişim kutusundaki mobil QR kodu görüntüleme seçeneklerini "
+"değiştirir."
 
 #: src/ui/window.blp:96
 msgid "Hide"
@@ -577,16 +584,16 @@ msgstr "_Kaldır"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr "_AdwSteamGtk Hakkında"
+msgstr "AdwSteamGtk _Hakkında"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr ""
+msgstr "Çıkart: ZIP arşivi okunamadı"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr ""
+msgstr "Çıkart: Kötü ZIP Dosyası"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr ""
+msgstr "Çıkart: ZIP Dosyası Çıkarılamadı"
