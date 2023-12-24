@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2023-10-21 04:14+0000\n"
-"Last-Translator: Kuzey Kuzey <kuzey7831@gmail.com>\n"
+"PO-Revision-Date: 2023-12-24 01:24+0000\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -372,16 +372,16 @@ msgstr "Tekrar Dene"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr "Tema İndirildi"
+msgstr "Tema Kuruldu"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr ""
+msgstr "Temaları Getir: Temalar alınamadı"
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr "Tarz: Tema Bulunamadı {theme_name}"
+msgstr "Tarz: {theme_name} teması bulunamadı"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
@@ -453,11 +453,11 @@ msgstr "Uygula"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr "Tema Tercihleri"
+msgstr "Tema Seçenekleri"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr "Tema Rengi"
+msgstr "Renk Teması"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
