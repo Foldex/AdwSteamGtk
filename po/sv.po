@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2023-11-25 11:02+0000\n"
-"Last-Translator: Bo Gustavsson <bosseg09@gmail.com>\n"
+"PO-Revision-Date: 2024-01-02 21:09+0000\n"
+"Last-Translator: \"P.O\" <rasmusson.mikael@protonmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -263,7 +263,7 @@ msgstr "Temaförhandsvisning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:228
 msgid "Login Preview"
-msgstr "Inloggnings förhandvisning"
+msgstr "Inloggningsförhandvisning"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
