@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2024-02-27 07:02+0000\n"
-"Last-Translator: 刘韬 <lyuutau@outlook.com>\n"
+"PO-Revision-Date: 2024-03-19 11:01+0000\n"
+"Last-Translator: 复予 <clonewith@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "adwsteamgtk/adwsteamgtk/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -22,398 +22,400 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr ""
+msgstr "给予 Steam 以 Adwaita 级待遇"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 msgid "Foldex"
-msgstr ""
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
 msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
-msgstr ""
+msgstr "让 Steam 看起来属于您的电脑。这款应用会为您安装并更新 Adwaita-for-Steam "
+"皮肤。就像这样一般简单："
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid "Configure the skin to your liking"
-msgstr ""
+msgstr "按您的喜好配置皮肤"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
 msgid "Click the “Apply” button"
-msgstr ""
+msgstr "点击“确定”按钮"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:27
 msgid "Restart Steam"
-msgstr ""
+msgstr "重启 Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:29
 msgid ""
 "On startup, the app will automatically download any updates to the skin and "
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
-msgstr ""
+msgstr "此应用在启动时会自动下载皮肤的所有更新并显示通知。再次应用皮肤并重启 Steam "
+"以使更改生效。"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:33
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
-msgstr ""
+msgstr "如果要让 Steam 显示圆角，您需要使用“窗口圆角” GNOME 扩展。"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:46
 msgid "Added Czech Translation"
-msgstr ""
+msgstr "添加捷克语翻译"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:47
 msgid "Added Spanish Translation"
-msgstr ""
+msgstr "添加西班牙语翻译"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:48
 msgid "Updated French Translation"
-msgstr ""
+msgstr "更新法语翻译"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:49
 msgid "New Application Icon"
-msgstr ""
+msgstr "新的应用图标"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Updated Libportal"
-msgstr ""
+msgstr "更新 Libportal"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:57
 msgid "Fixed issue with Uninstall"
-msgstr ""
+msgstr "修复卸载问题"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:64
 msgid "Removed Deprecated Font Install Preference"
-msgstr ""
+msgstr "移除已启用的字体安装设置"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:71
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:95
 msgid "Fixed Appdata"
-msgstr ""
+msgstr "修复 Appdata"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:72
 msgid "Removed some options that no longer exist upstream"
-msgstr ""
+msgstr "移除上游版本不再存在的选项"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:79
 msgid "Updated Russian Translation"
-msgstr ""
+msgstr "更新俄语翻译"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:80
 msgid "Updated to new upstream install method"
-msgstr ""
+msgstr "更新到上游版本的新安装方法"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:87
 msgid "Updated German and Ukrainian Translations"
-msgstr ""
+msgstr "更新德语与乌克兰语翻译"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:88
 msgid "Added Portuguese Translation"
-msgstr ""
+msgstr "添加葡萄牙语翻译"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:102
 msgid "Beta Toggle removed as new UI support landed upstream"
-msgstr ""
+msgstr "由于新界面支持上游版本，移除测试版开关"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:103
 msgid ""
 "Added option to use Steam's Original Top Bar instead of our Adwaita styled "
 "one"
-msgstr ""
+msgstr "添加设置，使用 Steam 原有顶栏而非使用我们的 Adwaita 样式顶栏"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:104
 msgid "Initial German Translation"
-msgstr ""
+msgstr "初始化德语翻译"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:105
 msgid "Added hover tooltips to installer options"
-msgstr ""
+msgstr "向安装程序设置添加悬停提示"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:112
 msgid "Added French, Ukrainian, and Russian Translations"
-msgstr ""
+msgstr "添加法语、乌克兰语与俄语翻译"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:119
 msgid "New UI"
-msgstr ""
+msgstr "新用户界面"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:120
 msgid "Added Experimental Beta Client Support (with new options)"
-msgstr ""
+msgstr "添加实验性测试客户端支持（带新设置）"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:121
 msgid "Added Custom CSS Option"
-msgstr ""
+msgstr "添加自定义 CSS 设置"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:128
 msgid "Added Autostart Update Check preference toggle"
-msgstr ""
+msgstr "添加自启动时检查更新的首选项开关"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:129
 msgid "Added Font Install preference toggle"
-msgstr ""
+msgstr "添加字体安装首选项开关"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:136
 msgid "Fixed issue with theme preview on light mode"
-msgstr ""
+msgstr "修复浅色模式下的主题预览问题"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:137
 msgid "Added preferences toggle for theme preview"
-msgstr ""
+msgstr "添加主题预览首选项开关"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
 msgid "Colortheme is now previewed in app"
-msgstr ""
+msgstr "颜色主题现在在应用内预览"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:145
 msgid "Added -u/-i arguments to install skin via commandline"
-msgstr ""
+msgstr "添加 -u/-i 参数以通过命令行安装皮肤"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
 msgid "Added -o argument to override install options for -i/-u"
-msgstr ""
+msgstr "添加 -o 参数以覆盖 -i/-u 安装设置"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:153
 msgid "Added Library Sidebar Options"
-msgstr ""
+msgstr "添加游戏库侧边栏设置"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:160
 msgid "Updated to Gnome 44 Runtime"
-msgstr ""
+msgstr "更新到 Gnome 44 运行时"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:161
 msgid "Changed Default Web Theme to Full Variant"
-msgstr ""
+msgstr "将默认网页主题更改为 Full Varient"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:168
 msgid "Fixed Installer CLI Output"
-msgstr ""
+msgstr "修复安装程序命令行输出"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:175
 msgid "Added Color Theme Support"
-msgstr ""
+msgstr "添加颜色主题支持"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:176
 msgid "Added -c argument to notify about updates"
-msgstr ""
+msgstr "添加 -c 参数以通知更新"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:183
 msgid "Last chosen settings are now loaded at startup"
-msgstr ""
+msgstr "上次选择的设置现在在启动时加载"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:184
 msgid "Changed display of install button if the theme is already installed"
-msgstr ""
+msgstr "如果主题已安装，则改变安装按钮显示"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:191
 msgid "Added None to Window Control Options"
-msgstr ""
+msgstr "向窗口控制器设置中添加“无”"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:198
 msgid "Added QR Login Options"
-msgstr ""
+msgstr "添加二维码登录设置"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:199
 msgid "Improved Missing Dir Messages"
-msgstr ""
+msgstr "改善缺失目录消息"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:206
 msgid "Updated to Gnome 43 SDK"
-msgstr ""
+msgstr "更新到 Gnome 43 SDK"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:207
 msgid "Implemented AdwAboutWindow"
-msgstr ""
+msgstr "实现 AdwAboutWindow"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:208
 msgid "Updated Filesystem Permissions"
-msgstr ""
+msgstr "更新文件系统权限"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:209
 msgid "Fixed Quit Shortcut"
-msgstr ""
+msgstr "修复退出快捷键"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:210
 msgid "Fixed Current Check"
-msgstr ""
+msgstr "修复当前版本检查"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:220
 msgid "Main Window"
-msgstr ""
+msgstr "主窗口"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:224
 msgid "Theme Preview"
-msgstr ""
+msgstr "主题预览"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:228
 msgid "Login Preview"
-msgstr ""
+msgstr "登录预览"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "一款安装 Adwaita for Steam 的简单包装应用"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;皮肤;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "已是最新。"
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr ""
+msgstr "{key}: {cur_val} 数值无效"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr ""
+msgstr "无法获取主题列表。正回退到上次选择的主题。"
 
 #: src/cli.py:117
 #, python-brace-format
 msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
-msgstr ""
+msgstr "无法在主题列表中找到主题 {colortheme}。正回退到上次选择的主题。"
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "新版本可用： "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "更新检查失败： "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: HTTP 错误代码 "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr ""
+msgstr "API: 解析 JSON 时出错"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "API: 获取版本信息时出错"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr ""
+msgstr "API: JSON 缺失必需的键"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "发行: HTTP 错误代码 "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "发行: 连接被重置"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr ""
+msgstr "发行: 权限错误"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr ""
+msgstr "发行: 连接超时"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "发行: 接收 ZIP 时出错"
 
 #: src/install.py:117
 msgid "Install: Found no Valid Install Targets"
-msgstr ""
+msgstr "安装: 找不到有效安装目标"
 
 #: src/install.py:120
 msgid "Install: Installer Process Failed"
-msgstr ""
+msgstr "安装: 安装进程失败"
 
 #: src/install.py:135
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
-msgstr ""
+msgstr "安装: 未能找到有效的 '~/.steam/steam' 符号链接"
 
 #: src/main.py:138
 msgid "Upstream"
-msgstr ""
+msgstr "上游"
 
 #: src/main.py:139
 msgid "Translators"
-msgstr ""
+msgstr "翻译人员"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "卸载主题"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
-msgstr ""
+msgstr "这将重置对 Steam 客户端做出的更改。"
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr ""
+msgstr "卸载"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "已下载新版本： "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "重试"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "主题已安装"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr ""
+msgstr "获取主题: 无法获取主题"
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
+msgstr "样式: 无法找到主题 {theme_name}"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr ""
+msgstr "首选项"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
-msgstr ""
+msgstr "自启动"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr ""
+msgstr "自动检查更新"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
-msgstr ""
+msgstr "在用户登录时检查并通知主题更新。"
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "测试版"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr ""
+msgstr "实验性测试功能支持"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr ""
+msgstr "启用测试版支持（需要重新启动）"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr ""
+msgstr "安装程序"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
@@ -421,31 +423,31 @@ msgstr "自定义 CSS"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr ""
+msgstr "在 Steam 中包括自定义 CSS"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "自定义 CSS 信息"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr ""
+msgstr "编辑自定义 CSS 文件"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr ""
+msgstr "界面"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr ""
+msgstr "预览主题"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
-msgstr ""
+msgstr "使界面样式与当前所选主题匹配。"
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Adwaita Steam 安装程序"
 
 #: src/ui/window.blp:14
 msgid "Apply"
@@ -453,37 +455,38 @@ msgstr "应用"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "主题设置"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "颜色主题"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "改变 Steam 界面的颜色主题。"
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "去除圆角"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "移除界面中的光滑圆角。"
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr "窗口控制选项"
+msgstr "窗口控制器设置"
 
 #: src/ui/window.blp:59
 msgid "Window Controls"
-msgstr ""
+msgstr "窗口控制器"
 
 #: src/ui/window.blp:60
 msgid ""
 "Changes Window Control position and type. Minimize and Maximize buttons are "
 "hidden by default. Use All to show them."
-msgstr ""
+msgstr "改变窗口控制器的位置与类型。最小化、最大化按钮默认隐藏。选择“全部”以显示它们"
+"。"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Default"
@@ -491,45 +494,46 @@ msgstr "默认"
 
 #: src/ui/window.blp:61
 msgid "Right-All"
-msgstr ""
+msgstr "右侧，全部"
 
 #: src/ui/window.blp:61
 msgid "Left"
-msgstr ""
+msgstr "左侧"
 
 #: src/ui/window.blp:61
 msgid "Left-All"
-msgstr ""
+msgstr "左侧，全部"
 
 #: src/ui/window.blp:61
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: src/ui/window.blp:64
 msgid "Controls Style"
-msgstr ""
+msgstr "控制器样式"
 
 #: src/ui/window.blp:65
 msgid ""
 "Changes Window Control visual style. Default is the traditional style, while "
 "Dots are Mac OS style colored circles."
-msgstr ""
+msgstr "改变窗口控制器的视觉样式。默认是传统样式，而“点”样式是 Mac OS "
+"风格的彩色圆圈。"
 
 #: src/ui/window.blp:66
 msgid "Dots"
-msgstr ""
+msgstr "点"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "游戏库选项"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr ""
+msgstr "游戏库侧栏"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "改变游戏库左侧栏的显示设置。"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
@@ -537,27 +541,27 @@ msgstr "显示"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr ""
+msgstr "仅悬停时"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr ""
+msgstr "隐藏游戏库的“新游戏”托架"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
-msgstr ""
+msgstr "禁用游戏库顶部新更新游戏的显示。"
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr ""
+msgstr "登录设置"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr ""
+msgstr "二维码登录"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr ""
+msgstr "改变“登录”对话框中移动二维码的显示设置。"
 
 #: src/ui/window.blp:96
 msgid "Hide"
@@ -565,24 +569,24 @@ msgstr "隐藏"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr ""
+msgstr "首选项 (_P)"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr ""
+msgstr "卸载 (_U)"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "关于 _AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr ""
+msgstr "解压: 无法读取 ZIP 压缩文件"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr ""
+msgstr "解压: ZIP 文件损坏"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr ""
+msgstr "解压: ZIP 文件解压失败"
