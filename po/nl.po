@@ -1,0 +1,613 @@
+# AdwSteamGtk Pot
+# Copyright (C) 2023 Foldex
+# This file is distributed under the GNU GPLv3 license.
+# Foldex, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AdwSteamGtk 0.6.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-16 13:37-0400\n"
+"PO-Revision-Date: 2023-11-21 18:04+0000\n"
+"Last-Translator: CouldBeMathijs <mathijs.pittoors@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.2\n"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
+msgid "AdwSteamGtk"
+msgstr "AdwSteamGtk"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
+msgid "Give Steam the Adwaita treatment"
+msgstr "Maak Steam zo Adwaita als het kan zijn"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
+msgid "Foldex"
+msgstr "Foldex"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
+msgid ""
+"Make Steam look like it belongs on your computer. This app installs and "
+"updates the Adwaita-for-Steam skin for you. It's as simple as this:"
+msgstr ""
+"Zorg dat Steam lijkt alsof het bij je computer hoort. Deze app installeert "
+"en update de Adwaita-for-Steam skin voor jou. Zo simpel is het:"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
+msgid "Configure the skin to your liking"
+msgstr "Past de skin aan aan wat jij wilt"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
+msgid "Click the “Apply” button"
+msgstr "Klik op \"Toepassen\""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:27
+msgid "Restart Steam"
+msgstr "Herstart Steam"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:29
+msgid ""
+"On startup, the app will automatically download any updates to the skin and "
+"display a notification. Apply the skin again and restart Steam to take the "
+"changes into use."
+msgstr ""
+"De app zal automatisch updates downloaden wanneer het systeem opstart, en "
+"jou dit melden. Druk opnieuw op \"Toepassen\" en herstart Steam om de "
+"wijzigingen te laten werken."
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:33
+msgid ""
+"In order to get rounded corners on Steam, you will need to use the “Rounded "
+"Window Corners” GNOME extension."
+msgstr ""
+"Om afgeronde hoeken te krijgen op Steam, zal je de “Rounded Window Corners” "
+"GNOME-uitbreiding (extension) nodig hebben."
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:46
+msgid "Added Czech Translation"
+msgstr "Tsjechische Vertaling Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:47
+msgid "Added Spanish Translation"
+msgstr "Spaanse Vertaling Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:48
+msgid "Updated French Translation"
+msgstr "Franse Vertaling Geüpdatet"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:49
+msgid "New Application Icon"
+msgstr "Nieuw Programmaicoon"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
+msgid "Updated Libportal"
+msgstr "Libportal Geüpdatet"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:57
+msgid "Fixed issue with Uninstall"
+msgstr "Probleem met Verwijderen opgelost"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:64
+msgid "Removed Deprecated Font Install Preference"
+msgstr "Achterhaalde Lettertype-installatie-instellingen verwijderd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:71
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:95
+msgid "Fixed Appdata"
+msgstr "Appdata Bewerkt"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:72
+msgid "Removed some options that no longer exist upstream"
+msgstr "Een paar opties verwijderd die niet meer bestaan in de upstream"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:79
+msgid "Updated Russian Translation"
+msgstr "Russische Vertaling Geüpdatet"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:80
+msgid "Updated to new upstream install method"
+msgstr "Maakt nu gebruik van nieuwe installatiemethode upstream"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:87
+msgid "Updated German and Ukrainian Translations"
+msgstr "Duitse en Oekraïense Vertaling Geüpdatet"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:88
+msgid "Added Portuguese Translation"
+msgstr "Portugese Vertaling Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:102
+msgid "Beta Toggle removed as new UI support landed upstream"
+msgstr ""
+"Betaoptie verwijderd door een nieuwe UI-ondersteuning bestaat nu upstream"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:103
+msgid ""
+"Added option to use Steam's Original Top Bar instead of our Adwaita styled "
+"one"
+msgstr ""
+"Optie toegevoegd om de oorspronkelijke Top Bar te gebruiken in plaats van de "
+"Adwaita-versie"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:104
+msgid "Initial German Translation"
+msgstr "Duitse Vertaling Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:105
+msgid "Added hover tooltips to installer options"
+msgstr "De app toont nu tooltips als je er met je muis over beweegt"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:112
+msgid "Added French, Ukrainian, and Russian Translations"
+msgstr "Franse, Russische en Oekraïense Vertaling Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:119
+msgid "New UI"
+msgstr "Nieuwe Gebruikersomgeving"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:120
+msgid "Added Experimental Beta Client Support (with new options)"
+msgstr "Betaopties Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:121
+msgid "Added Custom CSS Option"
+msgstr "Aangepaste CSS-opties Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:128
+msgid "Added Autostart Update Check preference toggle"
+msgstr "Autmatische Update instelling Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:129
+msgid "Added Font Install preference toggle"
+msgstr "Lettertype-installatie-optie Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:136
+msgid "Fixed issue with theme preview on light mode"
+msgstr "Probleem met het tonen van het Thema in dagmodus opgelost"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:137
+msgid "Added preferences toggle for theme preview"
+msgstr "Opties voor het tonen van het thema in de app toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
+msgid "Colortheme is now previewed in app"
+msgstr "Kleurenthema wordt nu getoond in de app"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:145
+msgid "Added -u/-i arguments to install skin via commandline"
+msgstr "-u/-i argumenten toegevoegd om skins te installeren via de commandline"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
+msgid "Added -o argument to override install options for -i/-u"
+msgstr "-o argument toegevoegd om de -i/-u argumenten te overschrijven"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:153
+msgid "Added Library Sidebar Options"
+msgstr "Zijbaropties Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:160
+msgid "Updated to Gnome 44 Runtime"
+msgstr "Geüpdatet naar Gnome 44 Runtime"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:161
+msgid "Changed Default Web Theme to Full Variant"
+msgstr "De standaardinstelling voor het webthema is nu de volledige variant"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:168
+msgid "Fixed Installer CLI Output"
+msgstr "Probleem met de CLI-output opgelost"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:175
+msgid "Added Color Theme Support"
+msgstr "Ondersteuning voor Kleurenthema's Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:176
+msgid "Added -c argument to notify about updates"
+msgstr "-c argument toegevoegd om over updates te melden"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:183
+msgid "Last chosen settings are now loaded at startup"
+msgstr "Laatste gekozen instellingen worden nu geladen wanneer je de app opent"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:184
+msgid "Changed display of install button if the theme is already installed"
+msgstr ""
+"Het uiterlijk van de toepassenknop ziet er nu anders uit als dat thema al "
+"geïnstalleerd is"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:191
+msgid "Added None to Window Control Options"
+msgstr "De optie Geen toegevoegd aan de vensterinstellingen"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:198
+msgid "Added QR Login Options"
+msgstr "QR-code opties Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:199
+msgid "Improved Missing Dir Messages"
+msgstr "Ontbrekende Dir berichten verbeterd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:206
+msgid "Updated to Gnome 43 SDK"
+msgstr "Geüpdatet naar de Gnome 43 SDK"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:207
+msgid "Implemented AdwAboutWindow"
+msgstr "AdwAboutWindow Toegevoegd"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:208
+msgid "Updated Filesystem Permissions"
+msgstr "Bestandssysteemtoestemmingen Geüpdatet"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:209
+msgid "Fixed Quit Shortcut"
+msgstr "Stop-shortcut Gefixt"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:210
+msgid "Fixed Current Check"
+msgstr "Huidige Check Opgelost"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:220
+msgid "Main Window"
+msgstr "Hoofdvenster"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:224
+msgid "Theme Preview"
+msgstr "Thema Preview"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:228
+msgid "Login Preview"
+msgstr "Inlog Preview"
+
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
+msgid "A simple wrapper that installs Adwaita for Steam"
+msgstr "Een eenvoudige GUI die het Adwaita voor Steam thema installeert"
+
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
+msgid "Steam;Adwaita;Skin;"
+msgstr "Steam;Adwaita;Skin;"
+
+#: src/cli.py:47 src/cli.py:138
+msgid "Up to Date."
+msgstr "Laatste versie al geïnstalleerd."
+
+#: src/cli.py:105
+#, python-brace-format
+msgid "{key}: {cur_val} invalid value"
+msgstr "{key}: {cur_val} ongeldige waarde"
+
+#: src/cli.py:111
+msgid "Could not get theme list. Falling back to last selected theme."
+msgstr ""
+"Kon de themalijst niet vinden. Terugvallen op laatst geselecteerd thema."
+
+#: src/cli.py:117
+#, python-brace-format
+msgid ""
+"Could not find theme {colortheme} in theme list. Falling back to last "
+"selected theme."
+msgstr ""
+"Kon het thema {colortheme} niet vinden in de themalijst. Terugvallen op "
+"laatst geselecteerd thema."
+
+#: src/cli.py:132
+msgid "New Release Available: "
+msgstr "Nieuwe Versie Beschikbaar: "
+
+#: src/cli.py:135
+msgid "Update Check Failed: "
+msgstr "Update Check Mislukt: "
+
+#: src/dl.py:30
+msgid "API: HTTP Error Code "
+msgstr "API: http-foutmelding "
+
+#: src/dl.py:32
+msgid "API: Error Parsing JSON"
+msgstr "API: Fout bij het lezen van JSON"
+
+#: src/dl.py:34
+msgid "API: Error retrieving release info"
+msgstr "API: Fout bij het downloaden van versie-informatie"
+
+#: src/dl.py:42
+msgid "API: JSON is missing required keys"
+msgstr "API: JSON bevat de vereiste sleutels niet"
+
+#: src/dl.py:48
+msgid "Release: HTTP Error Code "
+msgstr "Versie: http-foutmelding "
+
+#: src/dl.py:50
+msgid "Release: Connection Reset"
+msgstr "Versie: Verbinding Gereset"
+
+#: src/dl.py:52
+msgid "Release: Permission Error"
+msgstr "Versie: Toestemmingsfout"
+
+#: src/dl.py:54
+msgid "Release: Connection Timeout"
+msgstr "Versie: Verbinding Verlopen"
+
+#: src/dl.py:56
+msgid "Release: Error Retrieving Zip"
+msgstr "Versie: Fout tijdens het downloaden van het Zip-bestand"
+
+#: src/install.py:117
+msgid "Install: Found no Valid Install Targets"
+msgstr "Installatie: Geen Geldige Installatiedoelen"
+
+#: src/install.py:120
+msgid "Install: Installer Process Failed"
+msgstr "Installatie: Installatieproces Mislukt"
+
+#: src/install.py:135
+msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
+msgstr "Installatie: Kon geen Geldige '~/.steam/steam' Symlink vinden"
+
+#: src/main.py:138
+msgid "Upstream"
+msgstr "Upstream"
+
+#: src/main.py:139
+msgid "Translators"
+msgstr "Vertalers"
+
+#: src/main.py:148
+msgid "Uninstall Theme"
+msgstr "Thema Verwijderen"
+
+#: src/main.py:149
+msgid "This will reset all customizations made to the Steam client."
+msgstr "Dit zal alle wijzigingen aan de Steam-cliënt resetten."
+
+#: src/main.py:151
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: src/main.py:152
+msgid "Uninstall"
+msgstr "Verwijderen"
+
+#: src/pages/window.py:193
+msgid "New Release Downloaded: "
+msgstr "Nieuwe Versie Gedownload: "
+
+#: src/pages/window.py:195
+msgid "Retry"
+msgstr "Opnieuw Proberen"
+
+#: src/pages/window.py:228
+msgid "Theme Installed"
+msgstr "Thema Geïnstalleerd"
+
+#: src/style.py:40
+msgid "Get Themes: Failed to get themes"
+msgstr "Thema's: Kon Thema's niet laden"
+
+#: src/style.py:71
+#, python-brace-format
+msgid "Style: Could not find theme {theme_name}"
+msgstr "Stijl: Kon het thema {theme_name} niet vinden"
+
+#: src/ui/prefs.blp:5
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: src/ui/prefs.blp:12
+msgid "Autostart"
+msgstr "Automatisch Opstarten"
+
+#: src/ui/prefs.blp:15
+msgid "Auto Update Check"
+msgstr "Automatisch op Updates Controleren"
+
+#: src/ui/prefs.blp:16
+msgid "Checks and notifies for theme updates on user login."
+msgstr ""
+"Kijkt na en meldt het als er een update beschikbaar is, zodra de gebruiker "
+"inlogt."
+
+#: src/ui/prefs.blp:25
+msgid "Beta"
+msgstr "Beta"
+
+#: src/ui/prefs.blp:29
+msgid "Experimental Beta Support"
+msgstr "Experimentele Betaodersteuning"
+
+#: src/ui/prefs.blp:30
+msgid "Enables Beta Support (requires restart)"
+msgstr "Zet Betaondersteuning aan (heropstarten vereist)"
+
+#: src/ui/prefs.blp:39
+msgid "Installer"
+msgstr "Installatieprogramma"
+
+#: src/ui/prefs.blp:42
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: src/ui/prefs.blp:43
+msgid "Include Custom CSS into Steam"
+msgstr "Gebruik Aangepaste CSS in Steam"
+
+#: src/ui/prefs.blp:48
+msgid "Custom CSS Info"
+msgstr "Aangepaste CSS-info"
+
+#: src/ui/prefs.blp:53
+msgid "Edit Custom CSS File"
+msgstr "Aangepast CSS-bestand Bewerken"
+
+#: src/ui/prefs.blp:63
+msgid "Interface"
+msgstr "Interface"
+
+#: src/ui/prefs.blp:66
+msgid "Preview Themes"
+msgstr "Geselecteerde Thema's Tonen"
+
+#: src/ui/prefs.blp:67
+msgid "Styles the interface to match the currently selected theme."
+msgstr "Past de interface aan aan het geselecteerde thema."
+
+#: src/ui/window.blp:7
+msgid "Adwaita Steam Installer"
+msgstr "Adwaita Steam Installatieprogramma"
+
+#: src/ui/window.blp:14
+msgid "Apply"
+msgstr "Toepassen"
+
+#: src/ui/window.blp:40
+msgid "Theme Options"
+msgstr "Themainstellingen"
+
+#: src/ui/window.blp:42
+msgid "Color Theme"
+msgstr "Kleurenthema"
+
+#: src/ui/window.blp:43
+msgid "Changes the color theme of Steam's interface."
+msgstr "Verandert het kleurenthema van de Steam Interface."
+
+#: src/ui/window.blp:46
+msgid "No Rounded Corners"
+msgstr "Geen Afgeronde Hoeken"
+
+#: src/ui/window.blp:47
+msgid "Removes smooth rounded corners from the interface."
+msgstr "Verwijdert egale afgeronde hoeken van de interface."
+
+#: src/ui/window.blp:57
+msgid "Window Controls Options"
+msgstr "Venstersturingsopties"
+
+#: src/ui/window.blp:59
+msgid "Window Controls"
+msgstr "Vensteropties"
+
+#: src/ui/window.blp:60
+msgid ""
+"Changes Window Control position and type. Minimize and Maximize buttons are "
+"hidden by default. Use All to show them."
+msgstr ""
+"Verandert Vensterinstellingspositie en -type. Minimaliseer- en "
+"maximaliseerknoppen zijn standaard verborgen. Gebruik \"Alles\" om ze "
+"zichtbaar te maken."
+
+#: src/ui/window.blp:61 src/ui/window.blp:66
+msgid "Default"
+msgstr "Standaard"
+
+#: src/ui/window.blp:61
+msgid "Right-All"
+msgstr "Alles rechts"
+
+#: src/ui/window.blp:61
+msgid "Left"
+msgstr "Links"
+
+#: src/ui/window.blp:61
+msgid "Left-All"
+msgstr "Alles links"
+
+#: src/ui/window.blp:61
+msgid "None"
+msgstr "Geen"
+
+#: src/ui/window.blp:64
+msgid "Controls Style"
+msgstr "Vensteroptiestijl"
+
+#: src/ui/window.blp:65
+msgid ""
+"Changes Window Control visual style. Default is the traditional style, while "
+"Dots are Mac OS style colored circles."
+msgstr ""
+"Verandert de vensteroptiestijl. De standaardinstelling is de traditionele "
+"lay-out, en de \"Punten\" zijn Mac-OS-stijl ingekleurde cirkels."
+
+#: src/ui/window.blp:66
+msgid "Dots"
+msgstr "Punten"
+
+#: src/ui/window.blp:71
+msgid "Library Options"
+msgstr "Bibliotheekinstellingen"
+
+#: src/ui/window.blp:74
+msgid "Library Sidebar"
+msgstr "Bibliotheekzijbalk"
+
+#: src/ui/window.blp:75
+msgid "Changes display options for the Library's left sidebar."
+msgstr ""
+"Verandert de instellingen voor de linker zijkant van het bibliotheekvenster."
+
+#: src/ui/window.blp:76 src/ui/window.blp:96
+msgid "Show"
+msgstr "Tonen"
+
+#: src/ui/window.blp:76 src/ui/window.blp:96
+msgid "Hover Only"
+msgstr "Enkel als de muis erop staat"
+
+#: src/ui/window.blp:80
+msgid "Hide Library What's New Shelf"
+msgstr "Verberg \"Wat is er nieuw?\" in de bibliotheek"
+
+#: src/ui/window.blp:81
+msgid "Disables display of the new updates section on top of the Library."
+msgstr "Verbergt de nieuwe updates sectie bovenaan de bibliotheekpagina."
+
+#: src/ui/window.blp:91
+msgid "Login Options"
+msgstr "Inlogopties"
+
+#: src/ui/window.blp:94
+msgid "QR Code Login"
+msgstr "Inloggen met QR-code"
+
+#: src/ui/window.blp:95
+msgid "Changes display options for the mobile QR code in the Login dialog."
+msgstr ""
+"Verandert de instellingen voor het inloggen met een QR-code d.m.v. de "
+"mobiele Steam app."
+
+#: src/ui/window.blp:96
+msgid "Hide"
+msgstr "Verbergen"
+
+#: src/ui/window.blp:108
+msgid "_Preferences"
+msgstr "_Voorkeuren"
+
+#: src/ui/window.blp:112
+msgid "_Uninstall"
+msgstr "_Verwijderen"
+
+#: src/ui/window.blp:116
+msgid "_About AdwSteamGtk"
+msgstr "_Over AdwSteamGtk"
+
+#: src/zip.py:28
+msgid "Extract: Failed to read ZIP archive"
+msgstr "Uitpakken: Zip-archief onleesbaar"
+
+#: src/zip.py:30
+msgid "Extract: Bad ZIP File"
+msgstr "Uitpakken: Fout in het Zipbestand"
+
+#: src/zip.py:32
+msgid "Extract: Failed to Extract ZIP File"
+msgstr "Uitpakken: Zipbestand uitpakken mislukt"

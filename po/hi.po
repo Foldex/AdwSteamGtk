@@ -1,0 +1,602 @@
+# AdwSteamGtk Pot
+# Copyright (C) 2023 Foldex
+# This file is distributed under the GNU GPLv3 license.
+# Foldex, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AdwSteamGtk 0.6.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-16 13:37-0400\n"
+"PO-Revision-Date: 2024-02-24 15:02+0000\n"
+"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
+msgid "AdwSteamGtk"
+msgstr "AdwSteamGtk"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
+msgid "Give Steam the Adwaita treatment"
+msgstr "Steam को Adwaita उपचार दें"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
+msgid "Foldex"
+msgstr "फ़ोल्डेक्स"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:20
+msgid ""
+"Make Steam look like it belongs on your computer. This app installs and "
+"updates the Adwaita-for-Steam skin for you. It's as simple as this:"
+msgstr ""
+"Steam को ऐसे बनाएं जैसे वह आपके कंप्यूटर पर हो। यह ऐप आपके लिए Adwaita-for-"
+"Steam स्किन इंस्टॉल और अपडेट करता है। यह इतना सरल है:"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
+msgid "Configure the skin to your liking"
+msgstr "अपनी पसंद के अनुसार त्वचा को कॉन्फ़िगर करें"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
+msgid "Click the “Apply” button"
+msgstr "\"लागू करें\" बटन पर क्लिक करें"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:27
+msgid "Restart Steam"
+msgstr "Steam पुनः प्रारंभ करें"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:29
+msgid ""
+"On startup, the app will automatically download any updates to the skin and "
+"display a notification. Apply the skin again and restart Steam to take the "
+"changes into use."
+msgstr ""
+"स्टार्टअप पर, ऐप स्वचालित रूप से त्वचा पर कोई भी अपडेट डाउनलोड करेगा और एक "
+"अधिसूचना प्रदर्शित करेगा। त्वचा पर दोबारा लगाएं और परिवर्तनों को उपयोग में "
+"लाने के लिए Steam को पुनः आरंभ करें।"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:33
+msgid ""
+"In order to get rounded corners on Steam, you will need to use the “Rounded "
+"Window Corners” GNOME extension."
+msgstr ""
+"Steam पर गोल कोने पाने के लिए, आपको \"Rounded Window Corners\" GNOME एक्सटें"
+"शन का उपयोग करना होगा।"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:46
+msgid "Added Czech Translation"
+msgstr "चेक अनुवाद जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:47
+msgid "Added Spanish Translation"
+msgstr "स्पैनिश अनुवाद जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:48
+msgid "Updated French Translation"
+msgstr "अद्यतन फ़्रेंच अनुवाद"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:49
+msgid "New Application Icon"
+msgstr "नया एप्लिकेशन आइकन"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
+msgid "Updated Libportal"
+msgstr "अद्यतन Libportal"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:57
+msgid "Fixed issue with Uninstall"
+msgstr "अनइंस्टॉल के साथ समस्या का समाधान किया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:64
+msgid "Removed Deprecated Font Install Preference"
+msgstr "अप्रचलित फ़ॉन्ट इंस्टॉल प्राथमिकता को हटा दिया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:71
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:95
+msgid "Fixed Appdata"
+msgstr "फिक्स्ड ऐपडेटा"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:72
+msgid "Removed some options that no longer exist upstream"
+msgstr "कुछ विकल्प हटा दिए गए जो अब अपस्ट्रीम में मौजूद नहीं हैं"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:79
+msgid "Updated Russian Translation"
+msgstr "अद्यतन रूसी अनुवाद"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:80
+msgid "Updated to new upstream install method"
+msgstr "नई अपस्ट्रीम इंस्टाल विधि में अपडेट किया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:87
+msgid "Updated German and Ukrainian Translations"
+msgstr "अद्यतन जर्मन और यूक्रेनी अनुवाद"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:88
+msgid "Added Portuguese Translation"
+msgstr "पुर्तगाली अनुवाद जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:102
+msgid "Beta Toggle removed as new UI support landed upstream"
+msgstr "नए UI समर्थन के अपस्ट्रीम में आते ही Beta टॉगल हटा दिया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:103
+msgid ""
+"Added option to use Steam's Original Top Bar instead of our Adwaita styled "
+"one"
+msgstr ""
+"हमारे Adwaita स्टाइल वाले के बजाय Steam के मूल टॉप बार का उपयोग करने का विकल्"
+"प जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:104
+msgid "Initial German Translation"
+msgstr "प्रारंभिक जर्मन अनुवाद"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:105
+msgid "Added hover tooltips to installer options"
+msgstr "इंस्टॉलर विकल्पों में होवर टूलटिप्स जोड़े गए"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:112
+msgid "Added French, Ukrainian, and Russian Translations"
+msgstr "फ़्रेंच, यूक्रेनी और रूसी अनुवाद जोड़े गए"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:119
+msgid "New UI"
+msgstr "नया UI"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:120
+msgid "Added Experimental Beta Client Support (with new options)"
+msgstr "प्रायोगिक Beta क्लाइंट समर्थन जोड़ा गया (नए विकल्पों के साथ)"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:121
+msgid "Added Custom CSS Option"
+msgstr "कस्टम CSS विकल्प जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:128
+msgid "Added Autostart Update Check preference toggle"
+msgstr "ऑटोस्टार्ट अपडेट जांच प्राथमिकता टॉगल जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:129
+msgid "Added Font Install preference toggle"
+msgstr "फ़ॉन्ट इंस्टॉल प्राथमिकता टॉगल जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:136
+msgid "Fixed issue with theme preview on light mode"
+msgstr "लाइट मोड पर थीम पूर्वावलोकन के साथ समस्या का समाधान किया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:137
+msgid "Added preferences toggle for theme preview"
+msgstr "थीम पूर्वावलोकन के लिए अतिरिक्त प्राथमिकताएँ टॉगल करें"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
+msgid "Colortheme is now previewed in app"
+msgstr "कलरथीम का अब ऐप में पूर्वावलोकन किया गया है"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:145
+msgid "Added -u/-i arguments to install skin via commandline"
+msgstr "कमांड लाइन के माध्यम से त्वचा स्थापित करने के लिए -u/-i तर्क जोड़े गए"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
+msgid "Added -o argument to override install options for -i/-u"
+msgstr "-i/-u के लिए इंस्टॉल विकल्पों को ओवरराइड करने के लिए -o तर्क जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:153
+msgid "Added Library Sidebar Options"
+msgstr "लाइब्रेरी साइडबार विकल्प जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:160
+msgid "Updated to Gnome 44 Runtime"
+msgstr "Gnome 44 रनटाइम में अपडेट किया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:161
+msgid "Changed Default Web Theme to Full Variant"
+msgstr "डिफ़ॉल्ट वेब थीम को पूर्ण संस्करण में बदला गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:168
+msgid "Fixed Installer CLI Output"
+msgstr "इंस्टालर CLI आउटपुट को ठीक किया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:175
+msgid "Added Color Theme Support"
+msgstr "कलर थीम समर्थन जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:176
+msgid "Added -c argument to notify about updates"
+msgstr "अपडेट के बारे में सूचित करने के लिए -c तर्क जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:183
+msgid "Last chosen settings are now loaded at startup"
+msgstr "अंतिम चुनी गई सेटिंग्स अब स्टार्टअप पर लोड की गई हैं"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:184
+msgid "Changed display of install button if the theme is already installed"
+msgstr "यदि थीम पहले से इंस्टॉल है तो इंस्टॉल बटन का डिस्प्ले बदल दिया गया है"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:191
+msgid "Added None to Window Control Options"
+msgstr "विंडो नियंत्रण विकल्पों में कोई नहीं जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:198
+msgid "Added QR Login Options"
+msgstr "QR लॉगिन विकल्प जोड़ा गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:199
+msgid "Improved Missing Dir Messages"
+msgstr "गुम हुए डॉयरेक्टरी संदेशों में सुधार हुआ"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:206
+msgid "Updated to Gnome 43 SDK"
+msgstr "Gnome 43 SDK में अपडेट किया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:207
+msgid "Implemented AdwAboutWindow"
+msgstr "AdwAboutWindow लागू किया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:208
+msgid "Updated Filesystem Permissions"
+msgstr "अद्यतित फाइलसिस्टम अनुमतियाँ"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:209
+msgid "Fixed Quit Shortcut"
+msgstr "छोड़ें शॉर्टकट को ठीक किया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:210
+msgid "Fixed Current Check"
+msgstr "वर्तमान जांच को ठीक किया गया"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:220
+msgid "Main Window"
+msgstr "मुख्य विंडो"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:224
+msgid "Theme Preview"
+msgstr "थीम पूर्वावलोकन"
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:228
+msgid "Login Preview"
+msgstr "लॉगिन पूर्वावलोकन"
+
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
+msgid "A simple wrapper that installs Adwaita for Steam"
+msgstr "एक साधारण रैपर जो Steam के लिए Adwaita स्थापित करता है"
+
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
+msgid "Steam;Adwaita;Skin;"
+msgstr "Steam;Adwaita;Skin;"
+
+#: src/cli.py:47 src/cli.py:138
+msgid "Up to Date."
+msgstr "अद्यतित।"
+
+#: src/cli.py:105
+#, python-brace-format
+msgid "{key}: {cur_val} invalid value"
+msgstr "{key}: {cur_val} अमान्य मान"
+
+#: src/cli.py:111
+msgid "Could not get theme list. Falling back to last selected theme."
+msgstr "थीम सूची नहीं मिल सकी. अंतिम चयनित थीम पर वापस आते हैं।"
+
+#: src/cli.py:117
+#, python-brace-format
+msgid ""
+"Could not find theme {colortheme} in theme list. Falling back to last "
+"selected theme."
+msgstr ""
+"थीम सूची में थीम {colortheme} नहीं मिल सका. अंतिम चयनित थीम पर वापस आते हैं।"
+
+#: src/cli.py:132
+msgid "New Release Available: "
+msgstr "नई रिलीज़ उपलब्ध: "
+
+#: src/cli.py:135
+msgid "Update Check Failed: "
+msgstr "अद्यतन जांच विफल: "
+
+#: src/dl.py:30
+msgid "API: HTTP Error Code "
+msgstr "API: HTTP त्रुटि कोड "
+
+#: src/dl.py:32
+msgid "API: Error Parsing JSON"
+msgstr "API: JSON पार्स करने में त्रुटि"
+
+#: src/dl.py:34
+msgid "API: Error retrieving release info"
+msgstr "API: रिलीज जानकारी प्राप्त करने में त्रुटि"
+
+#: src/dl.py:42
+msgid "API: JSON is missing required keys"
+msgstr "API: JSON में आवश्यक कुंजियाँ गुम हैं"
+
+#: src/dl.py:48
+msgid "Release: HTTP Error Code "
+msgstr "रिलीज़: HTTP त्रुटि कोड "
+
+#: src/dl.py:50
+msgid "Release: Connection Reset"
+msgstr "रिलीज़: कनेक्शन रीसेट"
+
+#: src/dl.py:52
+msgid "Release: Permission Error"
+msgstr "रिलीज़: अनुमति त्रुटि"
+
+#: src/dl.py:54
+msgid "Release: Connection Timeout"
+msgstr "रिलीज़: कनेक्शन टाइमआउट"
+
+#: src/dl.py:56
+msgid "Release: Error Retrieving Zip"
+msgstr "रिलीज़: Zip पुनर्प्राप्त करने में त्रुटि"
+
+#: src/install.py:117
+msgid "Install: Found no Valid Install Targets"
+msgstr "इंस्टॉल: कोई वैध इंस्टॉल लक्ष्य नहीं मिला"
+
+#: src/install.py:120
+msgid "Install: Installer Process Failed"
+msgstr "इंस्टॉल: इंस्टॉलर प्रक्रिया विफल"
+
+#: src/install.py:135
+msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
+msgstr "इंस्टॉल: वैध '~/.steam/steam' सिम्लिंक ढूंढने में विफल"
+
+#: src/main.py:138
+msgid "Upstream"
+msgstr "अपस्ट्रीम"
+
+#: src/main.py:139
+msgid "Translators"
+msgstr "अनुवादक"
+
+#: src/main.py:148
+msgid "Uninstall Theme"
+msgstr "थीम अनइंस्टॉल करें"
+
+#: src/main.py:149
+msgid "This will reset all customizations made to the Steam client."
+msgstr "यह Steam क्लाइंट के लिए किए गए सभी अनुकूलन रीसेट कर देगा।"
+
+#: src/main.py:151
+msgid "Cancel"
+msgstr "रद्द"
+
+#: src/main.py:152
+msgid "Uninstall"
+msgstr "अनइंस्टॉल"
+
+#: src/pages/window.py:193
+msgid "New Release Downloaded: "
+msgstr "नई रिलीज़ डाउनलोड की गई: "
+
+#: src/pages/window.py:195
+msgid "Retry"
+msgstr "पुन: प्रयास"
+
+#: src/pages/window.py:228
+msgid "Theme Installed"
+msgstr "थीम स्थापित"
+
+#: src/style.py:40
+msgid "Get Themes: Failed to get themes"
+msgstr "थीम्स प्राप्त करें: थीम्स प्राप्त करने में विफल"
+
+#: src/style.py:71
+#, python-brace-format
+msgid "Style: Could not find theme {theme_name}"
+msgstr "शैली: थीम नहीं मिल सकी {theme_name}"
+
+#: src/ui/prefs.blp:5
+msgid "Preferences"
+msgstr "प्राथमिकताएँ"
+
+#: src/ui/prefs.blp:12
+msgid "Autostart"
+msgstr "स्वतः प्रारंभ"
+
+#: src/ui/prefs.blp:15
+msgid "Auto Update Check"
+msgstr "स्वतः अपडेट जाँच"
+
+#: src/ui/prefs.blp:16
+msgid "Checks and notifies for theme updates on user login."
+msgstr "उपयोगकर्ता लॉगिन पर थीम अपडेट की जाँच करता है और सूचित करता है।"
+
+#: src/ui/prefs.blp:25
+msgid "Beta"
+msgstr "Beta"
+
+#: src/ui/prefs.blp:29
+msgid "Experimental Beta Support"
+msgstr "प्रायोगिक Beta समर्थन"
+
+#: src/ui/prefs.blp:30
+msgid "Enables Beta Support (requires restart)"
+msgstr "Beta समर्थन सक्षम करता है (पुनः प्रारंभ की आवश्यकता है)"
+
+#: src/ui/prefs.blp:39
+msgid "Installer"
+msgstr "इंस्टालर"
+
+#: src/ui/prefs.blp:42
+msgid "Custom CSS"
+msgstr "कस्टम CSS"
+
+#: src/ui/prefs.blp:43
+msgid "Include Custom CSS into Steam"
+msgstr "Steam में कस्टम CSS शामिल करें"
+
+#: src/ui/prefs.blp:48
+msgid "Custom CSS Info"
+msgstr "कस्टम CSS जानकारी"
+
+#: src/ui/prefs.blp:53
+msgid "Edit Custom CSS File"
+msgstr "कस्टम CSS फ़ाइल संपादित करें"
+
+#: src/ui/prefs.blp:63
+msgid "Interface"
+msgstr "इंटरफेस"
+
+#: src/ui/prefs.blp:66
+msgid "Preview Themes"
+msgstr "पूर्वावलोकन थीम्स"
+
+#: src/ui/prefs.blp:67
+msgid "Styles the interface to match the currently selected theme."
+msgstr "वर्तमान में चयनित थीम से मेल खाने के लिए इंटरफ़ेस को स्टाइल करता है।"
+
+#: src/ui/window.blp:7
+msgid "Adwaita Steam Installer"
+msgstr "Adwaita Steam इंस्टॉलर"
+
+#: src/ui/window.blp:14
+msgid "Apply"
+msgstr "लागू करें"
+
+#: src/ui/window.blp:40
+msgid "Theme Options"
+msgstr "थीम विकल्प"
+
+#: src/ui/window.blp:42
+msgid "Color Theme"
+msgstr "थीम रंग"
+
+#: src/ui/window.blp:43
+msgid "Changes the color theme of Steam's interface."
+msgstr "Steam के इंटरफ़ेस का थीम रंग बदलता है।"
+
+#: src/ui/window.blp:46
+msgid "No Rounded Corners"
+msgstr "कोई गोल कोने नहीं"
+
+#: src/ui/window.blp:47
+msgid "Removes smooth rounded corners from the interface."
+msgstr "इंटरफ़ेस से चिकने गोल कोनों को हटा देता है।"
+
+#: src/ui/window.blp:57
+msgid "Window Controls Options"
+msgstr "विंडो नियंत्रण विकल्प"
+
+#: src/ui/window.blp:59
+msgid "Window Controls"
+msgstr "विंडो नियंत्रण"
+
+#: src/ui/window.blp:60
+msgid ""
+"Changes Window Control position and type. Minimize and Maximize buttons are "
+"hidden by default. Use All to show them."
+msgstr ""
+"विंडो नियंत्रण स्थिति और प्रकार बदलता है। न्यूनतम और अधिकतम बटन डिफ़ॉल्ट रूप "
+"से छिपे हुए हैं। उन्हें दिखाने के लिए सभी का उपयोग करें।"
+
+#: src/ui/window.blp:61 src/ui/window.blp:66
+msgid "Default"
+msgstr "डिफ़ॉल्ट"
+
+#: src/ui/window.blp:61
+msgid "Right-All"
+msgstr "दाएं-सभी"
+
+#: src/ui/window.blp:61
+msgid "Left"
+msgstr "बाएं"
+
+#: src/ui/window.blp:61
+msgid "Left-All"
+msgstr "बाएं-सभी"
+
+#: src/ui/window.blp:61
+msgid "None"
+msgstr "कोई नहीं"
+
+#: src/ui/window.blp:64
+msgid "Controls Style"
+msgstr "नियंत्रण शैली"
+
+#: src/ui/window.blp:65
+msgid ""
+"Changes Window Control visual style. Default is the traditional style, while "
+"Dots are Mac OS style colored circles."
+msgstr ""
+"विंडो नियंत्रण दृश्य शैली बदलता है। डिफ़ॉल्ट पारंपरिक शैली है, जबकि डॉट्स "
+"Mac OS शैली के रंगीन वृत्त हैं।"
+
+#: src/ui/window.blp:66
+msgid "Dots"
+msgstr "डॉट्स"
+
+#: src/ui/window.blp:71
+msgid "Library Options"
+msgstr "लाइब्रेरी विकल्प"
+
+#: src/ui/window.blp:74
+msgid "Library Sidebar"
+msgstr "लाइब्रेरी साइडबार"
+
+#: src/ui/window.blp:75
+msgid "Changes display options for the Library's left sidebar."
+msgstr "लाइब्रेरी के बाएँ साइडबार के लिए प्रदर्शन विकल्प बदलता है।"
+
+#: src/ui/window.blp:76 src/ui/window.blp:96
+msgid "Show"
+msgstr "दिखाएँ"
+
+#: src/ui/window.blp:76 src/ui/window.blp:96
+msgid "Hover Only"
+msgstr "केवल मँडराएँ"
+
+#: src/ui/window.blp:80
+msgid "Hide Library What's New Shelf"
+msgstr "क्या नया है शेल्फ छुपाएं"
+
+#: src/ui/window.blp:81
+msgid "Disables display of the new updates section on top of the Library."
+msgstr "लाइब्रेरी के शीर्ष पर नए अपडेट अनुभाग का प्रदर्शन अक्षम करता है।"
+
+#: src/ui/window.blp:91
+msgid "Login Options"
+msgstr "लॉगिन विकल्प"
+
+#: src/ui/window.blp:94
+msgid "QR Code Login"
+msgstr "QR कोड लॉगिन"
+
+#: src/ui/window.blp:95
+msgid "Changes display options for the mobile QR code in the Login dialog."
+msgstr "लॉगिन संवाद में मोबाइल QR कोड के लिए प्रदर्शन विकल्प बदलता है।"
+
+#: src/ui/window.blp:96
+msgid "Hide"
+msgstr "छुपाएं"
+
+#: src/ui/window.blp:108
+msgid "_Preferences"
+msgstr "_प्राथमिकताएँ"
+
+#: src/ui/window.blp:112
+msgid "_Uninstall"
+msgstr "_अनइंस्टॉल"
+
+#: src/ui/window.blp:116
+msgid "_About AdwSteamGtk"
+msgstr "_AdwSteamGtk के बारे में"
+
+#: src/zip.py:28
+msgid "Extract: Failed to read ZIP archive"
+msgstr "निष्कर्षण: ZIP संग्रह पढ़ने में विफल"
+
+#: src/zip.py:30
+msgid "Extract: Bad ZIP File"
+msgstr "निष्कर्षण: ख़राब ZIP फ़ाइल"
+
+#: src/zip.py:32
+msgid "Extract: Failed to Extract ZIP File"
+msgstr "निष्कर्षण: ZIP फ़ाइल निकालने में विफल"
