@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.Foldex.AdwSteamGtk",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "adwaita-steam-gtk",
     "finish-args": [
@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.10.0/blueprint-compiler-v0.10.0.tar.bz2",
-                    "sha256": "9c3c6eecef9eb54ad43b9ef786697a9f99b21e35240e9ddc8541a2cbd9ea79ba",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.12.0/blueprint-compiler-v0.12.0.tar.bz2",
+                    "sha256": "0f762e8a0dfef9aa46b4bddf8ed4bbc09b5d2fa2baff5dec109ccc513c6e9e00",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 279929,
@@ -73,8 +73,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/39/92/8486ede85fcc088f1b3dba4ce92dd29d126fd96b0008ea213167940a2475/pyparsing-3.1.1-py3-none-any.whl",
-                    "sha256": "32c7c0b711493c72ff18a981d24f28aaf9c1fb7ed5e9667c9e84e3db623bdbfb",
+                    "url": "https://files.pythonhosted.org/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl",
+                    "sha256": "f9db75911801ed778fe61bb643079ff86601aca99fcae6345aa67292038fb742",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pyparsing",
@@ -83,8 +83,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ab/c3/57f0601a2d4fe15de7a553c00adbc901425661bf048f2a22dfc500caf121/packaging-23.1-py3-none-any.whl",
-                    "sha256": "994793af429502c4ea2ebf6bf664629d07c1a9fe974af92966e4b8d2df7edc61",
+                    "url": "https://files.pythonhosted.org/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl",
+                    "sha256": "2ddfb553fdf02fb784c234c7ba6ccc288296ceabec964ad2eae3777778130bc5",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "packaging",
