@@ -43,7 +43,23 @@ TRANSLATORS=[
     'AnaxMorden https://github.com/AnaxMorden',
     'Fernando Lopes https://github.com/plasmus777',
     'Percy De La Rosa https://github.com/PercyDLR',
-    'Kryštof Černý https://github.com/cewbdex'
+    'Kryštof Černý https://github.com/cewbdex',
+    'Jiri Grönroos <jiri.gronroos@iki.fi>',
+    'Hoshmand M. Qadir <hoshmandctf@pm.me>',
+    'P.O <rasmusson.mikael@protonmail.com>',
+    'dumbelekci <taha39@yandex.com>',
+    'Kuzey Kuzey <kuzey7831@gmail.com>',
+    'Yahor <k1llo2810@protonmail.com>',
+    'arctize <patrick.wicki96@gmail.com>',
+    'CouldBeMathijs <mathijs.pittoors@gmail.com>',
+    'muggs <rsr.mugen@gmail.com>',
+    'Bo Gustavsson <bosseg09@gmail.com>',
+    'ssantos <ssantos@web.de>',
+    'Sabri Ünal <libreajans@gmail.com>',
+    'Talha Kumru <talha760seckin@gmail.com>',
+    'Scrambled777 <weblate.scrambled777@simplelogin.com>',
+    '刘韬 <lyuutau@outlook.com>',
+    '复予 <clonewith@qq.com>'
 ]
 
 UPSTREAM=['Anatoliy Kashkin  https://github.com/tkashkin']
