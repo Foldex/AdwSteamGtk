@@ -85,7 +85,7 @@ The [Weblate](https://hosted.weblate.org/projects/adwsteamgtk/adwsteamgtk/) plat
 It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) or `flatpak-builder` to build the project.
 
 ```
-flatpak install org.gnome.Platform//44 org.gnome.Sdk//44
+flatpak install org.gnome.Platform//46 org.gnome.Sdk//46
 flatpak-builder --install --force-clean --user build-dir io.github.Foldex.AdwSteamGtk.json
 ```
 
