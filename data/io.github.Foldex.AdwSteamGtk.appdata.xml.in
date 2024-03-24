@@ -42,6 +42,16 @@
   </categories>
 
   <releases>
+    <release version="0.6.10" type="stable" date="2024-02-23">
+      <description translatable="no">
+        <ul>
+          <li>Added Belarusian, Chinese, Dutch, Finnish, Hindi, Portuguese, Swedish, and Turkish Translations</li>
+          <li>Updated German Translation</li>
+          <li>Updated Blueprint, pyparsing, packaging dependencies</li>
+          <li>Updated to Gnome Runtime 46</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.9" type="stable" date="2023-09-16">
       <description translatable="no">
         <ul>
