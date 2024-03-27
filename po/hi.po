@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2024-02-24 15:02+0000\n"
+"PO-Revision-Date: 2024-03-28 17:02+0000\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/hi/>\n"
@@ -80,7 +80,7 @@ msgstr "स्पैनिश अनुवाद जोड़ा गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:48
 msgid "Updated French Translation"
-msgstr "अद्यतन फ़्रेंच अनुवाद"
+msgstr "फ़्रेंच अनुवाद अपडेट किये गए"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:49
 msgid "New Application Icon"
@@ -88,7 +88,7 @@ msgstr "नया एप्लिकेशन आइकन"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Updated Libportal"
-msgstr "अद्यतन Libportal"
+msgstr "Libportal अपडेट किया गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:57
 msgid "Fixed issue with Uninstall"
@@ -109,15 +109,15 @@ msgstr "कुछ विकल्प हटा दिए गए जो अब �
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:79
 msgid "Updated Russian Translation"
-msgstr "अद्यतन रूसी अनुवाद"
+msgstr "रूसी अनुवाद अपडेट किये गए"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:80
 msgid "Updated to new upstream install method"
-msgstr "नई अपस्ट्रीम इंस्टाल विधि में अपडेट किया गया"
+msgstr "नई अपस्ट्रीम इंस्टाल विधि तक अपडेट किये गए"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:87
 msgid "Updated German and Ukrainian Translations"
-msgstr "अद्यतन जर्मन और यूक्रेनी अनुवाद"
+msgstr "जर्मन और यूक्रेनी अनुवाद अपडेट किये गए"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:88
 msgid "Added Portuguese Translation"
@@ -125,7 +125,7 @@ msgstr "पुर्तगाली अनुवाद जोड़ा गया
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:102
 msgid "Beta Toggle removed as new UI support landed upstream"
-msgstr "नए UI समर्थन के अपस्ट्रीम में आते ही Beta टॉगल हटा दिया गया"
+msgstr "नए UI समर्थन के अपस्ट्रीम में आते ही बीटा टॉगल हटा दिया गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:103
 msgid ""
@@ -153,7 +153,7 @@ msgstr "नया UI"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:120
 msgid "Added Experimental Beta Client Support (with new options)"
-msgstr "प्रायोगिक Beta क्लाइंट समर्थन जोड़ा गया (नए विकल्पों के साथ)"
+msgstr "प्रायोगिक बीटा क्लाइंट समर्थन जोड़ा गया (नए विकल्पों के साथ)"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:121
 msgid "Added Custom CSS Option"
@@ -193,7 +193,7 @@ msgstr "लाइब्रेरी साइडबार विकल्प ज
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:160
 msgid "Updated to Gnome 44 Runtime"
-msgstr "Gnome 44 रनटाइम में अपडेट किया गया"
+msgstr "Gnome 44 रनटाइम तक अपडेट किया गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:161
 msgid "Changed Default Web Theme to Full Variant"
@@ -233,7 +233,7 @@ msgstr "गुम हुए डॉयरेक्टरी संदेशों
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:206
 msgid "Updated to Gnome 43 SDK"
-msgstr "Gnome 43 SDK में अपडेट किया गया"
+msgstr "Gnome 43 SDK तक अपडेट किया गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:207
 msgid "Implemented AdwAboutWindow"
@@ -241,7 +241,7 @@ msgstr "AdwAboutWindow लागू किया गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:208
 msgid "Updated Filesystem Permissions"
-msgstr "अद्यतित फाइलसिस्टम अनुमतियाँ"
+msgstr "फाइलसिस्टम अनुमतियाँ अपडेट की गयी"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:209
 msgid "Fixed Quit Shortcut"
@@ -298,7 +298,7 @@ msgstr "नई रिलीज़ उपलब्ध: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr "अद्यतन जांच विफल: "
+msgstr "अपडेट जांच विफल: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
@@ -334,7 +334,7 @@ msgstr "रिलीज़: कनेक्शन टाइमआउट"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr "रिलीज़: Zip पुनर्प्राप्त करने में त्रुटि"
+msgstr "रिलीज़: जिप पुनर्प्राप्त करने में त्रुटि"
 
 #: src/install.py:117
 msgid "Install: Found no Valid Install Targets"
@@ -411,15 +411,15 @@ msgstr "उपयोगकर्ता लॉगिन पर थीम अप�
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr "Beta"
+msgstr "बीटा"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr "प्रायोगिक Beta समर्थन"
+msgstr "प्रायोगिक बीटा समर्थन"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr "Beta समर्थन सक्षम करता है (पुनः प्रारंभ की आवश्यकता है)"
+msgstr "बीटा समर्थन सक्षम करता है (पुनः प्रारंभ की आवश्यकता है)"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
@@ -439,7 +439,7 @@ msgstr "कस्टम CSS जानकारी"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr "कस्टम CSS फ़ाइल संपादित करें"
+msgstr "कस्टम CSS फ़ाइल संपादन"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
@@ -579,24 +579,24 @@ msgstr "छुपाएं"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr "_प्राथमिकताएँ"
+msgstr "प्राथमिकताएँ (_P)"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr "_अनइंस्टॉल"
+msgstr "अनइंस्टॉल (_U)"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr "_AdwSteamGtk के बारे में"
+msgstr "AdwSteamGtk के बारे में (_A)"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr "निष्कर्षण: ZIP संग्रह पढ़ने में विफल"
+msgstr "निष्कर्षण: जिप संग्रह पढ़ने में विफल"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr "निष्कर्षण: ख़राब ZIP फ़ाइल"
+msgstr "निष्कर्षण: ख़राब जिप फ़ाइल"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr "निष्कर्षण: ZIP फ़ाइल निकालने में विफल"
+msgstr "निष्कर्षण: जिप फ़ाइल निकालने में विफल"
