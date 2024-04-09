@@ -12,6 +12,9 @@
   <name>AdwSteamGtk</name>
   <summary>Give Steam the Adwaita treatment</summary>
   <developer_name>Foldex</developer_name>
+  <developer id="io.github.Foldex">
+    <name>Foldex</name>
+  </developer>
 
   <url type="homepage">https://github.com/Foldex/AdwSteamGtk</url>
   <url type="bugtracker">https://github.com/Foldex/AdwSteamGtk/issues</url>
