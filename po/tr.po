@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
 "PO-Revision-Date: 2024-04-13 15:20+0000\n"
-"Last-Translator: Ahmet Öztürk <ztrahmet@gmail.com>\n"
+"Last-Translator: Talha Kumru <talha760seckin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/tr/>\n"
 "Language: tr\n"
@@ -67,26 +67,28 @@ msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
+"Steam'in yuvarlatılmış pencere görünümünde olmasını istiyorsanız “Rounded "
+"Window Corners” GNOME eklentisini yükleyin."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:46
 msgid "Added Czech Translation"
-msgstr ""
+msgstr "Çekçe Çeviri Eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:47
 msgid "Added Spanish Translation"
-msgstr ""
+msgstr "İspanyolca Çeviri Eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:48
 msgid "Updated French Translation"
-msgstr ""
+msgstr "Fransızca Çeviri Güncellendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:49
 msgid "New Application Icon"
-msgstr ""
+msgstr "Yeni Uygulama İkonu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Updated Libportal"
-msgstr ""
+msgstr "Libportal Güncellendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:57
 msgid "Fixed issue with Uninstall"
@@ -99,7 +101,7 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:71
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:95
 msgid "Fixed Appdata"
-msgstr ""
+msgstr "Appdata Düzeltildi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:72
 msgid "Removed some options that no longer exist upstream"
@@ -107,7 +109,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:79
 msgid "Updated Russian Translation"
-msgstr ""
+msgstr "Rusça Çeviri Güncellendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:80
 msgid "Updated to new upstream install method"
@@ -119,7 +121,7 @@ msgstr "Almanca ve Ukraynaca Çeviri Güncellendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:88
 msgid "Added Portuguese Translation"
-msgstr ""
+msgstr "Portekizce Çeviri Eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:102
 msgid "Beta Toggle removed as new UI support landed upstream"
@@ -145,7 +147,7 @@ msgstr "Fransızca, Ukraynaca ve Rusça Çeviri Eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:119
 msgid "New UI"
-msgstr ""
+msgstr "Yeni Kullanıcı Arayüzü"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:120
 msgid "Added Experimental Beta Client Support (with new options)"
