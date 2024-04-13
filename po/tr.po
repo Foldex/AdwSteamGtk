@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2024-01-21 09:01+0000\n"
-"Last-Translator: Talha Kumru <talha760seckin@gmail.com>\n"
+"PO-Revision-Date: 2024-04-13 15:20+0000\n"
+"Last-Translator: Ahmet Öztürk <ztrahmet@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -37,6 +37,8 @@ msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
+"Steam'in bilgisayarınıza aitmiş gibi görünmesini sağlayın. Bu uygulama sizin "
+"için Adwaita-for-Steam görünümünü yükler ve günceller. Bu kadar basit:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid "Configure the skin to your liking"
@@ -88,7 +90,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:57
 msgid "Fixed issue with Uninstall"
-msgstr ""
+msgstr "Kaldırma ile ilgili sorun düzeltildi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:64
 msgid "Removed Deprecated Font Install Preference"
@@ -113,7 +115,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:87
 msgid "Updated German and Ukrainian Translations"
-msgstr ""
+msgstr "Almanca ve Ukraynaca Çeviri Güncellendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:88
 msgid "Added Portuguese Translation"
@@ -139,7 +141,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:112
 msgid "Added French, Ukrainian, and Russian Translations"
-msgstr ""
+msgstr "Fransızca, Ukraynaca ve Rusça Çeviri Eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:119
 msgid "New UI"
