@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2024-04-17 18:03+0000\n"
+"PO-Revision-Date: 2024-05-03 12:07+0000\n"
 "Last-Translator: Nathan Hadley <nathanhadley.pigeon@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.5.3\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -58,6 +58,9 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
+"All'avvio, l'app scaricherà automaticamente tutti gli aggiornamenti sulla "
+"skin e visualizzerà una notifica. Applica nuovamente la skin e riavvia Steam "
+"per applicare le modifiche."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:33
 msgid ""
@@ -98,7 +101,7 @@ msgstr "Rimossa la preferenza di installazione dei caratteri deprecata"
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:71
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:95
 msgid "Fixed Appdata"
-msgstr ""
+msgstr "Risolti i metadati dell'app"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:72
 msgid "Removed some options that no longer exist upstream"
@@ -136,7 +139,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:104
 msgid "Initial German Translation"
-msgstr ""
+msgstr "Traduzione iniziale in tedesco"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:105
 msgid "Added hover tooltips to installer options"
@@ -162,10 +165,13 @@ msgstr "Aggiunta opzione CSS personalizzata"
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:128
 msgid "Added Autostart Update Check preference toggle"
 msgstr ""
+"Aggiunta l'attivazione/disattivazione delle preferenze per il controllo "
+"degli aggiornamenti con avvio automatico"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:129
 msgid "Added Font Install preference toggle"
 msgstr ""
+"Aggiunto un interruttore per la preferenza di installazione dei caratteri"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:136
 msgid "Fixed issue with theme preview on light mode"
@@ -173,7 +179,7 @@ msgstr "Risolto il problema con l'anteprima del tema in modalità luce"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:137
 msgid "Added preferences toggle for theme preview"
-msgstr ""
+msgstr "Aggiunto un interruttore per le preferenze di anteprima del tema"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
 msgid "Colortheme is now previewed in app"
@@ -181,11 +187,13 @@ msgstr "Il tema colore è ora visualizzato in anteprima nell'app"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:145
 msgid "Added -u/-i arguments to install skin via commandline"
-msgstr ""
+msgstr "Aggiunti argomenti -u/-i per installare la skin tramite riga di comando"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
 msgid "Added -o argument to override install options for -i/-u"
 msgstr ""
+"Aggiunto l'argomento -o per sovrascrivere le opzioni di installazione per -i/"
+"-u"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:153
 msgid "Added Library Sidebar Options"
@@ -210,7 +218,7 @@ msgstr "Aggiunto il supporto per i temi colore"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:176
 msgid "Added -c argument to notify about updates"
-msgstr ""
+msgstr "Aggiunto l'argomento -c per notificare gli aggiornamenti"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:183
 msgid "Last chosen settings are now loaded at startup"
@@ -248,11 +256,11 @@ msgstr "Autorizzazioni del file system aggiornate"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:209
 msgid "Fixed Quit Shortcut"
-msgstr ""
+msgstr "Risolto il problema con la scorciatoia di uscita"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:210
 msgid "Fixed Current Check"
-msgstr ""
+msgstr "Risolto il problema con il controllo della versione corrente"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:220
 msgid "Main Window"
@@ -286,6 +294,7 @@ msgstr "{key}: {cur_val} valore non valido"
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
+"Impossibile ottenere l'elenco dei temi. Ritorno all'ultimo tema selezionato."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -293,18 +302,20 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
+"Impossibile trovare il tema {colortheme} nell'elenco dei temi. Ritorno "
+"all'ultimo tema selezionato."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "Nuova versione disponibile: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "Controllo aggiornamento non riuscito: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: codice di errore HTTP "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
@@ -312,7 +323,7 @@ msgstr "API: errore durante l'analisi di JSON"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "API: errore durante il recupero delle informazioni sulla versione"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
@@ -320,11 +331,11 @@ msgstr "API: in JSON mancano le chiavi richieste"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "Rilascio: codice errore HTTP "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "Rilascio: ripristino della connessione"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
@@ -336,7 +347,7 @@ msgstr "Rilascio: connessione scaduta"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "Rilascio: errore durante il recupero del file .zip"
 
 #: src/install.py:117
 msgid "Install: Found no Valid Install Targets"
@@ -380,7 +391,7 @@ msgstr "Disinstallare"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "Scarica la nuova versione: "
 
 #: src/pages/window.py:195
 msgid "Retry"
@@ -409,11 +420,12 @@ msgstr "Avvio automatico"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr ""
+msgstr "Controllo aggiornamento automatico"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
 msgstr ""
+"Controlla e notifica gli aggiornamenti del tema all'accesso dell'utente."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
@@ -512,7 +524,7 @@ msgstr "Predefinito"
 
 #: src/ui/window.blp:61
 msgid "Right-All"
-msgstr ""
+msgstr "Giusto-Tutto"
 
 #: src/ui/window.blp:61
 msgid "Left"
@@ -520,7 +532,7 @@ msgstr "Sinistra"
 
 #: src/ui/window.blp:61
 msgid "Left-All"
-msgstr ""
+msgstr "Sinistra-Tutto"
 
 #: src/ui/window.blp:61
 msgid "None"
@@ -566,7 +578,7 @@ msgstr "Solo al passaggio del mouse"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr ""
+msgstr "Nascondi lo scaffale Novità della Libreria"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
