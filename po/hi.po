@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2024-04-04 01:24+0000\n"
+"PO-Revision-Date: 2024-05-07 08:07+0000\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/hi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.5.4-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -46,7 +46,7 @@ msgstr "अपनी पसंद के अनुसार थीम को व
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:26
 msgid "Click the “Apply” button"
-msgstr "\"लागू करें\" बटन पर क्लिक करें"
+msgstr "“लागू करें” से बटन पर क्लिक करें"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:27
 msgid "Restart Steam"
@@ -67,8 +67,8 @@ msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
-"Steam पर गोल कोने पाने के लिए, आपको \"Rounded Window Corners\" GNOME एक्सटें"
-"शन का उपयोग करना होगा।"
+"Steam पर गोल कोने पाने के लिए, आपको “Rounded Window Corners” GNOME एक्सटेंशन "
+"का उपयोग करना होगा।"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:46
 msgid "Added Czech Translation"
@@ -101,7 +101,7 @@ msgstr "पदावनत फॉन्ट स्थापना प्राथ
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:71
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:95
 msgid "Fixed Appdata"
-msgstr "ऐपडेटा ठीक किया गया"
+msgstr "Appdata ठीक किया गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:72
 msgid "Removed some options that no longer exist upstream"
@@ -157,7 +157,7 @@ msgstr "प्रायोगिक बीटा पक्षकार समर
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:121
 msgid "Added Custom CSS Option"
-msgstr "कस्टम CSS विकल्प जोड़ा गया"
+msgstr "तदनुकूल CSS विकल्प जोड़ा गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:128
 msgid "Added Autostart Update Check preference toggle"
@@ -173,7 +173,7 @@ msgstr "हल्के मोड पर थीम पूर्वावलो�
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:137
 msgid "Added preferences toggle for theme preview"
-msgstr "थीम पूर्वावलोकन के लिए प्राथमिकताएँ टॉगल जोड़ा गया"
+msgstr "थीम पूर्वावलोकन के लिए प्राथमिकताएं टॉगल जोड़ा गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
 msgid "Colortheme is now previewed in app"
@@ -190,7 +190,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:153
 msgid "Added Library Sidebar Options"
-msgstr "लाइब्रेरी पार्श्व पट्टी के विकल्प जोड़े गए"
+msgstr "लाइब्रेरी पार्श्वपट्टी के विकल्प जोड़े गए"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:160
 msgid "Updated to Gnome 44 Runtime"
@@ -198,7 +198,7 @@ msgstr "Gnome 44 रनटाइम तक अद्यतन किया ग�
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:161
 msgid "Changed Default Web Theme to Full Variant"
-msgstr "डिफॉल्ट वेब थीम को पूर्ण संस्करण में बदला गया"
+msgstr "तयशुदा वेब थीम को पूर्ण संस्करण में बदला गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:168
 msgid "Fixed Installer CLI Output"
@@ -242,7 +242,7 @@ msgstr "AdwAboutWindow लागू किया गया"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:208
 msgid "Updated Filesystem Permissions"
-msgstr "फाइलसिस्टम अनुमतियाँ अपडेट की गयी"
+msgstr "फाइलसिस्टम अनुमतियां अद्यतित"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:209
 msgid "Fixed Quit Shortcut"
@@ -283,7 +283,7 @@ msgstr "{key}: {cur_val} अमान्य मान"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr "थीम सूची नहीं मिल सकी. अंतिम चयनित थीम पर वापस आते हैं।"
+msgstr "थीम सूची नहीं मिल सकी। अंतिम चयनित थीम पर वापस आते हैं।"
 
 #: src/cli.py:117
 #, python-brace-format
@@ -291,7 +291,7 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
-"थीम सूची में थीम {colortheme} नहीं मिल सका. अंतिम चयनित थीम पर वापस आते हैं।"
+"थीम सूची में थीम {colortheme} नहीं मिल सका। अंतिम चयनित थीम पर वापस आते हैं।"
 
 #: src/cli.py:132
 msgid "New Release Available: "
@@ -315,7 +315,7 @@ msgstr "API: रिलीज जानकारी प्राप्त कर�
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr "API: JSON में आवश्यक कुंजियाँ गुम हैं"
+msgstr "API: JSON में आवश्यक कुंजियां गुम हैं"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
@@ -359,7 +359,7 @@ msgstr "अनुवादक"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr "थीम की स्थापना रद्द करें"
+msgstr "थीम अस्थापित करें"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
@@ -367,11 +367,11 @@ msgstr "यह Steam पक्षकार के लिए किए गए स
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr "रद्द"
+msgstr "रद्द करें"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr "स्थापना रद्द करें"
+msgstr "अस्थापित करें"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
@@ -396,7 +396,7 @@ msgstr "शैली: थीम नहीं मिल सकी {theme_name}"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr "प्राथमिकताएँ"
+msgstr "प्राथमिकताएं"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
@@ -428,19 +428,19 @@ msgstr "स्थापनकर्ता"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr "कस्टम CSS"
+msgstr "तदनुकूल CSS"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr "Steam में कस्टम CSS शामिल करें"
+msgstr "Steam में तदनुकूल CSS शामिल करें"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr "कस्टम CSS जानकारी"
+msgstr "तदनुकूल CSS जानकारी"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr "कस्टम CSS फाइल संपादन"
+msgstr "तदनुकूल CSS फाइल संपादन"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
@@ -495,12 +495,12 @@ msgid ""
 "Changes Window Control position and type. Minimize and Maximize buttons are "
 "hidden by default. Use All to show them."
 msgstr ""
-"विंडो नियंत्रण स्थिति और प्रकार बदलता है। न्यूनतम और अधिकतम बटन डिफॉल्ट रूप "
-"से छिपे हुए हैं। उन्हें दिखाने के लिए सभी का उपयोग करें।"
+"विंडो नियंत्रण स्थिति और प्रकार बदलता है। न्यूनतम और अधिकतम बटन तयशुदा रूप से"
+" छिपे हुए हैं। उन्हें दिखाने के लिए सभी का उपयोग करें।"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Default"
-msgstr "डिफॉल्ट"
+msgstr "तयशुदा"
 
 #: src/ui/window.blp:61
 msgid "Right-All"
@@ -527,7 +527,7 @@ msgid ""
 "Changes Window Control visual style. Default is the traditional style, while "
 "Dots are Mac OS style colored circles."
 msgstr ""
-"विंडो नियंत्रण दृश्य शैली बदलता है। डिफॉल्ट पारंपरिक शैली है, जबकि बिंदु Mac "
+"विंडो नियंत्रण दृश्य शैली बदलता है। तयशुदा पारंपरिक शैली है, जबकि बिंदु Mac "
 "OS शैली के रंगीन वृत्त हैं।"
 
 #: src/ui/window.blp:66
@@ -544,15 +544,15 @@ msgstr "लाइब्रेरी पार्श्वपट्टी"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr "लाइब्रेरी के बाएँ पार्श्वपट्टी के लिए प्रदर्शन विकल्प बदलता है।"
+msgstr "लाइब्रेरी के बाएं पार्श्वपट्टी के लिए प्रदर्शन विकल्प बदलता है।"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr "दिखाएँ"
+msgstr "दिखाएं"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr "केवल मँडराएँ"
+msgstr "केवल मँडराएं"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
@@ -580,11 +580,11 @@ msgstr "छुपाएं"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr "प्राथमिकताएँ (_P)"
+msgstr "प्राथमिकताएं (_P)"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr "अस्थापना (_U)"
+msgstr "अस्थापित करें (_U)"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
@@ -596,7 +596,7 @@ msgstr "निष्कर्षण: ZIP पुरालेख पढ़ने �
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr "निष्कर्षण: ख़राब ZIP फाइल"
+msgstr "निष्कर्षण: खराब ZIP फाइल"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
