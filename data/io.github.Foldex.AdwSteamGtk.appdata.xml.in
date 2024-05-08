@@ -45,6 +45,15 @@
   </categories>
 
   <releases>
+    <release version="0.6.11" type="stable" date="2024-05-08">
+      <description translate="no">
+        <ul>
+          <li>Fixed Crash on Launch due to upstream changes</li>
+          <li>Updated Hindi and Turkish Translations</li>
+          <li>Added Italian Translation</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.10" type="stable" date="2024-02-23">
       <description translate="no">
         <ul>
