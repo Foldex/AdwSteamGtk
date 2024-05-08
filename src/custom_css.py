@@ -28,48 +28,11 @@ TEMPLATE = """/* ------------------ */
 /* -- DELETE BOTH LINES TO ENABLE
 :root
 {
-	--bg: #242424;
-	--fg: #FFFFFF;
-
-	--headerbar_bg: #303030;
-	--popover_bg: #383838;
-	--view_bg: #1E1E1E;
-
-	--accent: #78AEED;
-	--accent_bg: #3584E4;
-	--accent_disabled: #78AEED80;
-	--accent_hover_bg: #78AEED12;
-	--accent_active_bg: #78AEED29;
-	--focusring: #78AEED80;
-
-	--destructive: #FF7B63;
-	--destructive_bg: #C01C28;
-	--destructive_disabled: #FF7B6380;
-	--destructive_hover_bg: #FF7B6312;
-	--destructive_active_bg: #FF7B6329;
-
-	--success: #8FF0A4;
-	--success_bg: #26A269;
-	--success_fg: var(--fg);
-
-	--warning: #F8E45C;
-	--warning_bg: #CD9309;
-	--warning_fg: var(--fg);
-
-	--error: #FF7B63;
-	--error_bg: #C01C28;
-	--error_fg: var(--fg);
+	--adw-accent-bg-rgb: 53, 132, 228;
+	--adw-accent-fg-rgb: 255, 255, 255;
+	--adw-accent-rgb: 120, 174, 237;
 }
 -- DELETE BOTH LINES TO ENABLE */
-
-/* --- EXAMPLE: Hide Whats New --- */
-/* -- DELETE BOTH LINES TO ENABLE
-#SteamDesktop .library_Container_3xRRJ div[class*="libraryhome_UpdatesContainer_"]
-{
-	display: none !important;
-}
--- DELETE BOTH LINES TO ENABLE */
-
 """
 
 def check():
