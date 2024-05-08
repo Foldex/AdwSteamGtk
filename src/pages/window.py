@@ -74,7 +74,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.load_config()
         self.style_provider = None
         self.load_app_style()
-        self.color_theme_options.connect("notify", self.load_app_style)
+        self.color_theme_options.connect("notify::selected", self.load_app_style)
 
     def make_action(self, action, func):
         install_action = Gio.SimpleAction(name=action)
