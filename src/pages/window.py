@@ -39,7 +39,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     window_controls_group = Gtk.Template.Child()
     window_controls_options = Gtk.Template.Child()
-    window_controls_style_options = Gtk.Template.Child()
+    window_controls_layout_options = Gtk.Template.Child()
 
     library_group = Gtk.Template.Child()
     library_sidebar_options = Gtk.Template.Child()
@@ -58,8 +58,8 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.opt_array = {
             "color_theme": ["Adwaita"],
 
-            "win_controls": ["Default", "Right-All", "Left", "Left-All", "None"],
-            "win_controls_style": ["Default", "Dots"],
+            "win_controls": ["Auto", "Adwaita", "MacOS", "Windows"],
+            "win_controls_layout": ["Auto", "Adwaita", "Elementary", "MacOS", "Windows"],
 
             "library_sidebar": ["Show", "Hover Only"],
 
@@ -119,7 +119,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.select_from_config('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
         self.select_from_config('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
-        self.select_from_config('window-controls-style-options', self.window_controls_style_options, self.opt_array["win_controls_style"])
+        self.select_from_config('window-controls-layout-options', self.window_controls_layout_options, self.opt_array["win_controls_layout"])
 
         self.select_from_config('library-sidebar-options', self.library_sidebar_options, self.opt_array["library_sidebar"])
         self.select_from_config('hide-whats-new-switch', self.hide_whats_new_switch)
@@ -131,7 +131,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.config_from_select('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
         self.config_from_select('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
-        self.config_from_select('window-controls-style-options', self.window_controls_style_options, self.opt_array["win_controls_style"])
+        self.config_from_select('window-controls-layout-options', self.window_controls_layout_options, self.opt_array["win_controls_layout"])
 
         self.config_from_select('library-sidebar-options', self.library_sidebar_options, self.opt_array["library_sidebar"])
         self.config_from_select('hide-whats-new-switch', self.hide_whats_new_switch)
@@ -214,7 +214,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "rounded_corners": not self.get_selected_pref(self.no_rounded_corners_switch),
 
             "win_controls": self.get_selected_pref(self.window_controls_options, self.opt_array["win_controls"]),
-            "win_controls_style": self.get_selected_pref(self.window_controls_style_options, self.opt_array["win_controls_style"]),
+            "win_controls_layout": self.get_selected_pref(self.window_controls_layout_options, self.opt_array["win_controls_layout"]),
 
             "library_sidebar": self.get_selected_pref(self.library_sidebar_options, self.opt_array["library_sidebar"]),
             "library_whats_new": not self.get_selected_pref(self.hide_whats_new_switch),

@@ -49,22 +49,30 @@ def gen_cmd_line(options, beta_support):
             rounded_corners = ""
 
     match options["win_controls"].lower():
-        case "left":
-            win_controls = "-e windowcontrols/left "
-        case "left-all":
-            win_controls = "-e windowcontrols/left-all "
-        case "right-all":
-            win_controls = "-e windowcontrols/right-all "
-        case "none":
-            win_controls = "-e windowcontrols/none "
+        case "auto":
+            win_controls = "--windowcontrols-theme auto "
+        case "adwaita":
+            win_controls = "--windowcontrols-theme adwaita "
+        case "windows":
+            win_controls = "--windowcontrols-theme windows "
+        case "macos":
+            win_controls = "--windowcontrols-theme macos "
         case _:
             win_controls = ""
 
-    match options["win_controls_style"].lower():
-        case "dots":
-            win_controls_style = "-e windowcontrols/dots "
+    match options["win_controls_layout"].lower():
+        case "auto":
+            win_controls_layout = "--windowcontrols-layout auto "
+        case "adwaita":
+            win_controls_layout = "--windowcontrols-layout adwaita "
+        case "elementary":
+            win_controls_layout = "--windowcontrols-layout elementary "
+        case "windows":
+            win_controls_layout = "--windowcontrols-layout windows "
+        case "macos":
+            win_controls_layout = "--windowcontrols-layout macos "
         case _:
-            win_controls_style = ""
+            win_controls_layout = ""
 
 
     match options["library_sidebar"].lower():
@@ -95,7 +103,7 @@ def gen_cmd_line(options, beta_support):
         f"{rounded_corners}"
 
         f"{win_controls}"
-        f"{win_controls_style}"
+        f"{win_controls_layout}"
 
         f"{library_sidebar}"
         f"{library_whats_new}"

@@ -59,7 +59,7 @@ def get_options(option_string):
             "rounded_corners": not settings.get_boolean('no-rounded-corners-switch'),
 
             "win_controls": settings.get_string('window-controls-options'),
-            "win_controls_style": settings.get_string('window-controls-style-options'),
+            "win_controls_layout": settings.get_string('window-controls-layout-options'),
 
             "library_sidebar": settings.get_string('library-sidebar-options'),
             "library_whats_new": not settings.get_boolean('hide-whats-new-switch'),
@@ -75,8 +75,8 @@ def get_options(option_string):
 
             "rounded_corners": (True, False),
 
-            "win_controls": ("Default", "Right-All", "Left", "Left-All", "None"),
-            "win_controls_style": ("Default", "Dots"),
+            "win_controls": ("Auto", "Adwaita", "MacOS", "Windows"),
+            "win_controls_layout": ("Auto", "Adwaita", "Elementary", "MacOS", "Windows"),
 
             "library_sidebar": ("Show", "Hover Only"),
             "library_whats_new": (True, False),

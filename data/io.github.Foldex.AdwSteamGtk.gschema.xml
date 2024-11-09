@@ -13,21 +13,23 @@
 
     <!-- Window Controls -->
     <key name="window-controls-options" type="s">
-      <default>"Default"</default>
+      <default>"Auto"</default>
       <choices>
-        <choice value="Default"/>
-        <choice value="Right-All"/>
-        <choice value="Left"/>
-        <choice value="Left-All"/>
-        <choice value="None"/>
+        <choice value="Auto"/>
+        <choice value="Adwaita"/>
+        <choice value="Windows"/>
+        <choice value="MacOS"/>
       </choices>
     </key>
 
-    <key name="window-controls-style-options" type="s">
-      <default>"Default"</default>
+    <key name="window-controls-layout-options" type="s">
+      <default>"Auto"</default>
       <choices>
-        <choice value="Default"/>
-        <choice value="Dots"/>
+        <choice value="Auto"/>
+        <choice value="Adwaita"/>
+        <choice value="Elementary"/>
+        <choice value="MacOS"/>
+        <choice value="Windows"/>
       </choices>
     </key>
 
