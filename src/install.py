@@ -18,6 +18,9 @@
 import os
 import shlex
 import subprocess
+import gi
+
+from gi.repository import Gio, GLib
 
 from . import custom_css
 from . import paths
@@ -62,7 +65,11 @@ def gen_cmd_line(options, beta_support):
 
     match options["win_controls_layout"].lower():
         case "auto":
-            win_controls_layout = "--windowcontrols-layout auto "
+            button_layout = get_button_layout()
+            if button_layout:
+                win_controls_layout = f"--windowcontrols-layout {button_layout} "
+            else:
+                win_controls_layout = ""
         case "adwaita":
             win_controls_layout = "--windowcontrols-layout adwaita "
         case "elementary":
@@ -137,6 +144,25 @@ def release_missing():
 
 def zip_not_extracted():
     return os.path.exists(paths.LAST_RELEASE_FILE) and not os.path.exists(paths.EXTRACTED_DIR)
+
+def get_button_layout():
+    portal = Gio.DBusProxy.new_for_bus_sync(
+        Gio.BusType.SESSION,
+        Gio.DBusProxyFlags.NONE,
+        None,
+        "org.freedesktop.portal.Desktop",
+        "/org/freedesktop/portal/desktop",
+        "org.freedesktop.portal.desktop",
+        None
+    )
+
+    args = GLib.Variant('(ss)', ('org.gnome.desktop.wm.preferences', 'button-layout'))
+    button_layout = portal.call_sync('org.freedesktop.portal.Settings.ReadOne', args, Gio.DBusCallFlags.NONE, -1, None)
+
+    if button_layout:
+        return button_layout[0]
+    else:
+        return None
 
 def run(options, beta_support=False):
     if steam_dir_missing():
