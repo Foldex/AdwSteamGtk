@@ -13,9 +13,8 @@
 
     <!-- Window Controls -->
     <key name="window-controls-options" type="s">
-      <default>"Auto"</default>
+      <default>"Adwaita"</default>
       <choices>
-        <choice value="Auto"/>
         <choice value="Adwaita"/>
         <choice value="Windows"/>
         <choice value="MacOS"/>

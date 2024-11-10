@@ -75,7 +75,7 @@ def get_options(option_string):
 
             "rounded_corners": (True, False),
 
-            "win_controls": ("Auto", "Adwaita", "MacOS", "Windows"),
+            "win_controls": ("Adwaita", "MacOS", "Windows"),
             "win_controls_layout": ("Auto", "Adwaita", "Elementary", "MacOS", "Windows"),
 
             "library_sidebar": ("Show", "Hover Only"),
