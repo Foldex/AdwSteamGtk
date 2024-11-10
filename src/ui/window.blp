@@ -56,13 +56,13 @@ template $AdwaitaSteamGtkWindow : ApplicationWindow {
         Adw.PreferencesGroup window_controls_group {
           title: _("Window Controls Options");
           Adw.ComboRow window_controls_options {
-            title: _("Window Controls");
-            tooltip-text: _("Changes Window Control Theme.");
+            title: _("Controls Style");
+            tooltip-text: _("Changes Minimize/Maximize/Close Button Theme");
             model: StringList { strings [_("Adwaita"), _("MacOS"), _("Windows")] };
           }
           Adw.ComboRow window_controls_layout_options {
-            title: _("Controls Style");
-            tooltip-text: _("Changes Window Control Layout.");
+            title: _("Controls Button Layout");
+            tooltip-text: _("Changes Minimize/Maximize/Close Button Layout and Position");
             model: StringList { strings [_("Auto"), _("Adwaita"), _("Elementary"), _("MacOS"), _("Windows")] };
           }
         }
