@@ -45,6 +45,13 @@
   </categories>
 
   <releases>
+    <release version="0.7.0" type="stable" date="2024-11-10">
+      <description translate="no">
+        <ul>
+          <li>Updated to use new window control options</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.11" type="stable" date="2024-05-08">
       <description translate="no">
         <ul>
