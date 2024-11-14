@@ -20,8 +20,8 @@ from enum import Enum
 
 from . import info
 from . import install
+from . import style
 from . import update
-from . import zip
 
 class result(Enum):
     CONTINUE = 0
@@ -105,7 +105,7 @@ def get_options(option_string):
                 print(_("{key}: {cur_val} invalid value").format(key=key, cur_val=cur_val))
 
 
-        themes_list, msg = zip.get_color_themes()
+        themes_list, msg = style.get_color_themes()
 
         if themes_list == ["Adwaita"]:
             print(_("Could not get theme list. Falling back to last selected theme."))
