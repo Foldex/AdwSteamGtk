@@ -45,6 +45,13 @@
   </categories>
 
   <releases>
+    <release version="0.7.2" type="stable" date="2024-11-23">
+      <description translate="no">
+        <ul>
+          <li>Improved error handling when retrieving window control settings through portal</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.7.1" type="stable" date="2024-11-14">
       <description translate="no">
         <ul>
