@@ -157,7 +157,12 @@ def get_button_layout():
     )
 
     args = GLib.Variant('(ss)', ('org.gnome.desktop.wm.preferences', 'button-layout'))
-    button_layout = portal.call_sync('org.freedesktop.portal.Settings.ReadOne', args, Gio.DBusCallFlags.NONE, -1, None)
+
+    try:
+        button_layout = portal.call_sync('org.freedesktop.portal.Settings.ReadOne', args, Gio.DBusCallFlags.NONE, -1, None)
+    except GLib.GError:
+        print(_("Could not grab window control settings from desktop portal, falling back to default"))
+        button_layout = None
 
     if button_layout:
         return button_layout[0]
