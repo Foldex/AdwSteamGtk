@@ -8,45 +8,50 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-29 23:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "Adwsteamgtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr ""
+msgstr "அட்வைதா சிகிச்சையை நீராவி கொடுங்கள்"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
 msgid "Foldex"
-msgstr ""
+msgstr "மடிப்பு"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
+"நீராவி உங்கள் கணினியில் சொந்தமானது போல் தோற்றமளிக்கவும். இந்த பயன்பாடு உங்களுக்கான அட்வைட்டா-க்கு-நீராவி தோலை நிறுவி "
+"புதுப்பிக்கிறது. இது போன்ற எளிது:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid "Configure the skin to your liking"
-msgstr ""
+msgstr "உங்கள் விருப்பப்படி தோலை உள்ளமைக்கவும்"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:31
 msgid "Click the “Apply” button"
-msgstr ""
+msgstr "“விண்ணப்பிக்கவும்” பொத்தானைக் சொடுக்கு செய்க"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:32
 msgid "Restart Steam"
-msgstr ""
+msgstr "நீராவியை மறுதொடக்கம் செய்யுங்கள்"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:34
 msgid ""
@@ -54,45 +59,49 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
+"தொடக்கத்தில், பயன்பாடு தானாகவே சருமத்தில் எந்த புதுப்பிப்புகளையும் பதிவிறக்கம் செய்து அறிவிப்பைக் காண்பிக்கும். சருமத்தை "
+"மீண்டும் தடவி, மாற்றங்களை பயன்பாட்டுக்கு கொண்டு செல்ல நீராவியை மறுதொடக்கம் செய்யுங்கள்."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:38
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
+"நீராவியில் வட்டமான மூலைகளைப் பெறுவதற்கு, நீங்கள் “வட்டமான சாளர மூலைகள்” க்னோம் நீட்டிப்பைப் பயன்படுத்த வேண்டும்."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:244
 msgid "Main Window"
-msgstr ""
+msgstr "முதன்மை சாளரம்"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:248
 msgid "Theme Preview"
-msgstr ""
+msgstr "கருப்பொருள் முன்னோட்டம்"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:252
 msgid "Login Preview"
-msgstr ""
+msgstr "உள்நுழைவு முன்னோட்டம்"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "நீராவிக்கு அட்வைதாவை நிறுவும் எளிய ரேப்பர்"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "நீராவி; ஆத்வைதா; தோல்;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "புதுப்பித்த நிலையில்."
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr ""
+msgstr "{key}: {cur_val} தவறான மதிப்பு"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
+"கருப்பொருள் பட்டியலைப் பெற முடியவில்லை. கடைசியாக தேர்ந்தெடுக்கப்பட்ட கருப்பொருளுக்கு மீண்டும் விழுகிறது."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -100,305 +109,312 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
+"கருப்பொருள் பட்டியலில் கருப்பொருள் {colortheme} ஐ கண்டுபிடிக்க முடியவில்லை. கடைசியாகத் தேர்ந்தெடுக்கப்பட்ட "
+"கருப்பொருளுக்கு மீண்டும் விழுகிறது."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "புதிய வெளியீடு கிடைக்கிறது: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "புதுப்பிப்பு சோதனை தோல்வியடைந்தது: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: HTTP பிழைக் குறியீடு "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr ""
+msgstr "ஏபிஐ: பிழை பாகுபடுத்தும் சாதொபொகு"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "ஏபிஐ: வெளியீட்டு தகவலை மீட்டெடுப்பதில் பிழை"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr ""
+msgstr "ஏபிஐ: சாதொபொகு தேவையான விசைகளைக் காணவில்லை"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "வெளியீடு: HTTP பிழைக் குறியீடு "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "வெளியீடு: இணைப்பு மீட்டமைப்பு"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr ""
+msgstr "வெளியீடு: இசைவு பிழை"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr ""
+msgstr "வெளியீடு: இணைப்பு நேரம் முடிந்தது"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "வெளியீடு: ZIP ஐ மீட்டெடுப்பதில் பிழை"
 
 #: src/install.py:132
 msgid "Install: Found no Valid Install Targets"
-msgstr ""
+msgstr "நிறுவு: சரியான நிறுவல் இலக்குகள் இல்லை"
 
 #: src/install.py:135
 msgid "Install: Installer Process Failed"
-msgstr ""
+msgstr "நிறுவு: நிறுவி செயல்முறை தோல்வியடைந்தது"
 
 #: src/install.py:169
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
 msgstr ""
+"நிறுவு: செல்லுபடியாகும் '~/.ச்டீம்/நீராவி' சிம்லிங்கைக் கண்டுபிடிக்கத் தவறிவிட்டது"
 
 #: src/main.py:138
 msgid "Upstream"
-msgstr ""
+msgstr "மேலோடை"
 
 #: src/main.py:139
 msgid "Translators"
-msgstr ""
+msgstr "மொழிபெயர்ப்பாளர்கள்"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "கருப்பொருள் நிறுவல் நீக்குதல்"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
 msgstr ""
+"இது நீராவி கிளையண்டிற்கு செய்யப்பட்ட அனைத்து தனிப்பயனாக்கங்களையும் மீட்டமைக்கும்."
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr ""
+msgstr "ரத்துசெய்"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr ""
+msgstr "நிறுவல் நீக்க"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "புதிய வெளியீட்டு பதிவிறக்க: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "மீண்டும் முயற்சிக்கவும்"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "கருப்பொருள் நிறுவப்பட்டது"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr ""
+msgstr "கருப்பொருள்களைப் பெறுங்கள்: கருப்பொருள்களைப் பெறுவதில் தோல்வி"
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
+msgstr "நடை: கருப்பொருள் {theme_name} கண்டுபிடிக்க முடியவில்லை"
 
 #: src/style.py:122
 #, python-brace-format
 msgid "Style: Theme {theme_name} seems to be invalid"
-msgstr ""
+msgstr "நடை: கருப்பொருள் {theme_name} தவறானது என்று தெரிகிறது"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr ""
+msgstr "விருப்பத்தேர்வுகள்"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
-msgstr ""
+msgstr "ஆட்டோச்டார்ட்"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr ""
+msgstr "ஆட்டோ புதுப்பிப்பு சோதனை"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
 msgstr ""
+"பயனர் உள்நுழைவு குறித்த கருப்பொருள் புதுப்பிப்புகளை சரிபார்த்து அறிவிக்கிறது."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "பீட்டா"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr ""
+msgstr "சோதனை பீட்டா உதவி"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr ""
+msgstr "பீட்டா ஆதரவை இயக்குகிறது (மறுதொடக்கம் தேவை)"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr ""
+msgstr "நிறுவி"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr ""
+msgstr "தனிப்பயன் சிஎச்எச்"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr ""
+msgstr "தனிப்பயன் சிஎச்எச் ஐ நீராவியில் சேர்க்கவும்"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "தனிப்பயன் சிஎச்எச் செய்தி"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr ""
+msgstr "தனிப்பயன் சிஎச்எச் கோப்பைத் திருத்தவும்"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr ""
+msgstr "இடைமுகம்"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr ""
+msgstr "கருப்பொருள்கள் முன்னோட்டம்"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
 msgstr ""
+"தற்போது தேர்ந்தெடுக்கப்பட்ட கருப்பொருளுடன் பொருந்தக்கூடிய இடைமுகத்தை ச்டைல்கள்."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "அட்வைதா நீராவி நிறுவி"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "இடு"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "கருப்பொருள் விருப்பங்கள்"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "வண்ண கருப்பொருள்"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "நீராவி இடைமுகத்தின் வண்ண கருப்பொருளை மாற்றவும்."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "வட்டமான மூலைகள் இல்லை"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "இடைமுகத்திலிருந்து மென்மையான வட்டமான மூலைகளை நீக்குகிறது."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr ""
+msgstr "சாளரம் விருப்பங்களை கட்டுப்படுத்துகிறது"
 
 #: src/ui/window.blp:59
 msgid "Controls Style"
-msgstr ""
+msgstr "பாணியைக் கட்டுப்படுத்துகிறது"
 
 #: src/ui/window.blp:60
 msgid "Changes Minimize/Maximize/Close Button Theme"
-msgstr ""
+msgstr "மாற்றங்கள் பொத்தான் கருப்பொருளை குறைக்க/அதிகரிக்க/மூடு"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Adwaita"
-msgstr ""
+msgstr "மீண்டும் கைப்பற்றுதல்"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "MacOS"
-msgstr ""
+msgstr "மேகோச்"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Windows"
-msgstr ""
+msgstr "சாளரங்கள்"
 
 #: src/ui/window.blp:64
 msgid "Controls Button Layout"
-msgstr ""
+msgstr "பொத்தான் தளவமைப்பைக் கட்டுப்படுத்துகிறது"
 
 #: src/ui/window.blp:65
 msgid "Changes Minimize/Maximize/Close Button Layout and Position"
-msgstr ""
+msgstr "மாற்றங்கள் பொத்தான் தளவமைப்பு மற்றும் நிலையை குறைக்க/அதிகரிக்க/மூடு"
 
 #: src/ui/window.blp:66
 msgid "Auto"
-msgstr ""
+msgstr "தானி"
 
 #: src/ui/window.blp:66
 msgid "Elementary"
-msgstr ""
+msgstr "அடிப்படை"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "நூலக விருப்பங்கள்"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr ""
+msgstr "நூலக பக்கப்பட்டி"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "நூலகத்தின் இடது பக்கப்பட்டிக்கான காட்சி விருப்பங்களை மாற்றுகிறது."
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "காட்டு"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr ""
+msgstr "வட்டமிட மட்டுமே"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr ""
+msgstr "புதிய அலமாரியை நூலகத்தை மறைக்கவும்"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
-msgstr ""
+msgstr "நூலகத்தின் மேல் புதிய புதுப்பிப்புகள் பிரிவின் காட்சியை முடக்குகிறது."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr ""
+msgstr "உள்நுழைவு விருப்பங்கள்"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr ""
+msgstr "QR குறியீடு உள்நுழைவு"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
 msgstr ""
+"உள்நுழைவு உரையாடலில் மொபைல் QR குறியீட்டிற்கான காட்சி விருப்பங்களை மாற்றுகிறது."
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr ""
+msgstr "மறை"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr ""
+msgstr "_ முனைகள்"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr ""
+msgstr "நிறுவல்நீக்கு(_U)"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "_About adwsteamgtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr ""
+msgstr "பிரித்தெடுத்தல்: சிப் காப்பகத்தைப் படிக்கத் தவறிவிட்டது"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr ""
+msgstr "பிரித்தெடுத்தல்: மோசமான சிப் கோப்பு"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr ""
+msgstr "பிரித்தெடுத்தல்: சிப் கோப்பைப் பிரித்தெடுப்பதில் தோல்வி"
