@@ -45,7 +45,7 @@ def parse_css(file):
     with open (file, 'r' ) as f:
         content = f.read()
 
-    pattern = r'--([\w-]+)\s*:\s*(.*);'
+    pattern = r'--([\w-]+)\s*:\s*(.*?)(?:\s*!important)?;'
     matches = re.findall(pattern, content)
 
     vars = {}
