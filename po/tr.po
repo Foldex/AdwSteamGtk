@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2025-02-18 14:02+0000\n"
-"Last-Translator: polarwood <polarwood@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-02-27 09:07+0000\n"
+"Last-Translator: Emre <emregokcew10@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.10.2-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -140,7 +140,7 @@ msgstr "İlk Almanca Çeviri"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:105
 msgid "Added hover tooltips to installer options"
-msgstr ""
+msgstr "Yükleyici seçeneklerine vurgulu araç ipuçları eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:112
 msgid "Added French, Ukrainian, and Russian Translations"
@@ -152,7 +152,7 @@ msgstr "Yeni Kullanıcı Arayüzü"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:120
 msgid "Added Experimental Beta Client Support (with new options)"
-msgstr ""
+msgstr "Deneysel Beta İstemci Desteği Eklendi (yeni seçeneklerle)"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:121
 msgid "Added Custom CSS Option"
@@ -176,63 +176,67 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
 msgid "Colortheme is now previewed in app"
-msgstr ""
+msgstr "Colortheme artık uygulamada önizleniyor"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:145
 msgid "Added -u/-i arguments to install skin via commandline"
 msgstr ""
+"Komut satırı üzerinden dış görünüm yüklemek için -u/-i argümanları eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
 msgid "Added -o argument to override install options for -i/-u"
 msgstr ""
+"i/-u için yükleme seçeneklerini geçersiz kılmak üzere -o bağımsız değişkeni "
+"eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:153
 msgid "Added Library Sidebar Options"
-msgstr ""
+msgstr "Kütüphane Kenar Çubuğu Seçenekleri Eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:160
 msgid "Updated to Gnome 44 Runtime"
-msgstr ""
+msgstr "Gnome 44 Çalışma Zamanına Güncellendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:161
 msgid "Changed Default Web Theme to Full Variant"
-msgstr ""
+msgstr "Varsayılan Web Teması Tam Varyant olarak değiştirildi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:168
 msgid "Fixed Installer CLI Output"
-msgstr ""
+msgstr "Sabit Yükleyici CLI Çıktısı"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:175
 msgid "Added Color Theme Support"
-msgstr ""
+msgstr "Renk Teması Desteği Eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:176
 msgid "Added -c argument to notify about updates"
 msgstr ""
+"Güncellemeler hakkında bildirimde bulunmak için -c bağımsız değişkeni eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:183
 msgid "Last chosen settings are now loaded at startup"
-msgstr ""
+msgstr "Son seçilen ayarlar artık başlangıçta yükleniyor"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:184
 msgid "Changed display of install button if the theme is already installed"
-msgstr ""
+msgstr "Tema zaten yüklüyse yükle düğmesinin görüntüsü değiştirildi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:191
 msgid "Added None to Window Control Options"
-msgstr ""
+msgstr "Pencere Kontrol Seçeneklerine Hiçbiri Eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:198
 msgid "Added QR Login Options"
-msgstr ""
+msgstr "QR Giriş Seçenekleri Eklendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:199
 msgid "Improved Missing Dir Messages"
-msgstr ""
+msgstr "Geliştirilmiş Kayıp Dir Mesajları"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:206
 msgid "Updated to Gnome 43 SDK"
-msgstr ""
+msgstr "Gnome 43 SDK'ye güncellendi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:207
 msgid "Implemented AdwAboutWindow"
@@ -240,11 +244,11 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:208
 msgid "Updated Filesystem Permissions"
-msgstr ""
+msgstr "Güncellenmiş Dosya Sistemi İzinleri"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:209
 msgid "Fixed Quit Shortcut"
-msgstr ""
+msgstr "Çıkış Kısayolu Düzeltildi"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:210
 msgid "Fixed Current Check"
@@ -455,7 +459,7 @@ msgstr "Arayüzü o anda seçili temayla eşleşecek şekilde şekillendirir."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr "Adwaita Steam Kurucu"
+msgstr "Adwaita Steam Yükleyicisi"
 
 #: src/ui/window.blp:14
 msgid "Apply"
