@@ -45,6 +45,16 @@
   </categories>
 
   <releases>
+    <release version="0.8.0" type="stable" date="2025-03-01">
+      <description translate="no">
+        <ul>
+          <li>Fixed theme previews</li>
+          <li>Allow previewing themes that are partial</li>
+          <li>Window Controls can now be disabled entirely</li>
+          <li>Updated Translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.7.2" type="stable" date="2024-11-23">
       <description translate="no">
         <ul>
