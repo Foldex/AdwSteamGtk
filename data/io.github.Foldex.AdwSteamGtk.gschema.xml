@@ -29,6 +29,7 @@
         <choice value="Elementary"/>
         <choice value="MacOS"/>
         <choice value="Windows"/>
+        <choice value="None"/>
       </choices>
     </key>
 
@@ -74,3 +75,4 @@
 
   </schema>
 </schemalist>
+

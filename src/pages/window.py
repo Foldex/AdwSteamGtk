@@ -59,7 +59,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "color_theme": ["Adwaita"],
 
             "win_controls": ["Adwaita", "MacOS", "Windows"],
-            "win_controls_layout": ["Auto", "Adwaita", "Elementary", "MacOS", "Windows"],
+            "win_controls_layout": ["Auto", "Adwaita", "Elementary", "MacOS", "Windows", "None"],
 
             "library_sidebar": ["Show", "Hover Only"],
 

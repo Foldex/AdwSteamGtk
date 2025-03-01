@@ -78,6 +78,8 @@ def gen_cmd_line(options, beta_support):
             win_controls_layout = "--windowcontrols-layout windows "
         case "macos":
             win_controls_layout = "--windowcontrols-layout macos "
+        case "none":
+            win_controls_layout = "--windowcontrols-layout ':' "
         case _:
             win_controls_layout = ""
 
