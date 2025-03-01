@@ -118,7 +118,7 @@ def generate_style(theme_name):
     style_vars = lookup_css(style_vars, theme_vars)
     style = format_css(style_vars)
 
-    if None in style_vars.values():
+    if all(x is None for x in style_vars.values()):
         return (False, _("Style: Theme {theme_name} seems to be invalid").format(theme_name=theme_name))
 
     # Hardcoded Styles
