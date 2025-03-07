@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
-"PO-Revision-Date: 2023-11-25 11:02+0000\n"
-"Last-Translator: muggs <rsr.mugen@gmail.com>\n"
+"PO-Revision-Date: 2025-03-07 09:06+0000\n"
+"Last-Translator: AnaxMorden <Anax.Morden@e.email>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/de/>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1-rc\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -312,7 +312,7 @@ msgstr "Install: Kein zulässiger '~/.steam/steam' Symlink gefunden"
 
 #: src/main.py:136
 msgid "Upstream"
-msgstr "Urheber"
+msgstr "Upstream"
 
 #: src/main.py:137
 msgid "Translators"
