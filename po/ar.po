@@ -8,45 +8,51 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-03-08 17:23+0000\n"
+"Last-Translator: 5wi_5wi <aziz.mi.b.jed@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr ".AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr ""
+msgstr "امنح ستيم طابع Adwaita"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
 msgid "Foldex"
-msgstr ""
+msgstr ".Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
+"اجعل ستيم يبدو وكأنه جزء من نظامك. يقوم هذا التطبيق بتثبيت وتحديث مظهر "
+"\"Adwaita for steam\" من أجلك. إنه بهذه البساطة:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid "Configure the skin to your liking"
-msgstr ""
+msgstr "قم بتكوين المظهر حسب رغبتك"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:31
 msgid "Click the “Apply” button"
-msgstr ""
+msgstr "انقر على زر \"تطبيق\""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:32
 msgid "Restart Steam"
-msgstr ""
+msgstr "أعد تشغيل ستيم"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:34
 msgid ""
@@ -54,45 +60,51 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
+"عند بدء التشغيل، سيقوم التطبيق بتنزيل أي تحديثات للمظهر تلقائيًا وسيعرض إشعارً"
+"ا. قم بتطبيق المظهر مرة أخرى وأعد تشغيل ستيم لتفعيل التغييرات."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:38
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
+"للحصول على زوايا مستديرة في ستيم، ستحتاج إلى استخدام إضافة GNOME "
+"\"زوايا النوافذ المستديرة\"."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:244
 msgid "Main Window"
-msgstr ""
+msgstr "النافذة الرئيسية"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:248
 msgid "Theme Preview"
-msgstr ""
+msgstr "معاينة السمة"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:252
 msgid "Login Preview"
-msgstr ""
+msgstr "معاينة تسجيل الدخول"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "أداة بسيطة تقوم بتثبيت Adwaita لـ Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;مظهر;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "محدث."
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr ""
+msgstr "{key}: {cur_val} قيمة غير صالحة"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
+"لم يتمكن من الحصول على قائمة السمات. الرجوع إلى السمة التي تم اختيارها آخر "
+"مرة."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -100,305 +112,307 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
+"لم يتمكن من العثور على السمة {colortheme} في قائمة السمات. الرجوع إلى السمة "
+"التي تم اختيارها آخر مرة."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "إصدار جديد متاح: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "فشل التحقق من التحديث: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: رمز HTTP خطأ "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr ""
+msgstr "API: خطأ في تحليل JSON"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "API: خطأ في استرداد معلومات الإصدار"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr ""
+msgstr "API: JSON يفتقد المفاتيح المطلوبة"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "الإصدار: رمز HTTP خطأ "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "الإصدار: إعادة تعيين الاتصال"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr ""
+msgstr "الإصدار: خطأ في الإذن"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr ""
+msgstr "الإصدار: انتهاء مهلة الاتصال"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "الإصدار: خطأ في استرداد الملف المضغوط (Zip)"
 
 #: src/install.py:132
 msgid "Install: Found no Valid Install Targets"
-msgstr ""
+msgstr "التثبيت: لم يتم العثور على أهداف تثبيت صالحة"
 
 #: src/install.py:135
 msgid "Install: Installer Process Failed"
-msgstr ""
+msgstr "التثبيت: فشل عملية المثبت"
 
 #: src/install.py:169
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
-msgstr ""
+msgstr "التثبيت: فشل في العثور على رابط رمزي صالح '~/.steam/steam'"
 
 #: src/main.py:138
 msgid "Upstream"
-msgstr ""
+msgstr "المصدر الأصلي"
 
 #: src/main.py:139
 msgid "Translators"
-msgstr ""
+msgstr "المترجمون"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "إلغاء تثبيت السمة"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
-msgstr ""
+msgstr "سيؤدي هذا إلى إعادة تعيين جميع التخصيصات التي تم إجراؤها على ستيم."
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr ""
+msgstr "إلغاء التثبيت"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "تنزيل إصدار جديد: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "إعادة المحاولة"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "تم تثبيت السمة"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr ""
+msgstr "الحصول على السمات: فشل في الحصول على السمات"
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
+msgstr "الأسلوب: تعذر العثور على السمة {theme_name}"
 
 #: src/style.py:122
 #, python-brace-format
 msgid "Style: Theme {theme_name} seems to be invalid"
-msgstr ""
+msgstr "النمط: يبدو أن السمة {theme_name} غير صالحة"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr ""
+msgstr "التفضيلات"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
-msgstr ""
+msgstr "التشغيل التلقائي"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr ""
+msgstr "التحقق التلقائي من التحديثات"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
-msgstr ""
+msgstr "يتحقق ويُعلم بتحديثات السمة عند تسجيل دخول المستخدم."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "نسخة تجريبية"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr ""
+msgstr "دعم تجريبي للنسخة التجريبية"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr ""
+msgstr "يُمكّن دعم النسخة التجريبية (يتطلب إعادة تشغيل)"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr ""
+msgstr "المثبت"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr ""
+msgstr "CSS خاص"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr ""
+msgstr "تضمين CSS مخصص في ستيم"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "معلومات CSS المخصص"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr ""
+msgstr "تعديل ملف CSS المخصص"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr ""
+msgstr "الواجهة"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr ""
+msgstr "معاينة السمات"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
-msgstr ""
+msgstr "يُصمم الواجهة لتتناسب مع السمة المختارة حاليًا."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "مثبت Adwaita ستيم"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "تطبيق"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "خيارات السمة"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "لون السمة"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "يغير سمة اللون لواجهة ستيم."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "بدون زوايا مدورة"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "يزيل الزوايا المدورة الناعمة من الواجهة."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr ""
+msgstr "خيارات التحكم في النافذة"
 
 #: src/ui/window.blp:59
 msgid "Controls Style"
-msgstr ""
+msgstr "أسلوب التحكم"
 
 #: src/ui/window.blp:60
 msgid "Changes Minimize/Maximize/Close Button Theme"
-msgstr ""
+msgstr "يغيّر سمة أزرار التصغير/التكبير/الإغلاق"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Adwaita"
-msgstr ""
+msgstr ".Adwaita"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "MacOS"
-msgstr ""
+msgstr "نظام ماك"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Windows"
-msgstr ""
+msgstr "ويندوز"
 
 #: src/ui/window.blp:64
 msgid "Controls Button Layout"
-msgstr ""
+msgstr "يتحكم في تخطيط أزرار التحكم"
 
 #: src/ui/window.blp:65
 msgid "Changes Minimize/Maximize/Close Button Layout and Position"
-msgstr ""
+msgstr "يغيّر تخطيط وموقع أزرار التصغير/التكبير/الإغلاق"
 
 #: src/ui/window.blp:66
 msgid "Auto"
-msgstr ""
+msgstr "تلقائي"
 
 #: src/ui/window.blp:66
 msgid "Elementary"
-msgstr ""
+msgstr "إليمينتري"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "خيارات المكتبة"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr ""
+msgstr "الشريط الجانبي للمكتبة"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "يغير خيارات العرض للشريط الجانبي الأيسر للمكتبة."
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "عرض"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr ""
+msgstr "عند التمرير فقط"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr ""
+msgstr "إخفاء رف \"ما الجديد (What's new) \" في المكتبة"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
-msgstr ""
+msgstr "يعطل عرض قسم التحديثات الجديدة أعلى المكتبة."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr ""
+msgstr "خيارات تسجيل الدخول"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr ""
+msgstr "تسجيل الدخول باستخدام رمز الاستجابة السريعة"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr ""
+msgstr "يغير خيارات العرض لرمز الاستجابة السريعة للجوال في نافذة تسجيل الدخول."
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr ""
+msgstr "اخفاء"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr ""
+msgstr "_التفضيلات"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr ""
+msgstr "_إلغاء التثبيت"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "_عن AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr ""
+msgstr "الاستخراج: فشل في قراءة أرشيف ZIP"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr ""
+msgstr "الاستخراج: ملف ZIP تالف"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr ""
+msgstr "الاستخراج: فشل في استخراج ملف ZIP"
