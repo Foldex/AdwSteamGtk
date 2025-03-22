@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-03-22 08:37+0000\n"
+"Last-Translator: Raihwy <raihwy@outlook.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -269,39 +272,39 @@ msgstr ""
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Adwaita Steam Telepítő"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "Alkalmaz"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "Téma Opciók"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "Színtéma"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Módosítja a Steam felületének színtémáját."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "Nem lekerekített sarkok"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Eltávolítja a sima, lekerekített sarkokat a felületről."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr ""
+msgstr "Ablakkezelő beállításai"
 
 #: src/ui/window.blp:59
 msgid "Controls Style"
-msgstr ""
+msgstr "Ablak stílusa"
 
 #: src/ui/window.blp:60
 msgid "Changes Minimize/Maximize/Close Button Theme"
@@ -337,19 +340,19 @@ msgstr ""
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "Könyvtár beállításai"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr ""
+msgstr "Könyvtár Oldalsáv"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "Módosítja a könyvtár bal oldalsávjának megjelenítési beállításait."
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "Megjelenítés"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
