@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.Foldex.AdwSteamGtk",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "command": "adwaita-steam-gtk",
     "finish-args": [
