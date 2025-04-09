@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**This is not an issue with the [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam) itself (Not a visual glitch, Colortheme Request, etc):**
+**This is not an issue with [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam) itself (Not a visual glitch, Colortheme Request, etc):**
 
 - [ ] Yes
 
