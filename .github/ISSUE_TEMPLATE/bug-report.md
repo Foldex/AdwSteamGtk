@@ -7,7 +7,11 @@ assignees: ''
 
 ---
 
-**This issue is a problem with AdwSteamGtk and not the [Theme](https://github.com/tkashkin/Adwaita-for-Steam) it installs:**
+**This is not an issue with the [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam) itself (Not a visual glitch, Colortheme Request, etc):**
+
+- [ ] Yes
+
+**I have tried using the [Adwaita for Steam CLI Install Script](https://github.com/tkashkin/Adwaita-for-Steam) and this issue only occurs with AdwSteamGtk**
 
 - [ ] Yes
 
