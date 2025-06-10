@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2025-01-29 14:01+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2025-06-11 12:01+0000\n"
+"Last-Translator: Kieli Puoli <kielipuoli@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/fi/>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -73,27 +73,27 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:46
 msgid "Added Czech Translation"
-msgstr ""
+msgstr "Tšekinkielinen käännös lisätty"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:47
 msgid "Added Spanish Translation"
-msgstr ""
+msgstr "Espanjankielinen käännös lisätty"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:48
 msgid "Updated French Translation"
-msgstr ""
+msgstr "Ranskankielinen käännös päivitetty"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:49
 msgid "New Application Icon"
-msgstr ""
+msgstr "Uusi sovelluskuvake"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:50
 msgid "Updated Libportal"
-msgstr ""
+msgstr "Libportal päivitetty"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:57
 msgid "Fixed issue with Uninstall"
-msgstr ""
+msgstr "Asennuksen poistoon liittynyt ongelma korjattu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:64
 msgid "Removed Deprecated Font Install Preference"
@@ -102,11 +102,12 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:71
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:95
 msgid "Fixed Appdata"
-msgstr ""
+msgstr "Sovelluksen tiedot korjattu"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:72
+#, fuzzy
 msgid "Removed some options that no longer exist upstream"
-msgstr ""
+msgstr "Poistettu joitakin asetuksia, joita ei enää ole jäljempänä"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:79
 msgid "Updated Russian Translation"
@@ -118,11 +119,11 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:87
 msgid "Updated German and Ukrainian Translations"
-msgstr ""
+msgstr "Saksan- ja ukrainankieliset käännökset päivitetty"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:88
 msgid "Added Portuguese Translation"
-msgstr ""
+msgstr "Portugalinkielinen käännös lisätty"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:102
 msgid "Beta Toggle removed as new UI support landed upstream"
@@ -136,7 +137,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:104
 msgid "Initial German Translation"
-msgstr ""
+msgstr "Alustava saksankielinen käännös"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:105
 msgid "Added hover tooltips to installer options"
@@ -148,7 +149,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:119
 msgid "New UI"
-msgstr ""
+msgstr "Uusi käyttöliittymä"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:120
 msgid "Added Experimental Beta Client Support (with new options)"
@@ -176,11 +177,11 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:144
 msgid "Colortheme is now previewed in app"
-msgstr ""
+msgstr "Väriteemaa voi nyt esikatsella sovelluksessa"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:145
 msgid "Added -u/-i arguments to install skin via commandline"
-msgstr ""
+msgstr "Lisätty -u/-i-argumentit ulkoasun asentamiseen komentoriviltä"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:146
 msgid "Added -o argument to override install options for -i/-u"
