@@ -47,4 +47,4 @@ def create():
         f.write(TEMPLATE)
 
 def install():
-    shutil.copy(paths.CUSTOM_CSS_FILE, paths.CUSTOM_CSS_FILE_DEST)
+    shutil.copyfile(paths.CUSTOM_CSS_FILE, paths.CUSTOM_CSS_FILE_DEST)
