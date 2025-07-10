@@ -27,7 +27,7 @@ msgstr ".AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr "امنح ستيم طابع Adwaita"
+msgstr "امنح ستيم طابع أدوايتا"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
@@ -39,12 +39,12 @@ msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
-"اجعل ستيم يبدو وكأنه جزء من نظامك. يقوم هذا التطبيق بتثبيت وتحديث مظهر "
-"\"Adwaita for steam\" من أجلك. إنه بهذه البساطة:"
+"اجعل ستيم يبدو وكأنه جزء من نظامك. يقوم هذا التطبيق بتصنيب وتحديث مظهر «"
+"Adwaita for steam» من أجلك. إنه بهذه البساطة:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid "Configure the skin to your liking"
-msgstr "قم بتكوين المظهر حسب رغبتك"
+msgstr "يكوِّن المظهر حسب رغبتك"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:31
 msgid "Click the “Apply” button"
@@ -85,11 +85,11 @@ msgstr "معاينة تسجيل الدخول"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr "أداة بسيطة تقوم بتثبيت Adwaita لـ Steam"
+msgstr "أداة بسيطة تُنصِّب أدوايتا لستيم"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr "Steam;Adwaita;مظهر;"
+msgstr "ستيم;أدوايتا;المظهر;الجلد; Steam;Adwaita;Skin;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
@@ -102,7 +102,7 @@ msgstr "{key}: {cur_val} قيمة غير صالحة"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr "تعذَّر الحصول على قائمة السمات. سيرجغ إلى السمة التي اختيرت آخر مرة."
+msgstr "تعذَّر الحصول على قائمة السمات. سيرجع إلى السمة التي اختيرت آخر مرة."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -110,8 +110,8 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
-"لم يتمكن من العثور على السمة {colortheme} في قائمة السمات. الرجوع إلى السمة "
-"التي تم اختيارها آخر مرة."
+"تعذَّر العثور على سمة {colortheme} في قائمة السمات. سيرجع إلى السمة التي "
+"اختيرت آخر مرة."
 
 #: src/cli.py:132
 msgid "New Release Available: "
@@ -119,7 +119,7 @@ msgstr "إصدار جديد متاح: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr "فشل التحقق من التحديث: "
+msgstr "تعذَّر التحقق من التحديث: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
