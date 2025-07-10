@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: 2025-03-08 17:23+0000\n"
-"Last-Translator: 5wi_5wi <aziz.mi.b.jed@gmail.com>\n"
+"PO-Revision-Date: 2025-07-11 05:04+0000\n"
+"Last-Translator: Ahmed Najmawi <iramosu@protonmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/ar/>\n"
 "Language: ar\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -283,11 +283,11 @@ msgstr "يُصمم الواجهة لتتناسب مع السمة المختار�
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr "مثبت Adwaita ستيم"
+msgstr "منصِّب أدوايتا لستيم"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr "تطبيق"
+msgstr "طبِّق"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
@@ -299,11 +299,11 @@ msgstr "لون السمة"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr "يغير سمة اللون لواجهة ستيم."
+msgstr "يغيِّر لون السمة لواجهة ستيم."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr "بدون زوايا مدورة"
+msgstr "لا زوايا مدورة"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
