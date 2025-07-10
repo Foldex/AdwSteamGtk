@@ -93,7 +93,7 @@ msgstr "Steam;Adwaita;مظهر;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr "محدث."
+msgstr "مُحدَّث."
 
 #: src/cli.py:105
 #, python-brace-format
@@ -102,9 +102,7 @@ msgstr "{key}: {cur_val} قيمة غير صالحة"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr ""
-"لم يتمكن من الحصول على قائمة السمات. الرجوع إلى السمة التي تم اختيارها آخر "
-"مرة."
+msgstr "تعذَّر الحصول على قائمة السمات. سيرجغ إلى السمة التي اختيرت آخر مرة."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -161,15 +159,15 @@ msgstr "الإصدار: خطأ في استرداد الملف المضغوط (Zi
 
 #: src/install.py:132
 msgid "Install: Found no Valid Install Targets"
-msgstr "التصنيب: لم يعثر على أهداف تنصيب صالحة"
+msgstr "التنصيب: لم يعثر على أهداف تنصيب صالحة"
 
 #: src/install.py:135
 msgid "Install: Installer Process Failed"
-msgstr "التثبيت: فشل عملية المثبت"
+msgstr "التنصيب: فشلت عملية المنصِّب"
 
 #: src/install.py:169
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
-msgstr "التثبيت: فشل في العثور على رابط رمزي صالح '~/.steam/steam'"
+msgstr "التنصيب: تعذَّر العثور على رابط '~/.steam/steam' رمزي صالح"
 
 #: src/main.py:138
 msgid "Upstream"
@@ -209,7 +207,7 @@ msgstr "نُصِّبت السمة"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr "الحصول على السمات: فشل في الحصول على السمات"
+msgstr "الحصول على السمات: تعذَّر الحصول على السمات"
 
 #: src/style.py:71
 #, python-brace-format
@@ -407,7 +405,7 @@ msgstr "_عَنْ AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr "الاستخراج: فشل في قراءة أرشيف ZIP"
+msgstr "الاستخراج: تعذَّرت قراءة أرشيف ZIP"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
@@ -415,4 +413,4 @@ msgstr "الاستخراج: ملف ZIP تالف"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr "الاستخراج: فشل في استخراج ملف ZIP"
+msgstr "الاستخراج: تعذَّر استخراج ملف ZIP"
