@@ -125,19 +125,19 @@ msgstr "فشل التحقق من التحديث: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr "واجهة برمجة التطبيقات: رمز HTTP خطأ "
+msgstr "واجهة برمجة التطبيقات: رمز خطأ HTTP "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr "API: خطأ في تحليل JSON"
+msgstr "واجهة برمجة التطبيقات: خطأ في تحليل JSON"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr "API: خطأ في استرداد معلومات الإصدار"
+msgstr "واجهة برمجة التطبيقات: خطأ في استرداد معلومات الإصدار"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr "API: JSON يفتقد المفاتيح المطلوبة"
+msgstr "واجهة برمجة التطبيقات: يفتقد JSON المفاتيح المطلوبة"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
@@ -145,7 +145,7 @@ msgstr "الإصدار: رمز HTTP خطأ "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr "الإصدار: إعادة تعيين الاتصال"
+msgstr "الإصدار: صُفِّر الاتصال"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
@@ -153,7 +153,7 @@ msgstr "الإصدار: خطأ في الإذن"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr "الإصدار: انتهاء مهلة الاتصال"
+msgstr "الإصدار: انتهت مهلة الاتصال"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
@@ -161,7 +161,7 @@ msgstr "الإصدار: خطأ في استرداد الملف المضغوط (Zi
 
 #: src/install.py:132
 msgid "Install: Found no Valid Install Targets"
-msgstr "التثبيت: لم يتم العثور على أهداف تثبيت صالحة"
+msgstr "التصنيب: لم يعثر على أهداف تنصيب صالحة"
 
 #: src/install.py:135
 msgid "Install: Installer Process Failed"
