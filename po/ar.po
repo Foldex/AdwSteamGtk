@@ -23,7 +23,7 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ".AdwSteamGtk"
+msgstr "أدوايتا ستيم جتك"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
@@ -32,7 +32,7 @@ msgstr "امنح ستيم طابع أدوايتا"
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
 msgid "Foldex"
-msgstr ".Foldex"
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid ""
@@ -44,15 +44,15 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid "Configure the skin to your liking"
-msgstr "يكوِّن المظهر حسب رغبتك"
+msgstr "اضبط المظهر حسب رغبتك"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:31
 msgid "Click the “Apply” button"
-msgstr "انقر على زر \"تطبيق\""
+msgstr "انقر على زر «تطبيق»"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:32
 msgid "Restart Steam"
-msgstr "أعد تشغيل ستيم"
+msgstr "أعِد تشغيل ستيم"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:34
 msgid ""
@@ -60,28 +60,28 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
-"عند بدء التشغيل، سيقوم التطبيق بتنزيل أي تحديثات للمظهر تلقائيًا وسيعرض إشعارً"
-"ا. قم بتطبيق المظهر مرة أخرى وأعد تشغيل ستيم لتفعيل التغييرات."
+"عند بدء التشغيل، سينزِّل التطبيق أي تحديثات للمظهر آليًأ وسيعرض تنبيهًا. طبِّق "
+"المظهر مرة أخرى وأعِد تشغيل ستيم لتطبيق التغييرات."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:38
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
-"للحصول على زوايا مستديرة في ستيم، ستحتاج إلى استخدام إضافة GNOME "
-"\"زوايا النوافذ المستديرة\"."
+"للحصول على زوايا مستديرة في ستيم، ستحتاج إلى استخدام امتداد «Rounded Window "
+"Corners» لجنوم (GNOME)."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:244
 msgid "Main Window"
-msgstr "النافذة الرئيسية"
+msgstr "النافذة الرئيسة"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:248
 msgid "Theme Preview"
-msgstr "معاينة السمة"
+msgstr "عاين السمة"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:252
 msgid "Login Preview"
-msgstr "معاينة تسجيل الدخول"
+msgstr "عاين الولوج"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
@@ -89,7 +89,7 @@ msgstr "أداة بسيطة تُنصِّب أدوايتا لستيم"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr "ستيم;أدوايتا;المظهر;الجلد; Steam;Adwaita;Skin;"
+msgstr "ستيم;أدوايتا;المظهر;الجلد; Steam;Adwaita;Skin;AdwSteamGtk;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
@@ -217,7 +217,7 @@ msgstr "الأسلوب: تعذَّر العثور على السمة {theme_name}
 #: src/style.py:122
 #, python-brace-format
 msgid "Style: Theme {theme_name} seems to be invalid"
-msgstr "النمط: يبدو أن السمة {theme_name} غير صالحة"
+msgstr "النمط: يبدو أن سمة {theme_name} غير صالحة"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
@@ -317,15 +317,15 @@ msgstr "أسلوب التحكم"
 
 #: src/ui/window.blp:60
 msgid "Changes Minimize/Maximize/Close Button Theme"
-msgstr "يغيّر سمة أزرار التصغير/التكبير/الإغلاق"
+msgstr "يغيِّر سمة أزرار التصغير\\التكبير\\الإغلاق"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Adwaita"
-msgstr ".Adwaita"
+msgstr "أدوايتا"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "MacOS"
-msgstr "نظام ماك"
+msgstr "ماك أو إس"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Windows"
@@ -337,15 +337,15 @@ msgstr "يتحكم في تخطيط أزرار التحكم"
 
 #: src/ui/window.blp:65
 msgid "Changes Minimize/Maximize/Close Button Layout and Position"
-msgstr "يغيّر تخطيط وموقع أزرار التصغير/التكبير/الإغلاق"
+msgstr "يغيِّر تخطيط وموقع أزرار التصغير\\التكبير\\الإغلاق"
 
 #: src/ui/window.blp:66
 msgid "Auto"
-msgstr "تلقائي"
+msgstr "آلي"
 
 #: src/ui/window.blp:66
 msgid "Elementary"
-msgstr "إليمينتري"
+msgstr "إليمِنتري"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
@@ -401,7 +401,7 @@ msgstr "ألغِ الت_نصيب"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr "_عَنْ AdwSteamGtk"
+msgstr "_عَنْ «أدوايتا ستيم جتك»"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
