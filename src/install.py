@@ -139,7 +139,7 @@ def install(cmd):
     return (True, None)
 
 def steam_dir_missing():
-    return not os.path.exists(paths.STEAM_DIR) and not os.path.exists(paths.STEAM_FLATPAK_DIR)
+    return not os.path.exists(paths.STEAM_DIR) and not os.path.exists(paths.STEAM_FLATPAK_DIR) and not os.path.exists(paths.STEAM_SNAP_DIR)
 
 def release_missing():
     return not os.path.exists(paths.LAST_RELEASE_FILE) and not os.path.exists(paths.EXTRACTED_DIR)

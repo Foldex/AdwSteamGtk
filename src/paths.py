@@ -20,6 +20,7 @@ import pathlib
 
 STEAM_DIR=os.path.expanduser("~/.steam/steam")
 STEAM_FLATPAK_DIR=os.path.expanduser("~/.var/app/com.valvesoftware.Steam/.steam/steam")
+STEAM_SNAP_DIR=os.path.expanduser("~/snap/steam/common/.steam/steam")
 
 XDG_CACHE_DIR=os.path.expanduser(os.environ.get("XDG_CACHE_HOME", "~/.cache"))
 XDG_CONFIG_DIR=os.path.expanduser(os.environ.get("XDG_CONFIG_HOME", "~/.config"))
