@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-12-03 22:00+0000\n"
+"Last-Translator: Cirilla <cirilla@tuta.io>\n"
+"Language-Team: Cornish <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/kw/>\n"
 "Language: kw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +23,12 @@ msgstr ""
 "1000000 == 100000) ? 2 : ((n % 100 == 3 || n % 100 == 23 || n % 100 == 43 || "
 "n % 100 == 63 || n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 || n % 100 "
 "== 21 || n % 100 == 41 || n % 100 == 61 || n % 100 == 81)) ? 4 : 5))));\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
@@ -35,7 +37,7 @@ msgstr ""
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
 msgid "Foldex"
-msgstr ""
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid ""
@@ -53,7 +55,7 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:32
 msgid "Restart Steam"
-msgstr ""
+msgstr "Dasdalleth Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:34
 msgid ""
@@ -70,11 +72,11 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:244
 msgid "Main Window"
-msgstr ""
+msgstr "Penn Fenester"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:248
 msgid "Theme Preview"
-msgstr ""
+msgstr "Ragwolok Thema"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:252
 msgid "Login Preview"
@@ -86,11 +88,11 @@ msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;Thema;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "Nowedhys."
 
 #: src/cli.py:105
 #, python-brace-format
@@ -110,7 +112,7 @@ msgstr ""
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "Livreson Nowydh Kavadow: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
@@ -174,7 +176,7 @@ msgstr ""
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "Heblea Thema"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
@@ -182,23 +184,23 @@ msgstr ""
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr ""
+msgstr "Dilea"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr ""
+msgstr "Heblea"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "Livreson Nowydh Iskergys: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "Dasassaya"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "Thema Leays"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
@@ -232,7 +234,7 @@ msgstr ""
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "Ragwolok"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
@@ -248,7 +250,7 @@ msgstr ""
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr ""
+msgstr "CSS A-vusur"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
@@ -256,7 +258,7 @@ msgstr ""
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "CSS A-vusur Kedhlow"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
@@ -264,7 +266,7 @@ msgstr ""
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr ""
+msgstr "Ynterfas"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
@@ -280,7 +282,7 @@ msgstr ""
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "Omri"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
@@ -288,7 +290,7 @@ msgstr ""
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "Thema Kolor"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
@@ -316,15 +318,15 @@ msgstr ""
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Adwaita"
-msgstr ""
+msgstr "Adwaita"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "MacOS"
-msgstr ""
+msgstr "MacOS"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: src/ui/window.blp:64
 msgid "Controls Button Layout"
@@ -336,7 +338,7 @@ msgstr ""
 
 #: src/ui/window.blp:66
 msgid "Auto"
-msgstr ""
+msgstr "Awtomatek"
 
 #: src/ui/window.blp:66
 msgid "Elementary"
@@ -356,7 +358,7 @@ msgstr ""
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "Showya"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
@@ -384,7 +386,7 @@ msgstr ""
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr ""
+msgstr "Kudha"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
@@ -396,7 +398,7 @@ msgstr ""
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "_A-dro dhe AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
