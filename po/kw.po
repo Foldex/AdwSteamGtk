@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: 2026-01-05 20:01+0000\n"
+"PO-Revision-Date: 2026-01-10 12:01+0000\n"
 "Last-Translator: Flynn <cirilla@tuta.io>\n"
 "Language-Team: Cornish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/kw/>\n"
@@ -108,7 +108,8 @@ msgstr "{key}: {cur_val} dalgh anewn"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr "Y fyllis keghes an rol a themys. Omskoodhya war an thema a-dhiwedhes."
+msgstr ""
+"Y fyllis keghes an rol a themys. Owth omskoodhya war an thema a-dhiwedhes."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -116,7 +117,7 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
-"Y fyllis kavos thema {colortheme} yn an rol a themys. Omskoodhya war an "
+"Y fyllis kavos thema {colortheme} yn an rol a themys. Owth omskoodhya war an "
 "thema a-dhiwedhes."
 
 #: src/cli.py:132
@@ -133,15 +134,15 @@ msgstr "API: Kod Error HTTP "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr "API: Error dres Redya JSON"
+msgstr "API: Error dres ow Redya JSON"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr "API: Error dres kerghes kedhlow versyon"
+msgstr "API: Error dres ow kerghes kedhlow versyon"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr "API: JSON yw fyllel alhwedhow a res"
+msgstr "API: JSON ow fyllel alhwedhow a res"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
@@ -161,7 +162,7 @@ msgstr "Versyon: Termyn yn-Mes Junyans"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr "Versyon: Error dres Keghes Zip"
+msgstr "Versyon: Error dres ow Keghes Zip"
 
 #: src/install.py:132
 msgid "Install: Found no Valid Install Targets"
