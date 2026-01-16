@@ -56,6 +56,8 @@ def gen_cmd_line(options, beta_support):
             win_controls = "--windowcontrols-theme auto "
         case "adwaita":
             win_controls = "--windowcontrols-theme adwaita "
+        case "breeze":
+            win_controls = "--windowcontrols-theme breeze "
         case "windows":
             win_controls = "--windowcontrols-theme windows "
         case "macos":

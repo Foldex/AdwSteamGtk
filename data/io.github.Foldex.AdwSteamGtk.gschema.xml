@@ -16,6 +16,7 @@
       <default>"Adwaita"</default>
       <choices>
         <choice value="Adwaita"/>
+        <choice value="Breeze"/>
         <choice value="Windows"/>
         <choice value="MacOS"/>
       </choices>
