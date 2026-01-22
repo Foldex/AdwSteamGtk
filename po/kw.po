@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: 2026-01-16 12:01+0000\n"
+"PO-Revision-Date: 2026-01-23 00:55+0000\n"
 "Last-Translator: Flynn <cirilla@tuta.io>\n"
 "Language-Team: Cornish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/kw/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "1000000 == 100000) ? 2 : ((n % 100 == 3 || n % 100 == 23 || n % 100 == 43 || "
 "n % 100 == 63 || n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 || n % 100 "
 "== 21 || n % 100 == 41 || n % 100 == 61 || n % 100 == 81)) ? 4 : 5))));\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -206,7 +206,7 @@ msgstr "Livreson Nowydh Iskergys: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr "Dasassaya"
+msgstr "Assaya Arta"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
@@ -394,7 +394,7 @@ msgstr "Omgelmi rag Kod QR"
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
 msgstr ""
-"Chanjya dewisyow displetyans dhe an kod QR kellgowser yn an fenester Omgelmi."
+"Chanjya dewisyow displetyans dhe an kod QR kellgowser y'n fenester Omgelmi."
 
 #: src/ui/window.blp:96
 msgid "Hide"
