@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: 2025-02-22 19:14+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2026-01-23 20:15+0000\n"
+"Last-Translator: Joan Aymà <joanayma@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/ca/>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -26,7 +26,7 @@ msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr ""
+msgstr "Dóna a Steam el tractament d'Adwaita"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
@@ -38,10 +38,13 @@ msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
+"Fés que Steam sembli que pertany al teu ordinador. Aquesta aplicació "
+"instal·la i actualitza per tu l'aparença Adwaita-for-Steam. Tant simple com "
+"això:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid "Configure the skin to your liking"
-msgstr ""
+msgstr "Configura l'aparença al teu gust"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:31
 msgid "Click the “Apply” button"
@@ -57,12 +60,17 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
+"A l'iniciar, l'aplicació descarregarà automàticament qualsevol actualització "
+"de l'aparença i mostrarà una notificació. Aplica l'aparença de nou i "
+"reinicia l'Steam per aplicar els canvis."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:38
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
+"Per tal d'obtenir les cantonades arrodonides al Steam, necessitaràs "
+"utilitzar l'extensió de Gnome \"Rounded Window Corners\"."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:244
 msgid "Main Window"
@@ -214,7 +222,7 @@ msgstr "Estil: no s’ha pogut trobar el tema {theme_name}"
 #: src/style.py:122
 #, python-brace-format
 msgid "Style: Theme {theme_name} seems to be invalid"
-msgstr ""
+msgstr "Estil: el tema {theme_name} sembla incorrecte"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
