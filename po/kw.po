@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: 2026-01-23 00:55+0000\n"
+"PO-Revision-Date: 2026-01-28 12:43+0000\n"
 "Last-Translator: Flynn <cirilla@tuta.io>\n"
 "Language-Team: Cornish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/kw/>\n"
@@ -108,8 +108,7 @@ msgstr "{key}: {cur_val} dalgh anewn"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr ""
-"Y fyllis keghes an rol a themys. Owth omskoodhya war an thema a-dhiwedhes."
+msgstr "Y fyllis keghes an rol themys. Owth omskoodhya war'n thema a-dhiwedhes."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -117,7 +116,7 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
-"Y fyllis kavos thema {colortheme} yn an rol a themys. Owth omskoodhya war an "
+"Y fyllis kavos thema {colortheme} y'n rol themys. Owth omskoodhya war'n "
 "thema a-dhiwedhes."
 
 #: src/cli.py:132
@@ -190,7 +189,7 @@ msgstr "Heblea Thema"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
-msgstr "Ma yw remova oll chanjow war an app Steam."
+msgstr "Ma yw remova oll chanjow war'n app Steam."
 
 #: src/main.py:151
 msgid "Cancel"
@@ -284,7 +283,7 @@ msgstr "Ragwolokya Themys"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
-msgstr "Liwa an ynterfas dhe omdhesedha rag an thema dewisys a'n jydh."
+msgstr "Liwa an ynterfas dhe omdhesedha rag an thema dewisys a-lemmyn."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
@@ -304,7 +303,7 @@ msgstr "Thema Kolor"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr "Chanjya an thema kolor a an ynterfas Steam."
+msgstr "Chanjya an thema kolor a'n ynterfas Steam."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
@@ -312,7 +311,7 @@ msgstr "Kernow Krenn Vyth"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr "Remova kernow krenn smodh a an ynterfas."
+msgstr "Remova kernow krenn smodh a'n ynterfas."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
@@ -381,7 +380,7 @@ msgstr "Kudha Estyllen Nowedh yn Lyverva"
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
 msgstr ""
-"Ungallosegi displetyans a an tregh nowydh nowedhow a-wartha dhe an Lyverva."
+"Ungallosegi displetyans a'n tregh nowydh nowedhow a-wartha dhe'n Lyverva."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
@@ -394,7 +393,7 @@ msgstr "Omgelmi rag Kod QR"
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
 msgstr ""
-"Chanjya dewisyow displetyans dhe an kod QR kellgowser y'n fenester Omgelmi."
+"Chanjya dewisyow displetyans dhe'n kod QR kellgowser y'n fenester Omgelmi."
 
 #: src/ui/window.blp:96
 msgid "Hide"
