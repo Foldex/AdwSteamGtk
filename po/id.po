@@ -8,46 +8,50 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-02-13 16:09+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr ""
+msgstr "Berikan Steam tampilan Adwaita"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
 msgid "Foldex"
-msgstr ""
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
+"Buat Steam terlihat seperti milik komputer Anda. Aplikasi ini menginstal dan "
+"memperbarui skin Adwaita-for-Steam untuk Anda. Semudah ini:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid "Configure the skin to your liking"
-msgstr ""
+msgstr "Konfigurasikan skin sesuai keinginan Anda"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:31
 msgid "Click the “Apply” button"
-msgstr ""
+msgstr "Klik tombol \"Terapkan\""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:32
 msgid "Restart Steam"
-msgstr ""
+msgstr "Mulai ulang Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:34
 msgid ""
@@ -55,45 +59,51 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
+"Saat startup, aplikasi akan secara otomatis mengunduh pembaruan skin dan "
+"menampilkan notifikasi. Terapkan skin lagi dan mulai ulang Steam untuk "
+"menggunakan perubahannya."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:38
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
+"Untuk mendapatkan sudut membulat pada Steam, Anda perlu menggunakan ekstensi "
+"GNOME \"Rounded Window Corners\"."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:244
 msgid "Main Window"
-msgstr ""
+msgstr "Jendela Utama"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:248
 msgid "Theme Preview"
-msgstr ""
+msgstr "Pratinjau Tema"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:252
 msgid "Login Preview"
-msgstr ""
+msgstr "Pratinjau Login"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "Pembungkus sederhana yang menginstal Adwaita untuk Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;Skin;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "Mutakhir."
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr ""
+msgstr "{key}: {cur_val} nilai tidak valid"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
+"Tidak dapat mendapatkan daftar tema. Kembali ke tema yang terakhir dipilih."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -101,305 +111,308 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
+"Tidak dapat menemukan tema {colortheme} dalam daftar tema. Kembali ke tema "
+"yang terakhir dipilih."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "Rilis Baru Tersedia: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "Pemeriksaan Pembaruan Gagal: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: Kode Kesalahan HTTP "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr ""
+msgstr "API: Kesalahan Mengurai JSON"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "API: Kesalahan mengambil informasi rilis"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr ""
+msgstr "API: JSON tidak memiliki kunci yang diperlukan"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "Rilis: Kode Kesalahan HTTP "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "Rilis: Koneksi Terputus"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr ""
+msgstr "Rilis: Kesalahan Izin"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr ""
+msgstr "Rilis: Batas Waktu Koneksi"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "Rilis: Kesalahan Mengambil Zip"
 
 #: src/install.py:132
 msgid "Install: Found no Valid Install Targets"
-msgstr ""
+msgstr "Instal: Tidak Menemukan Target Instalasi yang Valid"
 
 #: src/install.py:135
 msgid "Install: Installer Process Failed"
-msgstr ""
+msgstr "Instal: Proses Penginstal Gagal"
 
 #: src/install.py:169
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
-msgstr ""
+msgstr "Instal: Gagal Menemukan Symlink '~/.steam/steam' yang Valid"
 
 #: src/main.py:138
 msgid "Upstream"
-msgstr ""
+msgstr "Hulu"
 
 #: src/main.py:139
 msgid "Translators"
-msgstr ""
+msgstr "Penerjemah"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "Hapus Instalasi Tema"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
-msgstr ""
+msgstr "Ini akan mengatur ulang semua kustomisasi yang dibuat pada klien Steam."
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr ""
+msgstr "Hapus Instalasi"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "Rilis Baru Diunduh: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "Coba Lagi"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "Tema Terinstal"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr ""
+msgstr "Dapatkan Tema: Gagal mendapatkan tema"
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
+msgstr "Gaya: Tidak dapat menemukan tema {theme_name}"
 
 #: src/style.py:122
 #, python-brace-format
 msgid "Style: Theme {theme_name} seems to be invalid"
-msgstr ""
+msgstr "Gaya: Tema {theme_name} tampaknya tidak valid"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr ""
+msgstr "Preferensi"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
-msgstr ""
+msgstr "Mulai Otomatis"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr ""
+msgstr "Pemeriksaan Pembaruan Otomatis"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
-msgstr ""
+msgstr "Memeriksa dan memberi tahu pembaruan tema saat pengguna login."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr ""
+msgstr "Dukungan Beta Eksperimental"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr ""
+msgstr "Mengaktifkan Dukungan Beta (memerlukan mulai ulang)"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr ""
+msgstr "Penginstal"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr ""
+msgstr "CSS Kustom"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr ""
+msgstr "Sertakan CSS Kustom ke dalam Steam"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "Info CSS Kustom"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr ""
+msgstr "Edit Berkas CSS Kustom"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr ""
+msgstr "Antarmuka"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr ""
+msgstr "Pratinjau Tema"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
-msgstr ""
+msgstr "Menggayakan antarmuka agar sesuai dengan tema yang saat ini dipilih."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Penginstal Adwaita Steam"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "Terapkan"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "Opsi Tema"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "Tema Warna"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Mengubah tema warna antarmuka Steam."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "Tanpa Sudut Membulat"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Menghapus sudut membulat halus dari antarmuka."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr ""
+msgstr "Opsi Kontrol Jendela"
 
 #: src/ui/window.blp:59
 msgid "Controls Style"
-msgstr ""
+msgstr "Gaya Kontrol"
 
 #: src/ui/window.blp:60
 msgid "Changes Minimize/Maximize/Close Button Theme"
-msgstr ""
+msgstr "Mengubah Tema Tombol Minimalkan/Maksimalkan/Tutup"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Adwaita"
-msgstr ""
+msgstr "Adwaita"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "MacOS"
-msgstr ""
+msgstr "MacOS"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: src/ui/window.blp:64
 msgid "Controls Button Layout"
-msgstr ""
+msgstr "Tata Letak Tombol Kontrol"
 
 #: src/ui/window.blp:65
 msgid "Changes Minimize/Maximize/Close Button Layout and Position"
-msgstr ""
+msgstr "Mengubah Tata Letak dan Posisi Tombol Minimalkan/Maksimalkan/Tutup"
 
 #: src/ui/window.blp:66
 msgid "Auto"
-msgstr ""
+msgstr "Otomatis"
 
 #: src/ui/window.blp:66
 msgid "Elementary"
-msgstr ""
+msgstr "Elementary"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "Opsi Perpustakaan"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr ""
+msgstr "Bilah Sisi Perpustakaan"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "Mengubah opsi tampilan untuk bilah sisi kiri Perpustakaan."
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "Tampilkan"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr ""
+msgstr "Hanya Saat Diarahkan"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr ""
+msgstr "Sembunyikan Rak Apa yang Baru di Perpustakaan"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
 msgstr ""
+"Menonaktifkan tampilan bagian pembaruan baru di bagian atas Perpustakaan."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr ""
+msgstr "Opsi Login"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr ""
+msgstr "Login Kode QR"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr ""
+msgstr "Mengubah opsi tampilan untuk kode QR seluler di dialog Login."
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr ""
+msgstr "Sembunyikan"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr ""
+msgstr "_Preferensi"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr ""
+msgstr "Hapus Instalasi"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "Tentang AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr ""
+msgstr "Ekstrak: Gagal membaca arsip ZIP"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr ""
+msgstr "Ekstrak: Berkas ZIP Buruk"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr ""
+msgstr "Ekstrak: Gagal Mengekstrak Berkas ZIP"
