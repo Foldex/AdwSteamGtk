@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 13:37-0400\n"
-"PO-Revision-Date: 2024-05-03 12:07+0000\n"
-"Last-Translator: Nathan Hadley <nathanhadley.pigeon@gmail.com>\n"
+"PO-Revision-Date: 2026-03-06 15:09+0000\n"
+"Last-Translator: Hosted Weblate user 142171 "
+"<traaduttore@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/it/>\n"
 "Language: it\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -201,7 +202,7 @@ msgstr "Aggiunte opzioni della barra laterale della libreria"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:160
 msgid "Updated to Gnome 44 Runtime"
-msgstr "Aggiornato al runtime GNOME 44"
+msgstr "Aggiornato al runtime Gnome 44"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:161
 msgid "Changed Default Web Theme to Full Variant"
