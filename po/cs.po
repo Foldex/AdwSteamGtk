@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 15:54-0400\n"
-"PO-Revision-Date: 2025-03-22 21:47+0000\n"
-"Last-Translator: Raihwy <raihwy@outlook.com>\n"
+"PO-Revision-Date: 2026-04-18 10:09+0000\n"
+"Last-Translator: Fjuro <fjuro@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/cs/>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -327,11 +327,11 @@ msgstr ""
 
 #: src/main.py:136
 msgid "Upstream"
-msgstr "Motiv"
+msgstr "Původně vytvořil"
 
 #: src/main.py:137
 msgid "Translators"
-msgstr "Překladatelé"
+msgstr "Přeložili"
 
 #: src/main.py:146
 msgid "Uninstall Theme"
@@ -380,7 +380,7 @@ msgstr "Automatické spouštění"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr "Automatické zkontrolování aktualizací"
+msgstr "Automatická kontrola aktualizací"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
@@ -432,7 +432,7 @@ msgstr "Stylizuje rozhraní pro shodu s právě vybraným motivem."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr "Instalátor Steam Adwaita"
+msgstr "Instalátor Adwaita Steam"
 
 #: src/ui/window.blp:14
 msgid "Apply"
@@ -532,7 +532,7 @@ msgstr "Pouze při najetí"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr "Skrýt poličku \"Co je nového\" v knihovně"
+msgstr "Skrýt poličku „Co je nového“ v knihovně"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
