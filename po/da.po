@@ -8,46 +8,51 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-03 17:09+0000\n"
+"Last-Translator: JonasBentin <jonasbentin19+github@gmail.com>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr ""
+msgstr "AdwSteamGtk"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr ""
+msgstr "Giv Steam Adwaita-behandlingen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
 msgid "Foldex"
-msgstr ""
+msgstr "Foldex"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
+"Få Steam til at ligne, at det passer på din computer. Denne app installerer "
+"og opdaterer \"Adwaita-for-steam\" temaet for dig. Det er så simpelt som "
+"dette:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid "Configure the skin to your liking"
-msgstr ""
+msgstr "Indstil temaet efter din smag"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:31
 msgid "Click the “Apply” button"
-msgstr ""
+msgstr "Tryk på \"Anvend\" knappen"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:32
 msgid "Restart Steam"
-msgstr ""
+msgstr "Genstart Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:34
 msgid ""
@@ -55,45 +60,50 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
+"Ved opstart vil appen automatisk downloade alle opdateringer til temaet, og "
+"vise en notifikation. Anvend temaet igen og genstart Steam for at tage "
+"ændringerne i brug."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:38
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
+"For at få afrundede hjørner på Steam, bliver du nødt til at anvende "
+"\"Rounded Window Corners\" GNOME-udvidelsen."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:244
 msgid "Main Window"
-msgstr ""
+msgstr "Hovedvindue"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:248
 msgid "Theme Preview"
-msgstr ""
+msgstr "Tema forhåndsvisning"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:252
 msgid "Login Preview"
-msgstr ""
+msgstr "Log-ind forhåndsvisning"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr ""
+msgstr "En simpel wrapper, der installerer Adwaita til Steam"
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr ""
+msgstr "Steam;Adwaita;Tema;"
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr ""
+msgstr "Version er ajour."
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr ""
+msgstr "{key}: {cur_val} ugyldig værdi"
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
-msgstr ""
+msgstr "Kunne ikke hente temaliste. Falder tilbage til sidst valgte tema."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -101,305 +111,309 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
+"Kunne ikke finde tema {colortheme} i temaliste. Falder tilbage til sidst "
+"valgte tema."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr ""
+msgstr "Ny udgave tilgængelig: "
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr ""
+msgstr "Opdateringstjek fejlede: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: HTTP fejlkode "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr ""
+msgstr "API: Fejl ved parsing af JSON"
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr ""
+msgstr "API: Fejl ved indhentning af udgivelsesinformation"
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr ""
+msgstr "API: JSON mangler nødvendige nøgler"
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr ""
+msgstr "Udgivelse: HTTP fejlkode "
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr ""
+msgstr "Udgivelse: Forbindelse nulstillet"
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr ""
+msgstr "Udgivelse: Tilladelsesfejl"
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr ""
+msgstr "Udgivelse: Forbindelses-timeout"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr ""
+msgstr "Udgivelse: Fejl ved indhentning af Zip"
 
 #: src/install.py:132
 msgid "Install: Found no Valid Install Targets"
-msgstr ""
+msgstr "Installation: Fandt ingen gyldige installationsmål"
 
 #: src/install.py:135
 msgid "Install: Installer Process Failed"
-msgstr ""
+msgstr "Installation: Installationsværktøjsproces fejlede"
 
 #: src/install.py:169
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
-msgstr ""
+msgstr "Installation: Kunne ikke finde gyldigt '~/.steam/steam' Symlink"
 
 #: src/main.py:138
 msgid "Upstream"
-msgstr ""
+msgstr "Upstream"
 
 #: src/main.py:139
 msgid "Translators"
-msgstr ""
+msgstr "Oversættere"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "Afinstallér tema"
 
 #: src/main.py:149
 msgid "This will reset all customizations made to the Steam client."
-msgstr ""
+msgstr "Dette vil nulstille alle tilpasninger lavet til Steamklienten."
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr ""
+msgstr "Annullér"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr ""
+msgstr "Afinstallér"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "Ny udgave downloadet: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "Prøv igen"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "Tema installeret"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr ""
+msgstr "Hent temaer: Kunne ikke hente temaer"
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
+msgstr "Stil: Kunne ikke finde tema {theme_name}"
 
 #: src/style.py:122
 #, python-brace-format
 msgid "Style: Theme {theme_name} seems to be invalid"
-msgstr ""
+msgstr "Stil: Tema {theme_name} ser ugyldigt ud"
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr ""
+msgstr "Præferencer"
 
 #: src/ui/prefs.blp:12
 msgid "Autostart"
-msgstr ""
+msgstr "Auto-start"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr ""
+msgstr "Auto-tjek opdateringer"
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
-msgstr ""
+msgstr "Tjekker og underetter for temaopdateringer ved brugerlogin."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr ""
+msgstr "Eksperimentel betaunderstøttelse"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr ""
+msgstr "Aktiverer betaunderstøttelse (kræver genstart)"
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr ""
+msgstr "Installationsværktøj"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr ""
+msgstr "Brugerdefineret CSS"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr ""
+msgstr "Inkludér brugerdefineret CSS i Steam"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "Brugerdefineret CSS info"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr ""
+msgstr "Redigér brugerdefinerede CSS-filer"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr ""
+msgstr "Grænseflade"
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr ""
+msgstr "Forhåndsvis temaer"
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
-msgstr ""
+msgstr "Stiler grænsefladen til at matche det aktuelt valgte tema."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Adwaita Steam installationsværktøj"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "Anvend"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "Temaindstillinger"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "Farvetema"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Ændrer farven af Steams grænseflade."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "Ingen afrundede hjørner"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Fjerner glatte, afrundede hjørner fra grænsefladen."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr ""
+msgstr "Vinduebetjeningsindstillinger"
 
 #: src/ui/window.blp:59
 msgid "Controls Style"
-msgstr ""
+msgstr "Betjeningsstil"
 
 #: src/ui/window.blp:60
 msgid "Changes Minimize/Maximize/Close Button Theme"
-msgstr ""
+msgstr "Ændrer tema for Minimér/Maksimér/Luk knapper"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Adwaita"
-msgstr ""
+msgstr "Adwaita"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "MacOS"
-msgstr ""
+msgstr "MacOS"
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: src/ui/window.blp:64
 msgid "Controls Button Layout"
-msgstr ""
+msgstr "Betjeningsknaplayout"
 
 #: src/ui/window.blp:65
 msgid "Changes Minimize/Maximize/Close Button Layout and Position"
-msgstr ""
+msgstr "Ændrer layout og position for Minimér/Maksimér/Luk knapper"
 
 #: src/ui/window.blp:66
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #: src/ui/window.blp:66
 msgid "Elementary"
-msgstr ""
+msgstr "Elementært"
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "Biblioteksindstillinger"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr ""
+msgstr "Bibliotek sidebjælke"
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr ""
+msgstr "Ændrer visningsindstillinger for bibliotekets venstre sidebjælke."
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "Vis"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr ""
+msgstr "Kun ved hover"
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr ""
+msgstr "Skjul biblioteks \"hvad er nyt\" hylde"
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
 msgstr ""
+"Deaktiverer visning af \"Nye opdateringer\" sektionen på toppen af "
+"biblioteket."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr ""
+msgstr "Login-indstillinger"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr ""
+msgstr "QR-kode login"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr ""
+msgstr "Ændrer visningsindstillinger for login vha. QR-kode i login-dialogen."
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr ""
+msgstr "Skjul"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr ""
+msgstr "_Præferencer"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr ""
+msgstr "_Afinstallér"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "_Om AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr ""
+msgstr "Udpak: Kunne ikke læse Zip-arkiv"
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr ""
+msgstr "Udpak: Ugyldig Zip-fil"
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr ""
+msgstr "Udpak: Kunne ikke udpakke Zip-fil"
