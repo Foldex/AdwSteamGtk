@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-16 12:06+0000\n"
+"Last-Translator: Juraj Kollár <mostypc7@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -112,7 +114,7 @@ msgstr ""
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr ""
+msgstr "API: HTTP chybný kód "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
@@ -164,35 +166,36 @@ msgstr ""
 
 #: src/main.py:139
 msgid "Translators"
-msgstr ""
+msgstr "Prekladatelia"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr ""
+msgstr "Odinštalovať tému"
 
 #: src/main.py:149
+#, fuzzy
 msgid "This will reset all customizations made to the Steam client."
-msgstr ""
+msgstr "Toto resetuje všetky zmeny na aplikácii Steam."
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušiť"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr ""
+msgstr "Odinštalovať"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr ""
+msgstr "Nová verzia stiahnutá: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr ""
+msgstr "Skúsiť znovu"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr ""
+msgstr "Téma nainštalovaná"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
@@ -210,11 +213,12 @@ msgstr ""
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr ""
+msgstr "Preferencie"
 
 #: src/ui/prefs.blp:12
+#, fuzzy
 msgid "Autostart"
-msgstr ""
+msgstr "Automatické zapnutie"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
@@ -226,11 +230,11 @@ msgstr ""
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr ""
+msgstr "Experimentálna beta podpora"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
@@ -238,23 +242,23 @@ msgstr ""
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr ""
+msgstr "Inštalátor"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr ""
+msgstr "Vlastné CSS"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr ""
+msgstr "Pridá vlastné CSS to Steam-u,"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr ""
+msgstr "Informácie o vlastnom CSS"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr ""
+msgstr "Editovať súbor vlastného CSS"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
@@ -270,31 +274,31 @@ msgstr ""
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr ""
+msgstr "Adwaita Steam Inštalátor"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr ""
+msgstr "Aplikovať"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr ""
+msgstr "Nastavenia témy"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr ""
+msgstr "Farebná schéma"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr ""
+msgstr "Mení farebnú schému aplikácie Steam."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr ""
+msgstr "Bez oblých okrajov"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr ""
+msgstr "Odstraňuje oblé okraje z aplikácie."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
@@ -338,7 +342,7 @@ msgstr ""
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr ""
+msgstr "Možnosti Knižnice"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
@@ -350,7 +354,7 @@ msgstr ""
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr ""
+msgstr "Zobraziť"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
@@ -366,31 +370,31 @@ msgstr ""
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr ""
+msgstr "Nastavenia prihlásenia"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr ""
+msgstr "Prihlásenie QR kódom"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr ""
+msgstr "Mení nastavenia zobrazenia QR kódu na prihlásenie."
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr ""
+msgstr "Schovať"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr ""
+msgstr "_Preferencie"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr ""
+msgstr "_Odinštalovať"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr ""
+msgstr "_O AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
