@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-17 13:32+0300\n"
-"PO-Revision-Date: 2026-04-28 05:09+0000\n"
+"PO-Revision-Date: 2026-07-22 04:29+0000\n"
 "Last-Translator: Димко <Dymkovych@proton.me>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -248,11 +248,11 @@ msgstr ""
 
 #: src/cli.py:150
 msgid "New Release Available: "
-msgstr "Доступно новий реліз: "
+msgstr "Новий випуск: "
 
 #: src/cli.py:153
 msgid "Update Check Failed: "
-msgstr "Не вдалося перевірити оновлення: "
+msgstr "Помилка пошуку оновлень: "
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
@@ -305,7 +305,7 @@ msgstr ""
 
 #: src/main.py:136
 msgid "Upstream"
-msgstr "Автор теми Adwaita для Steam"
+msgstr "Творець"
 
 #: src/main.py:137
 msgid "Translators"
@@ -422,7 +422,7 @@ msgstr "Прийняти"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr "Налаштування теми"
+msgstr "Параметри теми"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
@@ -462,7 +462,7 @@ msgstr "Прибирає закруглені кути вікон клієнта
 
 #: src/ui/window.blp:62
 msgid "Window Controls Options"
-msgstr "Налаштування кнопок керування вікном"
+msgstr "Кнопок керування вікном"
 
 #: src/ui/window.blp:64
 msgid "Window Controls"
@@ -514,7 +514,7 @@ msgstr "Точки"
 
 #: src/ui/window.blp:76
 msgid "Library Options"
-msgstr "Налаштування бібліотеки"
+msgstr "Параметри бібліотеки"
 
 #: src/ui/window.blp:79
 msgid "Library Sidebar"
@@ -542,7 +542,7 @@ msgstr "Міняє відображення \"Що нового\" секції �
 
 #: src/ui/window.blp:96
 msgid "Login Options"
-msgstr "Налаштування входу"
+msgstr "Параметри входу"
 
 #: src/ui/window.blp:99
 msgid "QR Code Login"
