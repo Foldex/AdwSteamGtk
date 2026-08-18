@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: 2025-03-22 21:47+0000\n"
-"Last-Translator: Raihwy <raihwy@outlook.com>\n"
+"PO-Revision-Date: 2026-08-21 11:52+0000\n"
+"Last-Translator: Ádám Sárközi <raihwy3@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/hu/>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
@@ -158,7 +158,7 @@ msgstr "Kiadás: Kapcsolati Időtúllépés"
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr "Kiadás: Hiba a ZIP fájl Lekérésekor"
+msgstr "Kiadás: Hiba a ZIP fájl lekérésekor"
 
 #: src/install.py:132
 msgid "Install: Found no Valid Install Targets"
