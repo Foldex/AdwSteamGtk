@@ -41,22 +41,100 @@ def get_color_themes():
 
     return (themes, None)
 
-def parse_css(file):
-    with open (file, 'r' ) as f:
-        content = f.read()
+def merge_css_files(file_paths):
+    combined = []
 
-    pattern = r'--([\w-]+)\s*:\s*(.*?)(?:\s*!important)?;'
-    matches = re.findall(pattern, content)
+    for path in file_paths:
+        if os.path.exists(path):
+            combined.append(f"/* {path} */")
+            with open(path, 'r', encoding='utf-8') as f:
+                combined.append(convert_light_dark(f.read()))
+    return '\n'.join(combined)
 
-    vars = {}
+def convert_light_dark(css):
 
-    for match in matches:
-        key = match[0]
-        value = match[1]
+    def find_calls(text):
+        calls = []
+        i = 0
+        while True:
+            idx = text.find("light-dark(", i)
+            if idx == -1:
+                break
+            depth, j = 0, idx + len("light-dark")
+            while j < len(text):
+                if text[j] == "(":
+                    depth += 1
+                elif text[j] == ")":
+                    depth -= 1
+                    if depth == 0:
+                        break
+                j += 1
+            if j >= len(text):
+                break
 
-        vars[key] = value
+            inner = text[idx + len("light-dark(") : j]
 
-    return vars
+            depth, comma_idx = 0, -1
+            for k, ch in enumerate(inner):
+                if ch == "(":
+                    depth += 1
+                elif ch == ")":
+                    depth -= 1
+                elif ch == "," and depth == 0:
+                    comma_idx = k
+                    break
+
+            if comma_idx == -1:
+                i = idx + len("light-dark(")
+                continue
+
+            light_val = inner[:comma_idx].strip()
+            dark_val = inner[comma_idx + 1 :].strip()
+            calls.append((idx, j + 1, light_val, dark_val))
+            i = j + 1
+        return calls
+
+    def get_context(text, pos):
+        depth, p = 0, pos - 1
+        while p >= 0:
+            if text[p] == "}":
+                depth += 1
+            elif text[p] == "{":
+                if depth == 0:
+                    before = text[:p]
+                    last_close = before.rfind("}")
+                    selector = (
+                        before.strip() if last_close == -1
+                        else before[last_close + 1 :].strip()
+                    )
+                    between = text[p + 1 : pos]
+                    prop = None
+                    for m in re.finditer(r"([\w-]+)\s*:", between):
+                        prop = m.group(1)
+                    return selector, prop
+                depth -= 1
+            p -= 1
+        return None, None
+
+    calls = find_calls(css)
+    dark_rules: dict[str, dict[str, str]] = {}
+
+    for start, end, light_val, dark_val in reversed(calls):
+        selector, prop = get_context(css, start)
+        if selector and prop:
+            dark_rules.setdefault(selector, {})[prop] = dark_val
+        css = css[:start] + light_val + css[end:]
+
+    if dark_rules:
+        css += "\n\n@media (prefers-color-scheme: dark) {\n"
+        for selector, props in dark_rules.items():
+            css += f"  {selector} {{\n"
+            for prop, value in props.items():
+                css += f"    {prop}: {value};\n"
+            css += "  }\n"
+        css += "}\n"
+
+    return css
 
 def generate_style(theme_name):
     theme_dir = paths.THEMES_DIR
@@ -70,103 +148,16 @@ def generate_style(theme_name):
     if not os.path.exists(theme_path):
         return (False, _("Style: Could not find theme {theme_name}").format(theme_name=theme_name))
 
-    theme_vars = parse_css(theme_path)
+    style = merge_css_files([paths.CSS_DEFAULT_FILE, paths.CSS_PALETTE_FILE, theme_path])
 
-    # Generated Styles
-    style_vars = {
-        "accent_color": theme_vars.get("adw-accent-rgb"),
-        "accent_bg_color": theme_vars.get("adw-accent-bg-rgb"),
-        "accent_fg_color": theme_vars.get("adw-accent-fg-rgb"),
+    # fixes for differences in naming
+    style = style.replace("--adw-", "--")
+    style = style.replace("fg:", "fg-color:")
+    style = style.replace("bg:", "bg-color:")
+    style = style.replace("accent-bg-dark", "accent-bg-color")
+    style = style.replace("destructive-bg-dark", "destructive-bg-color")
+    style = style.replace(" !important", "")
 
-        "destructive": theme_vars.get("adw-destructive-rgb"),
-        "destructive_fg_color": theme_vars.get("adw-destructive-fg-rgb"),
-        "destructive_bg_color": theme_vars.get("adw-destructive-bg-rgb"),
-
-        "success_color": theme_vars.get("adw-success-rgb"),
-        "success_bg_color": theme_vars.get("adw-success-bg-rgb"),
-        "success_fg_color": theme_vars.get("adw-success-fg-rgb"),
-
-        "warning_color": theme_vars.get("adw-warning-rgb"),
-        "warning_bg_color": theme_vars.get("adw-warning-bg-rgb"),
-        "warning_fg_color": (theme_vars.get("adw-warning-fg-rgb"), theme_vars.get("adw-warning-fg-a")),
-
-        "error_color": theme_vars.get("adw-error-rgb"),
-        "error_bg_color": theme_vars.get("adw-error-bg-rgb"),
-        "error_fg_color": theme_vars.get("adw-error-fg-rgb"),
-
-        "headerbar_bg_color": theme_vars.get("adw-headerbar-bg-rgb"),
-        "headerbar_fg_color": theme_vars.get("adw-headerbar-fg-rgb"),
-        "headerbar_backdrop_color": theme_vars.get("adw-headerbar-backdrop-rgb"),
-        "headerbar_shade_color": theme_vars.get("adw-headerbar-shade-rgb"),
-
-        "window_bg_color": theme_vars.get("adw-window-bg-rgb"),
-        "window_fg_color": theme_vars.get("adw-window-fg-rgb"),
-
-        "view_bg_color": theme_vars.get("adw-view-bg-rgb"),
-        "view_fg_color": theme_vars.get("adw-view-fg-rgb"),
-
-        "popover_bg_color": theme_vars.get("adw-popover-bg-rgb"),
-        "popover_fg_color": theme_vars.get("adw-popover-fg-rgb"),
-
-        "dialog_bg_color": theme_vars.get("adw-popover-bg-rgb"),
-        "dialog_fg_color": theme_vars.get("adw-popover-fg-rgb"),
-
-        "card_fg_color": theme_vars.get("adw-card-fg-rgb"),
-        "card_bg_color": (theme_vars.get("adw-card-bg-rgb"), theme_vars.get("adw-card-bg-a")),
-    }
-
-    style_vars = lookup_css(style_vars, theme_vars)
-    style = format_css(style_vars)
-
-    if all(x is None for x in style_vars.values()):
-        return (False, _("Style: Theme {theme_name} seems to be invalid").format(theme_name=theme_name))
-
-    # Hardcoded Styles
-    style += "tooltip.background { background-color: rgba(0, 0, 0, 0.8); color: @card_fg_color; }\n"
-    style += "list.boxed-list > row:not(:last-child) { border-bottom: 1px solid rgba(0, 0, 0, 0.36); }\n"
-
+    style += "\n.color-swatch { background-color: #e62d42;   border-radius: 4px; }"
 
     return (True, style)
-
-def lookup_css(style_vars, theme_vars):
-    # non-recursive, meh
-    for adw_color, theme_color in style_vars.items():
-
-        if not theme_color:
-            continue
-
-        if isinstance(theme_color, tuple):
-            continue
-
-        var_result = None
-
-        var_pattern = r'var\(\s*--([\w-]+)\s*\)'
-        var_result = re.search(var_pattern, theme_color)
-
-        if var_result:
-            resolved = theme_vars.get(var_result.group(1))
-        else:
-            resolved = None
-
-        if resolved:
-            style_vars[adw_color] = resolved
-
-    return style_vars
-
-def format_css(style_vars):
-
-    css = ""
-
-    for adw_color, theme_color in style_vars.items():
-        if theme_color:
-
-            # tuples are rgba
-            if isinstance(theme_color, tuple) and theme_color[0] and theme_color[1]:
-                final_color = f"rgba({theme_color[0]}, {theme_color[1]})"
-            # rgb
-            else:
-                final_color = f"rgb({theme_color})"
-
-            css += f"@define-color {adw_color} {final_color};\n"
-
-    return css

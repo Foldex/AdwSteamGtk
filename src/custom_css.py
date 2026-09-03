@@ -45,6 +45,3 @@ def check():
 def create():
     with open(paths.CUSTOM_CSS_FILE, "w") as f:
         f.write(TEMPLATE)
-
-def install():
-    shutil.copyfile(paths.CUSTOM_CSS_FILE, paths.CUSTOM_CSS_FILE_DEST)

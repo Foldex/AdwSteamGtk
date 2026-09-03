@@ -30,7 +30,11 @@ CONFIG_DIR=os.path.join(XDG_CONFIG_DIR, "AdwSteamGtk")
 
 TMP_DIR=os.path.join(CACHE_DIR, "tmp")
 EXTRACTED_DIR=os.path.join(CACHE_DIR, "extracted")
+
 ADWAITA_DIR=os.path.join(EXTRACTED_DIR, "adwaita")
+CSS_DIR=os.path.join(ADWAITA_DIR, "css")
+COLORS_DIR=os.path.join(CSS_DIR, "_colors")
+
 THEMES_DIR=os.path.join(ADWAITA_DIR, "colorthemes")
 
 LAST_CHECK_FILE=os.path.join(CACHE_DIR, "last_check")
@@ -38,6 +42,8 @@ LAST_VERSION_FILE=os.path.join(CACHE_DIR, "last_ver")
 LAST_RELEASE_FILE=os.path.join(CACHE_DIR, "latest.zip")
 
 CUSTOM_CSS_FILE=os.path.join(CONFIG_DIR, "custom.css")
-CUSTOM_CSS_FILE_DEST=os.path.join(EXTRACTED_DIR, "custom/custom.css")
 CUSTOM_CSS_INFO_URL="https://github.com/Foldex/AdwSteamGtk/wiki/Custom-CSS"
 CUSTOM_CSS_URI=pathlib.Path(CUSTOM_CSS_FILE).as_uri()
+
+CSS_PALETTE_FILE=os.path.join(COLORS_DIR, "palette.css")
+CSS_DEFAULT_FILE=os.path.join(COLORS_DIR, "default.css")

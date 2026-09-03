@@ -19,7 +19,7 @@ import json
 import urllib.request
 
 API_URL="https://api.github.com/repos/tkashkin/Adwaita-for-Steam/releases/latest"
-BETA_ZIP="https://github.com/Foldex/Adwaita-for-Steam/archive/refs/heads/beta.zip"
+BETA_ZIP="https://github.com/tkashkin/Adwaita-for-Steam/archive/refs/tags/4.4.zip"
 
 def get_release_info(beta_support=False):
     if not beta_support:

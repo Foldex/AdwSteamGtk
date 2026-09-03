@@ -7,6 +7,22 @@
       <default>"Adwaita"</default>
     </key>
 
+    <key name="accent-color" type="s">
+      <default>"Auto"</default>
+      <choices>
+        <choice value="Auto"/>
+        <choice value="Theme"/>
+        <choice value="Blue"/>
+        <choice value="Teal"/>
+        <choice value="Green"/>
+        <choice value="Yellow"/>
+        <choice value="Orange"/>
+        <choice value="Pink"/>
+        <choice value="Purple"/>
+        <choice value="Slate"/>
+      </choices>
+    </key>
+
     <key name="no-rounded-corners-switch" type="b">
       <default>false</default>
     </key>
@@ -55,6 +71,11 @@
         <choice value="Hover Only"/>
         <choice value="Hide"/>
       </choices>
+    </key>
+
+    <!-- Store -->
+    <key name="show-url-bar-switch" type="b">
+      <default>false</default>
     </key>
 
     <!-- Prefs -->

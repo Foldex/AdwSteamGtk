@@ -34,7 +34,7 @@ def gen_cmd_line(options, beta_support):
 
     match options["custom_css"]:
         case True:
-            custom_css = "--custom-css "
+            custom_css = f"--custom-css {paths.CUSTOM_CSS_FILE}"
         case _:
             custom_css = ""
 
@@ -45,9 +45,15 @@ def gen_cmd_line(options, beta_support):
         case _:
             color_theme = f"-c {options['color_theme'].lower()} "
 
+    match options["accent_color"].lower():
+        case "auto":
+            accent_color = "-a auto "
+        case _:
+            accent_color = f"-a {options['accent_color'].lower()} "
+
     match options["rounded_corners"]:
         case False:
-            rounded_corners = "-e general/no_rounded_corners "
+            rounded_corners = "-e general/no-rounded-corners "
         case _:
             rounded_corners = ""
 
@@ -88,29 +94,36 @@ def gen_cmd_line(options, beta_support):
 
     match options["library_sidebar"].lower():
         case "hover only":
-            library_sidebar = "-e library/sidebar_hover "
+            library_sidebar = "-e library/sidebar-hover "
         case _:
             library_sidebar = ""
 
     match options["library_whats_new"]:
         case False:
-            library_whats_new = "-e library/hide_whats_new "
+            library_whats_new = "-e library/hide-whats-new "
         case _:
             library_whats_new = ""
 
 
     match options["login_qr"].lower():
         case "hide":
-            login_qr = "-e login/hide_qr "
+            login_qr = "-e login/hide-qr "
         case "hover only":
-            login_qr = "-e login/hover_qr "
+            login_qr = "-e login/hover-qr "
         case _:
             login_qr = ""
+
+    match options["show_url_bar"]:
+        case True:
+            show_url_bar = "-e store/show-url "
+        case _:
+            show_url_bar = ""
 
     cmd = (
         f"{installer}"
 
         f"{color_theme}"
+        f"{accent_color}"
         f"{rounded_corners}"
 
         f"{win_controls}"
@@ -120,6 +133,8 @@ def gen_cmd_line(options, beta_support):
         f"{library_whats_new}"
 
         f"{login_qr}"
+
+        f"{show_url_bar}"
 
         f"{custom_css}"
     )
@@ -186,9 +201,6 @@ def run(options, beta_support=False):
         (ret, msg) = update.post_download()
         if not ret:
             return (ret, msg)
-
-    if options.get("custom_css"):
-        custom_css.install()
 
     cmd = gen_cmd_line(options, beta_support)
     (ret, msg) = install(cmd)

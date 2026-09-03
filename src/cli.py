@@ -56,6 +56,7 @@ def get_options(option_string):
             "custom_css": settings.get_boolean('prefs-install-custom-css'),
 
             "color_theme": settings.get_string('color-theme-options'),
+            "accent_color": settings.get_string('accent-color'),
             "rounded_corners": not settings.get_boolean('no-rounded-corners-switch'),
 
             "win_controls": settings.get_string('window-controls-options'),
@@ -65,6 +66,8 @@ def get_options(option_string):
             "library_whats_new": not settings.get_boolean('hide-whats-new-switch'),
 
             "login_qr": settings.get_string('login-qr-options'),
+
+            "show_url_bar": not settings.get_boolean('show-url-bar-switch'),
         }
 
         if option_string is None:
@@ -73,6 +76,7 @@ def get_options(option_string):
         valid_options = {
             "custom_css": (True, False),
 
+            "accent_color": ("Auto", "Theme", "Blue", "Teal", "Green", "Yellow", "Orange", "Pink", "Purple", "Slate"),
             "rounded_corners": (True, False),
 
             "win_controls": ("Adwaita", "Breeze", "MacOS", "Windows"),
@@ -82,6 +86,8 @@ def get_options(option_string):
             "library_whats_new": (True, False),
 
             "login_qr": ("Show", "Hover Only", "Hide"),
+
+            "show_url_bar": (True, False),
         }
 
         if ":" not in option_string:

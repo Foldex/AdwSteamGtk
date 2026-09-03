@@ -25,7 +25,7 @@ from . import update
 from . import zip
 
 @Gtk.Template(resource_path='/io/github/Foldex/AdwSteamGtk/ui/window.ui')
-class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
+class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'AdwaitaSteamGtkWindow'
 
     settings = Gio.Settings.new(info.APP_ID)
@@ -34,6 +34,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     theme_group = Gtk.Template.Child()
     color_theme_options = Gtk.Template.Child()
+    accent_color_options = Gtk.Template.Child()
     no_rounded_corners = Gtk.Template.Child()
     no_rounded_corners_switch = Gtk.Template.Child()
 
@@ -44,19 +45,23 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
     library_group = Gtk.Template.Child()
     library_sidebar_options = Gtk.Template.Child()
     hide_whats_new_switch = Gtk.Template.Child()
+    show_url_bar_switch = Gtk.Template.Child()
 
     login_group = Gtk.Template.Child()
     login_qr_options = Gtk.Template.Child()
+
+    controller = Gtk.EventControllerKey()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
         # Disable Beta Support
-        self.settings.set_boolean("prefs-beta-support", False)
+        # self.settings.set_boolean("prefs-beta-support", False)
         self.beta_support = self.settings.get_boolean("prefs-beta-support")
 
         self.opt_array = {
             "color_theme": ["Adwaita"],
+            "accent_color": ["Auto", "Theme", "Blue", "Teal", "Green", "Yellow", "Orange", "Pink", "Purple", "Slate"],
 
             "win_controls": ["Adwaita", "Breeze", "MacOS", "Windows"],
             "win_controls_layout": ["Auto", "Adwaita", "Elementary", "MacOS", "Windows", "None"],
@@ -73,8 +78,20 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.load_color_themes()
         self.load_config()
         self.style_provider = None
+        self.style_manager = None
         self.load_app_style()
         self.color_theme_options.connect("notify::selected", self.load_app_style)
+        self.add_controller(self.controller)
+        self.controller.connect("key-pressed", self._on_key_pressed)
+
+    def _on_key_pressed(self, controller, keyval, keycode, state):
+        if keyval == Gdk.KEY_space:
+            current = self.color_theme_options.get_selected()
+            n = self.color_theme_options.get_model().get_n_items()
+            if n > 0:
+                self.color_theme_options.set_selected((current + 1) % n)
+            return True
+        return False
 
     def make_action(self, action, func):
         install_action = Gio.SimpleAction(name=action)
@@ -89,6 +106,10 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             self.style_provider = Gtk.CssProvider()
             Gtk.StyleContext.add_provider_for_display(Gdk.Display.get_default(), self.style_provider, Gtk.STYLE_PROVIDER_PRIORITY_USER + 1)
 
+        if self.style_manager is None:
+            self.style_manager = Adw.StyleManager.get_default()
+            self.style_manager.connect("notify::dark", self.load_app_style)
+
         preview_theme = self.settings.get_boolean("prefs-ui-preview-theme")
 
         if not preview_theme:
@@ -102,7 +123,20 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             t = Adw.Toast(title=msg, priority="high")
             self.pop_toast(t)
 
+        self.sync_color_scheme_pref()
         self.style_provider.load_from_data(msg, -1)
+
+    def sync_color_scheme_pref(self):
+        if not self.style_manager:
+            return
+
+        if not self.style_provider:
+            return
+
+        if self.style_manager.get_dark():
+            self.style_provider.set_property("prefers-color-scheme", Gtk.InterfaceColorScheme.DARK)
+        else:
+            self.style_provider.set_property("prefers-color-scheme", Gtk.InterfaceColorScheme.LIGHT)
 
     def load_color_themes(self):
         (themes, msg) = style.get_color_themes()
@@ -116,6 +150,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
     def load_config(self):
         self.select_from_config('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
+        self.select_from_config('accent-color', self.accent_color_options, self.opt_array["accent_color"])
         self.select_from_config('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
         self.select_from_config('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
@@ -126,8 +161,11 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
 
         self.select_from_config('login-qr-options', self.login_qr_options, self.opt_array["login_qr"])
 
+        self.select_from_config('show-url-bar-switch', self.show_url_bar_switch)
+
     def save_config(self):
         self.config_from_select('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
+        self.config_from_select('accent-color', self.accent_color_options, self.opt_array["accent_color"])
         self.config_from_select('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
         self.config_from_select('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
@@ -137,6 +175,8 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
         self.config_from_select('hide-whats-new-switch', self.hide_whats_new_switch)
 
         self.config_from_select('login-qr-options', self.login_qr_options, self.opt_array["login_qr"])
+
+        self.config_from_select('show-url-bar-switch', self.show_url_bar_switch)
 
 
     def get_selected_pref(self, widget, array=None):
@@ -211,6 +251,7 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "custom_css": self.settings.get_boolean('prefs-install-custom-css'),
 
             "color_theme": self.get_selected_pref(self.color_theme_options, self.opt_array["color_theme"]),
+            "accent_color": self.get_selected_pref(self.accent_color_options, self.opt_array["accent_color"]),
             "rounded_corners": not self.get_selected_pref(self.no_rounded_corners_switch),
 
             "win_controls": self.get_selected_pref(self.window_controls_options, self.opt_array["win_controls"]),
@@ -220,6 +261,8 @@ class AdwaitaSteamGtkWindow(Gtk.ApplicationWindow):
             "library_whats_new": not self.get_selected_pref(self.hide_whats_new_switch),
 
             "login_qr": self.get_selected_pref(self.login_qr_options, self.opt_array["login_qr"]),
+
+            "show_url_bar": self.get_selected_pref(self.show_url_bar_switch),
         }
 
         (ret, msg) = install.run(options, self.beta_support)
