@@ -8,51 +8,48 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: 2026-08-21 11:52+0000\n"
-"Last-Translator: Ádám Sárközi <raihwy3@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/adwsteamgtk/"
-"adwsteamgtk/hu/>\n"
-"Language: hu\n"
+"PO-Revision-Date: 2026-05-16 12:06+0000\n"
+"Last-Translator: Juraj Kollár <mostypc7@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/adwsteamgtk/"
+"adwsteamgtk/sk/>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.dev0\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "AdwSteamGtk"
-msgstr "AdwSteamGtk"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:13
 msgid "Give Steam the Adwaita treatment"
-msgstr "Adj a Steamnek Adwaita stílust"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
 msgid "Foldex"
-msgstr "Foldex"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:25
 msgid ""
 "Make Steam look like it belongs on your computer. This app installs and "
 "updates the Adwaita-for-Steam skin for you. It's as simple as this:"
 msgstr ""
-"Alakítsd át a Steam témáját, hogy illeszkedjen a számítógépedhez. Ez az "
-"alkalmazás telepíti és frissíti az Adwaita-for-Steam témát. Könnyen és "
-"egyszerűen:"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:30
 msgid "Configure the skin to your liking"
-msgstr "Állítsd be a témát ízlésed szerint"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:31
 msgid "Click the “Apply” button"
-msgstr "Kattints az 'Alkalmaz' gombra"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:32
 msgid "Restart Steam"
-msgstr "Indítsd újra a Steamet"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:34
 msgid ""
@@ -60,52 +57,45 @@ msgid ""
 "display a notification. Apply the skin again and restart Steam to take the "
 "changes into use."
 msgstr ""
-"Induláskor az alkalmazás automatikusan letölti a téma frissítéseit, és "
-"értesítést jelenít meg. Alkalmazd újra a témát, és indítsd újra a Steamet, "
-"hogy érvénybe lépjenek a változások."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:38
 msgid ""
 "In order to get rounded corners on Steam, you will need to use the “Rounded "
 "Window Corners” GNOME extension."
 msgstr ""
-"A lekerekített sarkok eléréséhez a Steam-en használnod kell a „Rounded "
-"Window Corners” GNOME bővítményt."
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:244
 msgid "Main Window"
-msgstr "Főablak"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:248
 msgid "Theme Preview"
-msgstr "Téma Előnézet"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:252
 msgid "Login Preview"
-msgstr "Bejelentkezési Előnézet"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
 msgid "A simple wrapper that installs Adwaita for Steam"
-msgstr "Egy egyszerű wrapper, amely telepíti az Adwaita-t a Steamhez"
+msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
 msgid "Steam;Adwaita;Skin;"
-msgstr "Steam;Adwaita;Téma;"
+msgstr ""
 
 #: src/cli.py:47 src/cli.py:138
 msgid "Up to Date."
-msgstr "Frissítve."
+msgstr ""
 
 #: src/cli.py:105
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
-msgstr "{key}: {cur_val} érvénytelen érték"
+msgstr ""
 
 #: src/cli.py:111
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
-"Nem sikerült lekérni a téma listát. Visszatérünk az utoljára kiválasztott "
-"témához."
 
 #: src/cli.py:117
 #, python-brace-format
@@ -113,315 +103,307 @@ msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
-"Nem található a(z) {colortheme} témát a téma listában. Visszatérünk az "
-"utoljára kiválasztott témához."
 
 #: src/cli.py:132
 msgid "New Release Available: "
-msgstr "Új Kiadás Elérhető: "
+msgstr ""
 
 #: src/cli.py:135
 msgid "Update Check Failed: "
-msgstr "Frissítés Ellenőrzés Hiba: "
+msgstr ""
 
 #: src/dl.py:30
 msgid "API: HTTP Error Code "
-msgstr "API: HTTP hibakód "
+msgstr "API: HTTP chybný kód "
 
 #: src/dl.py:32
 msgid "API: Error Parsing JSON"
-msgstr "API: Hiba a JSON feldolgozásában"
+msgstr ""
 
 #: src/dl.py:34
 msgid "API: Error retrieving release info"
-msgstr "API: Hiba a kiadási információk lekérésekor"
+msgstr ""
 
 #: src/dl.py:42
 msgid "API: JSON is missing required keys"
-msgstr "API: A JSON-ból hiányoznak a szükséges kulcsok"
+msgstr ""
 
 #: src/dl.py:48
 msgid "Release: HTTP Error Code "
-msgstr "Kiadás: HTTP hibakód "
+msgstr ""
 
 #: src/dl.py:50
 msgid "Release: Connection Reset"
-msgstr "Kiadás: Kapcsolat Visszaállítva"
+msgstr ""
 
 #: src/dl.py:52
 msgid "Release: Permission Error"
-msgstr "Kiadás: Jogosultsági Hiba"
+msgstr ""
 
 #: src/dl.py:54
 msgid "Release: Connection Timeout"
-msgstr "Kiadás: Kapcsolati Időtúllépés"
+msgstr ""
 
 #: src/dl.py:56
 msgid "Release: Error Retrieving Zip"
-msgstr "Kiadás: Hiba a ZIP fájl lekérésekor"
+msgstr ""
 
 #: src/install.py:132
 msgid "Install: Found no Valid Install Targets"
-msgstr "Telepítés: Nem Található Érvényes Telepítési Célpont"
+msgstr ""
 
 #: src/install.py:135
 msgid "Install: Installer Process Failed"
-msgstr "Telepítés: A Telepítő Folyamat nem Sikerült"
+msgstr ""
 
 #: src/install.py:169
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
 msgstr ""
-"Telepítés: Nem sikerült érvényes '~/.steam/steam' szimbolikus linket "
-"(Symlink) találni"
 
 #: src/main.py:138
 msgid "Upstream"
-msgstr "Forrás"
+msgstr ""
 
 #: src/main.py:139
 msgid "Translators"
-msgstr "Fordítók"
+msgstr "Prekladatelia"
 
 #: src/main.py:148
 msgid "Uninstall Theme"
-msgstr "Téma Eltávolítása"
+msgstr "Odinštalovať tému"
 
 #: src/main.py:149
+#, fuzzy
 msgid "This will reset all customizations made to the Steam client."
-msgstr "Ez visszaállítja az összes változtatást a Steam kliensen."
+msgstr "Toto resetuje všetky zmeny na aplikácii Steam."
 
 #: src/main.py:151
 msgid "Cancel"
-msgstr "Mégse"
+msgstr "Zrušiť"
 
 #: src/main.py:152
 msgid "Uninstall"
-msgstr "Eltávolítás"
+msgstr "Odinštalovať"
 
 #: src/pages/window.py:193
 msgid "New Release Downloaded: "
-msgstr "Új Kiadás Letöltve: "
+msgstr "Nová verzia stiahnutá: "
 
 #: src/pages/window.py:195
 msgid "Retry"
-msgstr "Újrapróbálkozás"
+msgstr "Skúsiť znovu"
 
 #: src/pages/window.py:228
 msgid "Theme Installed"
-msgstr "Téma Telepítve"
+msgstr "Téma nainštalovaná"
 
 #: src/style.py:40
 msgid "Get Themes: Failed to get themes"
-msgstr "Témák Beszerzése: Nem Sikerült Letölteni a Témákat"
+msgstr ""
 
 #: src/style.py:71
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr "Style: Nem található a(z) {theme_name} téma"
+msgstr ""
 
 #: src/style.py:122
 #, python-brace-format
 msgid "Style: Theme {theme_name} seems to be invalid"
-msgstr "Stílus: A {theme_name} Téma érvénytelennek tűnik"
+msgstr ""
 
 #: src/ui/prefs.blp:5
 msgid "Preferences"
-msgstr "Beállítások"
+msgstr "Preferencie"
 
 #: src/ui/prefs.blp:12
+#, fuzzy
 msgid "Autostart"
-msgstr "Automatikus Indítás"
+msgstr "Automatické zapnutie"
 
 #: src/ui/prefs.blp:15
 msgid "Auto Update Check"
-msgstr "Frissítések Ellenőrzése"
+msgstr ""
 
 #: src/ui/prefs.blp:16
 msgid "Checks and notifies for theme updates on user login."
 msgstr ""
-"Ellenőrzi és értesít a témafrissítésekről a felhasználói bejelentkezéskor."
 
 #: src/ui/prefs.blp:25
 msgid "Beta"
-msgstr "Béta"
+msgstr "Beta"
 
 #: src/ui/prefs.blp:29
 msgid "Experimental Beta Support"
-msgstr "Kísérleti Béta Hozzáférés"
+msgstr "Experimentálna beta podpora"
 
 #: src/ui/prefs.blp:30
 msgid "Enables Beta Support (requires restart)"
-msgstr "Engedélyezi a Bétaverziót (újraindítás szükséges)"
+msgstr ""
 
 #: src/ui/prefs.blp:39
 msgid "Installer"
-msgstr "Telepítő"
+msgstr "Inštalátor"
 
 #: src/ui/prefs.blp:42
 msgid "Custom CSS"
-msgstr "Egyéni CSS"
+msgstr "Vlastné CSS"
 
 #: src/ui/prefs.blp:43
 msgid "Include Custom CSS into Steam"
-msgstr "Egyéni CSS Hozzáadása a Steamhez"
+msgstr "Pridá vlastné CSS to Steam-u,"
 
 #: src/ui/prefs.blp:48
 msgid "Custom CSS Info"
-msgstr "Egyéni CSS Információ"
+msgstr "Informácie o vlastnom CSS"
 
 #: src/ui/prefs.blp:53
 msgid "Edit Custom CSS File"
-msgstr "Egyéni CSS fájl Szerkesztése"
+msgstr "Editovať súbor vlastného CSS"
 
 #: src/ui/prefs.blp:63
 msgid "Interface"
-msgstr "Kezelőfelület"
+msgstr ""
 
 #: src/ui/prefs.blp:66
 msgid "Preview Themes"
-msgstr "Témák Előnézete"
+msgstr ""
 
 #: src/ui/prefs.blp:67
 msgid "Styles the interface to match the currently selected theme."
 msgstr ""
-"A kezelőfelület stílusát megváltoztatja, hogy illeszkedjen a jelenleg "
-"kiválasztott stílushoz."
 
 #: src/ui/window.blp:7
 msgid "Adwaita Steam Installer"
-msgstr "Adwaita Steam Telepítő"
+msgstr "Adwaita Steam Inštalátor"
 
 #: src/ui/window.blp:14
 msgid "Apply"
-msgstr "Alkalmaz"
+msgstr "Aplikovať"
 
 #: src/ui/window.blp:40
 msgid "Theme Options"
-msgstr "Téma Opciók"
+msgstr "Nastavenia témy"
 
 #: src/ui/window.blp:42
 msgid "Color Theme"
-msgstr "Színtéma"
+msgstr "Farebná schéma"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr "Módosítja a Steam felületének színtémáját."
+msgstr "Mení farebnú schému aplikácie Steam."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
-msgstr "Nem lekerekített sarkok"
+msgstr "Bez oblých okrajov"
 
 #: src/ui/window.blp:47
 msgid "Removes smooth rounded corners from the interface."
-msgstr "Eltávolítja a sima, lekerekített sarkokat a felületről."
+msgstr "Odstraňuje oblé okraje z aplikácie."
 
 #: src/ui/window.blp:57
 msgid "Window Controls Options"
-msgstr "Ablakkezelő beállításai"
+msgstr ""
 
 #: src/ui/window.blp:59
 msgid "Controls Style"
-msgstr "Ablak stílusa"
+msgstr ""
 
 #: src/ui/window.blp:60
 msgid "Changes Minimize/Maximize/Close Button Theme"
-msgstr "A Kicsinyítés/Nagyítás/Bezárás gomb témáját módosítja"
+msgstr ""
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Adwaita"
-msgstr "Adwaita"
+msgstr ""
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "MacOS"
-msgstr "MacOS"
+msgstr ""
 
 #: src/ui/window.blp:61 src/ui/window.blp:66
 msgid "Windows"
-msgstr "Windows"
+msgstr ""
 
 #: src/ui/window.blp:64
 msgid "Controls Button Layout"
-msgstr "Vezérlő Gombok Elrendezése"
+msgstr ""
 
 #: src/ui/window.blp:65
 msgid "Changes Minimize/Maximize/Close Button Layout and Position"
 msgstr ""
-"A Kicsinyítés/Nagyítás/Bezárás gombok elrendezésének és pozíciójának "
-"módosítása"
 
 #: src/ui/window.blp:66
 msgid "Auto"
-msgstr "Automata"
+msgstr ""
 
 #: src/ui/window.blp:66
 msgid "Elementary"
-msgstr "Elementary"
+msgstr ""
 
 #: src/ui/window.blp:71
 msgid "Library Options"
-msgstr "Könyvtár beállításai"
+msgstr "Možnosti Knižnice"
 
 #: src/ui/window.blp:74
 msgid "Library Sidebar"
-msgstr "Könyvtár Oldalsáv"
+msgstr ""
 
 #: src/ui/window.blp:75
 msgid "Changes display options for the Library's left sidebar."
-msgstr "Módosítja a könyvtár bal oldalsávjának megjelenítési beállításait."
+msgstr ""
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Show"
-msgstr "Megjelenítés"
+msgstr "Zobraziť"
 
 #: src/ui/window.blp:76 src/ui/window.blp:96
 msgid "Hover Only"
-msgstr "Csak Egérmutatóra"
+msgstr ""
 
 #: src/ui/window.blp:80
 msgid "Hide Library What's New Shelf"
-msgstr "Újdonságok elrejtése"
+msgstr ""
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
 msgstr ""
-"Letiltja az új frissítések szekciójának megjelenítését a könyvtár tetején."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
-msgstr "Bejelentkezési Beállítások"
+msgstr "Nastavenia prihlásenia"
 
 #: src/ui/window.blp:94
 msgid "QR Code Login"
-msgstr "QR Kódos Bejelentkezés"
+msgstr "Prihlásenie QR kódom"
 
 #: src/ui/window.blp:95
 msgid "Changes display options for the mobile QR code in the Login dialog."
-msgstr "Módosítja a QR kód megjelenítését a bejelentkezési ablakban."
+msgstr "Mení nastavenia zobrazenia QR kódu na prihlásenie."
 
 #: src/ui/window.blp:96
 msgid "Hide"
-msgstr "Elrejtés"
+msgstr "Schovať"
 
 #: src/ui/window.blp:108
 msgid "_Preferences"
-msgstr "_Beállítások"
+msgstr "_Preferencie"
 
 #: src/ui/window.blp:112
 msgid "_Uninstall"
-msgstr "_Eltávolítás"
+msgstr "_Odinštalovať"
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr "_Az AdwSteamGtk-ról"
+msgstr "_O AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
-msgstr "Kibontás: Nem Sikerült Olvasni a ZIP fájlt"
+msgstr ""
 
 #: src/zip.py:30
 msgid "Extract: Bad ZIP File"
-msgstr "Kibontás: Hibás ZIP fájl"
+msgstr ""
 
 #: src/zip.py:32
 msgid "Extract: Failed to Extract ZIP File"
-msgstr "Kibontás: Nem sikerült Kibontani a ZIP fájlt"
+msgstr ""
