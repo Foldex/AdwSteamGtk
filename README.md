@@ -58,13 +58,15 @@ Options should be passed as a single string like so:
 
 | Key                 | Description                                                 | Accepted Values                                          |
 | ------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
+| accent_color         | Accent Color for skin                                       | Auto, Theme, Blue, Teal, Green, Yellow, Orange, Pink, Purple, Slate |
 | color_theme         | Colortheme for skin                                         | Any valid theme name                                     |
 | library_sidebar     | Display Options for Library Sidebar                         | show, hover_only                                         |
 | library_whats_new   | Show the Library What's New Section                         | true, false, yes, no, on, off, t, f, y, n                |
 | login_qr            | Display Options for the QR Code Login                       | show, hover_only, hide                                   |
 | rounded_corners     | Show Rounded Corners on Elements                            | true, false, yes, no, on, off, t, f, y, n                |
-| win_controls        | Window Controls Themes                                      | adwaita, macos, windows                                  |
-| win_controls_layout | Window Controls Layout of Buttons                           | auto, adwaita, elementary, macos, windows                |
+| show_url_bar        | Show URL in store pages                                     | true, false, yes, no, on, off, t, f, y, n                |
+| win_controls        | Window Controls Themes                                      | adwaita, breeze, macos, windows                                  |
+| win_controls_layout | Window Controls Layout of Buttons                           | auto, gnome, kde, macos, pantheon, windows                |
 
 ## Troubleshooting
 
@@ -85,7 +87,7 @@ The [Weblate](https://hosted.weblate.org/projects/adwsteamgtk/adwsteamgtk/) plat
 It is recommended to use [Gnome Builder](https://wiki.gnome.org/Apps/Builder) or `flatpak-builder` to build the project.
 
 ```
-flatpak install org.gnome.Platform//47 org.gnome.Sdk//47
+flatpak install org.gnome.Platform//50 org.gnome.Sdk//50
 flatpak-builder --install --force-clean --user build-dir io.github.Foldex.AdwSteamGtk.json
 ```
 
