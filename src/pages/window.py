@@ -64,7 +64,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
             "accent_color": ["Auto", "Theme", "Blue", "Teal", "Green", "Yellow", "Orange", "Pink", "Purple", "Slate"],
 
             "win_controls": ["Adwaita", "Breeze", "MacOS", "Windows"],
-            "win_controls_layout": ["Auto", "Adwaita", "Elementary", "MacOS", "Windows", "None"],
+            "win_controls_layout": ["Auto", "Gnome", "KDE", "MacOS", "Pantheon", "Windows", "None"],
 
             "library_sidebar": ["Show", "Hover Only"],
 

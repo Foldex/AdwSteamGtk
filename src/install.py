@@ -78,14 +78,16 @@ def gen_cmd_line(options, beta_support):
                 win_controls_layout = f"--windowcontrols-layout {button_layout} "
             else:
                 win_controls_layout = ""
-        case "adwaita":
-            win_controls_layout = "--windowcontrols-layout adwaita "
-        case "elementary":
-            win_controls_layout = "--windowcontrols-layout elementary "
-        case "windows":
-            win_controls_layout = "--windowcontrols-layout windows "
+        case "gnome":
+            win_controls_layout = "--windowcontrols-layout gnome "
+        case "kde":
+            win_controls_layout = "--windowcontrols-layout kde "
         case "macos":
             win_controls_layout = "--windowcontrols-layout macos "
+        case "pantheon":
+            win_controls_layout = "--windowcontrols-layout pantheon "
+        case "windows":
+            win_controls_layout = "--windowcontrols-layout windows "
         case "none":
             win_controls_layout = "--windowcontrols-layout ':' "
         case _:

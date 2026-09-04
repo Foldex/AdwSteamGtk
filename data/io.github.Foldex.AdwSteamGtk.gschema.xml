@@ -42,9 +42,10 @@
       <default>"Auto"</default>
       <choices>
         <choice value="Auto"/>
-        <choice value="Adwaita"/>
-        <choice value="Elementary"/>
+        <choice value="Gnome"/>
+        <choice value="KDE"/>
         <choice value="MacOS"/>
+        <choice value="Pantheon"/>
         <choice value="Windows"/>
         <choice value="None"/>
       </choices>
