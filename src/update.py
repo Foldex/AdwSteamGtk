@@ -82,6 +82,12 @@ def check(check_only=False, beta_support=False):
         version = dict["tag_name"]
         url = dict["zipball_url"]
 
+        # Temp Hack
+        # Force 3.17 to upgrade to 4.4
+        if version == '3.17':
+            version = version.replace('3.17', '4.4')
+            url = url.replace('3.17', '4.4')
+
         # Force Newer if we're downloading the beta
         if beta_support:
             is_newer = True
