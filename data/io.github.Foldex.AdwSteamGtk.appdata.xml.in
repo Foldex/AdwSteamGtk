@@ -45,6 +45,15 @@
   </categories>
 
   <releases>
+    <release version="0.9.0" type="stable" date="2026-10-23">
+      <description translate="no">
+        <ul>
+          <li>Added support for newer theme format</li>
+          <li>New Interface</li>
+          <li>Updated to Gnome Runtime 51</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.8.0" type="stable" date="2025-03-01">
       <description translate="no">
         <ul>
@@ -277,11 +286,15 @@
     </screenshot>
     <screenshot>
       <caption>Library Preview</caption>
-      <image>https://raw.githubusercontent.com/tkashkin/Adwaita-for-Steam/refs/heads/master/screenshots/library.png</image>
+      <image>https://raw.githubusercontent.com/tkashkin/Adwaita-for-Steam/refs/heads/master/adwaita/colorthemes/adwaita/preview.png</image>
     </screenshot>
     <screenshot>
-      <caption>Login Preview</caption>
-      <image>https://raw.githubusercontent.com/tkashkin/Adwaita-for-Steam/master/adwaita/colorthemes/adwaita/preview.png</image>
+      <caption>Dark Themes</caption>
+      <image>https://raw.githubusercontent.com/tkashkin/Adwaita-for-Steam/refs/heads/master/screenshots/dark.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Light Themes</caption>
+      <image>https://raw.githubusercontent.com/tkashkin/Adwaita-for-Steam/refs/heads/master/screenshots/light.png</image>
     </screenshot>
   </screenshots>
 
