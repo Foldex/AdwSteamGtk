@@ -56,8 +56,9 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
         super().__init__(**kwargs)
 
         # Disable Beta Support
-        # self.settings.set_boolean("prefs-beta-support", False)
-        self.beta_support = self.settings.get_boolean("prefs-beta-support")
+        self.settings.set_boolean("prefs-beta-support", False)
+        self.beta_support = False
+        # self.beta_support = self.settings.get_boolean("prefs-beta-support")
 
         self.opt_array = {
             "color_theme": ["Adwaita"],
