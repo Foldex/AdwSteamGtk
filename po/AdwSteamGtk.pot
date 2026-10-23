@@ -1,14 +1,14 @@
 # AdwSteamGtk Pot
-# Copyright (C) 2024 Foldex
+# Copyright (C) 2026 Foldex
 # This file is distributed under the GNU GPLv3 license.
-# Foldex, 2024.
+# Foldex, 2026.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: AdwSteamGtk 0.6.11\n"
+"Project-Id-Version: AdwSteamGtk 0.8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-09 19:43-0500\n"
+"POT-Creation-Date: 2026-09-04 16:37-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:12
-#: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:2
 msgid "AdwSteamGtk"
 msgstr ""
 
@@ -27,7 +27,6 @@ msgid "Give Steam the Adwaita treatment"
 msgstr ""
 
 #: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:14
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:16
 msgid "Foldex"
 msgstr ""
 
@@ -62,51 +61,290 @@ msgid ""
 "Window Corners” GNOME extension."
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:244
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:51
+msgid "Fixed theme previews"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:52
+msgid "Allow previewing themes that are partial"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:53
+msgid "Window Controls can now be disabled entirely"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:54
+msgid "Updated Translations"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:61
+msgid ""
+"Improved error handling when retrieving window control settings through "
+"portal"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:68
+msgid "Fixed an issue when installing colorthemes through the CLI"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:75
+msgid "Updated to use new window control options"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:82
+msgid "Fixed Crash on Launch due to upstream changes"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:83
+msgid "Updated Hindi and Turkish Translations"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:84
+msgid "Added Italian Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:91
+msgid ""
+"Added Belarusian, Chinese, Dutch, Finnish, Hindi, Portuguese, Swedish, and "
+"Turkish Translations"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:92
+msgid "Updated German Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:93
+msgid "Updated Blueprint, pyparsing, packaging dependencies"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:94
+msgid "Updated to Gnome Runtime 46"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:101
+msgid "Added Czech Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:102
+msgid "Added Spanish Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:103
+msgid "Updated French Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:104
+msgid "New Application Icon"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:105
+msgid "Updated Libportal"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:112
+msgid "Fixed issue with Uninstall"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:119
+msgid "Removed Deprecated Font Install Preference"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:126
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:150
+msgid "Fixed Appdata"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:127
+msgid "Removed some options that no longer exist upstream"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:134
+msgid "Updated Russian Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:135
+msgid "Updated to new upstream install method"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:142
+msgid "Updated German and Ukrainian Translations"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:143
+msgid "Added Portuguese Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:157
+msgid "Beta Toggle removed as new UI support landed upstream"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:158
+msgid ""
+"Added option to use Steam's Original Top Bar instead of our Adwaita styled "
+"one"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:159
+msgid "Initial German Translation"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:160
+msgid "Added hover tooltips to installer options"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:167
+msgid "Added French, Ukrainian, and Russian Translations"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:174
+msgid "New UI"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:175
+msgid "Added Experimental Beta Client Support (with new options)"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:176
+msgid "Added Custom CSS Option"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:183
+msgid "Added Autostart Update Check preference toggle"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:184
+msgid "Added Font Install preference toggle"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:191
+msgid "Fixed issue with theme preview on light mode"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:192
+msgid "Added preferences toggle for theme preview"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:199
+msgid "Colortheme is now previewed in app"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:200
+msgid "Added -u/-i arguments to install skin via commandline"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:201
+msgid "Added -o argument to override install options for -i/-u"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:208
+msgid "Added Library Sidebar Options"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:215
+msgid "Updated to Gnome 44 Runtime"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:216
+msgid "Changed Default Web Theme to Full Variant"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:223
+msgid "Fixed Installer CLI Output"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:230
+msgid "Added Color Theme Support"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:231
+msgid "Added -c argument to notify about updates"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:238
+msgid "Last chosen settings are now loaded at startup"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:239
+msgid "Changed display of install button if the theme is already installed"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:246
+msgid "Added None to Window Control Options"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:253
+msgid "Added QR Login Options"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:254
+msgid "Improved Missing Dir Messages"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:261
+msgid "Updated to Gnome 43 SDK"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:262
+msgid "Implemented AdwAboutWindow"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:263
+msgid "Updated Filesystem Permissions"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:264
+msgid "Fixed Quit Shortcut"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:265
+msgid "Fixed Current Check"
+msgstr ""
+
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:275
 msgid "Main Window"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:248
-msgid "Theme Preview"
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:279
+msgid "Library Preview"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:252
+#: data/io.github.Foldex.AdwSteamGtk.appdata.xml.in:283
 msgid "Login Preview"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.desktop.in:4
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:3
 msgid "A simple wrapper that installs Adwaita for Steam"
 msgstr ""
 
-#: data/io.github.Foldex.AdwSteamGtk.desktop.in:10
+#: data/io.github.Foldex.AdwSteamGtk.desktop.in:9
 msgid "Steam;Adwaita;Skin;"
 msgstr ""
 
-#: src/cli.py:47 src/cli.py:138
+#: src/cli.py:47 src/cli.py:144
 msgid "Up to Date."
 msgstr ""
 
-#: src/cli.py:105
+#: src/cli.py:111
 #, python-brace-format
 msgid "{key}: {cur_val} invalid value"
 msgstr ""
 
-#: src/cli.py:111
+#: src/cli.py:117
 msgid "Could not get theme list. Falling back to last selected theme."
 msgstr ""
 
-#: src/cli.py:117
+#: src/cli.py:123
 #, python-brace-format
 msgid ""
 "Could not find theme {colortheme} in theme list. Falling back to last "
 "selected theme."
 msgstr ""
 
-#: src/cli.py:132
+#: src/cli.py:138
 msgid "New Release Available: "
 msgstr ""
 
-#: src/cli.py:135
+#: src/cli.py:141
 msgid "Update Check Failed: "
 msgstr ""
 
@@ -146,15 +384,21 @@ msgstr ""
 msgid "Release: Error Retrieving Zip"
 msgstr ""
 
-#: src/install.py:132
+#: src/install.py:153
 msgid "Install: Found no Valid Install Targets"
 msgstr ""
 
-#: src/install.py:135
+#: src/install.py:156
 msgid "Install: Installer Process Failed"
 msgstr ""
 
-#: src/install.py:169
+#: src/install.py:185
+msgid ""
+"Could not grab window control settings from desktop portal, falling back to "
+"default"
+msgstr ""
+
+#: src/install.py:195
 msgid "Install: Failed to Find Valid '~/.steam/steam' Symlink"
 msgstr ""
 
@@ -178,19 +422,19 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: src/main.py:152
+#: src/main.py:152 src/ui/window.blp:162
 msgid "Uninstall"
 msgstr ""
 
-#: src/pages/window.py:193
+#: src/pages/window.py:233
 msgid "New Release Downloaded: "
 msgstr ""
 
-#: src/pages/window.py:195
+#: src/pages/window.py:235
 msgid "Retry"
 msgstr ""
 
-#: src/pages/window.py:228
+#: src/pages/window.py:271
 msgid "Theme Installed"
 msgstr ""
 
@@ -198,14 +442,9 @@ msgstr ""
 msgid "Get Themes: Failed to get themes"
 msgstr ""
 
-#: src/style.py:71
+#: src/style.py:149
 #, python-brace-format
 msgid "Style: Could not find theme {theme_name}"
-msgstr ""
-
-#: src/style.py:122
-#, python-brace-format
-msgid "Style: Theme {theme_name} seems to be invalid"
 msgstr ""
 
 #: src/ui/prefs.blp:5
@@ -272,123 +511,191 @@ msgstr ""
 msgid "Adwaita Steam Installer"
 msgstr ""
 
-#: src/ui/window.blp:14
-msgid "Apply"
-msgstr ""
-
-#: src/ui/window.blp:40
+#: src/ui/window.blp:59
 msgid "Theme Options"
 msgstr ""
 
-#: src/ui/window.blp:42
+#: src/ui/window.blp:61
 msgid "Color Theme"
 msgstr ""
 
-#: src/ui/window.blp:43
+#: src/ui/window.blp:62
 msgid "Changes the color theme of Steam's interface."
 msgstr ""
 
-#: src/ui/window.blp:46
-msgid "No Rounded Corners"
-msgstr ""
-
-#: src/ui/window.blp:47
-msgid "Removes smooth rounded corners from the interface."
-msgstr ""
-
-#: src/ui/window.blp:57
-msgid "Window Controls Options"
-msgstr ""
-
-#: src/ui/window.blp:59
-msgid "Controls Style"
-msgstr ""
-
-#: src/ui/window.blp:60
-msgid "Changes Minimize/Maximize/Close Button Theme"
-msgstr ""
-
-#: src/ui/window.blp:61 src/ui/window.blp:66
-msgid "Adwaita"
-msgstr ""
-
-#: src/ui/window.blp:61 src/ui/window.blp:66
-msgid "MacOS"
-msgstr ""
-
-#: src/ui/window.blp:61 src/ui/window.blp:66
-msgid "Windows"
-msgstr ""
-
-#: src/ui/window.blp:64
-msgid "Controls Button Layout"
-msgstr ""
-
 #: src/ui/window.blp:65
-msgid "Changes Minimize/Maximize/Close Button Layout and Position"
+msgid "Accent Color"
 msgstr ""
 
 #: src/ui/window.blp:66
+msgid "Changes the Accent Color"
+msgstr ""
+
+#: src/ui/window.blp:67 src/ui/window.blp:90
 msgid "Auto"
 msgstr ""
 
-#: src/ui/window.blp:66
-msgid "Elementary"
+#: src/ui/window.blp:67
+msgid "Theme"
+msgstr ""
+
+#: src/ui/window.blp:67
+msgid "Blue"
+msgstr ""
+
+#: src/ui/window.blp:67
+msgid "Teal"
+msgstr ""
+
+#: src/ui/window.blp:67
+msgid "Green"
+msgstr ""
+
+#: src/ui/window.blp:67
+msgid "Yellow"
+msgstr ""
+
+#: src/ui/window.blp:67
+msgid "Orange"
+msgstr ""
+
+#: src/ui/window.blp:67
+msgid "Pink"
+msgstr ""
+
+#: src/ui/window.blp:67
+msgid "Purple"
+msgstr ""
+
+#: src/ui/window.blp:67
+msgid "Slate"
+msgstr ""
+
+#: src/ui/window.blp:70
+msgid "No Rounded Corners"
 msgstr ""
 
 #: src/ui/window.blp:71
-msgid "Library Options"
-msgstr ""
-
-#: src/ui/window.blp:74
-msgid "Library Sidebar"
-msgstr ""
-
-#: src/ui/window.blp:75
-msgid "Changes display options for the Library's left sidebar."
-msgstr ""
-
-#: src/ui/window.blp:76 src/ui/window.blp:96
-msgid "Show"
-msgstr ""
-
-#: src/ui/window.blp:76 src/ui/window.blp:96
-msgid "Hover Only"
-msgstr ""
-
-#: src/ui/window.blp:80
-msgid "Hide Library What's New Shelf"
+msgid "Removes smooth rounded corners from the interface."
 msgstr ""
 
 #: src/ui/window.blp:81
-msgid "Disables display of the new updates section on top of the Library."
+msgid "Window Controls Options"
 msgstr ""
 
-#: src/ui/window.blp:91
-msgid "Login Options"
+#: src/ui/window.blp:83
+msgid "Controls Style"
 msgstr ""
 
-#: src/ui/window.blp:94
-msgid "QR Code Login"
+#: src/ui/window.blp:84
+msgid "Changes Minimize/Maximize/Close Button Theme"
 msgstr ""
 
-#: src/ui/window.blp:95
-msgid "Changes display options for the mobile QR code in the Login dialog."
+#: src/ui/window.blp:85
+msgid "Adwaita"
 msgstr ""
 
-#: src/ui/window.blp:96
-msgid "Hide"
+#: src/ui/window.blp:85
+msgid "Breeze"
+msgstr ""
+
+#: src/ui/window.blp:85 src/ui/window.blp:90
+msgid "MacOS"
+msgstr ""
+
+#: src/ui/window.blp:85 src/ui/window.blp:90
+msgid "Windows"
+msgstr ""
+
+#: src/ui/window.blp:88
+msgid "Controls Button Layout"
+msgstr ""
+
+#: src/ui/window.blp:89
+msgid "Changes Minimize/Maximize/Close Button Layout and Position"
+msgstr ""
+
+#: src/ui/window.blp:90
+msgid "Gnome"
+msgstr ""
+
+#: src/ui/window.blp:90
+msgid "KDE"
+msgstr ""
+
+#: src/ui/window.blp:90
+msgid "Pantheon"
+msgstr ""
+
+#: src/ui/window.blp:90
+msgid "None"
 msgstr ""
 
 #: src/ui/window.blp:108
-msgid "_Preferences"
+msgid "Library Options"
+msgstr ""
+
+#: src/ui/window.blp:111
+msgid "Library Sidebar"
 msgstr ""
 
 #: src/ui/window.blp:112
-msgid "_Uninstall"
+msgid "Changes display options for the Library's left sidebar."
 msgstr ""
 
-#: src/ui/window.blp:116
+#: src/ui/window.blp:113 src/ui/window.blp:133
+msgid "Show"
+msgstr ""
+
+#: src/ui/window.blp:113 src/ui/window.blp:133
+msgid "Hover Only"
+msgstr ""
+
+#: src/ui/window.blp:117
+msgid "Hide Library What's New Shelf"
+msgstr ""
+
+#: src/ui/window.blp:118
+msgid "Disables display of the new updates section on top of the Library."
+msgstr ""
+
+#: src/ui/window.blp:128
+msgid "Login Options"
+msgstr ""
+
+#: src/ui/window.blp:131
+msgid "QR Code Login"
+msgstr ""
+
+#: src/ui/window.blp:132
+msgid "Changes display options for the mobile QR code in the Login dialog."
+msgstr ""
+
+#: src/ui/window.blp:133
+msgid "Hide"
+msgstr ""
+
+#: src/ui/window.blp:138
+msgid "Store Options"
+msgstr ""
+
+#: src/ui/window.blp:141
+msgid "Show URL Bar"
+msgstr ""
+
+#: src/ui/window.blp:142
+msgid "Shows the url on store pages."
+msgstr ""
+
+#: src/ui/window.blp:156
+msgid "Install"
+msgstr ""
+
+#: src/ui/window.blp:176
+msgid "_Preferences"
+msgstr ""
+
+#: src/ui/window.blp:180
 msgid "_About AdwSteamGtk"
 msgstr ""
 
