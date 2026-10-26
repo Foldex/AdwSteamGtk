@@ -27,26 +27,6 @@
     ],
     "modules": [
         {
-            "name": "libportal",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Ddocs=false",
-                "-Dbackend-gtk4=enabled"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.11.0.tar.gz",
-                    "sha256": "71482afa68b3373268e7df7feaf96ce99eb1a6701f60ff43a0d1b2594605eae8",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 230124,
-                        "url-template": "https://github.com/flatpak/libportal/archive/refs/tags/$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "python3-packaging",
             "buildsystem": "simple",
             "build-commands": [
