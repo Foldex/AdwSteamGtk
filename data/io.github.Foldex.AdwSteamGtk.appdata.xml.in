@@ -11,8 +11,7 @@
 
   <name>AdwSteamGtk</name>
   <summary>Give Steam the Adwaita treatment</summary>
-  <developer_name>Foldex</developer_name>
-  <developer id="io.github.Foldex">
+  <developer id="io.github.foldex">
     <name>Foldex</name>
   </developer>
 
