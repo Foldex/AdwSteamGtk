@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: AdwSteamGtk 0.6.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 19:43-0500\n"
-"PO-Revision-Date: 2026-11-03 18:51+0000\n"
+"PO-Revision-Date: 2026-11-04 23:51+0000\n"
 "Last-Translator: frytek13 <frytek13@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/adwsteamgtk/"
 "adwsteamgtk/pl/>\n"
@@ -300,7 +300,7 @@ msgstr "Styl Koloru"
 
 #: src/ui/window.blp:43
 msgid "Changes the color theme of Steam's interface."
-msgstr "Zmienia styl kolorów w interfejsie Steama."
+msgstr "Zmienia motyw kolorystyczny interfejsu Steam."
 
 #: src/ui/window.blp:46
 msgid "No Rounded Corners"
@@ -377,7 +377,7 @@ msgstr "Ukryj Półkę \"Co nowego\""
 
 #: src/ui/window.blp:81
 msgid "Disables display of the new updates section on top of the Library."
-msgstr "Wyłącza wyświetlanie półki nowych aktualizacji u góry Biblioteki."
+msgstr "Wyłącza wyświetlanie sekcji nowych aktualizacji u góry Biblioteki."
 
 #: src/ui/window.blp:91
 msgid "Login Options"
@@ -405,7 +405,7 @@ msgstr ""
 
 #: src/ui/window.blp:116
 msgid "_About AdwSteamGtk"
-msgstr "_O AdwSteamGtk"
+msgstr "O AdwSteamGtk"
 
 #: src/zip.py:28
 msgid "Extract: Failed to read ZIP archive"
