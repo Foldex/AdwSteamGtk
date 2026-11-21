@@ -67,7 +67,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
             "win_controls": ["Adwaita", "Breeze", "MacOS", "Windows"],
             "win_controls_layout": ["Auto", "Gnome", "KDE", "MacOS", "Pantheon", "Windows", "None"],
 
-            "library_sidebar": ["Show", "Hover Only"],
+            # "library_sidebar": ["Show", "Hover Only"],
 
             "login_qr": ["Show", "Hover Only", "Hide"]
         }
@@ -157,7 +157,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
         self.select_from_config('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
         self.select_from_config('window-controls-layout-options', self.window_controls_layout_options, self.opt_array["win_controls_layout"])
 
-        self.select_from_config('library-sidebar-options', self.library_sidebar_options, self.opt_array["library_sidebar"])
+        # self.select_from_config('library-sidebar-options', self.library_sidebar_options, self.opt_array["library_sidebar"])
         self.select_from_config('hide-whats-new-switch', self.hide_whats_new_switch)
 
         self.select_from_config('login-qr-options', self.login_qr_options, self.opt_array["login_qr"])
@@ -172,7 +172,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
         self.config_from_select('window-controls-options', self.window_controls_options, self.opt_array["win_controls"])
         self.config_from_select('window-controls-layout-options', self.window_controls_layout_options, self.opt_array["win_controls_layout"])
 
-        self.config_from_select('library-sidebar-options', self.library_sidebar_options, self.opt_array["library_sidebar"])
+        # self.config_from_select('library-sidebar-options', self.library_sidebar_options, self.opt_array["library_sidebar"])
         self.config_from_select('hide-whats-new-switch', self.hide_whats_new_switch)
 
         self.config_from_select('login-qr-options', self.login_qr_options, self.opt_array["login_qr"])
@@ -258,7 +258,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
             "win_controls": self.get_selected_pref(self.window_controls_options, self.opt_array["win_controls"]),
             "win_controls_layout": self.get_selected_pref(self.window_controls_layout_options, self.opt_array["win_controls_layout"]),
 
-            "library_sidebar": self.get_selected_pref(self.library_sidebar_options, self.opt_array["library_sidebar"]),
+            # "library_sidebar": self.get_selected_pref(self.library_sidebar_options, self.opt_array["library_sidebar"]),
             "library_whats_new": not self.get_selected_pref(self.hide_whats_new_switch),
 
             "login_qr": self.get_selected_pref(self.login_qr_options, self.opt_array["login_qr"]),

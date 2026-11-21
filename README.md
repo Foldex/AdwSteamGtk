@@ -60,7 +60,6 @@ Options should be passed as a single string like so:
 | ------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
 | accent_color         | Accent Color for skin                                       | Auto, Theme, Blue, Teal, Green, Yellow, Orange, Pink, Purple, Slate |
 | color_theme         | Colortheme for skin                                         | Any valid theme name                                     |
-| library_sidebar     | Display Options for Library Sidebar                         | show, hover_only                                         |
 | library_whats_new   | Show the Library What's New Section                         | true, false, yes, no, on, off, t, f, y, n                |
 | login_qr            | Display Options for the QR Code Login                       | show, hover_only, hide                                   |
 | rounded_corners     | Show Rounded Corners on Elements                            | true, false, yes, no, on, off, t, f, y, n                |

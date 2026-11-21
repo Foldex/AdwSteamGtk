@@ -107,10 +107,12 @@ template $AdwaitaSteamGtkWindow : Adw.ApplicationWindow {
                 Adw.PreferencesGroup library_group {
                   title: _("Library Options");
 
+                  // Deprecated upstream
                   Adw.ComboRow library_sidebar_options {
                     title: _("Library Sidebar");
                     tooltip-text: _("Changes display options for the Library's left sidebar.");
                     model: StringList { strings [_("Show"), _("Hover Only")] };
+                    visible: false;
                   }
 
                   Adw.ActionRow {

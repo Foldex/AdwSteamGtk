@@ -62,7 +62,7 @@ def get_options(option_string):
             "win_controls": settings.get_string('window-controls-options'),
             "win_controls_layout": settings.get_string('window-controls-layout-options'),
 
-            "library_sidebar": settings.get_string('library-sidebar-options'),
+            # "library_sidebar": settings.get_string('library-sidebar-options'),
             "library_whats_new": not settings.get_boolean('hide-whats-new-switch'),
 
             "login_qr": settings.get_string('login-qr-options'),
@@ -82,7 +82,7 @@ def get_options(option_string):
             "win_controls": ("Adwaita", "Breeze", "MacOS", "Windows"),
             "win_controls_layout": ("Auto", "Gnome", "KDE", "MacOS", "Pantheon", "Windows", "None"),
 
-            "library_sidebar": ("Show", "Hover Only"),
+            # "library_sidebar": ("Show", "Hover Only"),
             "library_whats_new": (True, False),
 
             "login_qr": ("Show", "Hover Only", "Hide"),

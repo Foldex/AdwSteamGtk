@@ -94,11 +94,11 @@ def gen_cmd_line(options, beta_support):
             win_controls_layout = ""
 
 
-    match options["library_sidebar"].lower():
-        case "hover only":
-            library_sidebar = "-e library/sidebar-hover "
-        case _:
-            library_sidebar = ""
+    # match options["library_sidebar"].lower():
+    #     case "hover only":
+    #         library_sidebar = "-e library/sidebar-hover "
+    #     case _:
+    #         library_sidebar = ""
 
     match options["library_whats_new"]:
         case False:
@@ -131,7 +131,7 @@ def gen_cmd_line(options, beta_support):
         f"{win_controls}"
         f"{win_controls_layout}"
 
-        f"{library_sidebar}"
+        # f"{library_sidebar}"
         f"{library_whats_new}"
 
         f"{login_qr}"
