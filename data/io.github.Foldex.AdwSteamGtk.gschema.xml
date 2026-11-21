@@ -7,6 +7,10 @@
       <default>"Adwaita"</default>
     </key>
 
+    <key name="color-scheme-options" type="s">
+      <default>"Auto"</default>
+    </key>
+
     <key name="accent-color" type="s">
       <default>"Auto"</default>
       <choices>
@@ -98,4 +102,3 @@
 
   </schema>
 </schemalist>
-

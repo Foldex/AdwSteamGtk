@@ -56,6 +56,7 @@ def get_options(option_string):
             "custom_css": settings.get_boolean('prefs-install-custom-css'),
 
             "color_theme": settings.get_string('color-theme-options'),
+            "color_scheme": settings.get_string('color-scheme-options'),
             "accent_color": settings.get_string('accent-color'),
             "rounded_corners": not settings.get_boolean('no-rounded-corners-switch'),
 
@@ -75,6 +76,7 @@ def get_options(option_string):
 
         valid_options = {
             "custom_css": (True, False),
+            "color_scheme": ("Auto", "Dark", "Light"),
 
             "accent_color": ("Auto", "Theme", "Blue", "Teal", "Green", "Yellow", "Orange", "Pink", "Purple", "Slate"),
             "rounded_corners": (True, False),

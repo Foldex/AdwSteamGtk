@@ -58,8 +58,9 @@ Options should be passed as a single string like so:
 
 | Key                 | Description                                                 | Accepted Values                                          |
 | ------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
-| accent_color         | Accent Color for skin                                       | Auto, Theme, Blue, Teal, Green, Yellow, Orange, Pink, Purple, Slate |
-| color_theme         | Colortheme for skin                                         | Any valid theme name                                     |
+| accent_color        | Accent Color for skin                                       | Auto, Theme, Blue, Teal, Green, Yellow, Orange, Pink, Purple, Slate |
+| color_theme         | Colortheme for skin                                         | Any valid theme nam e                                     |
+| color_scheme        | Light/Dark Mode Preference                                  | auto, dark, light                                        |
 | library_whats_new   | Show the Library What's New Section                         | true, false, yes, no, on, off, t, f, y, n                |
 | login_qr            | Display Options for the QR Code Login                       | show, hover_only, hide                                   |
 | rounded_corners     | Show Rounded Corners on Elements                            | true, false, yes, no, on, off, t, f, y, n                |
@@ -103,4 +104,3 @@ See the below requirements otherwise.
 - PyGObject
 - Python >= `3.10`
 - Python python-packaging
-

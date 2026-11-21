@@ -34,6 +34,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
 
     theme_group = Gtk.Template.Child()
     color_theme_options = Gtk.Template.Child()
+    color_scheme_options = Gtk.Template.Child()
     accent_color_options = Gtk.Template.Child()
     no_rounded_corners = Gtk.Template.Child()
     no_rounded_corners_switch = Gtk.Template.Child()
@@ -62,6 +63,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
 
         self.opt_array = {
             "color_theme": ["Adwaita"],
+            "color_scheme": ["Auto", "Dark", "Light"],
             "accent_color": ["Auto", "Theme", "Blue", "Teal", "Green", "Yellow", "Orange", "Pink", "Purple", "Slate"],
 
             "win_controls": ["Adwaita", "Breeze", "MacOS", "Windows"],
@@ -151,6 +153,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
 
     def load_config(self):
         self.select_from_config('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
+        self.select_from_config('color-scheme-options', self.color_scheme_options, self.opt_array["color_scheme"])
         self.select_from_config('accent-color', self.accent_color_options, self.opt_array["accent_color"])
         self.select_from_config('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
@@ -166,6 +169,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
 
     def save_config(self):
         self.config_from_select('color-theme-options', self.color_theme_options, self.opt_array["color_theme"])
+        self.config_from_select('color-scheme-options', self.color_scheme_options, self.opt_array["color_scheme"])
         self.config_from_select('accent-color', self.accent_color_options, self.opt_array["accent_color"])
         self.config_from_select('no-rounded-corners-switch', self.no_rounded_corners_switch)
 
@@ -252,6 +256,7 @@ class AdwaitaSteamGtkWindow(Adw.ApplicationWindow):
             "custom_css": self.settings.get_boolean('prefs-install-custom-css'),
 
             "color_theme": self.get_selected_pref(self.color_theme_options, self.opt_array["color_theme"]),
+            "color_scheme": self.get_selected_pref(self.color_scheme_options, self.opt_array["color_scheme"]),
             "accent_color": self.get_selected_pref(self.accent_color_options, self.opt_array["accent_color"]),
             "rounded_corners": not self.get_selected_pref(self.no_rounded_corners_switch),
 

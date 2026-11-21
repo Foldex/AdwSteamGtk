@@ -45,6 +45,16 @@ def gen_cmd_line(options, beta_support):
         case _:
             color_theme = f"-c {options['color_theme'].lower()} "
 
+    match options["color_scheme"].lower():
+        case "auto":
+            color_scheme = "-s auto "
+        case "dark":
+            color_scheme = "-s dark "
+        case "light":
+            color_scheme = "-s light "
+        case _:
+            color_scheme = ""
+
     match options["accent_color"].lower():
         case "auto":
             accent_color = "-a auto "
@@ -125,6 +135,7 @@ def gen_cmd_line(options, beta_support):
         f"{installer}"
 
         f"{color_theme}"
+        f"{color_scheme}"
         f"{accent_color}"
         f"{rounded_corners}"
 
